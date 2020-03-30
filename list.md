@@ -5,6 +5,7 @@ different alleles ABC
 how is PRDM9 expression related to the binding sites
 
 ## data
+Genome
 Gene expression and mutation data:
 [Pan-Cancer](https://xenabrowser.net/datapages/?cohort=GDC%20Pan-Cancer%20(PANCAN)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
 BAM files once we got them from TCGA
@@ -56,6 +57,7 @@ DOI: [https://doi.org/10.1371/journal.pgen.1006207](https://doi.org/10.1371/jour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjE5NTEyOSw4MjM1NzY4MzYsNjE0ND
-gyMjEyLDE1NTYyNzk5MDcsMTA2NTU5NTUyNl19
+eyJoaXN0b3J5IjpbLTE5NzcwNTU2MzIsLTY3NjE5NTEyOSw4Mj
+M1NzY4MzYsNjE0NDgyMjEyLDE1NTYyNzk5MDcsMTA2NTU5NTUy
+Nl19
 -->
