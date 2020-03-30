@@ -1,3 +1,6 @@
+## Aim
+compare PRDM9 site of d
+
 ## data
 Gene expression and mutation data:
 [Pan-Cancer](https://xenabrowser.net/datapages/?cohort=GDC%20Pan-Cancer%20(PANCAN)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
@@ -96,6 +99,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0NDgyMjEyLDE1NTYyNzk5MDcsMTA2NT
-U5NTUyNl19
+eyJoaXN0b3J5IjpbLTk3ODY5ODM1Niw2MTQ0ODIyMTIsMTU1Nj
+I3OTkwNywxMDY1NTk1NTI2XX0=
 -->
