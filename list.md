@@ -3,11 +3,11 @@ Gene expression and mutation data:
 [Pan-Cancer](https://xenabrowser.net/datapages/?cohort=GDC%20Pan-Cancer%20(PANCAN)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
 BAM files once we got them from TCGA
 
+## pipeline
 Use HINT-ATAC pipeline to call footprints and binding sites:
+[paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2)
 
-[https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2)
-
-[http://www.regulatory-genomics.org/hint/introduction/](http://www.regulatory-genomics.org/hint/introduction/)
+[](http://www.regulatory-genomics.org/hint/introduction/)
 
 Familiarise yourself with Japspar database.
 
@@ -96,5 +96,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjI3OTkwNywxMDY1NTk1NTI2XX0=
+eyJoaXN0b3J5IjpbLTE3NjUwMTY4ODUsMTU1NjI3OTkwNywxMD
+Y1NTk1NTI2XX0=
 -->
