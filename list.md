@@ -17,8 +17,9 @@ Use HINT-ATAC pipeline to call footprints and binding sites:
 Motif finding:
 Familiarise yourself with Japspar database.
 PWM (position weight matrix) for PRDM9 will be added to the Jaspar motifs, so you can search for the motif.
-
 13-mer motif
+[jaspar](http://jaspar.genereg.net/)
+
 
 ## Environment
 Let me know if you need access to eddie3:
@@ -105,6 +106,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2MTY4NTg4LDYxNDQ4MjIxMiwxNTU2Mj
+eyJoaXN0b3J5IjpbODIzNTc2ODM2LDYxNDQ4MjIxMiwxNTU2Mj
 c5OTA3LDEwNjU1OTU1MjZdfQ==
 -->
