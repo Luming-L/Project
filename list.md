@@ -12,16 +12,19 @@ BAM files once we got them from TCGA
 ## pipeline
 Use HINT-ATAC pipeline to call footprints and binding sites:
 [paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2)
-
 [HINT-ATAC pipeline](http://www.regulatory-genomics.org/hint/introduction/)
 
+Motif finding:
 Familiarise yourself with Japspar database.
-
 PWM (position weight matrix) for PRDM9 will be added to the Jaspar motifs, so you can search for the motif.
 
 13-mer motif
 
-## Envir
+## Environment
+Let me know if you need access to eddie3:
+username@eddie3.ecdf.ed.ac.uk
+conda environment
+
 
 PRDM9 allele link:
 
@@ -102,6 +105,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY0MjQ1NSw2MTQ0ODIyMTIsMTU1Nj
-I3OTkwNywxMDY1NTk1NTI2XX0=
+eyJoaXN0b3J5IjpbMzk2MTY4NTg4LDYxNDQ4MjIxMiwxNTU2Mj
+c5OTA3LDEwNjU1OTU1MjZdfQ==
 -->
