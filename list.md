@@ -2,7 +2,7 @@
 compare PRDM9 site in different kind of cancer germline
 search for structural variation and indel position 
 different alleles ABC
-
+how is PRDM9 expression related to the binding sites
 
 ## data
 Gene expression and mutation data:
@@ -102,6 +102,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTE3ODcxMSw2MTQ0ODIyMTIsMTU1Nj
-I3OTkwNywxMDY1NTk1NTI2XX0=
+eyJoaXN0b3J5IjpbNzEzODQwMTAzLDYxNDQ4MjIxMiwxNTU2Mj
+c5OTA3LDEwNjU1OTU1MjZdfQ==
 -->
