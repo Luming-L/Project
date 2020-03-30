@@ -1,13 +1,5 @@
-Aberrant PRDM9 expression 
-impacts the pan-cancer genomic landscape
-### Aberrant PRDM9 expression is common in human cancers
-
-### Aberrant PRDM9 expression is associated with differentially expressed genes
-### Recurrently mutated regions are associated with PRDM9 expression in tumors
-### PRDM9 binding motif locations are significantly associated with somatic structural breakpoints
-
-> Written with [StackEdit](https://stackedit.io/).
+[http://jaspar.genereg.net/](http://jaspar.genereg.net/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Njk0MzUxNywxMDk3MjcxNDkwLC0xMj
-kzNzkyMjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTQyNDM4NDI0OSwyMDU2OTQzNTE3LDEwOT
+cyNzE0OTAsLTEyOTM3OTIyNTIsNzMwOTk4MTE2XX0=
 -->
