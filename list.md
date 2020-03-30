@@ -1,5 +1,6 @@
 ## Aim
 compare PRDM9 site in different kind of cancer germline
+search for structural variation and indel position 
 
 ## data
 Gene expression and mutation data:
@@ -99,6 +100,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk2NTMyNTUsNjE0NDgyMjEyLDE1NT
-YyNzk5MDcsMTA2NTU5NTUyNl19
+eyJoaXN0b3J5IjpbLTYxOTM2MzgyLDYxNDQ4MjIxMiwxNTU2Mj
+c5OTA3LDEwNjU1OTU1MjZdfQ==
 -->
