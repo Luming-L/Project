@@ -1,8 +1,7 @@
 ## data
 Gene expression and mutation data:
 [Pan-Cancer](https://xenabrowser.net/datapages/?cohort=GDC%20Pan-Cancer%20(PANCAN)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
-
-=> you will add the BAM files once we got them from TCGA
+BAM files once we got them from TCGA
 
 Use HINT-ATAC pipeline to call footprints and binding sites:
 
@@ -97,5 +96,5 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODY0OTAwMywxMDY1NTk1NTI2XX0=
+eyJoaXN0b3J5IjpbMTU1NjI3OTkwNywxMDY1NTk1NTI2XX0=
 -->
