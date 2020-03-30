@@ -21,6 +21,8 @@ PWM (position weight matrix) for PRDM9 will be added to the Jaspar motifs, so yo
 
 13-mer motif
 
+## Envir
+
 PRDM9 allele link:
 
 "The tissue donor used for the analysis was a carrier of the most common (European) alleles of PRDM9, using the SNP identified by (Hinch, Tandon et al. 2011) (rs6889665) which was also covered by our ATAC-Seq by 10 reads, all of which were “T”."
@@ -46,9 +48,7 @@ DOI: [https://doi.org/10.1371/journal.pgen.1006207](https://doi.org/10.1371/jour
     DOI: [https://doi.org/10.1186/s13059-018-1483-4](https://doi.org/10.1186/s13059-018-1483-4)  
     Contribution to journal › Article (Published)
 
-Let me know if you need access to eddie3:
 
-username@eddie3.ecdf.ed.ac.uk
 
 Seminars:
 
@@ -102,6 +102,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzODQwMTAzLDYxNDQ4MjIxMiwxNTU2Mj
-c5OTA3LDEwNjU1OTU1MjZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjY0MjQ1NSw2MTQ0ODIyMTIsMTU1Nj
+I3OTkwNywxMDY1NTk1NTI2XX0=
 -->
