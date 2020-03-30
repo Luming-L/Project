@@ -7,7 +7,7 @@ BAM files once we got them from TCGA
 Use HINT-ATAC pipeline to call footprints and binding sites:
 [paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2)
 
-[](http://www.regulatory-genomics.org/hint/introduction/)
+[HINT-ATAC pipeline](http://www.regulatory-genomics.org/hint/introduction/)
 
 Familiarise yourself with Japspar database.
 
@@ -96,6 +96,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUwMTY4ODUsMTU1NjI3OTkwNywxMD
-Y1NTk1NTI2XX0=
+eyJoaXN0b3J5IjpbNjE0NDgyMjEyLDE1NTYyNzk5MDcsMTA2NT
+U5NTUyNl19
 -->
