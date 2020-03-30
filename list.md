@@ -1,5 +1,5 @@
 ## Aim
-compare PRDM9 site of d
+compare PRDM9 site in different kind of cancer germline
 
 ## data
 Gene expression and mutation data:
@@ -99,6 +99,6 @@ Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODY5ODM1Niw2MTQ0ODIyMTIsMTU1Nj
-I3OTkwNywxMDY1NTk1NTI2XX0=
+eyJoaXN0b3J5IjpbLTExNDk2NTMyNTUsNjE0NDgyMjEyLDE1NT
+YyNzk5MDcsMTA2NTU5NTUyNl19
 -->
