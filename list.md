@@ -54,58 +54,8 @@ DOI: [https://doi.org/10.1371/journal.pgen.1006207](https://doi.org/10.1371/jour
 
 
 
-Seminars:
 
-Wednesday lab meeting: Sessions for 2020, also listed below, will be held in E4.07 @ 1030 am unless otherwise stated.
-
-22-Jan-2020 Stuart A
-
-5-Feb-2020 Tom
-
-19-Feb-2020 Ilya
-
-4-Mar-2020 Vera
-
-18-Mar-2020 Graeme
-
-1-Apr-2020 Thomas
-
-15-Apr-2020 Juliet
-
-29-Apr-2020 Jan
-
-13-May-2020 Kathryn
-
-27-May-2020 Gogo
-
-10-Jun-2020 Tracy
-
-24-Jun-2020 Imke
-
-2-Sep-2020 Elvina
-
-16-Sep-2020 Craig
-
-30-Sep-2020 Alhafidz – change of venue: S1.14
-
-14-Oct-2020 Martin
-
-28-Oct-2020 Colin
-
-11-Nov-2020 Mike
-
-25-Nov-2020 Ailith
-
-Tuesday @2:30pm: Section meeting in South Seminar room
-
-Wednesday 1pm: Section meeting (HGU seminars)
-
-Thursday: 1pm IGMM seminars: in big liecture theatre on the left hand side when you come into the building:
-
-[https://www.ed.ac.uk/igmm/news-and-events/events/igmm-seminar-series](https://www.ed.ac.uk/igmm/news-and-events/events/igmm-seminar-series)
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzNTc2ODM2LDYxNDQ4MjIxMiwxNTU2Mj
-c5OTA3LDEwNjU1OTU1MjZdfQ==
+eyJoaXN0b3J5IjpbLTY3NjE5NTEyOSw4MjM1NzY4MzYsNjE0ND
+gyMjEyLDE1NTYyNzk5MDcsMTA2NTU5NTUyNl19
 -->
