@@ -1,10 +1,11 @@
 # 20200416
 TCGA-ATAC_PanCancer_PeakSet.txt
-- peaks existing in all types of cancer (intersection)
+- reproducible peaks in all types of cancer (intersection)
 - 562710 identifiers/peaks
 
 TCGA-ATAC_Cancer_Type-specific_PeakCalls.zip
 - all reproducible peaks in specific type of cancer
+- appear in at least two replicates 
 - annotation: "3' UTR"   "5' UTR"   "Distal"   "Exon"     "Intron"   "Promoter"
 - 
 
@@ -14,6 +15,6 @@ ATAC-seq计数矩阵，原始矩阵和归一化矩阵
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTA2Mzk3MywtNDQzNzE4Mzg0LC0xMD
-gxMjEyMDI4LC00NzM2ODI3MjcsMTU4NjAzODY1NF19
+eyJoaXN0b3J5IjpbLTE0MjQwNDU2MTcsLTQ0MzcxODM4NCwtMT
+A4MTIxMjAyOCwtNDczNjgyNzI3LDE1ODYwMzg2NTRdfQ==
 -->
