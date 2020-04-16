@@ -9,9 +9,10 @@ TCGA-ATAC_Cancer_Type-specific_PeakCalls.zip
 
 README_PeakCalls.txt
 
+ATAC-seq计数矩阵，原始矩阵和归一化矩阵
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEyMTIwMjgsLTQ3MzY4MjcyNywxNT
-g2MDM4NjU0XX0=
+eyJoaXN0b3J5IjpbLTQ0MzcxODM4NCwtMTA4MTIxMjAyOCwtND
+czNjgyNzI3LDE1ODYwMzg2NTRdfQ==
 -->
