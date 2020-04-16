@@ -5,11 +5,13 @@ TCGA-ATAC_PanCancer_PeakSet.txt
 
 TCGA-ATAC_Cancer_Type-specific_PeakCalls.zip
 - all peaks in specific type of cancer
+- annotation: "3' UTR"   "5' UTR"   "Distal"   "Exon"     "Intron"   "Promoter"
 
 README_PeakCalls.txt
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MzY4MjcyNywxNTg2MDM4NjU0XX0=
+eyJoaXN0b3J5IjpbLTEwODEyMTIwMjgsLTQ3MzY4MjcyNywxNT
+g2MDM4NjU0XX0=
 -->
