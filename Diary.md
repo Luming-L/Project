@@ -14,11 +14,13 @@ README_PeakCalls.txt
 ATAC-seq计数矩阵，原始矩阵和归一化矩阵
 
 # 20200417
-1. FIMO(PRDM9 motif finding)/HINT-ATAC(footprinting and motif finding)
+1. FIMO(PRDM9 motif finding)/HINT-ATAC(footprinting and PRDM9 motif finding)
+2. Relate PRDM9 expression (PRDM9 read counts) to the presence of PRDM9 ATAC-Seq peaks in cancer types
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwNDA4MjgwLC0xNDI0MDQ1NjE3LC00ND
-M3MTgzODQsLTEwODEyMTIwMjgsLTQ3MzY4MjcyNywxNTg2MDM4
-NjU0XX0=
+eyJoaXN0b3J5IjpbMjExNTU4MDgwNywtMTQyNDA0NTYxNywtND
+QzNzE4Mzg0LC0xMDgxMjEyMDI4LC00NzM2ODI3MjcsMTU4NjAz
+ODY1NF19
 -->
