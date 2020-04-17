@@ -13,8 +13,12 @@ README_PeakCalls.txt
 
 ATAC-seq计数矩阵，原始矩阵和归一化矩阵
 
+# 20200417
+1. FIMO(PRDM9 motif finding)/HINT-ATAC(footprinting and motif finding)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQwNDU2MTcsLTQ0MzcxODM4NCwtMT
-A4MTIxMjAyOCwtNDczNjgyNzI3LDE1ODYwMzg2NTRdfQ==
+eyJoaXN0b3J5IjpbNjkwNDA4MjgwLC0xNDI0MDQ1NjE3LC00ND
+M3MTgzODQsLTEwODEyMTIwMjgsLTQ3MzY4MjcyNywxNTg2MDM4
+NjU0XX0=
 -->
