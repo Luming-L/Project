@@ -14,15 +14,16 @@ README_PeakCalls.txt
 ATAC-seq计数矩阵，原始矩阵和归一化矩阵
 
 # 20200417
-1. FIMO(PRDM9 motif finding)/HINT-ATAC(footprinting and PRDM9 motif finding)
-2. classify the motifs founded by allele
-3. Relate PRDM9 expression (PRDM9 read counts) to the presence of PRDM9 ATAC-Seq peaks (number of peaks? kinds of PRDM9 motifs) by linear model (?) 
-4. Relate ATAC-Seq presence to mutation data in the TCGA (copy number and somatic mutations) (how to quatify the mutations?) by linear model (?)
+1. FIMO(PRDM9 motif finding)/HINT-ATAC(footprinting + PRDM9 motif finding)
+2.  compare 
+3. classify the motifs founded by alleles of PRDM9
+4. Relate PRDM9 expression (PRDM9 read counts) to the presence of PRDM9 ATAC-Seq peaks (number of peaks? kinds of PRDM9 motifs) by linear model (?) 
+5. Relate ATAC-Seq presence to mutation data in the TCGA (copy number and somatic mutations) (how to quatify the mutations?) by linear model (?)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzU1MDY3NywtMTQyNDA0NTYxNywtND
-QzNzE4Mzg0LC0xMDgxMjEyMDI4LC00NzM2ODI3MjcsMTU4NjAz
-ODY1NF19
+eyJoaXN0b3J5IjpbLTE3NDg1MzM1NTEsLTE0MjQwNDU2MTcsLT
+Q0MzcxODM4NCwtMTA4MTIxMjAyOCwtNDczNjgyNzI3LDE1ODYw
+Mzg2NTRdfQ==
 -->
