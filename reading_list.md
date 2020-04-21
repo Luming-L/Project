@@ -8,11 +8,13 @@
  - [ ] [FIMO example](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006207) for methods writing
  
  - [ ] [regioneR example](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1483-4) for methods writing
+ 
+ - [ ] [regioneR tutorial](https://bioconductor.org/packages/3.11/bioc/vignettes/regioneR/inst/doc/regioneR.html#introduction)
  - [ ] Drive against hotspot motifs in primates implicates the PRDM9 gene in meiotic recombination.
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTE3Mjg2NywtMTAwNjg2ODgyNSwyMD
-k5MzgyMzU5LDE2ODk3NTQ5MDksNjk3MzQ4ODI2LC0yMTIzNTQ0
-MjAsLTE2OTM2MjE1OF19
+eyJoaXN0b3J5IjpbLTE4NTAwNDg2ODIsMTQ0OTE3Mjg2NywtMT
+AwNjg2ODgyNSwyMDk5MzgyMzU5LDE2ODk3NTQ5MDksNjk3MzQ4
+ODI2LC0yMTIzNTQ0MjAsLTE2OTM2MjE1OF19
 -->
