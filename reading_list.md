@@ -5,11 +5,12 @@
  - [ ] [Testis-derived PRDM9 sites](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59836)
  - [ ] Aberrant PRDM9 expression impacts the pan-cancer genomic landscape
  
+ - [ ] [FIMO example ](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006207)
  - [ ] Drive against hotspot motifs in primates implicates the PRDM9 gene in meiotic recombination.
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY4Njg4MjUsMjA5OTM4MjM1OSwxNj
-g5NzU0OTA5LDY5NzM0ODgyNiwtMjEyMzU0NDIwLC0xNjkzNjIx
-NThdfQ==
+eyJoaXN0b3J5IjpbMTAwMzkzNDMwNywtMTAwNjg2ODgyNSwyMD
+k5MzgyMzU5LDE2ODk3NTQ5MDksNjk3MzQ4ODI2LC0yMTIzNTQ0
+MjAsLTE2OTM2MjE1OF19
 -->
