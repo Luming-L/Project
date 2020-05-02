@@ -8,13 +8,14 @@ VPN
 # space
 /home/s1234567/: 2GB
 /exports/eddie/scratch/s1234567/: 2TB, **deleted after one month**
+group's DataStore
 
 You would:
 1.  Copy your dataset to the scratch space
 2.  Complete your analysis
 3.  Copy your results elsewhere
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NT
-M3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4MjgyLDcwMjAwMTIz
-MCwzNjk1NjAwNTBdfQ==
+eyJoaXN0b3J5IjpbLTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMz
+EyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4
+MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
 -->
