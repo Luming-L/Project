@@ -14,8 +14,10 @@ You would:
 1.  Copy your dataset to the scratch space
 2.  Complete your analysis
 3.  Copy your results elsewhere
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMz
-EyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4
-MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
+eyJoaXN0b3J5IjpbLTE4MjY3MTQxNDEsLTE1NTc2NTUwNDMsNT
+U1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5
+MTQ1LC0xMzI3Njg4MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBdfQ
+==
 -->
