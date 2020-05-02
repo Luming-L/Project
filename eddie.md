@@ -20,11 +20,17 @@ You would:
 #specify the name of the job
 #$ -N Hello
 #Specify the amount of time the job will require (approx).
+#$ -l h_rt=00:01:00
+#Specify the amount of memory needed: asking for 1GB RAM (default)
+#$ -l h_vmem=1G
+#define where you want the outputs and errors to be sent
+#$ -o hello.o
+#$ -e hello.e
 
 # make a script
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDIxMTgwNjMsMTcwMDIwMzY2OCw4NT
+eyJoaXN0b3J5IjpbLTE2NjM2Nzg3MDYsMTcwMDIwMzY2OCw4NT
 U0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMTI2ODc2
 LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgyODIsNz
 AyMDAxMjMwLDM2OTU2MDA1MF19
