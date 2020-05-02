@@ -14,11 +14,12 @@ You would:
 1.  Copy your dataset to the scratch space
 2.  Complete your analysis
 3.  Copy your results elsewhere
-# move files
+# information for scheduling the job
 # make a script
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NDkwMDcsLTE1NTc2NTUwNDMsNTU1Mz
-EzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1
-LC0xMzI3Njg4MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
+eyJoaXN0b3J5IjpbMTcwMDIwMzY2OCw4NTU0OTAwNywtMTU1Nz
+Y1NTA0Myw1NTUzMTMyMTEsMzAzMTI2ODc2LC0xMzc1MzcxMjM0
+LC01Mzc3MzkxNDUsLTEzMjc2ODgyODIsNzAyMDAxMjMwLDM2OT
+U2MDA1MF19
 -->
