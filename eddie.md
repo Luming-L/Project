@@ -18,11 +18,13 @@ You would:
 #tell Eddie to run our script in its current working directory
 #$ cwd
 #specify the name of the job
+#$ -N Hello
+#Specify the amount of time the job will require (approx).
 
 # make a script
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk2MDg0MzYsMTcwMDIwMzY2OCw4NT
+eyJoaXN0b3J5IjpbLTEyMDIxMTgwNjMsMTcwMDIwMzY2OCw4NT
 U0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMTI2ODc2
 LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgyODIsNz
 AyMDAxMjMwLDM2OTU2MDA1MF19
