@@ -2,6 +2,8 @@
 
 ssh -X s1949868@eddie.ecdf.ed.ac.uk
 Lin&2019
+"scratch" space: /exports/eddie/scratch/s1234567/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMDAxMjMwLDM2OTU2MDA1MF19
+eyJoaXN0b3J5IjpbLTEzMjc2ODgyODIsNzAyMDAxMjMwLDM2OT
+U2MDA1MF19
 -->
