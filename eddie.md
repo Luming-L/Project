@@ -5,9 +5,9 @@ ssh -X s1949868@eddie.ecdf.ed.ac.uk
 Lin&2019
 
 # space
-/home/s1234567/: 2
+/home/s1234567/: 2GB
 /exports/eddie/scratch/s1234567/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQwODczNzQsLTEzMjc2ODgyODIsNz
-AyMDAxMjMwLDM2OTU2MDA1MF19
+eyJoaXN0b3J5IjpbLTUzNzczOTE0NSwtMTMyNzY4ODI4Miw3MD
+IwMDEyMzAsMzY5NTYwMDUwXX0=
 -->
