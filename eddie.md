@@ -15,12 +15,14 @@ You would:
 2.  Complete your analysis
 3.  Copy your results elsewhere
 # information for scheduling the job
-
+#tell Eddie to run our script in its current working directory
+#$ cwd
+#specify the name of the job
 
 # make a script
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY1MjA2NDgsMTcwMDIwMzY2OCw4NT
+eyJoaXN0b3J5IjpbLTE3Njk2MDg0MzYsMTcwMDIwMzY2OCw4NT
 U0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMTI2ODc2
 LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgyODIsNz
 AyMDAxMjMwLDM2OTU2MDA1MF19
