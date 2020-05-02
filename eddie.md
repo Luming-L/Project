@@ -3,11 +3,13 @@
 # login:
 ssh -X s1949868@eddie.ecdf.ed.ac.uk
 Lin&2019
-
+VPN
 # space
 /home/s1234567/: 2GB
-/exports/eddie/scratch/s1234567/
+/exports/eddie/scratch/s1234567/: 2TB, **deleted after one month**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzczOTE0NSwtMTMyNzY4ODI4Miw3MD
-IwMDEyMzAsMzY5NTYwMDUwXX0=
+eyJoaXN0b3J5IjpbLTEzNzUzNzEyMzQsLTUzNzczOTE0NSwtMT
+MyNzY4ODI4Miw3MDIwMDEyMzAsMzY5NTYwMDUwXX0=
 -->
