@@ -19,7 +19,7 @@ You would:
 #$ cwd
 #specify the name of the job
 #$ -N Hello
-#Specify the amount of time the job will require (approx).
+#Specify the amount of time the job will require **overestimate**.
 #$ -l h_rt=00:01:00
 #Specify the amount of memory needed: asking for 1GB RAM (default)
 #$ -l h_vmem=1G
@@ -30,8 +30,8 @@ You would:
 # make a script
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM2Nzg3MDYsMTcwMDIwMzY2OCw4NT
-U0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMTI2ODc2
-LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgyODIsNz
-AyMDAxMjMwLDM2OTU2MDA1MF19
+eyJoaXN0b3J5IjpbMzkzMzQ0MjE3LDE3MDAyMDM2NjgsODU1ND
+kwMDcsLTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3Niwt
+MTM3NTM3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4MjgyLDcwMj
+AwMTIzMCwzNjk1NjAwNTBdfQ==
 -->
