@@ -1,13 +1,14 @@
 [BPSM eddie](http://129.215.170.35/07_Using_Eddie.html)
 [research service-eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda)
 
-Logging In
-Storage 
-Applications 
-Running Jobs 
-Interactive Sessions 
-Staging Data from DataStore 
-Monitoring Jobs 
+# Logging In
+# Storage 
+# Applications 
+# Running Jobs 
+# Interactive Sessions 
+# Staging Data from 
+# DataStore 
+# Monitoring Jobs 
 
 # login:
 ssh -X s1949868@eddie.ecdf.ed.ac.uk
@@ -39,8 +40,9 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcwMD
-IwMzY2OCw4NTU0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEs
-MzAzMTI2ODc2LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMj
-c2ODgyODIsNzAyMDAxMjMwLDM2OTU2MDA1MF19
+eyJoaXN0b3J5IjpbNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NT
+Y5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2NTUwNDMs
+NTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNTM3Nz
+M5MTQ1LC0xMzI3Njg4MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBd
+fQ==
 -->
