@@ -4,8 +4,11 @@
 # Logging In
 ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
 # Storage 
+#see available modules
 module available
+#make modules available, by loading them
 module load <MODULENAME/MODULEVERSION>
+#see a list of currently loaded modules
 module list
 # Applications 
 # Running Jobs 
@@ -44,9 +47,9 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MT
-gwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcs
-LTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NT
-M3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4MjgyLDcwMjAwMTIz
-MCwzNjk1NjAwNTBdfQ==
+eyJoaXN0b3J5IjpbLTQ0NTA0MzMxMCwtMTIzMTg4MzQ1Niw3Mj
+I2MjMxODAsMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcwMDIwMzY2
+OCw4NTU0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMT
+I2ODc2LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgy
+ODIsNzAyMDAxMjMwLDM2OTU2MDA1MF19
 -->
