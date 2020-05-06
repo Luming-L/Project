@@ -15,6 +15,45 @@ module list
 # Running Jobs 
 #submit work to the cluster as batch jobs
 qsub jobscript.sh
+
+`#!/bin/sh`
+
+`# Grid Engine options (lines prefixed with #$)  
+`
+
+`#$ -N hello`
+
+`#$ -cwd`
+
+`#$ -l h_rt=``00``:``05``:``00`
+
+`#$ -l h_vmem=1G`
+
+`# These options are:`
+
+``# job name`: -N` ``
+
+`` `# use the current working directory: -cwd  
+` ``
+
+`` `# runtime limit of 5 minutes: -l h_rt  
+` ``
+
+`` `# memory limit of 1 Gbyte: -l h_vmem` ``
+
+`# Initialise the environment modules`
+
+`. /etc/profile.d/modules.sh`
+
+`# Load Python  
+`
+
+`module load python/3.4.3  
+`
+
+`# Run the program`
+
+`./hello.py`
 # Interactive Sessions 
 # Staging Data from 
 # DataStore 
@@ -50,7 +89,7 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzA4MzU4OCwtMTIzMTg4MzQ1Niw3Mj
+eyJoaXN0b3J5IjpbMTYzODE4MzYzNCwtMTIzMTg4MzQ1Niw3Mj
 I2MjMxODAsMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcwMDIwMzY2
 OCw4NTU0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMT
 I2ODc2LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgy
