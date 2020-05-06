@@ -42,10 +42,13 @@ module load python/3.4.3
 qlogin
 # Staging Data from DataStore 
 #A subset of nodes have access to DataStore group spaces via NFS. 
-#These nodes are intended for batch _and_ interactive jobs that copy data between DataStore and Eddie. To send a job to these nodes, select the staging queue with the Grid Engine option `-q staging`. For example, to get an interactive session run:
+#These nodes are intended for batch _and_ interactive jobs that copy data between DataStore and Eddie. 
+#To send a job to these nodes, select the staging queue with the Grid Engine option `-q staging`. 
+#For example, to get an interactive session run:
 qlogin -q staging
 # Monitoring Jobs 
-
+#
+qstat
 # login:
 ssh -X s1949868@eddie.ecdf.ed.ac.uk
 Lin&2019
@@ -76,10 +79,10 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MDIsMz
-g5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYyMzE4MCwxNTE4MDM1
-MDY2LDQ0NzU2OTM3OCwxNzAwMjAzNjY4LDg1NTQ5MDA3LC0xNT
-U3NjU1MDQzLDU1NTMxMzIxMSwzMDMxMjY4NzYsLTEzNzUzNzEy
-MzQsLTUzNzczOTE0NSwtMTMyNzY4ODI4Miw3MDIwMDEyMzAsMz
-Y5NTYwMDUwXX0=
+eyJoaXN0b3J5IjpbMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMT
+UwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIz
+MTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsOD
+U1NDkwMDcsLTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3
+NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4MjgyLD
+cwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
 -->
