@@ -13,6 +13,7 @@ module load <MODULENAME/MODULEVERSION>
 #see a list of currently loaded modules
 module list
 # Running Jobs 
+#submit work to the cluster as batch jobs
 qsub jobscript.sh
 # Interactive Sessions 
 # Staging Data from 
@@ -49,9 +50,9 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYwNDY4NDAsLTEyMzE4ODM0NTYsNz
-IyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2
-NjgsODU1NDkwMDcsLTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMz
-EyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4
-MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
+eyJoaXN0b3J5IjpbMTcwMzA4MzU4OCwtMTIzMTg4MzQ1Niw3Mj
+I2MjMxODAsMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcwMDIwMzY2
+OCw4NTU0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMT
+I2ODc2LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgy
+ODIsNzAyMDAxMjMwLDM2OTU2MDA1MF19
 -->
