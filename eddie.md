@@ -2,7 +2,11 @@
 [research service-eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda)
 
 # Logging In
+ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
 # Storage 
+module available
+module load <MODULENAME/MODULEVERSION>
+module list
 # Applications 
 # Running Jobs 
 # Interactive Sessions 
@@ -40,9 +44,9 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NT
-Y5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2NTUwNDMs
-NTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNTM3Nz
-M5MTQ1LC0xMzI3Njg4MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBd
-fQ==
+eyJoaXN0b3J5IjpbLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MT
+gwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcs
+LTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NT
+M3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4MjgyLDcwMjAwMTIz
+MCwzNjk1NjAwNTBdfQ==
 -->
