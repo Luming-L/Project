@@ -37,6 +37,7 @@ module load python/3.4.3
 #Run the program
 ./hello.py
 # Interactive Sessions 
+qlogin
 # Staging Data from 
 # DataStore 
 # Monitoring Jobs 
@@ -71,9 +72,9 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMj
-YyMzE4MCwxNTE4MDM1MDY2LDQ0NzU2OTM3OCwxNzAwMjAzNjY4
-LDg1NTQ5MDA3LC0xNTU3NjU1MDQzLDU1NTMxMzIxMSwzMDMxMj
-Y4NzYsLTEzNzUzNzEyMzQsLTUzNzczOTE0NSwtMTMyNzY4ODI4
-Miw3MDIwMDEyMzAsMzY5NTYwMDUwXX0=
+eyJoaXN0b3J5IjpbLTg5MDk3MTc0OCwzODk1MjUxMDYsLTEyMz
+E4ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4
+LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2NTUwNDMsNTU1Mz
+EzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1
+LC0xMzI3Njg4MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
 -->
