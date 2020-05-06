@@ -23,18 +23,18 @@ qsub jobscript.sh
 #$ -l h_rt=00:05:00 
 #$ -l h_vmem=1G
 #These options are:
-#  job name: -N
-#  use the current working directory: -cwd
-#  runtime limit of 5 minutes: -l h_rt
-#  memory limit of 1 Gbyte: -l h_vmem
+#job name: -N
+#use the current working directory: -cwd
+#runtime limit of 5 minutes: -l h_rt
+#memory limit of 1 Gbyte: -l h_vmem
 
-# Initialise the environment modules
+#Initialise the environment modules
 . /etc/profile.d/modules.sh
  
-# Load Python
+#Load Python
 module load python/3.4.3
  
-# Run the program
+#Run the program
 ./hello.py
 # Interactive Sessions 
 # Staging Data from 
@@ -71,9 +71,9 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjMzOTY5NiwtMTIzMTg4MzQ1Niw3Mj
-I2MjMxODAsMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcwMDIwMzY2
-OCw4NTU0OTAwNywtMTU1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMT
-I2ODc2LC0xMzc1MzcxMjM0LC01Mzc3MzkxNDUsLTEzMjc2ODgy
-ODIsNzAyMDAxMjMwLDM2OTU2MDA1MF19
+eyJoaXN0b3J5IjpbMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMj
+YyMzE4MCwxNTE4MDM1MDY2LDQ0NzU2OTM3OCwxNzAwMjAzNjY4
+LDg1NTQ5MDA3LC0xNTU3NjU1MDQzLDU1NTMxMzIxMSwzMDMxMj
+Y4NzYsLTEzNzUzNzEyMzQsLTUzNzczOTE0NSwtMTMyNzY4ODI4
+Miw3MDIwMDEyMzAsMzY5NTYwMDUwXX0=
 -->
