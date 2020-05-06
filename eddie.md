@@ -47,7 +47,7 @@ qlogin
 #For example, to get an interactive session run:
 qlogin -q staging
 # Monitoring Jobs 
-#
+#To query the status of your jobs
 qstat
 # login:
 ssh -X s1949868@eddie.ecdf.ed.ac.uk
@@ -79,10 +79,10 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMT
-UwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIz
-MTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsOD
-U1NDkwMDcsLTE1NTc2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3
-NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1LC0xMzI3Njg4MjgyLD
-cwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
+eyJoaXN0b3J5IjpbMzIyMjAyMDIyLDE5Njc1Mjk4MjYsLTEwMD
+I1Mjk3MTIsLTE1MDY3Mjc4MDIsMzg5NTI1MTA2LC0xMjMxODgz
+NDU2LDcyMjYyMzE4MCwxNTE4MDM1MDY2LDQ0NzU2OTM3OCwxNz
+AwMjAzNjY4LDg1NTQ5MDA3LC0xNTU3NjU1MDQzLDU1NTMxMzIx
+MSwzMDMxMjY4NzYsLTEzNzUzNzEyMzQsLTUzNzczOTE0NSwtMT
+MyNzY4ODI4Miw3MDIwMDEyMzAsMzY5NTYwMDUwXX0=
 -->
