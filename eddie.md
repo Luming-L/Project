@@ -40,8 +40,8 @@ module load python/3.4.3
 #there are a limited number of nodes that accept interactive login sessions
 #allow you to run interactive jobs or graphical applications. #to start an interactive session run:
 qlogin
-# Staging Data from 
-# DataStore 
+# Staging Data from DataStore 
+qlogin -q staging
 # Monitoring Jobs 
 
 # login:
@@ -74,7 +74,7 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI2MjM5ODIsMzg5NTI1MTA2LC0xMj
+eyJoaXN0b3J5IjpbLTE1MDY3Mjc4MDIsMzg5NTI1MTA2LC0xMj
 MxODgzNDU2LDcyMjYyMzE4MCwxNTE4MDM1MDY2LDQ0NzU2OTM3
 OCwxNzAwMjAzNjY4LDg1NTQ5MDA3LC0xNTU3NjU1MDQzLDU1NT
 MxMzIxMSwzMDMxMjY4NzYsLTEzNzUzNzEyMzQsLTUzNzczOTE0
