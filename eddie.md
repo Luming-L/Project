@@ -37,6 +37,8 @@ module load python/3.4.3
 #Run the program
 ./hello.py
 # Interactive Sessions 
+#there are a limited number of nodes that accept interactive login sessions
+#allow you to run interactive jobs or graphical applications. #to start an interactive session run:
 qlogin
 # Staging Data from 
 # DataStore 
@@ -72,9 +74,9 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDk3MTc0OCwzODk1MjUxMDYsLTEyMz
-E4ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4
-LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2NTUwNDMsNTU1Mz
-EzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5MTQ1
-LC0xMzI3Njg4MjgyLDcwMjAwMTIzMCwzNjk1NjAwNTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MDI2MjM5ODIsMzg5NTI1MTA2LC0xMj
+MxODgzNDU2LDcyMjYyMzE4MCwxNTE4MDM1MDY2LDQ0NzU2OTM3
+OCwxNzAwMjAzNjY4LDg1NTQ5MDA3LC0xNTU3NjU1MDQzLDU1NT
+MxMzIxMSwzMDMxMjY4NzYsLTEzNzUzNzEyMzQsLTUzNzczOTE0
+NSwtMTMyNzY4ODI4Miw3MDIwMDEyMzAsMzY5NTYwMDUwXX0=
 -->
