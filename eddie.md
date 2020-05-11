@@ -1,6 +1,6 @@
 [BPSM eddie](http://129.215.170.35/07_Using_Eddie.html)
 [research service-eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda)
-
+[http://wikilocal.igmm.ed.ac.uk/wiki/index.php/Cluster2-Eddie3](http://wikilocal.igmm.ed.ac.uk/wiki/index.php/Cluster2-Eddie3)
 
 # Logging In
 ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
@@ -80,11 +80,11 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NTEyOTE2LDMyMjIwMjAyMiwxOTY3NT
-I5ODI2LC0xMDAyNTI5NzEyLC0xNTA2NzI3ODAyLDM4OTUyNTEw
-NiwtMTIzMTg4MzQ1Niw3MjI2MjMxODAsMTUxODAzNTA2Niw0ND
-c1NjkzNzgsMTcwMDIwMzY2OCw4NTU0OTAwNywtMTU1NzY1NTA0
-Myw1NTUzMTMyMTEsMzAzMTI2ODc2LC0xMzc1MzcxMjM0LC01Mz
-c3MzkxNDUsLTEzMjc2ODgyODIsNzAyMDAxMjMwLDM2OTU2MDA1
-MF19
+eyJoaXN0b3J5IjpbLTQ0NDMwNzc0OSwzMjIyMDIwMjIsMTk2Nz
+UyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1MjUx
+MDYsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUwNjYsND
+Q3NTY5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2NTUw
+NDMsNTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNT
+M3NzM5MTQ1LC0xMzI3Njg4MjgyLDcwMjAwMTIzMCwzNjk1NjAw
+NTBdfQ==
 -->
