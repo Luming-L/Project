@@ -1,4 +1,5 @@
-
+username: msc2020
+password: rs492PR
  - [ ] [Fimo](http://meme-suite.org/doc/fimo.html) [jaspar PRDM9 motif](http://jaspar.genereg.net/matrix/UN0260.1/)
  - [ ] [Circular Permutations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708104/)
  - [ ] [ATAC-seq peaks in 23 cancer link1](https://xenabrowser.net/datapages/?cohort=GDC%20Pan-Cancer%20(PANCAN)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443) [link2](https://gdc.cancer.gov/about-data/publications/ATACseq-AWG)  
@@ -14,7 +15,8 @@
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTAwNDg2ODIsMTQ0OTE3Mjg2NywtMT
-AwNjg2ODgyNSwyMDk5MzgyMzU5LDE2ODk3NTQ5MDksNjk3MzQ4
-ODI2LC0yMTIzNTQ0MjAsLTE2OTM2MjE1OF19
+eyJoaXN0b3J5IjpbLTY4MzkwMDg4LC0xODUwMDQ4NjgyLDE0ND
+kxNzI4NjcsLTEwMDY4Njg4MjUsMjA5OTM4MjM1OSwxNjg5NzU0
+OTA5LDY5NzM0ODgyNiwtMjEyMzU0NDIwLC0xNjkzNjIxNThdfQ
+==
 -->
