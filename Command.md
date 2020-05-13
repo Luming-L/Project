@@ -1,6 +1,7 @@
 # R
 清空控制台 Ctrl+L
 去重 unique()
+identify if an element belongs to a vector %in%
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -10,7 +11,8 @@ df -h ./
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTEwMzM3LC0xNzUwMzQyMDk1LDE0MT
-A3MTI1NjMsMTI4NDcyMjQ3OCwzMDM0ODc0NzYsLTE5NzkzOTk2
-MzQsLTY5NTgzMzg2MiwtMTA4ODg3MjUwMF19
+eyJoaXN0b3J5IjpbLTYwNTQ1ODQ0NSwtMjU1MTAzMzcsLTE3NT
+AzNDIwOTUsMTQxMDcxMjU2MywxMjg0NzIyNDc4LDMwMzQ4NzQ3
+NiwtMTk3OTM5OTYzNCwtNjk1ODMzODYyLC0xMDg4ODcyNTAwXX
+0=
 -->
