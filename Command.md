@@ -2,6 +2,8 @@
 清空控制台 Ctrl+L
 去重 unique()
 identify if an element belongs to a vector %in%
+把字符串x_name变成变量再给变量赋值  assign(x_name, read.table(file_name)
+
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -11,8 +13,8 @@ df -h ./
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTQ1ODQ0NSwtMjU1MTAzMzcsLTE3NT
-AzNDIwOTUsMTQxMDcxMjU2MywxMjg0NzIyNDc4LDMwMzQ4NzQ3
-NiwtMTk3OTM5OTYzNCwtNjk1ODMzODYyLC0xMDg4ODcyNTAwXX
-0=
+eyJoaXN0b3J5IjpbLTgxNjE4MDI2OSwtNjA1NDU4NDQ1LC0yNT
+UxMDMzNywtMTc1MDM0MjA5NSwxNDEwNzEyNTYzLDEyODQ3MjI0
+NzgsMzAzNDg3NDc2LC0xOTc5Mzk5NjM0LC02OTU4MzM4NjIsLT
+EwODg4NzI1MDBdfQ==
 -->
