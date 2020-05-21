@@ -9,10 +9,10 @@ Technical Replicate – Tumor tissue was homogenized prior to ATAC-seq into a nu
 
 counts matrix
 raw and normalized counts
-sco
+score
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3NTkzNjY5LC0xNjE1Mjc4ODA0LC0xNT
-k2OTExMTUxLDExNDE2Njc0MTAsNDQyODQ3MDQwLC0xODYyNTQ3
-NTE0XX0=
+eyJoaXN0b3J5IjpbMTIyNjkzNDEzMCwtMTYxNTI3ODgwNCwtMT
+U5NjkxMTE1MSwxMTQxNjY3NDEwLDQ0Mjg0NzA0MCwtMTg2MjU0
+NzUxNF19
 -->
