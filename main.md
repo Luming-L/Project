@@ -10,12 +10,14 @@ Technical Replicate – Tumor tissue was homogenized prior to ATAC-seq into a nu
 counts matrix
 raw and normalized counts
 score
+MACS2 output files
 The score (5th) column contains 10 times of the average score in the broad region
 5th: integer score for display. It's calculated as `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-p` (pvalue) or `-q` (qvalue) is used as score cutoff.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjM5Nzk3MiwtMTQ4MjU1NjgwNCwtOT
-YyMTQ0MzcyLDEyMjY5MzQxMzAsLTE2MTUyNzg4MDQsLTE1OTY5
-MTExNTEsMTE0MTY2NzQxMCw0NDI4NDcwNDAsLTE4NjI1NDc1MT
-RdfQ==
+eyJoaXN0b3J5IjpbLTE2NTc5MTg4NTgsLTU1NjM5Nzk3MiwtMT
+Q4MjU1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLTE2MTUy
+Nzg4MDQsLTE1OTY5MTExNTEsMTE0MTY2NzQxMCw0NDI4NDcwND
+AsLTE4NjI1NDc1MTRdfQ==
 -->
