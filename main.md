@@ -10,9 +10,11 @@ Technical Replicate – Tumor tissue was homogenized prior to ATAC-seq into a nu
 counts matrix
 raw and normalized counts
 score
+The score (5th) column contains 10 times of the average score in the broad region
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjkzNDEzMCwtMTYxNTI3ODgwNCwtMT
-U5NjkxMTE1MSwxMTQxNjY3NDEwLDQ0Mjg0NzA0MCwtMTg2MjU0
-NzUxNF19
+eyJoaXN0b3J5IjpbLTE0ODI1NTY4MDQsMTIyNjkzNDEzMCwtMT
+YxNTI3ODgwNCwtMTU5NjkxMTE1MSwxMTQxNjY3NDEwLDQ0Mjg0
+NzA0MCwtMTg2MjU0NzUxNF19
 -->
