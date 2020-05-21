@@ -6,7 +6,7 @@ identify if an element belongs to a vector %in%
 返回与字符串同名的变量 get(x_name)
 下载bioconductor包管理器  
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
-
+创建文件夹 dir.create("E:/project/CountsMatrices")
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -16,7 +16,7 @@ df -h ./
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMzQ2MjY3LDEwMjQwMTMyNzcsMjExMT
+eyJoaXN0b3J5IjpbODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMT
 QyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5
 NSwxNDEwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3NDc2LC0xOT
 c5Mzk5NjM0LC02OTU4MzM4NjIsLTEwODg4NzI1MDBdfQ==
