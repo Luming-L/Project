@@ -8,9 +8,10 @@ Sample – A piece of tumor tissue. Multiple technical replicates can exist per 
 Technical Replicate – Tumor tissue was homogenized prior to ATAC-seq into a nuclei suspension. Each technical replicate represents an individual ATAC-seq reaction performed in a separate tube on different nuclei isolated from the same sample.
 
 counts matrix
+raw and normalized counts
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjEzODU4NiwtMTU5NjkxMTE1MSwxMT
-QxNjY3NDEwLDQ0Mjg0NzA0MCwtMTg2MjU0NzUxNF19
+eyJoaXN0b3J5IjpbLTE2MTUyNzg4MDQsLTE1OTY5MTExNTEsMT
+E0MTY2NzQxMCw0NDI4NDcwNDAsLTE4NjI1NDc1MTRdfQ==
 -->
