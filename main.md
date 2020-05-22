@@ -19,11 +19,12 @@ The score (5th) column contains 10 times of the average score in the broad regio
 
 A data table that is obtained after  [normalisation](https://www.ebi.ac.uk/training/online/glossary/normalisation)  of next-generation sequencing data. It usually organises the samples in columns and genes/genomic loci in rows. The values represent the summarised read counts per genomic region (e.g. gene, transcript) after normalisation (e.g.  [RPKM](https://www.ebi.ac.uk/training/online/glossary/rpkm)  values).
 
+ATA
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDk5MjcxLDM0MjQzODY0MCwtMjA3ND
-cwODIwMSwtMTY1NzkxODg1OCwtNTU2Mzk3OTcyLC0xNDgyNTU2
-ODA0LC05NjIxNDQzNzIsMTIyNjkzNDEzMCwtMTYxNTI3ODgwNC
-wtMTU5NjkxMTE1MSwxMTQxNjY3NDEwLDQ0Mjg0NzA0MCwtMTg2
-MjU0NzUxNF19
+eyJoaXN0b3J5IjpbNzM4MTEyMjM3LDIxMDA5OTI3MSwzNDI0Mz
+g2NDAsLTIwNzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1NjM5Nzk3
+MiwtMTQ4MjU1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLT
+E2MTUyNzg4MDQsLTE1OTY5MTExNTEsMTE0MTY2NzQxMCw0NDI4
+NDcwNDAsLTE4NjI1NDc1MTRdfQ==
 -->
