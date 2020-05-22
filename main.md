@@ -25,14 +25,16 @@ The normalization method will affect the result of differential analysis.
 ATAC-seq users should be aware of the interpretations of potential bias within experimental data and the assumptions of the normalization method implemented.
 
 constructs a consensus read count matrix from _MACS2_ replicate peak sets of _m_ query regions by _n_ samples.
-
+The whole workflow for differential accessiblity
+1. _MACS2_ constructs an ATAC fragment pileup from aligned paired-end data
+2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE2NzA4OTYsNzIwMjkwNzg2LC0xMj
-ExMDk2MjQsLTE4MDE5NTMxMDcsMTY1OTM2ODkyNSwtMTQzNjIz
-NzcyNCwyMTAwOTkyNzEsMzQyNDM4NjQwLC0yMDc0NzA4MjAxLC
-0xNjU3OTE4ODU4LC01NTYzOTc5NzIsLTE0ODI1NTY4MDQsLTk2
-MjE0NDM3MiwxMjI2OTM0MTMwLC0xNjE1Mjc4ODA0LC0xNTk2OT
-ExMTUxLDExNDE2Njc0MTAsNDQyODQ3MDQwLC0xODYyNTQ3NTE0
-XX0=
+eyJoaXN0b3J5IjpbLTU0NDg3NzQzLDcyMDI5MDc4NiwtMTIxMT
+A5NjI0LC0xODAxOTUzMTA3LDE2NTkzNjg5MjUsLTE0MzYyMzc3
+MjQsMjEwMDk5MjcxLDM0MjQzODY0MCwtMjA3NDcwODIwMSwtMT
+Y1NzkxODg1OCwtNTU2Mzk3OTcyLC0xNDgyNTU2ODA0LC05NjIx
+NDQzNzIsMTIyNjkzNDEzMCwtMTYxNTI3ODgwNCwtMTU5NjkxMT
+E1MSwxMTQxNjY3NDEwLDQ0Mjg0NzA0MCwtMTg2MjU0NzUxNF19
+
 -->
