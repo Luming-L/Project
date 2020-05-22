@@ -26,16 +26,19 @@ ATAC-seq users should be aware of the interpretations of potential bias within e
 
 constructs a consensus read count matrix from _MACS2_ replicate peak sets of _m_ query regions by _n_ samples.
 The whole workflow for differential accessiblity
+MACS2:
 1. _MACS2_ constructs an ATAC fragment pileup from aligned paired-end data
 2. builds a local bias track through a series of parameters to estimate background noise
-3. 
+3. finally compares ATAC signal to the local background at each genomic bp using a Poisson test.
+4. Significant nearby regions are then merged into a peak.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODM4OTc4NCw3MjAyOTA3ODYsLTEyMT
-EwOTYyNCwtMTgwMTk1MzEwNywxNjU5MzY4OTI1LC0xNDM2MjM3
-NzI0LDIxMDA5OTI3MSwzNDI0Mzg2NDAsLTIwNzQ3MDgyMDEsLT
-E2NTc5MTg4NTgsLTU1NjM5Nzk3MiwtMTQ4MjU1NjgwNCwtOTYy
-MTQ0MzcyLDEyMjY5MzQxMzAsLTE2MTUyNzg4MDQsLTE1OTY5MT
-ExNTEsMTE0MTY2NzQxMCw0NDI4NDcwNDAsLTE4NjI1NDc1MTRd
-fQ==
+eyJoaXN0b3J5IjpbLTIxMzQ2NDUzOTUsMTk2ODM4OTc4NCw3Mj
+AyOTA3ODYsLTEyMTEwOTYyNCwtMTgwMTk1MzEwNywxNjU5MzY4
+OTI1LC0xNDM2MjM3NzI0LDIxMDA5OTI3MSwzNDI0Mzg2NDAsLT
+IwNzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1NjM5Nzk3MiwtMTQ4
+MjU1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLTE2MTUyNz
+g4MDQsLTE1OTY5MTExNTEsMTE0MTY2NzQxMCw0NDI4NDcwNDAs
+LTE4NjI1NDc1MTRdfQ==
 -->
