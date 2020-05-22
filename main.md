@@ -19,12 +19,12 @@ The score (5th) column contains 10 times of the average score in the broad regio
 
 A data table that is obtained after  [normalisation](https://www.ebi.ac.uk/training/online/glossary/normalisation)  of next-generation sequencing data. It usually organises the samples in columns and genes/genomic loci in rows. The values represent the summarised read counts per genomic region (e.g. gene, transcript) after normalisation (e.g.  [RPKM](https://www.ebi.ac.uk/training/online/glossary/rpkm)  values).
 
-ATA
+ATAC-seq can be used to compare chromatin accessibility between two cellular conditions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4MTEyMjM3LDIxMDA5OTI3MSwzNDI0Mz
-g2NDAsLTIwNzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1NjM5Nzk3
-MiwtMTQ4MjU1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLT
-E2MTUyNzg4MDQsLTE1OTY5MTExNTEsMTE0MTY2NzQxMCw0NDI4
-NDcwNDAsLTE4NjI1NDc1MTRdfQ==
+eyJoaXN0b3J5IjpbLTIyNTM2MzE1OSwyMTAwOTkyNzEsMzQyND
+M4NjQwLC0yMDc0NzA4MjAxLC0xNjU3OTE4ODU4LC01NTYzOTc5
+NzIsLTE0ODI1NTY4MDQsLTk2MjE0NDM3MiwxMjI2OTM0MTMwLC
+0xNjE1Mjc4ODA0LC0xNTk2OTExMTUxLDExNDE2Njc0MTAsNDQy
+ODQ3MDQwLC0xODYyNTQ3NTE0XX0=
 -->
