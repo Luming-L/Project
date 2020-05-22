@@ -21,12 +21,13 @@ A data table that is obtained after  [normalisation](https://www.ebi.ac.uk/train
 
 ATAC-seq can be used to compare chromatin accessibility between two cellular conditions.
 The normalization method will affect the result of differential analysis.
+ATAC-seq users should be aware of the interpretations of potential bias within experimental data and the assumptions of the normalization method implemented.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE5NTMxMDcsMTY1OTM2ODkyNSwtMT
-QzNjIzNzcyNCwyMTAwOTkyNzEsMzQyNDM4NjQwLC0yMDc0NzA4
-MjAxLC0xNjU3OTE4ODU4LC01NTYzOTc5NzIsLTE0ODI1NTY4MD
-QsLTk2MjE0NDM3MiwxMjI2OTM0MTMwLC0xNjE1Mjc4ODA0LC0x
-NTk2OTExMTUxLDExNDE2Njc0MTAsNDQyODQ3MDQwLC0xODYyNT
-Q3NTE0XX0=
+eyJoaXN0b3J5IjpbLTEyMTEwOTYyNCwtMTgwMTk1MzEwNywxNj
+U5MzY4OTI1LC0xNDM2MjM3NzI0LDIxMDA5OTI3MSwzNDI0Mzg2
+NDAsLTIwNzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1NjM5Nzk3Mi
+wtMTQ4MjU1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLTE2
+MTUyNzg4MDQsLTE1OTY5MTExNTEsMTE0MTY2NzQxMCw0NDI4ND
+cwNDAsLTE4NjI1NDc1MTRdfQ==
 -->
