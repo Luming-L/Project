@@ -15,11 +15,15 @@ MACS2 output files:
 The score (5th) column contains 10 times of the average score in the broad region
 5th: integer score for display. It's calculated as `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-p` (pvalue) or `-q` (qvalue) is used as score cutoff.
 
+## Normalised read count matrix
+
+A data table that is obtained after  [normalisation](https://www.ebi.ac.uk/training/online/glossary/normalisation)  of next-generation sequencing data. It usually organises the samples in columns and genes/genomic loci in rows. The values represent the summarised read counts per genomic region (e.g. gene, transcript) after normalisation (e.g.  [RPKM](https://www.ebi.ac.uk/training/online/glossary/rpkm)  values).
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNDM4NjQwLC0yMDc0NzA4MjAxLC0xNj
-U3OTE4ODU4LC01NTYzOTc5NzIsLTE0ODI1NTY4MDQsLTk2MjE0
-NDM3MiwxMjI2OTM0MTMwLC0xNjE1Mjc4ODA0LC0xNTk2OTExMT
-UxLDExNDE2Njc0MTAsNDQyODQ3MDQwLC0xODYyNTQ3NTE0XX0=
-
+eyJoaXN0b3J5IjpbMjEwMDk5MjcxLDM0MjQzODY0MCwtMjA3ND
+cwODIwMSwtMTY1NzkxODg1OCwtNTU2Mzk3OTcyLC0xNDgyNTU2
+ODA0LC05NjIxNDQzNzIsMTIyNjkzNDEzMCwtMTYxNTI3ODgwNC
+wtMTU5NjkxMTE1MSwxMTQxNjY3NDEwLDQ0Mjg0NzA0MCwtMTg2
+MjU0NzUxNF19
 -->
