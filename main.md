@@ -19,15 +19,18 @@ The score (5th) column contains 10 times of the average score in the broad regio
 
 A data table that is obtained after  [normalisation](https://www.ebi.ac.uk/training/online/glossary/normalisation)  of next-generation sequencing data. It usually organises the samples in columns and genes/genomic loci in rows. The values represent the summarised read counts per genomic region (e.g. gene, transcript) after normalisation (e.g.  [RPKM](https://www.ebi.ac.uk/training/online/glossary/rpkm)  values).
 
+# why read counts matrix
 ATAC-seq can be used to compare chromatin accessibility between two cellular conditions.
 The normalization method will affect the result of differential analysis.
 ATAC-seq users should be aware of the interpretations of potential bias within experimental data and the assumptions of the normalization method implemented.
 
+constructs a consensus read count matrix from _MACS2_ replicate peak sets of _m_ query regions by _n_ samples.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTEwOTYyNCwtMTgwMTk1MzEwNywxNj
-U5MzY4OTI1LC0xNDM2MjM3NzI0LDIxMDA5OTI3MSwzNDI0Mzg2
-NDAsLTIwNzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1NjM5Nzk3Mi
-wtMTQ4MjU1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLTE2
-MTUyNzg4MDQsLTE1OTY5MTExNTEsMTE0MTY2NzQxMCw0NDI4ND
-cwNDAsLTE4NjI1NDc1MTRdfQ==
+eyJoaXN0b3J5IjpbNzIwMjkwNzg2LC0xMjExMDk2MjQsLTE4MD
+E5NTMxMDcsMTY1OTM2ODkyNSwtMTQzNjIzNzcyNCwyMTAwOTky
+NzEsMzQyNDM4NjQwLC0yMDc0NzA4MjAxLC0xNjU3OTE4ODU4LC
+01NTYzOTc5NzIsLTE0ODI1NTY4MDQsLTk2MjE0NDM3MiwxMjI2
+OTM0MTMwLC0xNjE1Mjc4ODA0LC0xNTk2OTExMTUxLDExNDE2Nj
+c0MTAsNDQyODQ3MDQwLC0xODYyNTQ3NTE0XX0=
 -->
