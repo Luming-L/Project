@@ -33,14 +33,15 @@ MACS2:
 4. Significant nearby regions are then merged into a peak.
 DiffBind:
 5. calculate the total number of reads in queried peak regions, which should eliminate global differences in favor of reducing any technical biases.
-6. 
+DESeq2:
+6. The count matrix with normalization factors is then subject to the _DESeq2_ framework of dispersion estimation and negative binomial generalized linear model (GLM) fitting for hypothesis testing, according to the design matrix.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk1NTc0ODQsLTIwOTk0MzM1MzQsLT
-E3ODE2MDkwOTksLTIxMzQ2NDUzOTUsMTk2ODM4OTc4NCw3MjAy
-OTA3ODYsLTEyMTEwOTYyNCwtMTgwMTk1MzEwNywxNjU5MzY4OT
-I1LC0xNDM2MjM3NzI0LDIxMDA5OTI3MSwzNDI0Mzg2NDAsLTIw
-NzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1NjM5Nzk3MiwtMTQ4Mj
-U1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLTE2MTUyNzg4
-MDQsLTE1OTY5MTExNTFdfQ==
+eyJoaXN0b3J5IjpbMzMxNzkxNDQwLC0yMDk5NDMzNTM0LC0xNz
+gxNjA5MDk5LC0yMTM0NjQ1Mzk1LDE5NjgzODk3ODQsNzIwMjkw
+Nzg2LC0xMjExMDk2MjQsLTE4MDE5NTMxMDcsMTY1OTM2ODkyNS
+wtMTQzNjIzNzcyNCwyMTAwOTkyNzEsMzQyNDM4NjQwLC0yMDc0
+NzA4MjAxLC0xNjU3OTE4ODU4LC01NTYzOTc5NzIsLTE0ODI1NT
+Y4MDQsLTk2MjE0NDM3MiwxMjI2OTM0MTMwLC0xNjE1Mjc4ODA0
+LC0xNTk2OTExMTUxXX0=
 -->
