@@ -32,14 +32,14 @@ MACS2:
 3. finally compares ATAC signal to the local background at each genomic bp using a Poisson test.
 4. Significant nearby regions are then merged into a peak.
 DiffBind:
-1. _DiffBind_ then calculates linear scaling factors from either the total number of reads in each library, which assumes that true global differences may be expected and technical bias is small, or the total number of reads in queried peak regions, which should eliminate global differences in favor of reducing any technical biases.
+1. calculate the total number of reads in queried peak regions, which should eliminate global differences in favor of reducing any technical biases.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE2MDkwOTksLTIxMzQ2NDUzOTUsMT
-k2ODM4OTc4NCw3MjAyOTA3ODYsLTEyMTEwOTYyNCwtMTgwMTk1
-MzEwNywxNjU5MzY4OTI1LC0xNDM2MjM3NzI0LDIxMDA5OTI3MS
-wzNDI0Mzg2NDAsLTIwNzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1
-NjM5Nzk3MiwtMTQ4MjU1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5Mz
-QxMzAsLTE2MTUyNzg4MDQsLTE1OTY5MTExNTEsMTE0MTY2NzQx
-MCw0NDI4NDcwNDBdfQ==
+eyJoaXN0b3J5IjpbLTIwOTk0MzM1MzQsLTE3ODE2MDkwOTksLT
+IxMzQ2NDUzOTUsMTk2ODM4OTc4NCw3MjAyOTA3ODYsLTEyMTEw
+OTYyNCwtMTgwMTk1MzEwNywxNjU5MzY4OTI1LC0xNDM2MjM3Nz
+I0LDIxMDA5OTI3MSwzNDI0Mzg2NDAsLTIwNzQ3MDgyMDEsLTE2
+NTc5MTg4NTgsLTU1NjM5Nzk3MiwtMTQ4MjU1NjgwNCwtOTYyMT
+Q0MzcyLDEyMjY5MzQxMzAsLTE2MTUyNzg4MDQsLTE1OTY5MTEx
+NTEsMTE0MTY2NzQxMF19
 -->
