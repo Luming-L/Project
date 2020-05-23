@@ -32,14 +32,15 @@ MACS2:
 3. finally compares ATAC signal to the local background at each genomic bp using a Poisson test.
 4. Significant nearby regions are then merged into a peak.
 DiffBind:
-1. calculate the total number of reads in queried peak regions, which should eliminate global differences in favor of reducing any technical biases.
+5. calculate the total number of reads in queried peak regions, which should eliminate global differences in favor of reducing any technical biases.
+6. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk0MzM1MzQsLTE3ODE2MDkwOTksLT
-IxMzQ2NDUzOTUsMTk2ODM4OTc4NCw3MjAyOTA3ODYsLTEyMTEw
-OTYyNCwtMTgwMTk1MzEwNywxNjU5MzY4OTI1LC0xNDM2MjM3Nz
-I0LDIxMDA5OTI3MSwzNDI0Mzg2NDAsLTIwNzQ3MDgyMDEsLTE2
-NTc5MTg4NTgsLTU1NjM5Nzk3MiwtMTQ4MjU1NjgwNCwtOTYyMT
-Q0MzcyLDEyMjY5MzQxMzAsLTE2MTUyNzg4MDQsLTE1OTY5MTEx
-NTEsMTE0MTY2NzQxMF19
+eyJoaXN0b3J5IjpbLTE1OTk1NTc0ODQsLTIwOTk0MzM1MzQsLT
+E3ODE2MDkwOTksLTIxMzQ2NDUzOTUsMTk2ODM4OTc4NCw3MjAy
+OTA3ODYsLTEyMTEwOTYyNCwtMTgwMTk1MzEwNywxNjU5MzY4OT
+I1LC0xNDM2MjM3NzI0LDIxMDA5OTI3MSwzNDI0Mzg2NDAsLTIw
+NzQ3MDgyMDEsLTE2NTc5MTg4NTgsLTU1NjM5Nzk3MiwtMTQ4Mj
+U1NjgwNCwtOTYyMTQ0MzcyLDEyMjY5MzQxMzAsLTE2MTUyNzg4
+MDQsLTE1OTY5MTExNTFdfQ==
 -->
