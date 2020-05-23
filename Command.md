@@ -12,12 +12,14 @@ Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
 统计当前目录下文件的个数（不包括目录）ls -l | grep "^-" | wc -l
 解压.tar.gz tar xvfz HINT_ATACTest.tar.gz
+"--strip-components 8" extracts the files without copying their original directory structure: tar -zxvf file_name.tgz --strip-components 8
 df -h ./ 
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMT
-QyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5
-NSwxNDEwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3NDc2LC0xOT
-c5Mzk5NjM0LC02OTU4MzM4NjIsLTEwODg4NzI1MDBdfQ==
+eyJoaXN0b3J5IjpbMjQ0OTY5NjM5LDg5MDcyMTM0MCwxMDI0MD
+EzMjc3LDIxMTE0MjY3NzcsLTYwNTQ1ODQ0NSwtMjU1MTAzMzcs
+LTE3NTAzNDIwOTUsMTQxMDcxMjU2MywxMjg0NzIyNDc4LDMwMz
+Q4NzQ3NiwtMTk3OTM5OTYzNCwtNjk1ODMzODYyLC0xMDg4ODcy
+NTAwXX0=
 -->
