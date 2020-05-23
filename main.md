@@ -37,9 +37,10 @@ DESeq2:
 6. The count matrix with normalization factors is then subject to the _DESeq2_ framework of dispersion estimation and negative binomial generalized linear model (GLM) fitting for hypothesis testing, according to the design matrix.
 7. follow a _voom_ transformation to log2 counts per million (log2CPM) 
 8. further quantile normalized in _VIII_
+9. The log2CPM transformation simply scales by full library size and maintains those assumptions, while quantile normalization equalizes the signal distribution across all libraries
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTk5ODk0OCwzMzE3OTE0NDAsLTIwOT
+eyJoaXN0b3J5IjpbLTIzMTgwMjA2MiwzMzE3OTE0NDAsLTIwOT
 k0MzM1MzQsLTE3ODE2MDkwOTksLTIxMzQ2NDUzOTUsMTk2ODM4
 OTc4NCw3MjAyOTA3ODYsLTEyMTEwOTYyNCwtMTgwMTk1MzEwNy
 wxNjU5MzY4OTI1LC0xNDM2MjM3NzI0LDIxMDA5OTI3MSwzNDI0
