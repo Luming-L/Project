@@ -7,6 +7,8 @@ identify if an element belongs to a vector %in%
 下载bioconductor包管理器  
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 创建文件夹 dir.create("E:/project/CountsMatrices")
+数据框两列相减 atac_acc_norm_ct$end-atac_acc_norm_ct$start
+查看数据框数据类型 str(atac_acc_norm_ct)
 [数据框操作](https://www.cnblogs.com/studyzy/p/R_DataFrame_Operation.html)
 # unix
 Shebang #!/bin/sh
@@ -18,9 +20,9 @@ df -h ./
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjgwMTk4OCwyNDQ5Njk2MzksODkwNz
-IxMzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3NywtNjA1NDU4NDQ1
-LC0yNTUxMDMzNywtMTc1MDM0MjA5NSwxNDEwNzEyNTYzLDEyOD
-Q3MjI0NzgsMzAzNDg3NDc2LC0xOTc5Mzk5NjM0LC02OTU4MzM4
-NjIsLTEwODg4NzI1MDBdfQ==
+eyJoaXN0b3J5IjpbLTE4MzQzNDY0NzYsMTU0NjgwMTk4OCwyND
+Q5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3
+NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5NSwxND
+EwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3NDc2LC0xOTc5Mzk5
+NjM0LC02OTU4MzM4NjIsLTEwODg4NzI1MDBdfQ==
 -->
