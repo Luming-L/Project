@@ -7,6 +7,7 @@ identify if an element belongs to a vector %in%
 下载bioconductor包管理器  
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 创建文件夹 dir.create("E:/project/CountsMatrices")
+[数据框操作](https://www.cnblogs.com/studyzy/p/R_DataFrame_Operation.html)
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -17,9 +18,9 @@ df -h ./
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0OTY5NjM5LDg5MDcyMTM0MCwxMDI0MD
-EzMjc3LDIxMTE0MjY3NzcsLTYwNTQ1ODQ0NSwtMjU1MTAzMzcs
-LTE3NTAzNDIwOTUsMTQxMDcxMjU2MywxMjg0NzIyNDc4LDMwMz
-Q4NzQ3NiwtMTk3OTM5OTYzNCwtNjk1ODMzODYyLC0xMDg4ODcy
-NTAwXX0=
+eyJoaXN0b3J5IjpbMTU0NjgwMTk4OCwyNDQ5Njk2MzksODkwNz
+IxMzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3NywtNjA1NDU4NDQ1
+LC0yNTUxMDMzNywtMTc1MDM0MjA5NSwxNDEwNzEyNTYzLDEyOD
+Q3MjI0NzgsMzAzNDg3NDc2LC0xOTc5Mzk5NjM0LC02OTU4MzM4
+NjIsLTEwODg4NzI1MDBdfQ==
 -->
