@@ -1,5 +1,6 @@
-Progress meeting: Thursday 
+Progress meeting: Thursday every week
+10% + 45% + 45%
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU0NzQwMDAsLTIwODg3NDY2MTJdfQ
+eyJoaXN0b3J5IjpbLTIxMDg4NzgxMzMsLTIwODg3NDY2MTJdfQ
 ==
 -->
