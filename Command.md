@@ -16,13 +16,15 @@ Shebang #!/bin/sh
 统计当前目录下文件的个数（不包括目录）ls -l | grep "^-" | wc -l
 解压.tar.gz tar xvfz HINT_ATACTest.tar.gz
 "--strip-components 8" extracts the files without copying their original directory structure: tar -zxvf file_name.tgz --strip-components 8
+解压.gz文件 gzip -d CTCF_SE_CTRL_chr22_50k.bed.gz
 df -h ./ 
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQzNDY0NzYsMTU0NjgwMTk4OCwyND
-Q5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3
-NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5NSwxND
-EwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3NDc2LC0xOTc5Mzk5
-NjM0LC02OTU4MzM4NjIsLTEwODg4NzI1MDBdfQ==
+eyJoaXN0b3J5IjpbLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMT
+U0NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMy
+NzcsMjExMTQyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMT
+c1MDM0MjA5NSwxNDEwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3
+NDc2LC0xOTc5Mzk5NjM0LC02OTU4MzM4NjIsLTEwODg4NzI1MD
+BdfQ==
 -->
