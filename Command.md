@@ -17,14 +17,15 @@ Shebang #!/bin/sh
 解压.tar.gz tar xvfz HINT_ATACTest.tar.gz
 "--strip-components 8" extracts the files without copying their original directory structure: tar -zxvf file_name.tgz --strip-components 8
 解压.gz文件 gzip -d CTCF_SE_CTRL_chr22_50k.bed.gz
+显示文件某一列出现的不重复字符 awk '{print $4}' run_pileup_CTRL.bed.bdg | sort | uniq
 df -h ./ 
 du -h ./
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMT
-U0NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMy
-NzcsMjExMTQyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMT
-c1MDM0MjA5NSwxNDEwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3
-NDc2LC0xOTc5Mzk5NjM0LC02OTU4MzM4NjIsLTEwODg4NzI1MD
-BdfQ==
+eyJoaXN0b3J5IjpbLTM1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMT
+gzNDM0NjQ3NiwxNTQ2ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEz
+NDAsMTAyNDAxMzI3NywyMTExNDI2Nzc3LC02MDU0NTg0NDUsLT
+I1NTEwMzM3LC0xNzUwMzQyMDk1LDE0MTA3MTI1NjMsMTI4NDcy
+MjQ3OCwzMDM0ODc0NzYsLTE5NzkzOTk2MzQsLTY5NTgzMzg2Mi
+wtMTA4ODg3MjUwMF19
 -->
