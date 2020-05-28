@@ -20,12 +20,22 @@ Shebang #!/bin/sh
 显示文件某一列出现的不重复字符 awk '{print $4}' run_pileup_CTRL.bed.bdg | sort | uniq
 df -h ./ 
 du -h ./
+# Vim
+-   $
+-   ^
+-   GG
+-   g
+-   w
+-   b
+-   Visual - d
+-   Visual - y
+-   Visual - p
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMT
-gzNDM0NjQ3NiwxNTQ2ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEz
-NDAsMTAyNDAxMzI3NywyMTExNDI2Nzc3LC02MDU0NTg0NDUsLT
-I1NTEwMzM3LC0xNzUwMzQyMDk1LDE0MTA3MTI1NjMsMTI4NDcy
-MjQ3OCwzMDM0ODc0NzYsLTE5NzkzOTk2MzQsLTY5NTgzMzg2Mi
-wtMTA4ODg3MjUwMF19
+eyJoaXN0b3J5IjpbMjAzNTI0NjAwNywtMzUwNzk5Nzc5LC0xNT
+gwNTUxNDY5LC0xODM0MzQ2NDc2LDE1NDY4MDE5ODgsMjQ0OTY5
+NjM5LDg5MDcyMTM0MCwxMDI0MDEzMjc3LDIxMTE0MjY3NzcsLT
+YwNTQ1ODQ0NSwtMjU1MTAzMzcsLTE3NTAzNDIwOTUsMTQxMDcx
+MjU2MywxMjg0NzIyNDc4LDMwMzQ4NzQ3NiwtMTk3OTM5OTYzNC
+wtNjk1ODMzODYyLC0xMDg4ODcyNTAwXX0=
 -->
