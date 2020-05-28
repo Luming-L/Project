@@ -9,7 +9,10 @@ ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
 /home/s1949868/
 - "scratch" space: 2 TB for temporary files, they will be deleted after 1 month
 /exports/eddie/scratch/s1949868/
-> 
+> How to make use of them:
+> 1.  Copy your dataset to the scratch space
+> 2.  Complete your analysis
+> 3.  Copy your results elsewhere
 # Applications 
 #see available modules
 module available
@@ -84,7 +87,7 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTc0NDI4NywtMTU2ODU4MjE0MSw2NT
+eyJoaXN0b3J5IjpbLTQ2NTQ2MjQ1OCwtMTU2ODU4MjE0MSw2NT
 A4MjMwNjgsMTg0OTU5MDM2NiwxNDc1OTA0MTkyLDMyMjIwMjAy
 MiwxOTY3NTI5ODI2LC0xMDAyNTI5NzEyLC0xNTA2NzI3ODAyLD
 M4OTUyNTEwNiwtMTIzMTg4MzQ1Niw3MjI2MjMxODAsMTUxODAz
