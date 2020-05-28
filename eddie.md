@@ -5,9 +5,9 @@
 # Logging In
 ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
 # Storage 
-- home directory: 2GB b
+- home directory: 2GB backed up
 /home/s1949868/
-- "scratch" space: 
+- "scratch" space: 20-50TB for te'm
 /exports/eddie/scratch/s1949868/
 # Applications 
 #see available modules
@@ -83,11 +83,11 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg3NzU2MDgsLTE1Njg1ODIxNDEsNj
-UwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIw
-MjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMi
-wzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgw
-MzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLT
-E1NTc2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3
-MTIzNF19
+eyJoaXN0b3J5IjpbNDIzNDc1NTEsLTE1Njg1ODIxNDEsNjUwOD
+IzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIs
+MTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMiwzOD
+k1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUw
+NjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NT
+c2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIz
+NF19
 -->
