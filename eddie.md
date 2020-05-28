@@ -7,7 +7,7 @@ ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
 # Storage 
 - home directory: 2GB backed up
 /home/s1949868/
-- "scratch" space: 2 TB for temporary files, not back
+- "scratch" space: 2 TB for temporary files, they will be deleted after 1 month
 /exports/eddie/scratch/s1949868/
 # Applications 
 #see available modules
@@ -83,11 +83,11 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDczNzk1MiwtMTU2ODU4MjE0MSw2NT
-A4MjMwNjgsMTg0OTU5MDM2NiwxNDc1OTA0MTkyLDMyMjIwMjAy
-MiwxOTY3NTI5ODI2LC0xMDAyNTI5NzEyLC0xNTA2NzI3ODAyLD
-M4OTUyNTEwNiwtMTIzMTg4MzQ1Niw3MjI2MjMxODAsMTUxODAz
-NTA2Niw0NDc1NjkzNzgsMTcwMDIwMzY2OCw4NTU0OTAwNywtMT
-U1NzY1NTA0Myw1NTUzMTMyMTEsMzAzMTI2ODc2LC0xMzc1Mzcx
-MjM0XX0=
+eyJoaXN0b3J5IjpbLTE3MzI1MzgwOTEsLTE1Njg1ODIxNDEsNj
+UwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIw
+MjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMi
+wzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgw
+MzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLT
+E1NTc2NTUwNDMsNTU1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3
+MTIzNF19
 -->
