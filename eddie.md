@@ -89,13 +89,18 @@ You would:
 # Others 
 ## Move files
 scp [file you want to copy] [destination]
+```
+# 
+scp myfavouritefile s12@eddie.ecdf.ed.ac.uk:/home/s1234567  
+# Moving a file  to  your scratch space on
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNT
-Y4NTgyMTQxLDY1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQx
-OTIsMzIyMjAyMDIyLDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLT
-E1MDY3Mjc4MDIsMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYy
-MzE4MCwxNTE4MDM1MDY2LDQ0NzU2OTM3OCwxNzAwMjAzNjY4LD
-g1NTQ5MDA3LC0xNTU3NjU1MDQzLDU1NTMxMzIxMSwzMDMxMjY4
-NzZdfQ==
+eyJoaXN0b3J5IjpbMjEwOTg4ODcyMiwxOTc1NzM3NjY3LC00Nj
+U0NjI0NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAz
+NjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMT
+AwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4
+ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LD
+E3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2NTUwNDMsNTU1MzEz
+MjExXX0=
 -->
