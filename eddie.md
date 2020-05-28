@@ -91,12 +91,12 @@ You would:
 scp [file you want to copy] [destination]
 ```
 # 
-scp myfavouritefile s12@eddie.ecdf.ed.ac.uk:/home/s1234567  
+scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868  
 # Moving a file  to  your scratch space on
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTg4ODcyMiwxOTc1NzM3NjY3LC00Nj
+eyJoaXN0b3J5IjpbMTg0MDMyNTc5NSwxOTc1NzM3NjY3LC00Nj
 U0NjI0NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAz
 NjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMT
 AwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4
