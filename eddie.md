@@ -5,10 +5,9 @@
 # Logging In
 ssh <YOUR UUN>@eddie.ecdf.ed.ac.uk
 # Storage 
-cd /exports/igmm/eddie/semple-lab/
-home directory: 
+- home directory: 
 /home/s1949868/
-"scratch" space: 
+- "scratch" space: 
 /exports/eddie/scratch/s1949868/
 # Applications 
 #see available modules
@@ -84,11 +83,11 @@ You would:
 # submit a job
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg1ODIxNDEsNjUwODIzMDY4LDE4ND
-k1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgy
-NiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMDYsLT
-EyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NTY5
-Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2NTUwNDMsNT
-U1MzEzMjExLDMwMzEyNjg3NiwtMTM3NTM3MTIzNCwtNTM3NzM5
-MTQ1XX0=
+eyJoaXN0b3J5IjpbNzkwOTE1Nzk5LC0xNTY4NTgyMTQxLDY1MD
+gyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAyMDIy
+LDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MDIsMz
+g5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYyMzE4MCwxNTE4MDM1
+MDY2LDQ0NzU2OTM3OCwxNzAwMjAzNjY4LDg1NTQ5MDA3LC0xNT
+U3NjU1MDQzLDU1NTMxMzIxMSwzMDMxMjY4NzYsLTEzNzUzNzEy
+MzRdfQ==
 -->
