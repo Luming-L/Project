@@ -73,7 +73,7 @@ qacct -j 3246515
 > if it failed (if it fails, then "failed" would equal 1)
 > the largest amount of memory it used (maxvemem)
 # Array jobs
-mostly identical jobs with the only difference being input parameters or data sets.
+Identical jobs with the only difference being input parameters or data sets.
 submit, stop and delete jobs with just one command.
 submit an array job
 ```
@@ -145,11 +145,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA3NzIxMDcsMTM4NDg2MjEyOCwtOT
-ExOTEyNzUzLDExMTMyMDUzODYsNjU2OTI3NzM0LDg0NDY0NzUx
-LDE0MDQ3OTYzNzIsMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4OD
-YxMzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3
-OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLD
-Y1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAy
-MDIyXX0=
+eyJoaXN0b3J5IjpbLTE5NDcxNTc1NjUsLTE2ODA3NzIxMDcsMT
+M4NDg2MjEyOCwtOTExOTEyNzUzLDExMTMyMDUzODYsNjU2OTI3
+NzM0LDg0NDY0NzUxLDE0MDQ3OTYzNzIsMTgzNzkyOTYzNCwxMT
+g0OTYwMjkxLDg4ODYxMzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1
+OTM5LDE4NDAzMjU3OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC
+0xNTY4NTgyMTQxLDY1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5
+MDQxOTJdfQ==
 -->
