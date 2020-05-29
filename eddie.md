@@ -72,6 +72,8 @@ qacct -j 3246515
 > when it finished
 > if it failed (if it fails, then "failed" would equal 1)
 > the largest amount of memory it used (maxvemem)
+# Parallel job
+
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
 #allow you to run interactive jobs or graphical applications. #to start an interactive session run:
@@ -124,11 +126,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDc5NjM3MiwxODM3OTI5NjM0LDExOD
-Q5NjAyOTEsODg4NjEzNjQ4LDE2ODczMzMyMDksLTExOTEwNTU5
-MzksMTg0MDMyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLT
-E1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkw
-NDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMi
-wtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIy
-NjIzMTgwXX0=
+eyJoaXN0b3J5IjpbODQ0NjQ3NTEsMTQwNDc5NjM3MiwxODM3OT
+I5NjM0LDExODQ5NjAyOTEsODg4NjEzNjQ4LDE2ODczMzMyMDks
+LTExOTEwNTU5MzksMTg0MDMyNTc5NSwxOTc1NzM3NjY3LC00Nj
+U0NjI0NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAz
+NjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMT
+AwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4
+ODM0NTZdfQ==
 -->
