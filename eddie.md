@@ -45,15 +45,15 @@ Grid Engine options (lines prefixed with #$)
 > define where you want the outputs and errors to be sent: -o hello.o/-e hello.e
 
 Initialise the environment modules
-```
+```bash
 . /etc/profile.d/modules.sh
 ``` 
 Load Python
-```
+```bash
 module load python/3.4.3
 ``` 
 Run the program
-```
+```bash
 ./hello.py
 ```
 # Interactive Sessions 
@@ -108,7 +108,7 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDk5MDUxMyw4ODg2MTM2NDgsMTY4Nz
+eyJoaXN0b3J5IjpbMTE4NDk2MDI5MSw4ODg2MTM2NDgsMTY4Nz
 MzMzIwOSwtMTE5MTA1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2
 NjcsLTQ2NTQ2MjQ1OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMT
 g0OTU5MDM2NiwxNDc1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5
