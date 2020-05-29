@@ -38,6 +38,8 @@ qsub jobscript.sh
 > give the queuing system (Grid Engine) information that it can use when scheduling our job.
 > cwd: run our script in its current working directory
 > -N hello: give the job a name to identify it
+> -l h_rt: Specify the amount of time the job will require (approx).
+> -l h_vmem: 
 
 #Initialise the environment modules
 . /etc/profile.d/modules.sh
@@ -99,11 +101,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQwNDI3MzcsLTExOTEwNTU5MzksMT
-g0MDMyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLTE1Njg1
-ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5Mi
-wzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUw
-NjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMT
-gwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1
-NDkwMDddfQ==
+eyJoaXN0b3J5IjpbMTc4MTMxNjQ2LC0xMTkxMDU1OTM5LDE4ND
+AzMjU3OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgy
+MTQxLDY1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMz
+IyMjAyMDIyLDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3
+Mjc4MDIsMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYyMzE4MC
+wxNTE4MDM1MDY2LDQ0NzU2OTM3OCwxNzAwMjAzNjY4LDg1NTQ5
+MDA3XX0=
 -->
