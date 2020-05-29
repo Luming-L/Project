@@ -72,7 +72,7 @@ qacct -j 3246515
 > when it finished
 > if it failed (if it fails, then "failed" would equal 1)
 > the largest amount of memory it used (maxvemem)
-# Parallel job
+# Array jobs
 
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
@@ -126,11 +126,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0NjQ3NTEsMTQwNDc5NjM3MiwxODM3OT
-I5NjM0LDExODQ5NjAyOTEsODg4NjEzNjQ4LDE2ODczMzMyMDks
-LTExOTEwNTU5MzksMTg0MDMyNTc5NSwxOTc1NzM3NjY3LC00Nj
-U0NjI0NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAz
-NjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMT
-AwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4
-ODM0NTZdfQ==
+eyJoaXN0b3J5IjpbNjU2OTI3NzM0LDg0NDY0NzUxLDE0MDQ3OT
+YzNzIsMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4ODYxMzY0OCwx
+Njg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OTUsMTk3NT
+czNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1MDgyMzA2
+OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAyMDIyLDE5Nj
+c1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MDIsMzg5NTI1
+MTA2XX0=
 -->
