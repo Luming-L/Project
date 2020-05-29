@@ -56,6 +56,8 @@ submit the job
 ```bash
 # submit work to the cluster as batch jobs
 qsub jobscript.sh
+# guidance
+man qsub
 # queue status
 qstat
 # kill a job you have submitted
@@ -122,11 +124,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4OD
-YxMzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3
-OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLD
-Y1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAy
-MDIyLDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MD
-IsMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYyMzE4MCwxNTE4
-MDM1MDY2XX0=
+eyJoaXN0b3J5IjpbMTQwNDc5NjM3MiwxODM3OTI5NjM0LDExOD
+Q5NjAyOTEsODg4NjEzNjQ4LDE2ODczMzMyMDksLTExOTEwNTU5
+MzksMTg0MDMyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLT
+E1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkw
+NDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMi
+wtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIy
+NjIzMTgwXX0=
 -->
