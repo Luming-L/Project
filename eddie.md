@@ -21,12 +21,14 @@ module load <MODULENAME/MODULEVERSION>
 #see a list of currently loaded modules
 module list
 # Running Jobs 
-
+submit work to the cluster as batch jobs
 ```
 qsub jobscript.sh
 ```
+shebang line
 ```
 #!/bin/sh
+```
 #Grid Engine options (lines prefixed with #$)
 #$ -N hello              
 #$ -cwd                  
@@ -105,11 +107,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDgwNjM2ODcsMTY4NzMzMzIwOSwtMT
-E5MTA1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2NjcsLTQ2NTQ2
-MjQ1OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMTg0OTU5MDM2Ni
-wxNDc1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5ODI2LC0xMDAy
-NTI5NzEyLC0xNTA2NzI3ODAyLDM4OTUyNTEwNiwtMTIzMTg4Mz
-Q1Niw3MjI2MjMxODAsMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcw
-MDIwMzY2OF19
+eyJoaXN0b3J5IjpbODg4NjEzNjQ4LDE2ODczMzMyMDksLTExOT
+EwNTU5MzksMTg0MDMyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0
+NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMT
+Q3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUy
+OTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NT
+YsNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAy
+MDM2NjhdfQ==
 -->
