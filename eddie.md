@@ -88,6 +88,11 @@ Where job.array.sh looks like:
  
 job.sh $1.$SGE_TASK_ID
 ```
+_-tc_ option in _qsub_ to limit the number of array task jobs running at any one time - keeping free some slots available for you to use for something else. For example:
+
+ qsub -t 1-100 -tc 20 jobscript
+
+will cause the 100 tasks to be run in batches of 20.
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
 #allow you to run interactive jobs or graphical applications. #to start an interactive session run:
@@ -140,11 +145,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDg2MjEyOCwtOTExOTEyNzUzLDExMT
-MyMDUzODYsNjU2OTI3NzM0LDg0NDY0NzUxLDE0MDQ3OTYzNzIs
-MTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4ODYxMzY0OCwxNjg3Mz
-MzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OTUsMTk3NTczNzY2
-NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1MDgyMzA2OCwxOD
-Q5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAyMDIyLDE5Njc1Mjk4
-MjZdfQ==
+eyJoaXN0b3J5IjpbLTE2ODA3NzIxMDcsMTM4NDg2MjEyOCwtOT
+ExOTEyNzUzLDExMTMyMDUzODYsNjU2OTI3NzM0LDg0NDY0NzUx
+LDE0MDQ3OTYzNzIsMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4OD
+YxMzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3
+OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLD
+Y1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAy
+MDIyXX0=
 -->
