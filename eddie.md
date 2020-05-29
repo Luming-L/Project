@@ -21,9 +21,11 @@ module load <MODULENAME/MODULEVERSION>
 #see a list of currently loaded modules
 module list
 # Running Jobs 
-submit work to the cluster as batch jobs
+
 ```bash
+# submit work to the cluster as batch jobs
 qsub jobscript.sh
+# queue status
 ```
 shebang line
 ```bash
@@ -108,11 +110,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDk2MDI5MSw4ODg2MTM2NDgsMTY4Nz
-MzMzIwOSwtMTE5MTA1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2
-NjcsLTQ2NTQ2MjQ1OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMT
-g0OTU5MDM2NiwxNDc1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5
-ODI2LC0xMDAyNTI5NzEyLC0xNTA2NzI3ODAyLDM4OTUyNTEwNi
-wtMTIzMTg4MzQ1Niw3MjI2MjMxODAsMTUxODAzNTA2Niw0NDc1
-NjkzNzhdfQ==
+eyJoaXN0b3J5IjpbMTcxMjE4MzEyMCwxMTg0OTYwMjkxLDg4OD
+YxMzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3
+OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLD
+Y1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAy
+MDIyLDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MD
+IsMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYyMzE4MCwxNTE4
+MDM1MDY2XX0=
 -->
