@@ -21,9 +21,11 @@ module load <MODULENAME/MODULEVERSION>
 #see a list of currently loaded modules
 module list
 # Running Jobs 
-#submit work to the cluster as batch jobs
-qsub jobscript.sh
 
+```
+qsub jobscript.sh
+```
+```
 #!/bin/sh
 #Grid Engine options (lines prefixed with #$)
 #$ -N hello              
@@ -35,6 +37,7 @@ qsub jobscript.sh
 #use the current working directory: -cwd
 #runtime limit of 5 minutes: -l h_rt
 #memory limit of 1 Gbyte: -l h_vmem
+```
 > give the queuing system (Grid Engine) information that it can use when scheduling our job.
 > cwd: run our script in its current working directory
 > -N hello: give the job a name to identify it
@@ -102,11 +105,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzMzMzIwOSwtMTE5MTA1NTkzOSwxOD
-QwMzI1Nzk1LDE5NzU3Mzc2NjcsLTQ2NTQ2MjQ1OCwtMTU2ODU4
-MjE0MSw2NTA4MjMwNjgsMTg0OTU5MDM2NiwxNDc1OTA0MTkyLD
-MyMjIwMjAyMiwxOTY3NTI5ODI2LC0xMDAyNTI5NzEyLC0xNTA2
-NzI3ODAyLDM4OTUyNTEwNiwtMTIzMTg4MzQ1Niw3MjI2MjMxOD
-AsMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcwMDIwMzY2OCw4NTU0
-OTAwN119
+eyJoaXN0b3J5IjpbLTE0NDgwNjM2ODcsMTY4NzMzMzIwOSwtMT
+E5MTA1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2NjcsLTQ2NTQ2
+MjQ1OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMTg0OTU5MDM2Ni
+wxNDc1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5ODI2LC0xMDAy
+NTI5NzEyLC0xNTA2NzI3ODAyLDM4OTUyNTEwNiwtMTIzMTg4Mz
+Q1Niw3MjI2MjMxODAsMTUxODAzNTA2Niw0NDc1NjkzNzgsMTcw
+MDIwMzY2OF19
 -->
