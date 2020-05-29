@@ -39,7 +39,7 @@ qsub jobscript.sh
 > cwd: run our script in its current working directory
 > -N hello: give the job a name to identify it
 > -l h_rt: Specify the amount of time the job will require (approx).
-> -l h_vmem: 
+> -l h_vmem: Specify the amount of memory needed: asking for 1GB RAM (default)
 
 #Initialise the environment modules
 . /etc/profile.d/modules.sh
@@ -101,7 +101,7 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTMxNjQ2LC0xMTkxMDU1OTM5LDE4ND
+eyJoaXN0b3J5IjpbNzU2NDk0NzEzLC0xMTkxMDU1OTM5LDE4ND
 AzMjU3OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgy
 MTQxLDY1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMz
 IyMjAyMDIyLDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3
