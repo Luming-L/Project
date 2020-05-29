@@ -74,6 +74,7 @@ qacct -j 3246515
 > the largest amount of memory it used (maxvemem)
 # Array jobs
 mostly identical jobs with the only difference being input parameters or data sets.
+submit, stop and delete jobs with just one command.
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
 #allow you to run interactive jobs or graphical applications. #to start an interactive session run:
@@ -126,11 +127,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzIwNTM4Niw2NTY5Mjc3MzQsODQ0Nj
-Q3NTEsMTQwNDc5NjM3MiwxODM3OTI5NjM0LDExODQ5NjAyOTEs
-ODg4NjEzNjQ4LDE2ODczMzMyMDksLTExOTEwNTU5MzksMTg0MD
-MyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLTE1Njg1ODIx
-NDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMj
-IyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcy
-NzgwMl19
+eyJoaXN0b3J5IjpbLTkxMTkxMjc1MywxMTEzMjA1Mzg2LDY1Nj
+kyNzczNCw4NDQ2NDc1MSwxNDA0Nzk2MzcyLDE4Mzc5Mjk2MzQs
+MTE4NDk2MDI5MSw4ODg2MTM2NDgsMTY4NzMzMzIwOSwtMTE5MT
+A1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2NjcsLTQ2NTQ2MjQ1
+OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMTg0OTU5MDM2NiwxND
+c1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5ODI2LC0xMDAyNTI5
+NzEyXX0=
 -->
