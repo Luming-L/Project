@@ -75,6 +75,23 @@ qacct -j 3246515
 # Array jobs
 mostly identical jobs with the only difference being input parameters or data sets.
 submit, stop and delete jobs with just one command.
+submit an array job
+```
+qsub -t 1-100 job.array.sh data
+```
+```
+Where job.array.sh looks like:
+
+`#!/bin/sh`
+
+`# Grid Engine options (lines prefixed with #$)`
+
+`#$ -cwd`
+
+`#$ -l h_vmem=2G`
+
+`job.sh $``1``.$SGE_TASK_ID`
+```
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
 #allow you to run interactive jobs or graphical applications. #to start an interactive session run:
@@ -127,11 +144,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTkxMjc1MywxMTEzMjA1Mzg2LDY1Nj
-kyNzczNCw4NDQ2NDc1MSwxNDA0Nzk2MzcyLDE4Mzc5Mjk2MzQs
-MTE4NDk2MDI5MSw4ODg2MTM2NDgsMTY4NzMzMzIwOSwtMTE5MT
-A1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2NjcsLTQ2NTQ2MjQ1
-OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMTg0OTU5MDM2NiwxND
-c1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5ODI2LC0xMDAyNTI5
-NzEyXX0=
+eyJoaXN0b3J5IjpbLTEzNTE2OTIzODgsLTkxMTkxMjc1MywxMT
+EzMjA1Mzg2LDY1NjkyNzczNCw4NDQ2NDc1MSwxNDA0Nzk2Mzcy
+LDE4Mzc5Mjk2MzQsMTE4NDk2MDI5MSw4ODg2MTM2NDgsMTY4Nz
+MzMzIwOSwtMTE5MTA1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2
+NjcsLTQ2NTQ2MjQ1OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMT
+g0OTU5MDM2NiwxNDc1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5
+ODI2XX0=
 -->
