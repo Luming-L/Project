@@ -36,24 +36,19 @@ Grid Engine options (lines prefixed with #$)
 #$ -l h_rt=00:05:00 
 #$ -l h_vmem=1G
 ```
-#These options are:
-#
-#
-#
-#
 > give the queuing system (Grid Engine) information to schedule the job.
 > cwd: run our script in its current working directory
 > job name: -N
 > use the current working directory: -cwd
 > runtime limit: -l h_rt
 > memory limit: -l h_vmem
-> -l h_vmem: Specify the amount of memory needed: asking for 1GB RAM (default). If your program definitely needs more, split it into smaller files or request more memory
-> -o hello.o/-e hello.e: define where you want the outputs and errors to be sent
-
-#Initialise the environment modules
+> define where you want the outputs and errors to be sent: -o hello.o/-e hello.e
+Initialise the environment modules
+```
 . /etc/profile.d/modules.sh
- 
-#Load Python
+``` 
+Load Python
+```
 module load python/3.4.3
  
 #Run the program
@@ -110,11 +105,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEzMzg0MDcsODg4NjEzNjQ4LDE2OD
-czMzMyMDksLTExOTEwNTU5MzksMTg0MDMyNTc5NSwxOTc1NzM3
-NjY3LC00NjU0NjI0NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LD
-E4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUy
-OTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMD
-YsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3
-NTY5Mzc4XX0=
+eyJoaXN0b3J5IjpbOTM5NzU2NDQwLDg4ODYxMzY0OCwxNjg3Mz
+MzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OTUsMTk3NTczNzY2
+NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1MDgyMzA2OCwxOD
+Q5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAyMDIyLDE5Njc1Mjk4
+MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MDIsMzg5NTI1MTA2LC
+0xMjMxODgzNDU2LDcyMjYyMzE4MCwxNTE4MDM1MDY2LDQ0NzU2
+OTM3OF19
 -->
