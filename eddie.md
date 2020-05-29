@@ -29,18 +29,19 @@ shebang line
 ```
 #!/bin/sh
 ```
-#Grid Engine options (lines prefixed with #$)
+Grid Engine options (lines prefixed with #$)
+```
 #$ -N hello              
 #$ -cwd                  
 #$ -l h_rt=00:05:00 
 #$ -l h_vmem=1G
+```
 #These options are:
 #job name: -N
 #use the current working directory: -cwd
 #runtime limit of 5 minutes: -l h_rt
 #memory limit of 1 Gbyte: -l h_vmem
-```
-> give the queuing system (Grid Engine) information that it can use when scheduling our job.
+> give the queuing system (Grid Engine) information to scheduling our job.
 > cwd: run our script in its current working directory
 > -N hello: give the job a name to identify it
 > -l h_rt: Specify the amount of time the job will require (approx).
@@ -107,11 +108,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NjEzNjQ4LDE2ODczMzMyMDksLTExOT
-EwNTU5MzksMTg0MDMyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0
-NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMT
-Q3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUy
-OTcxMiwtMTUwNjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NT
-YsNzIyNjIzMTgwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAy
-MDM2NjhdfQ==
+eyJoaXN0b3J5IjpbLTQ5NjAxNDEwOSw4ODg2MTM2NDgsMTY4Nz
+MzMzIwOSwtMTE5MTA1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2
+NjcsLTQ2NTQ2MjQ1OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMT
+g0OTU5MDM2NiwxNDc1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5
+ODI2LC0xMDAyNTI5NzEyLC0xNTA2NzI3ODAyLDM4OTUyNTEwNi
+wtMTIzMTg4MzQ1Niw3MjI2MjMxODAsMTUxODAzNTA2Niw0NDc1
+NjkzNzhdfQ==
 -->
