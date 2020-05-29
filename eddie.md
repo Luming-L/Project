@@ -35,6 +35,7 @@ qsub jobscript.sh
 #use the current working directory: -cwd
 #runtime limit of 5 minutes: -l h_rt
 #memory limit of 1 Gbyte: -l h_vmem
+> give the queuing system (Grid Engine) information that it can use when scheduling our job.
 
 #Initialise the environment modules
 . /etc/profile.d/modules.sh
@@ -96,11 +97,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTEwNTU5MzksMTg0MDMyNTc5NSwxOT
-c1NzM3NjY3LC00NjU0NjI0NTgsLTE1Njg1ODIxNDEsNjUwODIz
-MDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMT
-k2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMiwzODk1
-MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgwMzUwNj
-YsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1NDkwMDcsLTE1NTc2
-NTUwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE4MTk2OTcwNjMsLTExOTEwNTU5MzksMT
+g0MDMyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLTE1Njg1
+ODIxNDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5Mi
+wzMjIyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUw
+NjcyNzgwMiwzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMT
+gwLDE1MTgwMzUwNjYsNDQ3NTY5Mzc4LDE3MDAyMDM2NjgsODU1
+NDkwMDddfQ==
 -->
