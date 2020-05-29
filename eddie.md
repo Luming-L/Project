@@ -26,6 +26,12 @@ module list
 # submit work to the cluster as batch jobs
 qsub jobscript.sh
 # queue status
+qstat
+# kill a job you have submitted
+qdel 3246515
+qdel Hello
+# 
+qacct -j 3246515
 ```
 shebang line
 ```bash
@@ -110,11 +116,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjE4MzEyMCwxMTg0OTYwMjkxLDg4OD
-YxMzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3
-OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLD
-Y1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAy
-MDIyLDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MD
-IsMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYyMzE4MCwxNTE4
-MDM1MDY2XX0=
+eyJoaXN0b3J5IjpbNDM2MDE3MzAyLDExODQ5NjAyOTEsODg4Nj
+EzNjQ4LDE2ODczMzMyMDksLTExOTEwNTU5MzksMTg0MDMyNTc5
+NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLTE1Njg1ODIxNDEsNj
+UwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIw
+MjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMi
+wzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgw
+MzUwNjZdfQ==
 -->
