@@ -46,7 +46,7 @@ Grid Engine options (lines prefixed with #$)
 > job name: -N
 > use the current working directory: -cwd
 > runtime limit of 5 minutes: -l h_rt
-> 
+> memory limit of 1 Gbyte: -l h_vmem
 > -l h_vmem: Specify the amount of memory needed: asking for 1GB RAM (default). If your program definitely needs more, split it into smaller files or request more memory
 > -o hello.o/-e hello.e: define where you want the outputs and errors to be sent
 
@@ -110,7 +110,7 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ4MDA1MDMsODg4NjEzNjQ4LDE2OD
+eyJoaXN0b3J5IjpbLTE3NTczNDY3ODUsODg4NjEzNjQ4LDE2OD
 czMzMyMDksLTExOTEwNTU5MzksMTg0MDMyNTc5NSwxOTc1NzM3
 NjY3LC00NjU0NjI0NTgsLTE1Njg1ODIxNDEsNjUwODIzMDY4LD
 E4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIwMjIsMTk2NzUy
