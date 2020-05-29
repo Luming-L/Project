@@ -73,7 +73,7 @@ qacct -j 3246515
 > if it failed (if it fails, then "failed" would equal 1)
 > the largest amount of memory it used (maxvemem)
 # Array jobs
-
+mostly identical jobs with the only difference being input parameters or data sets.
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
 #allow you to run interactive jobs or graphical applications. #to start an interactive session run:
@@ -126,11 +126,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2OTI3NzM0LDg0NDY0NzUxLDE0MDQ3OT
-YzNzIsMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4ODYxMzY0OCwx
-Njg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OTUsMTk3NT
-czNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1MDgyMzA2
-OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAyMDIyLDE5Nj
-c1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MDIsMzg5NTI1
-MTA2XX0=
+eyJoaXN0b3J5IjpbMTExMzIwNTM4Niw2NTY5Mjc3MzQsODQ0Nj
+Q3NTEsMTQwNDc5NjM3MiwxODM3OTI5NjM0LDExODQ5NjAyOTEs
+ODg4NjEzNjQ4LDE2ODczMzMyMDksLTExOTEwNTU5MzksMTg0MD
+MyNTc5NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLTE1Njg1ODIx
+NDEsNjUwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMj
+IyMDIwMjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcy
+NzgwMl19
 -->
