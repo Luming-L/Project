@@ -79,18 +79,14 @@ submit an array job
 ```
 qsub -t 1-100 job.array.sh data
 ```
-```
 Where job.array.sh looks like:
-
-`#!/bin/sh`
-
-`# Grid Engine options (lines prefixed with #$)`
-
-`#$ -cwd`
-
-`#$ -l h_vmem=2G`
-
-`job.sh $``1``.$SGE_TASK_ID`
+```
+#!/bin/sh
+# Grid Engine options (lines prefixed with #$)
+#$ -cwd                 
+#$ -l h_vmem=2G
+ 
+job.sh $1.$SGE_TASK_ID
 ```
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
@@ -144,11 +140,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTE2OTIzODgsLTkxMTkxMjc1MywxMT
-EzMjA1Mzg2LDY1NjkyNzczNCw4NDQ2NDc1MSwxNDA0Nzk2Mzcy
-LDE4Mzc5Mjk2MzQsMTE4NDk2MDI5MSw4ODg2MTM2NDgsMTY4Nz
-MzMzIwOSwtMTE5MTA1NTkzOSwxODQwMzI1Nzk1LDE5NzU3Mzc2
-NjcsLTQ2NTQ2MjQ1OCwtMTU2ODU4MjE0MSw2NTA4MjMwNjgsMT
-g0OTU5MDM2NiwxNDc1OTA0MTkyLDMyMjIwMjAyMiwxOTY3NTI5
-ODI2XX0=
+eyJoaXN0b3J5IjpbMTM4NDg2MjEyOCwtOTExOTEyNzUzLDExMT
+MyMDUzODYsNjU2OTI3NzM0LDg0NDY0NzUxLDE0MDQ3OTYzNzIs
+MTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4ODYxMzY0OCwxNjg3Mz
+MzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OTUsMTk3NTczNzY2
+NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1MDgyMzA2OCwxOD
+Q5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAyMDIyLDE5Njc1Mjk4
+MjZdfQ==
 -->
