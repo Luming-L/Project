@@ -21,6 +21,7 @@ module load <MODULENAME/MODULEVERSION>
 #see a list of currently loaded modules
 module list
 # Running Jobs 
+shebang line
 ```bash
 #!/bin/sh
 ```
@@ -69,7 +70,6 @@ qacct -j 3246515
 > when it finished
 > if it failed (if it fails, then "failed" would equal 1)
 > the largest amount of memory it used (maxvemem)
-
 # Interactive Sessions 
 #there are a limited number of nodes that accept interactive login sessions
 #allow you to run interactive jobs or graphical applications. #to start an interactive session run:
@@ -122,11 +122,11 @@ scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MTMzNzc4LDExODQ5NjAyOTEsODg4Nj
-EzNjQ4LDE2ODczMzMyMDksLTExOTEwNTU5MzksMTg0MDMyNTc5
-NSwxOTc1NzM3NjY3LC00NjU0NjI0NTgsLTE1Njg1ODIxNDEsNj
-UwODIzMDY4LDE4NDk1OTAzNjYsMTQ3NTkwNDE5MiwzMjIyMDIw
-MjIsMTk2NzUyOTgyNiwtMTAwMjUyOTcxMiwtMTUwNjcyNzgwMi
-wzODk1MjUxMDYsLTEyMzE4ODM0NTYsNzIyNjIzMTgwLDE1MTgw
-MzUwNjZdfQ==
+eyJoaXN0b3J5IjpbMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4OD
+YxMzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3
+OTUsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLD
+Y1MDgyMzA2OCwxODQ5NTkwMzY2LDE0NzU5MDQxOTIsMzIyMjAy
+MDIyLDE5Njc1Mjk4MjYsLTEwMDI1Mjk3MTIsLTE1MDY3Mjc4MD
+IsMzg5NTI1MTA2LC0xMjMxODgzNDU2LDcyMjYyMzE4MCwxNTE4
+MDM1MDY2XX0=
 -->
