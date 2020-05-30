@@ -22,7 +22,7 @@ ls -lR .git
 # configure
 `git config` will generate `.gitconfig` file that stores git settings.
 `.gitconfig` can be set at one or more of three different locations:
-- Global (`/localdisk/home/_s0000000_/.gitconfig` or ~/.config/git/config): establishes for a particula user, the most common use
+- Global (`/localdisk/home/_s0000000_/.gitconfig` or ~/.config/git/config): at the user level, the most common use
 - System (`/etc/.gitconfig`): rarely used, establishes for the entirety of the local system (all users on this computer).
 - Local (`/localdisk/home/_s0000000_/LectureExercises/.git/config`): at the repository level, establishes configuration options that only affect this repository. If this `.git/config` file was "committed", the settings contained within would impact all users that clone this repository, so be careful what you commit!
 
@@ -46,7 +46,7 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTUwNDc5MCwtMTM2NjE2MTQ1MSwtNT
+eyJoaXN0b3J5IjpbLTcxODY0MzIxMiwtMTM2NjE2MTQ1MSwtNT
 gzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQyMDM3NSwtNzM2NDIx
 MjM4LC0xMDcyODEwOTYyLDIxMjE1MzUwMjIsMTIxNDM0MjM3MS
 wtMTMzOTgzNzI1NiwtNTUxMjAwMDEsLTIwMTE5NTQ0MDAsMTgx
