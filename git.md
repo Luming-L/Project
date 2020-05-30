@@ -15,8 +15,14 @@ git config --global core.autocrlf inuput
 git config --global alias.st status
 
 ```
+
+```bash
+touch .gitignore
+echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NT
-I3NjE1MCwxNjQ1MzU4MDQ3LC03NzEyNzY2NjQsMjQxNjA0MjQw
-LC0xOTUyNzYxNTU4LDg1NDE5MzcxOSwxNjAyOTcyNzk3XX0=
+eyJoaXN0b3J5IjpbMTY1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OT
+Q5Mzc2NTIsMjk1Mjc2MTUwLDE2NDUzNTgwNDcsLTc3MTI3NjY2
+NCwyNDE2MDQyNDAsLTE5NTI3NjE1NTgsODU0MTkzNzE5LDE2MD
+I5NzI3OTddfQ==
 -->
