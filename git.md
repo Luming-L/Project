@@ -1,6 +1,6 @@
 set up a repository
 manipulate the contents of a repository
-
+store a repository on GitHub to make it available to others
 
 
 
@@ -27,8 +27,9 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE5NTQ0MDAsMTgxMTg5MTU5LDE2NT
-AzOTQwODcsLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NTI3NjE1
-MCwxNjQ1MzU4MDQ3LC03NzEyNzY2NjQsMjQxNjA0MjQwLC0xOT
-UyNzYxNTU4LDg1NDE5MzcxOSwxNjAyOTcyNzk3XX0=
+eyJoaXN0b3J5IjpbLTU1MTIwMDAxLC0yMDExOTU0NDAwLDE4MT
+E4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQxNTIsMTQ5NDkzNzY1
+MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNzcxMjc2NjY0LDI0MT
+YwNDI0MCwtMTk1Mjc2MTU1OCw4NTQxOTM3MTksMTYwMjk3Mjc5
+N119
 -->
