@@ -53,13 +53,15 @@ echo -e "**/fastq.gz" >> .gitignore
 #allows "bowtie2.log" to evade the ignore list: order is important!
 # If you want to include a "!" then use an editor to do it
 !bowtie2.log
+# files that are being ignored
+git check-ignore -v *
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE0MDE4NDAsMjAzMjY2OTY3Nyw5Nj
-M4Njg5OTMsMTM4MzcwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3
-MDMyLC0xOTE0MDEwMTcwLDE3NjQyMDM3NSwtNzM2NDIxMjM4LC
-0xMDcyODEwOTYyLDIxMjE1MzUwMjIsMTIxNDM0MjM3MSwtMTMz
-OTgzNzI1NiwtNTUxMjAwMDEsLTIwMTE5NTQ0MDAsMTgxMTg5MT
-U5LDE2NTAzOTQwODcsLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5
-NTI3NjE1MF19
+eyJoaXN0b3J5IjpbMjA2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMD
+MyNjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAxMjYwLC0xMzY2MTYx
+NDUxLC01ODM5ODcwMzIsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC
+03MzY0MjEyMzgsLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0
+MzQyMzcxLC0xMzM5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1ND
+QwMCwxODExODkxNTksMTY1MDM5NDA4NywtNzg4OTQ0MTUyLDE0
+OTQ5Mzc2NTJdfQ==
 -->
