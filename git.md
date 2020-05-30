@@ -4,6 +4,9 @@ A version control system to record what was done and when, by who.
 **commit:** record the changes that are made at each step (each one becomes a version with associated information/metadata) when we want it to
 **repository: ** complete history of commits/metadata for a particular project
 **branching: ** go back to previous versions and modify in a different direction
+
+
+
 set up a repository
 manipulate the contents of a repository
 store a repository on GitHub to make it available to others
@@ -34,7 +37,7 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NTY1NTE3LC03MzY0MjEyMzgsLTEwNz
+eyJoaXN0b3J5IjpbMTc2NDIwMzc1LC03MzY0MjEyMzgsLTEwNz
 I4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMzM5ODM3
 MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwxODExODkxNTksMT
 Y1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMjk1Mjc2
