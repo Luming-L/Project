@@ -69,11 +69,11 @@ four states of files in the repository:
 4.  committed to repository
  ```mermaid
 graph LR
-A(Round Rect) -- Link text --> B(Round Rect)
+A(working directory) -- Link text --> B(staging area)
 B  -- Link text --> C(Round Rect)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjY2NTAzOCwyMDUzMzIzMzk0LC02Mz
+eyJoaXN0b3J5IjpbMTU1MTA4MzM5OCwyMDUzMzIzMzk0LC02Mz
 Q3MDU2NDQsMTM2OTA5ODAwNSwxOTA5NjE0NjYxLDIwNjIwMDg4
 NjQsLTE0OTE0MDE4NDAsMjAzMjY2OTY3Nyw5NjM4Njg5OTMsMT
 M4MzcwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0
