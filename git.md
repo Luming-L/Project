@@ -36,6 +36,7 @@ git config --global merge.conflictstyle diff3
 git config --global mergetool.prompt false
 # preferred Unix text editor
 git config --global core.editor "vim -w"
+# list settings
 git config --list
 git config --global core.autocrlf inuput
 git config --global alias.st status
@@ -47,11 +48,11 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQwOTI4NTUsMTM4MzcwMTI2MCwtMT
-M2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQy
-MDM3NSwtNzM2NDIxMjM4LC0xMDcyODEwOTYyLDIxMjE1MzUwMj
-IsMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNTUxMjAwMDEsLTIw
-MTE5NTQ0MDAsMTgxMTg5MTU5LDE2NTAzOTQwODcsLTc4ODk0ND
-E1MiwxNDk0OTM3NjUyLDI5NTI3NjE1MCwxNjQ1MzU4MDQ3LC03
-NzEyNzY2NjRdfQ==
+eyJoaXN0b3J5IjpbOTYzODY4OTkzLDEzODM3MDEyNjAsLTEzNj
+YxNjE0NTEsLTU4Mzk4NzAzMiwtMTkxNDAxMDE3MCwxNzY0MjAz
+NzUsLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1MDIyLD
+EyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0yMDEx
+OTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQxNT
+IsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNzcx
+Mjc2NjY0XX0=
 -->
