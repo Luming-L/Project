@@ -42,7 +42,7 @@ git config --global alias.st status
 # list settings
 git config --list
 ```
-# .gitignore
+ .gitignore
 `.gitignore` tell git which files  shouldn't  be included in the repository.  
 ```bash
 # Create a .gitignore file
@@ -56,12 +56,15 @@ echo -e "**/fastq.gz" >> .gitignore
 # files that are being ignored
 git check-ignore -v *
 ```
+```bash
+the status
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMD
-MyNjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAxMjYwLC0xMzY2MTYx
-NDUxLC01ODM5ODcwMzIsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC
-03MzY0MjEyMzgsLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0
-MzQyMzcxLC0xMzM5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1ND
-QwMCwxODExODkxNTksMTY1MDM5NDA4NywtNzg4OTQ0MTUyLDE0
-OTQ5Mzc2NTJdfQ==
+eyJoaXN0b3J5IjpbMTE2MDA3Mzg3NiwyMDYyMDA4ODY0LC0xND
+kxNDAxODQwLDIwMzI2Njk2NzcsOTYzODY4OTkzLDEzODM3MDEy
+NjAsLTEzNjYxNjE0NTEsLTU4Mzk4NzAzMiwtMTkxNDAxMDE3MC
+wxNzY0MjAzNzUsLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMTIx
+NTM1MDIyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIwMD
+AxLC0yMDExOTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC03
+ODg5NDQxNTJdfQ==
 -->
