@@ -1,7 +1,7 @@
 A version control system to record what was done and when, by who.
 
 # term
-
+**commit: **record the changes that are made at each step (each one becomes a version with associated information/metadata), but only if we want it to
 
 set up a repository
 manipulate the contents of a repository
@@ -33,7 +33,7 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIzMzg1NDUsLTEwNzI4MTA5NjIsMj
+eyJoaXN0b3J5IjpbLTEzNzcxNzAxMzIsLTEwNzI4MTA5NjIsMj
 EyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMzM5ODM3MjU2LC01NTEy
 MDAwMSwtMjAxMTk1NDQwMCwxODExODkxNTksMTY1MDM5NDA4Ny
 wtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMjk1Mjc2MTUwLDE2NDUz
