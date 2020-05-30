@@ -25,7 +25,6 @@ ls -lR .git
 - Global (`/localdisk/home/_s0000000_/.gitconfig` or ~/.config/git/config): at the user level, the most common use
 - System (`/etc/.gitconfig`): at the local system level (all users on this computer), rarely used
 - Local (`/localdisk/home/_s0000000_/LectureExercises/.git/config`): at the repository level. If this `.git/config` file was "committed", the settings contained within would impact all users that clone this repository, so be careful what you commit!
-
 ```bash
 # name and email address
 git config --global user.name "LumingLin"
@@ -36,21 +35,22 @@ git config --global merge.conflictstyle diff3
 git config --global mergetool.prompt false
 # preferred Unix text editor
 git config --global core.editor "vim -w"
-# list settings
-git config --list
 # Specify how git deals with the ends of lines
 git config --global core.autocrlf inuput
-# 
+# Specify an alias
 git config --global alias.st status
-
+# list settings
+git config --list
 ```
-
+# .gitignore
+If we dont want everything, we first need to tell git which files  shouldn't  be included in the repository  
+# Create a .gitignore filetouch .gitignore
 ```bash
 touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDU4MDEwNiw5NjM4Njg5OTMsMTM4Mz
+eyJoaXN0b3J5IjpbMTE3NjM1ODU0Miw5NjM4Njg5OTMsMTM4Mz
 cwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEw
 MTcwLDE3NjQyMDM3NSwtNzM2NDIxMjM4LC0xMDcyODEwOTYyLD
 IxMjE1MzUwMjIsMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNTUx
