@@ -19,6 +19,7 @@ git init
 ls -IR .git
 ls -lR .git
 ```
+# configure
 ```bash
 git config --global user.name "LumingLin"
 git config --global user.email "s1949868@ed.ac.uk"
@@ -37,10 +38,11 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDIwMzc1LC03MzY0MjEyMzgsLTEwNz
-I4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMzM5ODM3
-MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwxODExODkxNTksMT
-Y1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMjk1Mjc2
-MTUwLDE2NDUzNTgwNDcsLTc3MTI3NjY2NCwyNDE2MDQyNDAsLT
-E5NTI3NjE1NTgsODU0MTkzNzE5LDE2MDI5NzI3OTddfQ==
+eyJoaXN0b3J5IjpbMTM2MDAwMDkzMiwxNzY0MjAzNzUsLTczNj
+QyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1MDIyLDEyMTQzNDIz
+NzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0yMDExOTU0NDAwLD
+E4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQxNTIsMTQ5NDkz
+NzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNzcxMjc2NjY0LD
+I0MTYwNDI0MCwtMTk1Mjc2MTU1OCw4NTQxOTM3MTksMTYwMjk3
+Mjc5N119
 -->
