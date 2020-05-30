@@ -1,5 +1,5 @@
 set up a repository
-
+manipulate the contents of a repository
 
 
 
@@ -27,8 +27,8 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTg5MTU5LDE2NTAzOTQwODcsLTc4OD
-k0NDE1MiwxNDk0OTM3NjUyLDI5NTI3NjE1MCwxNjQ1MzU4MDQ3
-LC03NzEyNzY2NjQsMjQxNjA0MjQwLC0xOTUyNzYxNTU4LDg1ND
-E5MzcxOSwxNjAyOTcyNzk3XX0=
+eyJoaXN0b3J5IjpbLTIwMTE5NTQ0MDAsMTgxMTg5MTU5LDE2NT
+AzOTQwODcsLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NTI3NjE1
+MCwxNjQ1MzU4MDQ3LC03NzEyNzY2NjQsMjQxNjA0MjQwLC0xOT
+UyNzYxNTU4LDg1NDE5MzcxOSwxNjAyOTcyNzk3XX0=
 -->
