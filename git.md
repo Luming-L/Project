@@ -3,7 +3,7 @@ A version control system to record what was done and when, by who.
 # term
 **commit: **record the changes that are made at each step (each one becomes a version with associated information/metadata) when we want it to
 **repository: **complete history of commits/metadata for a particular project
-
+**branching: ** 
 set up a repository
 manipulate the contents of a repository
 store a repository on GitHub to make it available to others
@@ -34,10 +34,10 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMT
-IxNTM1MDIyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIw
-MDAxLC0yMDExOTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC
-03ODg5NDQxNTIsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1
-ODA0NywtNzcxMjc2NjY0LDI0MTYwNDI0MCwtMTk1Mjc2MTU1OC
-w4NTQxOTM3MTksMTYwMjk3Mjc5N119
+eyJoaXN0b3J5IjpbNzQxMzk0ODMyLC03MzY0MjEyMzgsLTEwNz
+I4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMzM5ODM3
+MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwxODExODkxNTksMT
+Y1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMjk1Mjc2
+MTUwLDE2NDUzNTgwNDcsLTc3MTI3NjY2NCwyNDE2MDQyNDAsLT
+E5NTI3NjE1NTgsODU0MTkzNzE5LDE2MDI5NzI3OTddfQ==
 -->
