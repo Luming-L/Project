@@ -21,7 +21,8 @@ ls -lR .git
 ```
 # configure
 `git config` will generate `.gitconfig` file that stores git settings.
-A `.gitconfig` file can be found at one or more of three different locations, depending on how we set things up.
+The `.gitconfig` file can be set at one or more of three different locations:
+Global (`/localdisk/home/_s0000000_/.gitconfig` or ~/.config/git/config): the most common use, establishes global configuration options for a particular user
 
 ```bash
 # name and email address
@@ -43,11 +44,11 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mzk4NzAzMiwtMTkxNDAxMDE3MCwxNz
-Y0MjAzNzUsLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1
-MDIyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC
-0yMDExOTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5
-NDQxNTIsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0Ny
-wtNzcxMjc2NjY0LDI0MTYwNDI0MCwtMTk1Mjc2MTU1OCw4NTQx
-OTM3MTldfQ==
+eyJoaXN0b3J5IjpbLTEzNjYxNjE0NTEsLTU4Mzk4NzAzMiwtMT
+kxNDAxMDE3MCwxNzY0MjAzNzUsLTczNjQyMTIzOCwtMTA3Mjgx
+MDk2MiwyMTIxNTM1MDIyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNT
+YsLTU1MTIwMDAxLC0yMDExOTU0NDAwLDE4MTE4OTE1OSwxNjUw
+Mzk0MDg3LC03ODg5NDQxNTIsMTQ5NDkzNzY1MiwyOTUyNzYxNT
+AsMTY0NTM1ODA0NywtNzcxMjc2NjY0LDI0MTYwNDI0MCwtMTk1
+Mjc2MTU1OF19
 -->
