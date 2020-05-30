@@ -30,6 +30,7 @@ ls -lR .git
 # name and email address
 git config --global user.name "LumingLin"
 git config --global user.email "s1949868@ed.ac.uk"
+# merge.tool
 git config --global merge.tool vimdiff
 git config --global merge.conflictstyle diff3
 git config --global mergetool.prompt false
@@ -46,11 +47,11 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzcwMTI2MCwtMTM2NjE2MTQ1MSwtNT
-gzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQyMDM3NSwtNzM2NDIx
-MjM4LC0xMDcyODEwOTYyLDIxMjE1MzUwMjIsMTIxNDM0MjM3MS
-wtMTMzOTgzNzI1NiwtNTUxMjAwMDEsLTIwMTE5NTQ0MDAsMTgx
-MTg5MTU5LDE2NTAzOTQwODcsLTc4ODk0NDE1MiwxNDk0OTM3Nj
-UyLDI5NTI3NjE1MCwxNjQ1MzU4MDQ3LC03NzEyNzY2NjQsMjQx
-NjA0MjQwXX0=
+eyJoaXN0b3J5IjpbLTE4NzQwOTI4NTUsMTM4MzcwMTI2MCwtMT
+M2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQy
+MDM3NSwtNzM2NDIxMjM4LC0xMDcyODEwOTYyLDIxMjE1MzUwMj
+IsMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNTUxMjAwMDEsLTIw
+MTE5NTQ0MDAsMTgxMTg5MTU5LDE2NTAzOTQwODcsLTc4ODk0ND
+E1MiwxNDk0OTM3NjUyLDI5NTI3NjE1MCwxNjQ1MzU4MDQ3LC03
+NzEyNzY2NjRdfQ==
 -->
