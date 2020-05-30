@@ -1,3 +1,5 @@
+We need "version control" so that we have a clear record of what was done and when, by who.
+
 set up a repository
 manipulate the contents of a repository
 store a repository on GitHub to make it available to others
@@ -28,9 +30,9 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0yMD
-ExOTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQx
-NTIsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNz
-cxMjc2NjY0LDI0MTYwNDI0MCwtMTk1Mjc2MTU1OCw4NTQxOTM3
-MTksMTYwMjk3Mjc5N119
+eyJoaXN0b3J5IjpbMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNT
+UxMjAwMDEsLTIwMTE5NTQ0MDAsMTgxMTg5MTU5LDE2NTAzOTQw
+ODcsLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NTI3NjE1MCwxNj
+Q1MzU4MDQ3LC03NzEyNzY2NjQsMjQxNjA0MjQwLC0xOTUyNzYx
+NTU4LDg1NDE5MzcxOSwxNjAyOTcyNzk3XX0=
 -->
