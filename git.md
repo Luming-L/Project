@@ -48,13 +48,16 @@ git config --list
 # Create a .gitignore file
 touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
+# These files could be anywhere in the repository, not just the current directory
+echo -e "**/fastq.gz" >> .gitignore
+allows "bowtie2.log" to evade the ignore list: order is important!# If you want to include a "!" then use an editor to do it
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjY2OTY3Nyw5NjM4Njg5OTMsMTM4Mz
-cwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEw
-MTcwLDE3NjQyMDM3NSwtNzM2NDIxMjM4LC0xMDcyODEwOTYyLD
-IxMjE1MzUwMjIsMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNTUx
-MjAwMDEsLTIwMTE5NTQ0MDAsMTgxMTg5MTU5LDE2NTAzOTQwOD
-csLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NTI3NjE1MCwxNjQ1
-MzU4MDQ3XX0=
+eyJoaXN0b3J5IjpbMTYxODQ0NzI1OCwyMDMyNjY5Njc3LDk2Mz
+g2ODk5MywxMzgzNzAxMjYwLC0xMzY2MTYxNDUxLC01ODM5ODcw
+MzIsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC03MzY0MjEyMzgsLT
+EwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMzM5
+ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwxODExODkxNT
+ksMTY1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMjk1
+Mjc2MTUwXX0=
 -->
