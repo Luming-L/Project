@@ -20,7 +20,9 @@ ls -IR .git
 ls -lR .git
 ```
 # configure
-`git config` will generate `.gitconfig` file that stores all the relevant bits of information for using git.
+`git config` will generate `.gitconfig` file that stores git settings.
+A `.gitconfig` file can be found at one or more of three different locations, depending on how we set things up.
+
 ```bash
 # name and email address
 git config --global user.name "LumingLin"
@@ -41,11 +43,11 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC03Mz
-Y0MjEyMzgsLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQy
-MzcxLC0xMzM5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMC
-wxODExODkxNTksMTY1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OTQ5
-Mzc2NTIsMjk1Mjc2MTUwLDE2NDUzNTgwNDcsLTc3MTI3NjY2NC
-wyNDE2MDQyNDAsLTE5NTI3NjE1NTgsODU0MTkzNzE5LDE2MDI5
-NzI3OTddfQ==
+eyJoaXN0b3J5IjpbLTU4Mzk4NzAzMiwtMTkxNDAxMDE3MCwxNz
+Y0MjAzNzUsLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1
+MDIyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC
+0yMDExOTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5
+NDQxNTIsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0Ny
+wtNzcxMjc2NjY0LDI0MTYwNDI0MCwtMTk1Mjc2MTU1OCw4NTQx
+OTM3MTldfQ==
 -->
