@@ -12,10 +12,11 @@ git config --global mergetool.prompt false
 git config --global core.editor "vim -w"
 git config --list
 git config --global core.autocrlf inuput
-git config --global alias.st
+git config --global alias.st status
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NT
-M1ODA0NywtNzcxMjc2NjY0LDI0MTYwNDI0MCwtMTk1Mjc2MTU1
-OCw4NTQxOTM3MTksMTYwMjk3Mjc5N119
+eyJoaXN0b3J5IjpbLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NT
+I3NjE1MCwxNjQ1MzU4MDQ3LC03NzEyNzY2NjQsMjQxNjA0MjQw
+LC0xOTUyNzYxNTU4LDg1NDE5MzcxOSwxNjAyOTcyNzk3XX0=
 -->
