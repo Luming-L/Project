@@ -67,12 +67,19 @@ four states of files in the repository:
 2.  tracked
 3.  staged for addition
 4.  committed to repository
+ ```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzMyMzM5NCwtNjM0NzA1NjQ0LDEzNj
-kwOTgwMDUsMTkwOTYxNDY2MSwyMDYyMDA4ODY0LC0xNDkxNDAx
-ODQwLDIwMzI2Njk2NzcsOTYzODY4OTkzLDEzODM3MDEyNjAsLT
-EzNjYxNjE0NTEsLTU4Mzk4NzAzMiwtMTkxNDAxMDE3MCwxNzY0
-MjAzNzUsLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1MD
-IyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0y
-MDExOTU0NDAwXX0=
+eyJoaXN0b3J5IjpbMTAzNjk2NTU3MCwyMDUzMzIzMzk0LC02Mz
+Q3MDU2NDQsMTM2OTA5ODAwNSwxOTA5NjE0NjYxLDIwNjIwMDg4
+NjQsLTE0OTE0MDE4NDAsMjAzMjY2OTY3Nyw5NjM4Njg5OTMsMT
+M4MzcwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0
+MDEwMTcwLDE3NjQyMDM3NSwtNzM2NDIxMjM4LC0xMDcyODEwOT
+YyLDIxMjE1MzUwMjIsMTIxNDM0MjM3MSwtMTMzOTgzNzI1Niwt
+NTUxMjAwMDFdfQ==
 -->
