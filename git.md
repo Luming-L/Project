@@ -1,4 +1,4 @@
-We need "version control" so that we have a clear record of what was done and when, by who.
+A "version control" system to record what was done and when, by who.
 
 set up a repository
 manipulate the contents of a repository
@@ -30,9 +30,10 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNT
-UxMjAwMDEsLTIwMTE5NTQ0MDAsMTgxMTg5MTU5LDE2NTAzOTQw
-ODcsLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NTI3NjE1MCwxNj
-Q1MzU4MDQ3LC03NzEyNzY2NjQsMjQxNjA0MjQwLC0xOTUyNzYx
-NTU4LDg1NDE5MzcxOSwxNjAyOTcyNzk3XX0=
+eyJoaXN0b3J5IjpbMjEyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMz
+M5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwxODExODkx
+NTksMTY1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMj
+k1Mjc2MTUwLDE2NDUzNTgwNDcsLTc3MTI3NjY2NCwyNDE2MDQy
+NDAsLTE5NTI3NjE1NTgsODU0MTkzNzE5LDE2MDI5NzI3OTddfQ
+==
 -->
