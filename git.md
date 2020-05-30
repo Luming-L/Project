@@ -19,7 +19,7 @@ git init
 ls -IR .git
 ls -lR .git
 ```
-# configure
+# Configure
 `git config` will generate `.gitconfig` file that stores git settings.
 `.gitconfig` can be set at one or more of three different locations:
 - Global (`/localdisk/home/_s0000000_/.gitconfig` or ~/.config/git/config): at the user level, the most common use
@@ -61,18 +61,18 @@ git check-ignore -v *
 git status
 git st
 ```
-
+# Work
 four states of files in the repository:
 1.  untracked
 2.  tracked
 3.  staged for addition
 4.  committed to repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDcwNTY0NCwxMzY5MDk4MDA1LDE5MD
-k2MTQ2NjEsMjA2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMDMyNjY5
-Njc3LDk2Mzg2ODk5MywxMzgzNzAxMjYwLC0xMzY2MTYxNDUxLC
-01ODM5ODcwMzIsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC03MzY0
-MjEyMzgsLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQyMz
-cxLC0xMzM5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwx
-ODExODkxNTldfQ==
+eyJoaXN0b3J5IjpbMjA1MzMyMzM5NCwtNjM0NzA1NjQ0LDEzNj
+kwOTgwMDUsMTkwOTYxNDY2MSwyMDYyMDA4ODY0LC0xNDkxNDAx
+ODQwLDIwMzI2Njk2NzcsOTYzODY4OTkzLDEzODM3MDEyNjAsLT
+EzNjYxNjE0NTEsLTU4Mzk4NzAzMiwtMTkxNDAxMDE3MCwxNzY0
+MjAzNzUsLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1MD
+IyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0y
+MDExOTU0NDAwXX0=
 -->
