@@ -11,9 +11,10 @@ git config --global merge.conflictstyle diff3
 git config --global mergetool.prompt false
 git config --global core.editor "vim -w"
 git config --list
+git config --global core.autocrlf inuput
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTM1ODA0NywtNzcxMjc2NjY0LDI0MT
-YwNDI0MCwtMTk1Mjc2MTU1OCw4NTQxOTM3MTksMTYwMjk3Mjc5
-N119
+eyJoaXN0b3J5IjpbMjk1Mjc2MTUwLDE2NDUzNTgwNDcsLTc3MT
+I3NjY2NCwyNDE2MDQyNDAsLTE5NTI3NjE1NTgsODU0MTkzNzE5
+LDE2MDI5NzI3OTddfQ==
 -->
