@@ -38,7 +38,9 @@ git config --global mergetool.prompt false
 git config --global core.editor "vim -w"
 # list settings
 git config --list
+# Specify how git deals with the ends of lines
 git config --global core.autocrlf inuput
+# 
 git config --global alias.st status
 
 ```
@@ -48,11 +50,11 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzODY4OTkzLDEzODM3MDEyNjAsLTEzNj
-YxNjE0NTEsLTU4Mzk4NzAzMiwtMTkxNDAxMDE3MCwxNzY0MjAz
-NzUsLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1MDIyLD
-EyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0yMDEx
-OTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQxNT
-IsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNzcx
-Mjc2NjY0XX0=
+eyJoaXN0b3J5IjpbMTM5NDU4MDEwNiw5NjM4Njg5OTMsMTM4Mz
+cwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEw
+MTcwLDE3NjQyMDM3NSwtNzM2NDIxMjM4LC0xMDcyODEwOTYyLD
+IxMjE1MzUwMjIsMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNTUx
+MjAwMDEsLTIwMTE5NTQ0MDAsMTgxMTg5MTU5LDE2NTAzOTQwOD
+csLTc4ODk0NDE1MiwxNDk0OTM3NjUyLDI5NTI3NjE1MCwxNjQ1
+MzU4MDQ3XX0=
 -->
