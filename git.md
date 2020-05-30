@@ -1,7 +1,8 @@
 A version control system to record what was done and when, by who.
 
 # term
-**commit: **record the changes that are made at each step (each one becomes a version with associated information/metadata), but only if we want it to
+**commit: **record the changes that are made at each step (each one becomes a version with associated information/metadata) when we want it to
+**repository: **complete history of commits/metadata for a particular project
 
 set up a repository
 manipulate the contents of a repository
@@ -33,10 +34,10 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcxNzAxMzIsLTEwNzI4MTA5NjIsMj
-EyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMzM5ODM3MjU2LC01NTEy
-MDAwMSwtMjAxMTk1NDQwMCwxODExODkxNTksMTY1MDM5NDA4Ny
-wtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMjk1Mjc2MTUwLDE2NDUz
-NTgwNDcsLTc3MTI3NjY2NCwyNDE2MDQyNDAsLTE5NTI3NjE1NT
-gsODU0MTkzNzE5LDE2MDI5NzI3OTddfQ==
+eyJoaXN0b3J5IjpbLTczNjQyMTIzOCwtMTA3MjgxMDk2MiwyMT
+IxNTM1MDIyLDEyMTQzNDIzNzEsLTEzMzk4MzcyNTYsLTU1MTIw
+MDAxLC0yMDExOTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC
+03ODg5NDQxNTIsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1
+ODA0NywtNzcxMjc2NjY0LDI0MTYwNDI0MCwtMTk1Mjc2MTU1OC
+w4NTQxOTM3MTksMTYwMjk3Mjc5N119
 -->
