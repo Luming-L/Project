@@ -1,7 +1,8 @@
 set up a repository
 manipulate the contents of a repository
 store a repository on GitHub to make it available to others
-
+interact with our repository/repositories on GitHub
+toring code in repositories, and/or on GitHub
 
 
 ```bash
@@ -27,9 +28,9 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTIwMDAxLC0yMDExOTU0NDAwLDE4MT
-E4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQxNTIsMTQ5NDkzNzY1
-MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNzcxMjc2NjY0LDI0MT
-YwNDI0MCwtMTk1Mjc2MTU1OCw4NTQxOTM3MTksMTYwMjk3Mjc5
-N119
+eyJoaXN0b3J5IjpbLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0yMD
+ExOTU0NDAwLDE4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQx
+NTIsMTQ5NDkzNzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNz
+cxMjc2NjY0LDI0MTYwNDI0MCwtMTk1Mjc2MTU1OCw4NTQxOTM3
+MTksMTYwMjk3Mjc5N119
 -->
