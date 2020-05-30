@@ -23,6 +23,7 @@ ls -lR .git
 `git config` will generate `.gitconfig` file that stores git settings.
 `.gitconfig` can be set at one or more of three different locations:
 - Global (`/localdisk/home/_s0000000_/.gitconfig` or ~/.config/git/config): the most common use, establishes for a particular user
+- System (`/etc/.gitconfig`): rarely used, establishes for the entirety of the local system (all users on this computer\).
 
 ```bash
 # name and email address
@@ -44,7 +45,7 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MjYwNjY4LC0xMzY2MTYxNDUxLC01OD
+eyJoaXN0b3J5IjpbNTU2ODY0NTM0LC0xMzY2MTYxNDUxLC01OD
 M5ODcwMzIsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC03MzY0MjEy
 MzgsLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQyMzcxLC
 0xMzM5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwxODEx
