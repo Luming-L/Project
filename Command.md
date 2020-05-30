@@ -18,6 +18,7 @@ Shebang #!/bin/sh
 "--strip-components 8" extracts the files without copying their original directory structure: tar -zxvf file_name.tgz --strip-components 8
 解压.gz文件 gzip -d CTCF_SE_CTRL_chr22_50k.bed.gz
 显示文件某一列出现的不重复字符 awk '{print $4}' run_pileup_CTRL.bed.bdg | sort | uniq
+创建新的目录和它的子目录 mkdir -p LectureExercises/Lecture03
 df -h ./ 
 du -h ./
 # Vim
@@ -32,10 +33,10 @@ du -h ./
 -   Visual - p
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTI0NjAwNywtMzUwNzk5Nzc5LC0xNT
-gwNTUxNDY5LC0xODM0MzQ2NDc2LDE1NDY4MDE5ODgsMjQ0OTY5
-NjM5LDg5MDcyMTM0MCwxMDI0MDEzMjc3LDIxMTE0MjY3NzcsLT
-YwNTQ1ODQ0NSwtMjU1MTAzMzcsLTE3NTAzNDIwOTUsMTQxMDcx
-MjU2MywxMjg0NzIyNDc4LDMwMzQ4NzQ3NiwtMTk3OTM5OTYzNC
-wtNjk1ODMzODYyLC0xMDg4ODcyNTAwXX0=
+eyJoaXN0b3J5IjpbMjA2MjM0OTg0LDIwMzUyNDYwMDcsLTM1MD
+c5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0NjQ3NiwxNTQ2ODAx
+OTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMTAyNDAxMzI3NywyMT
+ExNDI2Nzc3LC02MDU0NTg0NDUsLTI1NTEwMzM3LC0xNzUwMzQy
+MDk1LDE0MTA3MTI1NjMsMTI4NDcyMjQ3OCwzMDM0ODc0NzYsLT
+E5NzkzOTk2MzQsLTY5NTgzMzg2MiwtMTA4ODg3MjUwMF19
 -->
