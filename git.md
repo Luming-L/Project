@@ -21,11 +21,13 @@ ls -lR .git
 ```
 # configure
 ```bash
+# name and email address
 git config --global user.name "LumingLin"
 git config --global user.email "s1949868@ed.ac.uk"
 git config --global merge.tool vimdiff
 git config --global merge.conflictstyle diff3
 git config --global mergetool.prompt false
+# preferred Unix text editor
 git config --global core.editor "vim -w"
 git config --list
 git config --global core.autocrlf inuput
@@ -38,11 +40,11 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDAwMDkzMiwxNzY0MjAzNzUsLTczNj
-QyMTIzOCwtMTA3MjgxMDk2MiwyMTIxNTM1MDIyLDEyMTQzNDIz
-NzEsLTEzMzk4MzcyNTYsLTU1MTIwMDAxLC0yMDExOTU0NDAwLD
-E4MTE4OTE1OSwxNjUwMzk0MDg3LC03ODg5NDQxNTIsMTQ5NDkz
-NzY1MiwyOTUyNzYxNTAsMTY0NTM1ODA0NywtNzcxMjc2NjY0LD
-I0MTYwNDI0MCwtMTk1Mjc2MTU1OCw4NTQxOTM3MTksMTYwMjk3
-Mjc5N119
+eyJoaXN0b3J5IjpbNjU3MzY2NTMsMTc2NDIwMzc1LC03MzY0Mj
+EyMzgsLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0MzQyMzcx
+LC0xMzM5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1NDQwMCwxOD
+ExODkxNTksMTY1MDM5NDA4NywtNzg4OTQ0MTUyLDE0OTQ5Mzc2
+NTIsMjk1Mjc2MTUwLDE2NDUzNTgwNDcsLTc3MTI3NjY2NCwyND
+E2MDQyNDAsLTE5NTI3NjE1NTgsODU0MTkzNzE5LDE2MDI5NzI3
+OTddfQ==
 -->
