@@ -1,5 +1,8 @@
 A version control system to record what was done and when, by who.
 
+# term
+
+
 set up a repository
 manipulate the contents of a repository
 store a repository on GitHub to make it available to others
@@ -30,10 +33,10 @@ touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMj
-E0MzQyMzcxLC0xMzM5ODM3MjU2LC01NTEyMDAwMSwtMjAxMTk1
-NDQwMCwxODExODkxNTksMTY1MDM5NDA4NywtNzg4OTQ0MTUyLD
-E0OTQ5Mzc2NTIsMjk1Mjc2MTUwLDE2NDUzNTgwNDcsLTc3MTI3
-NjY2NCwyNDE2MDQyNDAsLTE5NTI3NjE1NTgsODU0MTkzNzE5LD
-E2MDI5NzI3OTddfQ==
+eyJoaXN0b3J5IjpbLTE0NzIzMzg1NDUsLTEwNzI4MTA5NjIsMj
+EyMTUzNTAyMiwxMjE0MzQyMzcxLC0xMzM5ODM3MjU2LC01NTEy
+MDAwMSwtMjAxMTk1NDQwMCwxODExODkxNTksMTY1MDM5NDA4Ny
+wtNzg4OTQ0MTUyLDE0OTQ5Mzc2NTIsMjk1Mjc2MTUwLDE2NDUz
+NTgwNDcsLTc3MTI3NjY2NCwyNDE2MDQyNDAsLTE5NTI3NjE1NT
+gsODU0MTkzNzE5LDE2MDI5NzI3OTddfQ==
 -->
