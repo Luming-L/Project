@@ -43,14 +43,14 @@ git config --global alias.st status
 git config --list
 ```
 # .gitignore
-If we dont want everything, we first need to tell git which files  shouldn't  be included in the repository  
-# Create a .gitignore filetouch .gitignore
+`.gitignore` tell git which files  shouldn't  be included in the repository.  
 ```bash
+# Create a .gitignore file
 touch .gitignore
 echo -e "mypasswordsfile\n*.pdf\n*.c\n*.log" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjM1ODU0Miw5NjM4Njg5OTMsMTM4Mz
+eyJoaXN0b3J5IjpbMjAzMjY2OTY3Nyw5NjM4Njg5OTMsMTM4Mz
 cwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEw
 MTcwLDE3NjQyMDM3NSwtNzM2NDIxMjM4LC0xMDcyODEwOTYyLD
 IxMjE1MzUwMjIsMTIxNDM0MjM3MSwtMTMzOTgzNzI1NiwtNTUx
