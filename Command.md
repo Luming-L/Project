@@ -21,7 +21,7 @@ Shebang #!/bin/sh
 创建新的目录和它的子目录 mkdir -p LectureExercises/Lecture03
 df -h ./ 
 du -h ./
-# Vim
+# vim
 -   $
 -   ^
 -   GG
@@ -31,12 +31,20 @@ du -h ./
 -   Visual - d
 -   Visual - y
 -   Visual - p
+# awk
+关于 awk 脚本，我们需要注意两个关键词 BEGIN 和 END。
+-   BEGIN{ 这里面放的是执行前的语句 }
+-   END {这里面放的是处理完所有的行后要执行的语句 }
+-   {这里面放的是处理每一行时要执行的语句}
+```bash
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjM0OTg0LDIwMzUyNDYwMDcsLTM1MD
-c5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0NjQ3NiwxNTQ2ODAx
-OTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMTAyNDAxMzI3NywyMT
-ExNDI2Nzc3LC02MDU0NTg0NDUsLTI1NTEwMzM3LC0xNzUwMzQy
-MDk1LDE0MTA3MTI1NjMsMTI4NDcyMjQ3OCwzMDM0ODc0NzYsLT
-E5NzkzOTk2MzQsLTY5NTgzMzg2MiwtMTA4ODg3MjUwMF19
+eyJoaXN0b3J5IjpbLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMz
+UyNDYwMDcsLTM1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0
+NjQ3NiwxNTQ2ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMT
+AyNDAxMzI3NywyMTExNDI2Nzc3LC02MDU0NTg0NDUsLTI1NTEw
+MzM3LC0xNzUwMzQyMDk1LDE0MTA3MTI1NjMsMTI4NDcyMjQ3OC
+wzMDM0ODc0NzYsLTE5NzkzOTk2MzQsLTY5NTgzMzg2MiwtMTA4
+ODg3MjUwMF19
 -->
