@@ -37,14 +37,19 @@ du -h ./
 -   END {这里面放的是处理完所有的行后要执行的语句 }
 -   {这里面放的是处理每一行时要执行的语句}
 ```bash
-
+# 先判断当前行是不是 > 开头，如果是，表示是序列名字行，替换掉大于号，取出名字。
+# sub 替换, sub(被替换的部分，要替换成的，待替换字符串)
+# 如果不以大于号开头，则为序列行，存储起来。
+# seq[name]: 相当于建一个字典，name为key，序列为值。然后就可以使用name调取序列。
+# ~ 表示模式开始。// 匹配代码块，可以是字符串或正则表达式
+$ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMz
-UyNDYwMDcsLTM1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0
-NjQ3NiwxNTQ2ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMT
-AyNDAxMzI3NywyMTExNDI2Nzc3LC02MDU0NTg0NDUsLTI1NTEw
-MzM3LC0xNzUwMzQyMDk1LDE0MTA3MTI1NjMsMTI4NDcyMjQ3OC
-wzMDM0ODc0NzYsLTE5NzkzOTk2MzQsLTY5NTgzMzg2MiwtMTA4
-ODg3MjUwMF19
+eyJoaXN0b3J5IjpbLTM1Mzc2OTcxOCwtMTQwNDA2Nzg3NCwyMD
+YyMzQ5ODQsMjAzNTI0NjAwNywtMzUwNzk5Nzc5LC0xNTgwNTUx
+NDY5LC0xODM0MzQ2NDc2LDE1NDY4MDE5ODgsMjQ0OTY5NjM5LD
+g5MDcyMTM0MCwxMDI0MDEzMjc3LDIxMTE0MjY3NzcsLTYwNTQ1
+ODQ0NSwtMjU1MTAzMzcsLTE3NTAzNDIwOTUsMTQxMDcxMjU2My
+wxMjg0NzIyNDc4LDMwMzQ4NzQ3NiwtMTk3OTM5OTYzNCwtNjk1
+ODMzODYyXX0=
 -->
