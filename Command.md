@@ -19,6 +19,7 @@ Shebang #!/bin/sh
 解压.gz文件 gzip -d CTCF_SE_CTRL_chr22_50k.bed.gz
 显示文件某一列出现的不重复字符 awk '{print $4}' run_pileup_CTRL.bed.bdg | sort | uniq
 创建新的目录和它的子目录 mkdir -p LectureExercises/Lecture03
+显示目标文件夹包含文件以及路径 ls PeakFasta/*
 df -h ./ 
 du -h ./
 # vim
@@ -45,11 +46,11 @@ du -h ./
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Mzc2OTcxOCwtMTQwNDA2Nzg3NCwyMD
-YyMzQ5ODQsMjAzNTI0NjAwNywtMzUwNzk5Nzc5LC0xNTgwNTUx
-NDY5LC0xODM0MzQ2NDc2LDE1NDY4MDE5ODgsMjQ0OTY5NjM5LD
-g5MDcyMTM0MCwxMDI0MDEzMjc3LDIxMTE0MjY3NzcsLTYwNTQ1
-ODQ0NSwtMjU1MTAzMzcsLTE3NTAzNDIwOTUsMTQxMDcxMjU2My
-wxMjg0NzIyNDc4LDMwMzQ4NzQ3NiwtMTk3OTM5OTYzNCwtNjk1
-ODMzODYyXX0=
+eyJoaXN0b3J5IjpbLTk0MTY4OTM1NiwtMzUzNzY5NzE4LC0xND
+A0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC0zNTA3OTk3
+NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0NjgwMTk4OC
+wyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQy
+Njc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5NS
+wxNDEwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3NDc2LC0xOTc5
+Mzk5NjM0XX0=
 -->
