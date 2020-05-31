@@ -78,13 +78,15 @@ git add motif_file.txt
 # commit what is staged
 # AND give it a comment/message
 git commit -m "First file added"
+# stage the .gitignore file too, for if/when we share the repository
+git add .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjg0NDE3Niw5NjE5NjgzMTUsMTEzMz
-c4NDIzOCwyMDUzMzIzMzk0LC02MzQ3MDU2NDQsMTM2OTA5ODAw
-NSwxOTA5NjE0NjYxLDIwNjIwMDg4NjQsLTE0OTE0MDE4NDAsMj
-AzMjY2OTY3Nyw5NjM4Njg5OTMsMTM4MzcwMTI2MCwtMTM2NjE2
-MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQyMDM3NS
-wtNzM2NDIxMjM4LC0xMDcyODEwOTYyLDIxMjE1MzUwMjIsMTIx
-NDM0MjM3MV19
+eyJoaXN0b3J5IjpbNjE2ODcxMjU2LDk2MTk2ODMxNSwxMTMzNz
+g0MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4MDA1
+LDE5MDk2MTQ2NjEsMjA2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMD
+MyNjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAxMjYwLC0xMzY2MTYx
+NDUxLC01ODM5ODcwMzIsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC
+03MzY0MjEyMzgsLTEwNzI4MTA5NjIsMjEyMTUzNTAyMiwxMjE0
+MzQyMzcxXX0=
 -->
