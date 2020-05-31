@@ -81,12 +81,15 @@ git commit -m "First file added"
 # stage the .gitignore file, for if/when we share the repository
 git add .gitignore
 ```
+
+# Zip
+Make a zip file for the Assignment, move the file into the zipzip -m Assignment.zip motif_file.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjA1NjU4OCw5NjE5NjgzMTUsMTEzMz
-c4NDIzOCwyMDUzMzIzMzk0LC02MzQ3MDU2NDQsMTM2OTA5ODAw
-NSwxOTA5NjE0NjYxLDIwNjIwMDg4NjQsLTE0OTE0MDE4NDAsMj
-AzMjY2OTY3Nyw5NjM4Njg5OTMsMTM4MzcwMTI2MCwtMTM2NjE2
-MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQyMDM3NS
-wtNzM2NDIxMjM4LC0xMDcyODEwOTYyLDIxMjE1MzUwMjIsMTIx
-NDM0MjM3MV19
+eyJoaXN0b3J5IjpbMTMwMjg3MDg3MCwxNTcyMDU2NTg4LDk2MT
+k2ODMxNSwxMTMzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0
+NCwxMzY5MDk4MDA1LDE5MDk2MTQ2NjEsMjA2MjAwODg2NCwtMT
+Q5MTQwMTg0MCwyMDMyNjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAx
+MjYwLC0xMzY2MTYxNDUxLC01ODM5ODcwMzIsLTE5MTQwMTAxNz
+AsMTc2NDIwMzc1LC03MzY0MjEyMzgsLTEwNzI4MTA5NjIsMjEy
+MTUzNTAyMl19
 -->
