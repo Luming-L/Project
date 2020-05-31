@@ -80,6 +80,7 @@ git add motif_file.txt
 git commit -m "First file added"
 # stage the .gitignore file, for if/when we share the repository
 git add .gitignore
+# remove a file from the staging area
 ```bash
 # log
 git log
@@ -92,11 +93,11 @@ git log --oneline
 zip -m Assignment.zip motif_file.txt
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA5NTE5MTUsLTExNTQ2MzIwOTQsMT
-MwMjg3MDg3MCwxNTcyMDU2NTg4LDk2MTk2ODMxNSwxMTMzNzg0
-MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4MDA1LD
-E5MDk2MTQ2NjEsMjA2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMDMy
-NjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAxMjYwLC0xMzY2MTYxND
-UxLC01ODM5ODcwMzIsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC03
-MzY0MjEyMzhdfQ==
+eyJoaXN0b3J5IjpbLTE5MTMyNjgyLC0xMTU0NjMyMDk0LDEzMD
+I4NzA4NzAsMTU3MjA1NjU4OCw5NjE5NjgzMTUsMTEzMzc4NDIz
+OCwyMDUzMzIzMzk0LC02MzQ3MDU2NDQsMTM2OTA5ODAwNSwxOT
+A5NjE0NjYxLDIwNjIwMDg4NjQsLTE0OTE0MDE4NDAsMjAzMjY2
+OTY3Nyw5NjM4Njg5OTMsMTM4MzcwMTI2MCwtMTM2NjE2MTQ1MS
+wtNTgzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQyMDM3NSwtNzM2
+NDIxMjM4XX0=
 -->
