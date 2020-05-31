@@ -83,13 +83,15 @@ git add .gitignore
 ```
 
 # Zip
-Make a zip file for the Assignment, move the file into the zipzip -m Assignment.zip motif_file.txt
+```
+#Make a zip file, move the file into the zip
+zip -m Assignment.zip motif_file.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjg3MDg3MCwxNTcyMDU2NTg4LDk2MT
-k2ODMxNSwxMTMzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0
-NCwxMzY5MDk4MDA1LDE5MDk2MTQ2NjEsMjA2MjAwODg2NCwtMT
-Q5MTQwMTg0MCwyMDMyNjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAx
-MjYwLC0xMzY2MTYxNDUxLC01ODM5ODcwMzIsLTE5MTQwMTAxNz
-AsMTc2NDIwMzc1LC03MzY0MjEyMzgsLTEwNzI4MTA5NjIsMjEy
-MTUzNTAyMl19
+eyJoaXN0b3J5IjpbLTE1ODMyNjM0OTYsMTMwMjg3MDg3MCwxNT
+cyMDU2NTg4LDk2MTk2ODMxNSwxMTMzNzg0MjM4LDIwNTMzMjMz
+OTQsLTYzNDcwNTY0NCwxMzY5MDk4MDA1LDE5MDk2MTQ2NjEsMj
+A2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMDMyNjY5Njc3LDk2Mzg2
+ODk5MywxMzgzNzAxMjYwLC0xMzY2MTYxNDUxLC01ODM5ODcwMz
+IsLTE5MTQwMTAxNzAsMTc2NDIwMzc1LC03MzY0MjEyMzgsLTEw
+NzI4MTA5NjJdfQ==
 -->
