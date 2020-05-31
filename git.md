@@ -83,11 +83,12 @@ git add .gitignore
 ```
 
 # Zip
-```
+```bash
 #Make a zip file, move the file into the zip
 zip -m Assignment.zip motif_file.txt
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODMyNjM0OTYsMTMwMjg3MDg3MCwxNT
+eyJoaXN0b3J5IjpbLTExNTQ2MzIwOTQsMTMwMjg3MDg3MCwxNT
 cyMDU2NTg4LDk2MTk2ODMxNSwxMTMzNzg0MjM4LDIwNTMzMjMz
 OTQsLTYzNDcwNTY0NCwxMzY5MDk4MDA1LDE5MDk2MTQ2NjEsMj
 A2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMDMyNjY5Njc3LDk2Mzg2
