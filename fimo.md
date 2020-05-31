@@ -2,7 +2,11 @@
 `motif file`
 `sequence file`
 # Output
+# Result
+## ACC
+### SECTION I: HIGH-SCORING MOTIF OCCURENCES
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM4NDU3MzMsMTc3ODY4Nzk3OSwyMD
-U4ODgxMTk1XX0=
+eyJoaXN0b3J5IjpbNDk1MzQ3MzAyLC0xNjgzODQ1NzMzLDE3Nz
+g2ODc5NzksMjA1ODg4MTE5NV19
 -->
