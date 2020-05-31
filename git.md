@@ -73,15 +73,18 @@ A(working directory) -- git add --> B(staging area)
 B  -- git commit --> C(repository)
 ```
 ```bash
-#stage" the file
+#stage the file
 git add motif_file.txt
+# commit what is staged
+# AND give it a comment/message
+git commit -m "First file added"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxOTY4MzE1LDExMzM3ODQyMzgsMjA1Mz
-MyMzM5NCwtNjM0NzA1NjQ0LDEzNjkwOTgwMDUsMTkwOTYxNDY2
-MSwyMDYyMDA4ODY0LC0xNDkxNDAxODQwLDIwMzI2Njk2NzcsOT
-YzODY4OTkzLDEzODM3MDEyNjAsLTEzNjYxNjE0NTEsLTU4Mzk4
-NzAzMiwtMTkxNDAxMDE3MCwxNzY0MjAzNzUsLTczNjQyMTIzOC
-wtMTA3MjgxMDk2MiwyMTIxNTM1MDIyLDEyMTQzNDIzNzEsLTEz
-Mzk4MzcyNTZdfQ==
+eyJoaXN0b3J5IjpbMTMwMjg0NDE3Niw5NjE5NjgzMTUsMTEzMz
+c4NDIzOCwyMDUzMzIzMzk0LC02MzQ3MDU2NDQsMTM2OTA5ODAw
+NSwxOTA5NjE0NjYxLDIwNjIwMDg4NjQsLTE0OTE0MDE4NDAsMj
+AzMjY2OTY3Nyw5NjM4Njg5OTMsMTM4MzcwMTI2MCwtMTM2NjE2
+MTQ1MSwtNTgzOTg3MDMyLC0xOTE0MDEwMTcwLDE3NjQyMDM3NS
+wtNzM2NDIxMjM4LC0xMDcyODEwOTYyLDIxMjE1MzUwMjIsMTIx
+NDM0MjM3MV19
 -->
