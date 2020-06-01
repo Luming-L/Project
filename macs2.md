@@ -17,6 +17,9 @@ By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=
 ```bash
 macs2 filterdup -i CTCF_SE_ChIP_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_ChIP_chr22_50k_filterdup.bed
 filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50k_filterdup.bed
+wc -l CTCF_SE_ChIP_chr22_50k_filterdup.bed # 48047 CTCF_SE_ChIP_chr22_50k_filterdup.bed
+wc -l CTCF_SE_CTRL_chr22_50k_filterdup.bed # 50783 CTCF_SE_CTRL_chr22_50k_filterdup.bed
+
 ```
 # Step 2: Decide the fragment length d
 # Step 3: Extend ChIP sample to get ChIP coverage track
@@ -31,7 +34,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjE0MzEzNiwtMTk5NDE2NDcwOCwtMT
-MzODEzOTgxMSwxMDkxNTcyODAxLDE0ODYzOTcwNTIsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTQ5NzQ2NTc3MCwxMjM2MTQzMTM2LC0xOT
+k0MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MDEsMTQ4NjM5
+NzA1MiwtMjA4ODc0NjYxMl19
 -->
