@@ -1,4 +1,4 @@
-## convert BigWig to bedgraph
+## convert BigWig to BedGraph
 [BigWigtoBedGraph](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
 ## call peaks from bedgraph
 --shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01
@@ -19,5 +19,5 @@ bdgpeakcall
 ## find PRDM9 motif within each peak region
 Fimo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM1MTI1MzddfQ==
+eyJoaXN0b3J5IjpbLTE5NjYzMzU4MzNdfQ==
 -->
