@@ -1,6 +1,7 @@
 Find Individual Motif Occurrences
 # Knowledge
 A motif is a sequence pattern that occurs repeatedly in a group of related sequences.
+Motifs in the MEME Suite are represented as position-dependent letter-probability matrices that describe the probability of each possible letter at each position in the pattern.
 # Options
 `--parse-genomic--coord`
 `--thresh`
@@ -18,9 +19,9 @@ score
 p-value
 q-value: The _p_-values for each motif occurrence are converted to _q_-values following the method of Benjamini and Hochberg ("_q_-value" is defined as the minimal false discovery rate at which a given motif occurrence is deemed significant).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjA2Mzc2MCwxNjA3Njk2NjcsNDc1ND
-I2NTQ1LDE0OTI1MTkzMTksMTE3NzkwMDgxMyw0MDgwMzkxMDQs
-LTIwMTEzNTA4NjgsODQzODA3NDY4LC05ODQzNjgzMzMsMTkxND
-c4NDkxNiwtMTY4Mzg0NTczMywxNzc4Njg3OTc5LDIwNTg4ODEx
-OTVdfQ==
+eyJoaXN0b3J5IjpbNTk2NTAzMDU4LDE2MDc2OTY2Nyw0NzU0Mj
+Y1NDUsMTQ5MjUxOTMxOSwxMTc3OTAwODEzLDQwODAzOTEwNCwt
+MjAxMTM1MDg2OCw4NDM4MDc0NjgsLTk4NDM2ODMzMywxOTE0Nz
+g0OTE2LC0xNjgzODQ1NzMzLDE3Nzg2ODc5NzksMjA1ODg4MTE5
+NV19
 -->
