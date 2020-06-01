@@ -9,9 +9,9 @@ A text file in MEME minimal motif format can contain more than one motif, and al
 `--max-stored-scores`
 # Input
 `motif file`
-motif alphabet
-background frequencies of the letters in the alphabet, and 
-strand information
+- motif alphabet
+- background frequencies of the letters in the alphabet
+- strand information
 `sequence file`
 # Output
 # Result
@@ -23,9 +23,9 @@ score
 p-value
 q-value: The _p_-values for each motif occurrence are converted to _q_-values following the method of Benjamini and Hochberg ("_q_-value" is defined as the minimal false discovery rate at which a given motif occurrence is deemed significant).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjEwNjE2MSw3MzQ1MTE1NjksMTYwNz
-Y5NjY3LDQ3NTQyNjU0NSwxNDkyNTE5MzE5LDExNzc5MDA4MTMs
-NDA4MDM5MTA0LC0yMDExMzUwODY4LDg0MzgwNzQ2OCwtOTg0Mz
-Y4MzMzLDE5MTQ3ODQ5MTYsLTE2ODM4NDU3MzMsMTc3ODY4Nzk3
-OSwyMDU4ODgxMTk1XX0=
+eyJoaXN0b3J5IjpbLTEzMjQxNDY5MTEsNzM0NTExNTY5LDE2MD
+c2OTY2Nyw0NzU0MjY1NDUsMTQ5MjUxOTMxOSwxMTc3OTAwODEz
+LDQwODAzOTEwNCwtMjAxMTM1MDg2OCw4NDM4MDc0NjgsLTk4ND
+M2ODMzMywxOTE0Nzg0OTE2LC0xNjgzODQ1NzMzLDE3Nzg2ODc5
+NzksMjA1ODg4MTE5NV19
 -->
