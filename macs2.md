@@ -13,6 +13,7 @@ The q-value (minimum FDR) cutoff to call significant regions. Default is 0.05. F
 
 # Step 1: Filter duplicates
 Remove the redundant reads at each genomic loci in Control and ChIP data.
+By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=1_ for _callpeak_.
 ```bash
 macs2 filterdup -i CTCF_SE_ChIP_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_ChIP_chr22_50k_filterdup.bed
 filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50k_filterdup.bed
@@ -30,6 +31,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQxNjQ3MDgsLTEzMzgxMzk4MTEsMT
-A5MTU3MjgwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTIzNjE0MzEzNiwtMTk5NDE2NDcwOCwtMT
+MzODEzOTgxMSwxMDkxNTcyODAxLDE0ODYzOTcwNTIsLTIwODg3
+NDY2MTJdfQ==
 -->
