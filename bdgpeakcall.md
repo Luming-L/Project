@@ -4,6 +4,11 @@
 ## convert BigWig to BedGraph
 [BigWigtoBedGraph](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
 ## call peaks from bedgraph
+extract all the files 
+
+
+
+
 --shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01
 bdgpeakcall
 [ATAC-seq analysis](https://yiweiniu.github.io/blog/2019/03/ATAC-seq-data-analysis-from-FASTQ-to-peaks/)
@@ -22,5 +27,6 @@ bdgpeakcall
 ## find PRDM9 motif within each peak region
 Fimo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Njk5ODI2MCwtMzQxMDgyMDE2XX0=
+eyJoaXN0b3J5IjpbLTIxMTM0ODYyNjgsMTM5Njk5ODI2MCwtMz
+QxMDgyMDE2XX0=
 -->
