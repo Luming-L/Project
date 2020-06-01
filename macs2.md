@@ -5,7 +5,9 @@ macs2 callpeak -t ChIP.bam -c Control.bam -f BED -g hs -n test -B -q 0.01
 `-f`/`--format FORMAT`
 MACS2 can detect and read gzipped file. For example,  `.bed.gz`  file can be directly used without being uncompressed with  `--format BED`.
 
-Here are detailed explanation of the recommanded formats:
+##### `-n`/`--name`
+
+The name string of the experiment. MACS will use this string NAME to create output files like  `NAME_peaks.xls`,  `NAME_negative_peaks.xls`,  `NAME_peaks.bed`  ,  `NAME_summits.bed`,  `NAME_model.r`  and so on. So please avoid any confliction between these filenames and your existing files.
 
 # Step 1: Filter duplicates
 # Step 2: Decide the fragment length d
@@ -21,6 +23,6 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU3MjAwMzYsMTQ4NjM5NzA1MiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTU5NTU0NjYwLDE0ODYzOTcwNTIsLTIwOD
+g3NDY2MTJdfQ==
 -->
