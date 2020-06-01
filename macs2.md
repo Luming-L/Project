@@ -24,6 +24,7 @@ ChIP: tag size = 101 tags after filtering in alignment file: 48047
 CRTL: tag size = 101 tags after filtering in alignment file: 50783
 They will be used to scale the ChIP and control signals to the same depth.
 # Step 2: Decide the fragment length d
+
 # Step 3: Extend ChIP sample to get ChIP coverage track
 Step 4: Build local bias track from control
 The d background
@@ -36,7 +37,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjkyNDkxNywxMjM2MTQzMTM2LC0xOT
-k0MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MDEsMTQ4NjM5
-NzA1MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjEyNjYxMjkzNSwxNDgyOTI0OTE3LDEyMz
+YxNDMxMzYsLTE5OTQxNjQ3MDgsLTEzMzgxMzk4MTEsMTA5MTU3
+MjgwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2NjEyXX0=
 -->
