@@ -1,3 +1,4 @@
+
 # Input
 `motif file`
 `sequence file`
@@ -9,6 +10,7 @@
 p-value
 q-value
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDM2ODMzMywxOTE0Nzg0OTE2LC0xNj
-gzODQ1NzMzLDE3Nzg2ODc5NzksMjA1ODg4MTE5NV19
+eyJoaXN0b3J5IjpbLTIwOTY1MTI3OTksLTk4NDM2ODMzMywxOT
+E0Nzg0OTE2LC0xNjgzODQ1NzMzLDE3Nzg2ODc5NzksMjA1ODg4
+MTE5NV19
 -->
