@@ -19,8 +19,8 @@ macs2 filterdup -i CTCF_SE_ChIP_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_ChIP_ch
 filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50k_filterdup.bed
 wc -l CTCF_SE_ChIP_chr22_50k_filterdup.bed # 48047 CTCF_SE_ChIP_chr22_50k_filterdup.bed
 wc -l CTCF_SE_CTRL_chr22_50k_filterdup.bed # 50783 CTCF_SE_CTRL_chr22_50k_filterdup.bed
-
 ```
+ChIP: tag size = 101
 # Step 2: Decide the fragment length d
 # Step 3: Extend ChIP sample to get ChIP coverage track
 Step 4: Build local bias track from control
@@ -34,7 +34,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzQ2NTc3MCwxMjM2MTQzMTM2LC0xOT
-k0MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MDEsMTQ4NjM5
-NzA1MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyNDA4NDY2NTQsMTIzNjE0MzEzNiwtMT
+k5NDE2NDcwOCwtMTMzODEzOTgxMSwxMDkxNTcyODAxLDE0ODYz
+OTcwNTIsLTIwODg3NDY2MTJdfQ==
 -->
