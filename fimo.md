@@ -1,4 +1,6 @@
 Find Individual Motif Occurrences
+# Options
+`--parse-genomic--coord`
 # Input
 `motif file`
 `sequence file`
@@ -12,7 +14,7 @@ The lines are sorted in order of decreasing statistical significance (increasing
 p-value
 q-value
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTEzNTA4NjgsODQzODA3NDY4LC05OD
-QzNjgzMzMsMTkxNDc4NDkxNiwtMTY4Mzg0NTczMywxNzc4Njg3
-OTc5LDIwNTg4ODExOTVdfQ==
+eyJoaXN0b3J5IjpbNDA4MDM5MTA0LC0yMDExMzUwODY4LDg0Mz
+gwNzQ2OCwtOTg0MzY4MzMzLDE5MTQ3ODQ5MTYsLTE2ODM4NDU3
+MzMsMTc3ODY4Nzk3OSwyMDU4ODgxMTk1XX0=
 -->
