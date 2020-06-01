@@ -12,6 +12,8 @@ A text file in MEME minimal motif format can contain more than one motif, and al
 - motif alphabet
 - background frequencies of the letters in the alphabet
 - strand information
+[sample-dna-motif.meme](http://meme-suite.org/doc/examples/sample-dna-motif.meme)
+
 `sequence file`
 # Output
 # Result
@@ -23,9 +25,9 @@ score
 p-value
 q-value: The _p_-values for each motif occurrence are converted to _q_-values following the method of Benjamini and Hochberg ("_q_-value" is defined as the minimal false discovery rate at which a given motif occurrence is deemed significant).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQxNDY5MTEsNzM0NTExNTY5LDE2MD
-c2OTY2Nyw0NzU0MjY1NDUsMTQ5MjUxOTMxOSwxMTc3OTAwODEz
-LDQwODAzOTEwNCwtMjAxMTM1MDg2OCw4NDM4MDc0NjgsLTk4ND
-M2ODMzMywxOTE0Nzg0OTE2LC0xNjgzODQ1NzMzLDE3Nzg2ODc5
-NzksMjA1ODg4MTE5NV19
+eyJoaXN0b3J5IjpbMzg3NDA4MzE1LC0xMzI0MTQ2OTExLDczND
+UxMTU2OSwxNjA3Njk2NjcsNDc1NDI2NTQ1LDE0OTI1MTkzMTks
+MTE3NzkwMDgxMyw0MDgwMzkxMDQsLTIwMTEzNTA4NjgsODQzOD
+A3NDY4LC05ODQzNjgzMzMsMTkxNDc4NDkxNiwtMTY4Mzg0NTcz
+MywxNzc4Njg3OTc5LDIwNTg4ODExOTVdfQ==
 -->
