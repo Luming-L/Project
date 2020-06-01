@@ -1,4 +1,3 @@
-# Pipeling1
 ## convert BigWig to bedgraph
 [BigWigtoBedGraph](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
 ## call peaks from bedgraph
@@ -20,5 +19,5 @@ bdgpeakcall
 ## find PRDM9 motif within each peak region
 Fimo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTgyMTUzN119
+eyJoaXN0b3J5IjpbLTE4NTM1MTI1MzddfQ==
 -->
