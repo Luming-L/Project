@@ -1,4 +1,4 @@
-
+Find Individual Motif Occurrences
 # Input
 `motif file`
 `sequence file`
@@ -10,7 +10,7 @@
 p-value
 q-value
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY1MTI3OTksLTk4NDM2ODMzMywxOT
-E0Nzg0OTE2LC0xNjgzODQ1NzMzLDE3Nzg2ODc5NzksMjA1ODg4
-MTE5NV19
+eyJoaXN0b3J5IjpbODQzODA3NDY4LC05ODQzNjgzMzMsMTkxND
+c4NDkxNiwtMTY4Mzg0NTczMywxNzc4Njg3OTc5LDIwNTg4ODEx
+OTVdfQ==
 -->
