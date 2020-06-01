@@ -1,6 +1,7 @@
 [https://github.com/taoliu/MACS/wiki/Advanced%3A-Call-peaks-using-MACS2-subcommands](https://github.com/taoliu/MACS/wiki/Advanced%3A-Call-peaks-using-MACS2-subcommands)
 [https://github.com/taoliu/MACS/wiki/Build-Signal-Track](https://github.com/taoliu/MACS/wiki/Build-Signal-Track)
 ## uncompress .tgz files
+
 ## convert BigWig to BedGraph
 [BigWigtoBedGraph](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
 ## call peaks from bedgraph
@@ -27,6 +28,6 @@ bdgpeakcall
 ## find PRDM9 motif within each peak region
 Fimo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM0ODYyNjgsMTM5Njk5ODI2MCwtMz
-QxMDgyMDE2XX0=
+eyJoaXN0b3J5IjpbLTE0NTE2MzA5MjYsLTIxMTM0ODYyNjgsMT
+M5Njk5ODI2MCwtMzQxMDgyMDE2XX0=
 -->
