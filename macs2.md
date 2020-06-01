@@ -22,7 +22,7 @@ wc -l CTCF_SE_CTRL_chr22_50k_filterdup.bed # 50783 CTCF_SE_CTRL_chr22_50k_filter
 ```
 ChIP: tag size = 101 tags after filtering in alignment file: 48047
 CRTL: tag size = 101 tags after filtering in alignment file: 50783
-we have to scale the ChIP and control signals to the same depth. In this case, the number is 199583 for ChIP and 199867 for control, and the ratio between them is 199583/199867=.99858
+They will be used to scale the ChIP and control signals to the same depth.
 # Step 2: Decide the fragment length d
 # Step 3: Extend ChIP sample to get ChIP coverage track
 Step 4: Build local bias track from control
@@ -36,7 +36,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTEzNjUzMCwxMjM2MTQzMTM2LC0xOT
+eyJoaXN0b3J5IjpbMTQ4MjkyNDkxNywxMjM2MTQzMTM2LC0xOT
 k0MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MDEsMTQ4NjM5
 NzA1MiwtMjA4ODc0NjYxMl19
 -->
