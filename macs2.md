@@ -12,6 +12,7 @@ If this flag is on, MACS will store the fragment pileup, control lambda in bedGr
 The q-value (minimum FDR) cutoff to call significant regions. Default is 0.05. For broad marks, you can try 0.05 as the cutoff. Q-values are calculated from p-values using the Benjamini-Hochberg procedure.
 
 # Step 1: Filter duplicates
+Remove the redundant reads at each genomic loci in Control and ChIP data.
 ```bash
 macs2 filterdup -i CTCF_SE_ChIP_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_ChIP_chr22_50k_filterdup.bed
 filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50k_filterdup.bed
@@ -29,6 +30,6 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzgxMzk4MTEsMTA5MTU3MjgwMSwxND
-g2Mzk3MDUyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5OTQxNjQ3MDgsLTEzMzgxMzk4MTEsMT
+A5MTU3MjgwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2NjEyXX0=
 -->
