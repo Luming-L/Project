@@ -141,17 +141,16 @@ scp [file you want to copy] [destination]
 ```bash
 # Moving a file from bioinfmsc server to your home directory on Eddie 
 scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868  
-# Moving a file  to  your scratch space on
 s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868/
 s1949868@eddie.ecdf.ed.ac.uk:/exports/eddie/scratch/s1949868/
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg4MDgwOTIsLTE5NDcxNTc1NjUsLT
-E2ODA3NzIxMDcsMTM4NDg2MjEyOCwtOTExOTEyNzUzLDExMTMy
-MDUzODYsNjU2OTI3NzM0LDg0NDY0NzUxLDE0MDQ3OTYzNzIsMT
-gzNzkyOTYzNCwxMTg0OTYwMjkxLDg4ODYxMzY0OCwxNjg3MzMz
-MjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OTUsMTk3NTczNzY2Ny
-wtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1MDgyMzA2OCwxODQ5
-NTkwMzY2XX0=
+eyJoaXN0b3J5IjpbLTE4Njk2Nzg1NjksLTEyOTg4MDgwOTIsLT
+E5NDcxNTc1NjUsLTE2ODA3NzIxMDcsMTM4NDg2MjEyOCwtOTEx
+OTEyNzUzLDExMTMyMDUzODYsNjU2OTI3NzM0LDg0NDY0NzUxLD
+E0MDQ3OTYzNzIsMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4ODYx
+MzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OT
+UsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1
+MDgyMzA2OF19
 -->
