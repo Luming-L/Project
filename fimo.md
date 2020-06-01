@@ -1,4 +1,6 @@
 Find Individual Motif Occurrences
+# Knowledge
+A motif is a sequence pattern that occurs repeatedly in a group of related sequences.
 # Options
 `--parse-genomic--coord`
 `--thresh`
@@ -16,8 +18,9 @@ score
 p-value
 q-value: The _p_-values for each motif occurrence are converted to _q_-values following the method of Benjamini and Hochberg ("_q_-value" is defined as the minimal false discovery rate at which a given motif occurrence is deemed significant).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzY5NjY3LDQ3NTQyNjU0NSwxNDkyNT
-E5MzE5LDExNzc5MDA4MTMsNDA4MDM5MTA0LC0yMDExMzUwODY4
-LDg0MzgwNzQ2OCwtOTg0MzY4MzMzLDE5MTQ3ODQ5MTYsLTE2OD
-M4NDU3MzMsMTc3ODY4Nzk3OSwyMDU4ODgxMTk1XX0=
+eyJoaXN0b3J5IjpbMTAyMjA2Mzc2MCwxNjA3Njk2NjcsNDc1ND
+I2NTQ1LDE0OTI1MTkzMTksMTE3NzkwMDgxMyw0MDgwMzkxMDQs
+LTIwMTEzNTA4NjgsODQzODA3NDY4LC05ODQzNjgzMzMsMTkxND
+c4NDkxNiwtMTY4Mzg0NTczMywxNzc4Njg3OTc5LDIwNTg4ODEx
+OTVdfQ==
 -->
