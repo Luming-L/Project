@@ -45,10 +45,10 @@ sort -k4,4nr CTCF_ChIP_200K_filterdup.pileup.bdg | cut -f 4 | uniq # 0-27
 ```
 # Step 4: Build local bias track from control
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
-- surrounding 1kb (set by --slocal), 
-- surrounding 10kb (set by --llocal), 
+- surrounding 1kb (set by --slocal)
+- surrounding 10kb (set by --llocal)
 - the size of fragment length _d_ (predicted as what you got from _predictd_)
-- the whole genome background.
+- the whole genome background
 ## The d background
 ```bash
 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
@@ -63,11 +63,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA2MTk3MTksMTQzOTIzMDk4MCwyMj
-IyNjA5MjgsLTE0MTYyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcy
-OTIsLTUxMTI1Mzg0NywyMTI4NzkzMDI1LC03NTM4NTAzMjUsLT
-QyMzUxMjM2NywxNzk1NTIwMTg5LC0xMzgzMzY0NDIsLTE0NjI0
-MDMzMjMsLTE3NjE5NjAwLDc5MTkxMDY5NywtMjEyOTQ5NjY5Ny
-wtMjA2MDc5OTUzMiwyMTI2NjEyOTM1LDE0ODI5MjQ5MTcsMTIz
-NjE0MzEzNl19
+eyJoaXN0b3J5IjpbMTU5MDQwMTM1NywxNDM5MjMwOTgwLDIyMj
+I2MDkyOCwtMTQxNjIxMzU0NSwtNzY3ODU4NDgzLDg3Mzk1NzI5
+MiwtNTExMjUzODQ3LDIxMjg3OTMwMjUsLTc1Mzg1MDMyNSwtND
+IzNTEyMzY3LDE3OTU1MjAxODksLTEzODMzNjQ0MiwtMTQ2MjQw
+MzMyMywtMTc2MTk2MDAsNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC
+0yMDYwNzk5NTMyLDIxMjY2MTI5MzUsMTQ4MjkyNDkxNywxMjM2
+MTQzMTM2XX0=
 -->
