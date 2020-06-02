@@ -45,7 +45,9 @@ sort -k4,4nr CTCF_ChIP_200K_filterdup.pileup.bdg | cut -f 4 | uniq # 0-27
 ```
 # Step 4: Build local bias track from control
 ## The d background
-
+```bash
+pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
+```
 ## The slocal background
 ## The llocal background
 ## The genome background
@@ -55,11 +57,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyMjYwOTI4LC0xNDE2MjEzNTQ1LC03Nj
-c4NTg0ODMsODczOTU3MjkyLC01MTEyNTM4NDcsMjEyODc5MzAy
-NSwtNzUzODUwMzI1LC00MjM1MTIzNjcsMTc5NTUyMDE4OSwtMT
-M4MzM2NDQyLC0xNDYyNDAzMzIzLC0xNzYxOTYwMCw3OTE5MTA2
-OTcsLTIxMjk0OTY2OTcsLTIwNjA3OTk1MzIsMjEyNjYxMjkzNS
-wxNDgyOTI0OTE3LDEyMzYxNDMxMzYsLTE5OTQxNjQ3MDgsLTEz
-MzgxMzk4MTFdfQ==
+eyJoaXN0b3J5IjpbMTQzOTIzMDk4MCwyMjIyNjA5MjgsLTE0MT
+YyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1Mzg0
+NywyMTI4NzkzMDI1LC03NTM4NTAzMjUsLTQyMzUxMjM2NywxNz
+k1NTIwMTg5LC0xMzgzMzY0NDIsLTE0NjI0MDMzMjMsLTE3NjE5
+NjAwLDc5MTkxMDY5NywtMjEyOTQ5NjY5NywtMjA2MDc5OTUzMi
+wyMTI2NjEyOTM1LDE0ODI5MjQ5MTcsMTIzNjE0MzEzNiwtMTk5
+NDE2NDcwOF19
 -->
