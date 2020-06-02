@@ -33,14 +33,13 @@ macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 `-m` mfold parameters. To simulate the default behavior of _macs2 callpeak_, set _-m 5 50_.
 Output the fragment length _d_: 254.
 # Step 3: Extend ChIP sample to get ChIP coverage track
-Now you have estimated the fragment length, next, we can use MACS2 _pileup_ subcommand to g
 Generate a pileup track in BEDGRAPH format for ChIP sample. 
 For ChIP-Seq data, we extend reads in 5' to 3' direction by the fragment length estimated, which is the default behavior of _pileup_ function.
 ```bash
 macs2 pileup -f BED -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
 ```
 The file 'CTCF_ChIP_200K_filterdup.pileup.bdg' contains the fragment pileup signals for ChIP sample.
-If you are dealing with some DNAse-Seq data or you think the cutting site, that is detected by short read sequencing, is just in the _middle_ of the fragment you are interested in, you need to use _-B_ option to extend the read in both direction.
+For DNAse-Seq data or you think the cutting site, that is detected by short read sequencing, is just in the _middle_ of the fragment you are interested in, you need to use _-B_ option to extend the read in both direction.
 ```bash
 sort -k4,4nr CTCF_ChIP_200K_filterdup.pileup.bdg | cut -f 4 | uniq # 0-27
 ```
@@ -56,11 +55,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczOTU3MjkyLC01MTEyNTM4NDcsMjEyOD
-c5MzAyNSwtNzUzODUwMzI1LC00MjM1MTIzNjcsMTc5NTUyMDE4
-OSwtMTM4MzM2NDQyLC0xNDYyNDAzMzIzLC0xNzYxOTYwMCw3OT
-E5MTA2OTcsLTIxMjk0OTY2OTcsLTIwNjA3OTk1MzIsMjEyNjYx
-MjkzNSwxNDgyOTI0OTE3LDEyMzYxNDMxMzYsLTE5OTQxNjQ3MD
-gsLTEzMzgxMzk4MTEsMTA5MTU3MjgwMSwxNDg2Mzk3MDUyLC0y
-MDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMT
+I1Mzg0NywyMTI4NzkzMDI1LC03NTM4NTAzMjUsLTQyMzUxMjM2
+NywxNzk1NTIwMTg5LC0xMzgzMzY0NDIsLTE0NjI0MDMzMjMsLT
+E3NjE5NjAwLDc5MTkxMDY5NywtMjEyOTQ5NjY5NywtMjA2MDc5
+OTUzMiwyMTI2NjEyOTM1LDE0ODI5MjQ5MTcsMTIzNjE0MzEzNi
+wtMTk5NDE2NDcwOCwtMTMzODEzOTgxMSwxMDkxNTcyODAxLDE0
+ODYzOTcwNTJdfQ==
 -->
