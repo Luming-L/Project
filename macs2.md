@@ -33,6 +33,10 @@ macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 `-m` mfold parameters. To simulate the default behavior of _macs2 callpeak_, set _-m 5 50_.
 Output the fragment length _d_: 254.
 # Step 3: Extend ChIP sample to get ChIP coverage track
+```bash
+macs2 pileup -f BED -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
+```
+
 Step 4: Build local bias track from control
 The d background
 The slocal background
@@ -44,9 +48,10 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTUyMDE4OSwtMTM4MzM2NDQyLC0xND
-YyNDAzMzIzLC0xNzYxOTYwMCw3OTE5MTA2OTcsLTIxMjk0OTY2
-OTcsLTIwNjA3OTk1MzIsMjEyNjYxMjkzNSwxNDgyOTI0OTE3LD
-EyMzYxNDMxMzYsLTE5OTQxNjQ3MDgsLTEzMzgxMzk4MTEsMTA5
-MTU3MjgwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTM4Nzg4MTgxMiwxNzk1NTIwMTg5LC0xMz
+gzMzY0NDIsLTE0NjI0MDMzMjMsLTE3NjE5NjAwLDc5MTkxMDY5
+NywtMjEyOTQ5NjY5NywtMjA2MDc5OTUzMiwyMTI2NjEyOTM1LD
+E0ODI5MjQ5MTcsMTIzNjE0MzEzNiwtMTk5NDE2NDcwOCwtMTMz
+ODEzOTgxMSwxMDkxNTcyODAxLDE0ODYzOTcwNTIsLTIwODg3ND
+Y2MTJdfQ==
 -->
