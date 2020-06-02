@@ -57,6 +57,7 @@ pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
 sort -k4,4nr d_bg.bdg | cut -f 4 | uniq # 0-74
 ```
 ## The slocal background
+
 ## The llocal background
 ## The genome background
 Combine and generate the maximum background noise
@@ -65,11 +66,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTA5MjU3MSwxNDM5MjMwOTgwLDIyMj
-I2MDkyOCwtMTQxNjIxMzU0NSwtNzY3ODU4NDgzLDg3Mzk1NzI5
-MiwtNTExMjUzODQ3LDIxMjg3OTMwMjUsLTc1Mzg1MDMyNSwtND
-IzNTEyMzY3LDE3OTU1MjAxODksLTEzODMzNjQ0MiwtMTQ2MjQw
-MzMyMywtMTc2MTk2MDAsNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC
-0yMDYwNzk5NTMyLDIxMjY2MTI5MzUsMTQ4MjkyNDkxNywxMjM2
-MTQzMTM2XX0=
+eyJoaXN0b3J5IjpbLTEwMjg5NjQ2NjMsMTI0NTA5MjU3MSwxND
+M5MjMwOTgwLDIyMjI2MDkyOCwtMTQxNjIxMzU0NSwtNzY3ODU4
+NDgzLDg3Mzk1NzI5MiwtNTExMjUzODQ3LDIxMjg3OTMwMjUsLT
+c1Mzg1MDMyNSwtNDIzNTEyMzY3LDE3OTU1MjAxODksLTEzODMz
+NjQ0MiwtMTQ2MjQwMzMyMywtMTc2MTk2MDAsNzkxOTEwNjk3LC
+0yMTI5NDk2Njk3LC0yMDYwNzk5NTMyLDIxMjY2MTI5MzUsMTQ4
+MjkyNDkxN119
 -->
