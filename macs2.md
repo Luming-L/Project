@@ -24,7 +24,7 @@ ChIP: tag size = 100 tags after filtering in alignment file: 199583
 CRTL: tag size = 86 tags after filtering in alignment file: 199867
 They will be used to scale the ChIP and control signals to the same depth.
 # Step 2: Decide the fragment length d
-
+The location of sequenced read may only tell you the end of a DNA fragment that you are interested in (such as TFBS or DNA hypersensitive regions), and you have to estimate how long this DNA fragment is in order to recover the actual enrichment
 # Step 3: Extend ChIP sample to get ChIP coverage track
 Step 4: Build local bias track from control
 The d background
@@ -37,8 +37,8 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk0OTY2OTcsLTIwNjA3OTk1MzIsMj
-EyNjYxMjkzNSwxNDgyOTI0OTE3LDEyMzYxNDMxMzYsLTE5OTQx
-NjQ3MDgsLTEzMzgxMzk4MTEsMTA5MTU3MjgwMSwxNDg2Mzk3MD
-UyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC0yMD
+YwNzk5NTMyLDIxMjY2MTI5MzUsMTQ4MjkyNDkxNywxMjM2MTQz
+MTM2LC0xOTk0MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MD
+EsMTQ4NjM5NzA1MiwtMjA4ODc0NjYxMl19
 -->
