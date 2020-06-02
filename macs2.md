@@ -33,6 +33,7 @@ macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 `-m` mfold parameters. To simulate the default behavior of _macs2 callpeak_, set _-m 5 50_.
 Output the fragment length _d_: 254.
 # Step 3: Extend ChIP sample to get ChIP coverage track
+Now you have estimated the fragment length, next, we can use MACS2 _pileup_ subcommand to generate a pileup track in BEDGRAPH format for ChIP sample. Since we are dealing with ChIP-Seq data in this tutorial, we need to extend reads in 5' to 3' direction which is the default behavior of _pileup_ function.
 ```bash
 macs2 pileup -f BED -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
 ```
@@ -52,10 +53,10 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Mzg1MDMyNSwtNDIzNTEyMzY3LDE3OT
-U1MjAxODksLTEzODMzNjQ0MiwtMTQ2MjQwMzMyMywtMTc2MTk2
-MDAsNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC0yMDYwNzk5NTMyLD
-IxMjY2MTI5MzUsMTQ4MjkyNDkxNywxMjM2MTQzMTM2LC0xOTk0
-MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MDEsMTQ4NjM5Nz
-A1MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjEyODc5MzAyNSwtNzUzODUwMzI1LC00Mj
+M1MTIzNjcsMTc5NTUyMDE4OSwtMTM4MzM2NDQyLC0xNDYyNDAz
+MzIzLC0xNzYxOTYwMCw3OTE5MTA2OTcsLTIxMjk0OTY2OTcsLT
+IwNjA3OTk1MzIsMjEyNjYxMjkzNSwxNDgyOTI0OTE3LDEyMzYx
+NDMxMzYsLTE5OTQxNjQ3MDgsLTEzMzgxMzk4MTEsMTA5MTU3Mj
+gwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2NjEyXX0=
 -->
