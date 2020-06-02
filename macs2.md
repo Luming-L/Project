@@ -47,6 +47,7 @@ sort -k4,4nr CTCF_ChIP_200K_filterdup.pileup.bdg | cut -f 4 | uniq # 0-27
 ## The d background
 ```bash
 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
+sort -k4,4nr d_bg.bdg | cut -f 4 | uniq # 0-74
 ```
 ## The slocal background
 ## The llocal background
@@ -57,11 +58,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTIzMDk4MCwyMjIyNjA5MjgsLTE0MT
-YyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1Mzg0
-NywyMTI4NzkzMDI1LC03NTM4NTAzMjUsLTQyMzUxMjM2NywxNz
-k1NTIwMTg5LC0xMzgzMzY0NDIsLTE0NjI0MDMzMjMsLTE3NjE5
-NjAwLDc5MTkxMDY5NywtMjEyOTQ5NjY5NywtMjA2MDc5OTUzMi
-wyMTI2NjEyOTM1LDE0ODI5MjQ5MTcsMTIzNjE0MzEzNiwtMTk5
-NDE2NDcwOF19
+eyJoaXN0b3J5IjpbNzYzOTg5MTIsMTQzOTIzMDk4MCwyMjIyNj
+A5MjgsLTE0MTYyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIs
+LTUxMTI1Mzg0NywyMTI4NzkzMDI1LC03NTM4NTAzMjUsLTQyMz
+UxMjM2NywxNzk1NTIwMTg5LC0xMzgzMzY0NDIsLTE0NjI0MDMz
+MjMsLTE3NjE5NjAwLDc5MTkxMDY5NywtMjEyOTQ5NjY5NywtMj
+A2MDc5OTUzMiwyMTI2NjEyOTM1LDE0ODI5MjQ5MTcsMTIzNjE0
+MzEzNl19
 -->
