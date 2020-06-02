@@ -37,7 +37,9 @@ Output the fragment length _d_: 254.
 macs2 pileup -f BED -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
 ```
 The file 'CTCF_ChIP_200K_filterdup.pileup.bdg' contains the fragment pileup signals for ChIP sample.
-
+```bash
+sort -k4,4nr CTCF_ChIP_200K_filterdup.pileup.bdg | cut -f 4 | uniq # 0-27
+```
 
 Step 4: Build local bias track from control
 The d background
@@ -50,10 +52,10 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzUxMjM2NywxNzk1NTIwMTg5LC0xMz
-gzMzY0NDIsLTE0NjI0MDMzMjMsLTE3NjE5NjAwLDc5MTkxMDY5
-NywtMjEyOTQ5NjY5NywtMjA2MDc5OTUzMiwyMTI2NjEyOTM1LD
-E0ODI5MjQ5MTcsMTIzNjE0MzEzNiwtMTk5NDE2NDcwOCwtMTMz
-ODEzOTgxMSwxMDkxNTcyODAxLDE0ODYzOTcwNTIsLTIwODg3ND
-Y2MTJdfQ==
+eyJoaXN0b3J5IjpbLTc1Mzg1MDMyNSwtNDIzNTEyMzY3LDE3OT
+U1MjAxODksLTEzODMzNjQ0MiwtMTQ2MjQwMzMyMywtMTc2MTk2
+MDAsNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC0yMDYwNzk5NTMyLD
+IxMjY2MTI5MzUsMTQ4MjkyNDkxNywxMjM2MTQzMTM2LC0xOTk0
+MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MDEsMTQ4NjM5Nz
+A1MiwtMjA4ODc0NjYxMl19
 -->
