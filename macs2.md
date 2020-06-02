@@ -15,12 +15,12 @@ The q-value (minimum FDR) cutoff to call significant regions. Default is 0.05. F
 Remove the redundant reads at each genomic loci in Control and ChIP data.
 By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=1_ for _callpeak_.
 ```bash
-macs2 filterdup -i CTCF_SE_ChIP_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_ChIP_chr22_50k_filterdup.bed
+filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
 filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50k_filterdup.bed
 wc -l CTCF_SE_ChIP_chr22_50k_filterdup.bed # 48047 CTCF_SE_ChIP_chr22_50k_filterdup.bed
 wc -l CTCF_SE_CTRL_chr22_50k_filterdup.bed # 50783 CTCF_SE_CTRL_chr22_50k_filterdup.bed
 ```
-ChIP: tag size = 101 tags after filtering in alignment file: 48047
+ChIP: tag size = 100 tags after filtering in alignment file: 199583
 CRTL: tag size = 101 tags after filtering in alignment file: 50783
 They will be used to scale the ChIP and control signals to the same depth.
 # Step 2: Decide the fragment length d
@@ -37,7 +37,8 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjYxMjkzNSwxNDgyOTI0OTE3LDEyMz
-YxNDMxMzYsLTE5OTQxNjQ3MDgsLTEzMzgxMzk4MTEsMTA5MTU3
-MjgwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTIwNjA3OTk1MzIsMjEyNjYxMjkzNSwxND
+gyOTI0OTE3LDEyMzYxNDMxMzYsLTE5OTQxNjQ3MDgsLTEzMzgx
+Mzk4MTEsMTA5MTU3MjgwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2Nj
+EyXX0=
 -->
