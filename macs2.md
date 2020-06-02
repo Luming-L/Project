@@ -31,7 +31,7 @@ Normally, we only need to do this for ChIP data.
 macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 ```
 `-m` mfold parameters. To simulate the default behavior of _macs2 callpeak_, set _-m 5 50_.
-Output the fragment length _d_, and in this example, it is '254'.
+Output the fragment length _d_: 254.
 # Step 3: Extend ChIP sample to get ChIP coverage track
 Step 4: Build local bias track from control
 The d background
@@ -44,7 +44,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTQzNDQxNCwtMTM4MzM2NDQyLC0xND
+eyJoaXN0b3J5IjpbMTc5NTUyMDE4OSwtMTM4MzM2NDQyLC0xND
 YyNDAzMzIzLC0xNzYxOTYwMCw3OTE5MTA2OTcsLTIxMjk0OTY2
 OTcsLTIwNjA3OTk1MzIsMjEyNjYxMjkzNSwxNDgyOTI0OTE3LD
 EyMzYxNDMxMzYsLTE5OTQxNjQ3MDgsLTEzMzgxMzk4MTEsMTA5
