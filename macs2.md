@@ -59,7 +59,7 @@ sort -k4,4nr d_bg.bdg | cut -f 4 | uniq # 0-74
 ## The slocal background
 ```bash
  macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 500 -o 1k_bg.bdg
- 
+ sort -k4,4nr 1k_bg.bdg | cut -f 4 | uniq #0-240
 ```
 ## The llocal background
 ## The genome background
@@ -69,7 +69,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTg0Mzk1NiwxMjQ1MDkyNTcxLDE0Mz
+eyJoaXN0b3J5IjpbLTg5ODkzMDU5MywxMjQ1MDkyNTcxLDE0Mz
 kyMzA5ODAsMjIyMjYwOTI4LC0xNDE2MjEzNTQ1LC03Njc4NTg0
 ODMsODczOTU3MjkyLC01MTEyNTM4NDcsMjEyODc5MzAyNSwtNz
 UzODUwMzI1LC00MjM1MTIzNjcsMTc5NTUyMDE4OSwtMTM4MzM2
