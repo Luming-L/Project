@@ -27,6 +27,10 @@ They will be used to scale the ChIP and control signals to the same depth.
 The location of sequenced read may only tell you the end of a DNA fragment that you are interested in (such as TFBS or DNA hypersensitive regions). 
 You have to estimate how long this DNA fragment is in order to recover the actual enrichment.
 Normally, we only need to do this for ChIP data.
+```bash
+macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
+```
+`-m` mfold parameters. To simulate the default behavior of _macs2 callpeak_, set _-m 5 50_.
 # Step 3: Extend ChIP sample to get ChIP coverage track
 Step 4: Build local bias track from control
 The d background
@@ -39,9 +43,9 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI0MDMzMjMsLTE3NjE5NjAwLDc5MT
-kxMDY5NywtMjEyOTQ5NjY5NywtMjA2MDc5OTUzMiwyMTI2NjEy
-OTM1LDE0ODI5MjQ5MTcsMTIzNjE0MzEzNiwtMTk5NDE2NDcwOC
-wtMTMzODEzOTgxMSwxMDkxNTcyODAxLDE0ODYzOTcwNTIsLTIw
-ODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzODMzNjQ0MiwtMTQ2MjQwMzMyMywtMT
+c2MTk2MDAsNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC0yMDYwNzk5
+NTMyLDIxMjY2MTI5MzUsMTQ4MjkyNDkxNywxMjM2MTQzMTM2LC
+0xOTk0MTY0NzA4LC0xMzM4MTM5ODExLDEwOTE1NzI4MDEsMTQ4
+NjM5NzA1MiwtMjA4ODc0NjYxMl19
 -->
