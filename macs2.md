@@ -21,7 +21,7 @@ wc -l CTCF_SE_ChIP_chr22_50k_filterdup.bed # 48047 CTCF_SE_ChIP_chr22_50k_filter
 wc -l CTCF_SE_CTRL_chr22_50k_filterdup.bed # 50783 CTCF_SE_CTRL_chr22_50k_filterdup.bed
 ```
 ChIP: tag size = 100 tags after filtering in alignment file: 199583
-CRTL: tag size = 101 tags after filtering in alignment file: 50783
+CRTL: tag size = 86 tags after filtering in alignment file: 199867
 They will be used to scale the ChIP and control signals to the same depth.
 # Step 2: Decide the fragment length d
 
@@ -37,8 +37,8 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA3OTk1MzIsMjEyNjYxMjkzNSwxND
-gyOTI0OTE3LDEyMzYxNDMxMzYsLTE5OTQxNjQ3MDgsLTEzMzgx
-Mzk4MTEsMTA5MTU3MjgwMSwxNDg2Mzk3MDUyLC0yMDg4NzQ2Nj
-EyXX0=
+eyJoaXN0b3J5IjpbLTIxMjk0OTY2OTcsLTIwNjA3OTk1MzIsMj
+EyNjYxMjkzNSwxNDgyOTI0OTE3LDEyMzYxNDMxMzYsLTE5OTQx
+NjQ3MDgsLTEzMzgxMzk4MTEsMTA5MTU3MjgwMSwxNDg2Mzk3MD
+UyLC0yMDg4NzQ2NjEyXX0=
 -->
