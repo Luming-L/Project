@@ -4,6 +4,9 @@
 
 ## convert BigWig to BedGraph
 [BigWigtoBedGraph](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
+```bash
+sort -k4,4nr out_ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg | cut -f 4 | uniq # 0-958.304
+```
 ## call peaks from bedgraph
 extract all the files 
 
@@ -28,6 +31,6 @@ bdgpeakcall
 ## find PRDM9 motif within each peak region
 Fimo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE2MzA5MjYsLTIxMTM0ODYyNjgsMT
-M5Njk5ODI2MCwtMzQxMDgyMDE2XX0=
+eyJoaXN0b3J5IjpbMjA4MTYwMzM3LC0yMTEzNDg2MjY4LDEzOT
+Y5OTgyNjAsLTM0MTA4MjAxNl19
 -->
