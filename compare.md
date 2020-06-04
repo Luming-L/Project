@@ -1,13 +1,17 @@
 Visualize the overlap between PRDM9 binding regions in cancer cells and those in testes: This step starts from the PRDM9 binding regions in 404 tumour samples and in testes. A histogram will be plotted to visualize the distribution of overlap fraction between regions in each cancer sample and testes. The x axis of this histogram is 0 to 100% overlap, and the y axis is number of samples. 
 # Files
-breakpoints in testes-driven data
+## breakpoints in testes-driven data
+liftOver
 ```bash
 grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' >GSE59836_Peak_data_Supplementary_File_1.AA_AB_hotspots
  | wc -l # 40598
 ```
-PRDM9 peaks set in 23 types of cancer
+## PRDM9 peaks set in 23 types of cancer
 
 # Programmes
+## liftOver
+http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
+hg19ToHg38.over.chain.gz
 ## bedtools
 ```bash
 Bedrolls intersect
@@ -15,6 +19,6 @@ Bedrolls intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQzNzYzMzgsMTQ3NTEzOTMxMywtOD
-AwNTgwMjIxXX0=
+eyJoaXN0b3J5IjpbNjQ4MjQ4NDE4LDE0NzUxMzkzMTMsLTgwMD
+U4MDIyMV19
 -->
