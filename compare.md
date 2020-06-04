@@ -2,14 +2,19 @@ Visualize the overlap between PRDM9 binding regions in cancer cells and those in
 # Files
 breakpoints in testes-driven data
 ```bash
-grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' 
-PRDM9 peaks set in 23 types of cancer
+grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' >GSE59836_Peak_data_Supplementary_File_1.AA_AB_hotspots
+ | wc -l # 40598
 ```
+PRDM9 peaks set in 23 types of cancer
+
 # Programmes
 ## bedtools
+```bash
+Bedrolls intersect
+```
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkyNjYxMTMsMTQ3NTEzOTMxMywtOD
+eyJoaXN0b3J5IjpbLTExMDQzNzYzMzgsMTQ3NTEzOTMxMywtOD
 AwNTgwMjIxXX0=
 -->
