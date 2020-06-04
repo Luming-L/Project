@@ -12,6 +12,9 @@ grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' 
 ## liftOver
 http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
 hg19ToHg38.over.chain.gz
+```bash
+liftOver oldFile map.chain newFile unMapped
+```
 ## bedtools
 ```bash
 Bedrolls intersect
@@ -19,6 +22,6 @@ Bedrolls intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MjQ4NDE4LDE0NzUxMzkzMTMsLTgwMD
+eyJoaXN0b3J5IjpbNjE2Mzg3MDI3LDE0NzUxMzkzMTMsLTgwMD
 U4MDIyMV19
 -->
