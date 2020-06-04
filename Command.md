@@ -22,6 +22,11 @@ Shebang #!/bin/sh
 显示目标文件夹包含文件以及路径 ls PeakFasta/*
 df -h ./ 
 du -h ./
+# sed
+```bash
+# 替换文件中的所有匹配项  
+sed -i 's/原字符串/替换字符串/g' filename
+```
 # vim
 -   $
 -   ^
@@ -47,11 +52,11 @@ du -h ./
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNjM4MDc2LC05NDE2ODkzNTYsLTM1Mz
-c2OTcxOCwtMTQwNDA2Nzg3NCwyMDYyMzQ5ODQsMjAzNTI0NjAw
-NywtMzUwNzk5Nzc5LC0xNTgwNTUxNDY5LC0xODM0MzQ2NDc2LD
-E1NDY4MDE5ODgsMjQ0OTY5NjM5LDg5MDcyMTM0MCwxMDI0MDEz
-Mjc3LDIxMTE0MjY3NzcsLTYwNTQ1ODQ0NSwtMjU1MTAzMzcsLT
-E3NTAzNDIwOTUsMTQxMDcxMjU2MywxMjg0NzIyNDc4LDMwMzQ4
-NzQ3Nl19
+eyJoaXN0b3J5IjpbMTIzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MT
+Y4OTM1NiwtMzUzNzY5NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4
+NCwyMDM1MjQ2MDA3LC0zNTA3OTk3NzksLTE1ODA1NTE0NjksLT
+E4MzQzNDY0NzYsMTU0NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIx
+MzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3NywtNjA1NDU4NDQ1LC
+0yNTUxMDMzNywtMTc1MDM0MjA5NSwxNDEwNzEyNTYzLDEyODQ3
+MjI0NzhdfQ==
 -->
