@@ -32,6 +32,7 @@ du -h ./
 -   Visual - d
 -   Visual - y
 -   Visual - p
+使用系统粘贴板 在输入模式按Shift+Inset（粘贴）
 # awk
 关于 awk 脚本，我们需要注意两个关键词 BEGIN 和 END。
 -   BEGIN{ 这里面放的是执行前的语句 }
@@ -46,11 +47,11 @@ du -h ./
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTY4OTM1NiwtMzUzNzY5NzE4LC0xND
-A0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC0zNTA3OTk3
-NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0NjgwMTk4OC
-wyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQy
-Njc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5NS
-wxNDEwNzEyNTYzLDEyODQ3MjI0NzgsMzAzNDg3NDc2LC0xOTc5
-Mzk5NjM0XX0=
+eyJoaXN0b3J5IjpbOTQyNjM4MDc2LC05NDE2ODkzNTYsLTM1Mz
+c2OTcxOCwtMTQwNDA2Nzg3NCwyMDYyMzQ5ODQsMjAzNTI0NjAw
+NywtMzUwNzk5Nzc5LC0xNTgwNTUxNDY5LC0xODM0MzQ2NDc2LD
+E1NDY4MDE5ODgsMjQ0OTY5NjM5LDg5MDcyMTM0MCwxMDI0MDEz
+Mjc3LDIxMTE0MjY3NzcsLTYwNTQ1ODQ0NSwtMjU1MTAzMzcsLT
+E3NTAzNDIwOTUsMTQxMDcxMjU2MywxMjg0NzIyNDc4LDMwMzQ4
+NzQ3Nl19
 -->
