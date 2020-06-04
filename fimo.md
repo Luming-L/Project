@@ -8,6 +8,7 @@ A text file in MEME minimal motif format can contain more than one motif, and al
 `--parse-genomic--coord`
 `--thresh`
 `--max-stored-scores`
+--max-stored-scores <int> (default=100000)
 
 # Input
 `motif file` Format:
@@ -59,10 +60,10 @@ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
     54759 ./Fimo/UCEC_peakCalls_fimo_out/fimo.gff
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODA3NzQ3MSwtMTM2NDQ3OTA2MywtMT
-E1NDU2OTczNiwtMTUxMjI5MDUyOCwtMTMyNDE0NjkxMSw3MzQ1
-MTE1NjksMTYwNzY5NjY3LDQ3NTQyNjU0NSwxNDkyNTE5MzE5LD
-ExNzc5MDA4MTMsNDA4MDM5MTA0LC0yMDExMzUwODY4LDg0Mzgw
-NzQ2OCwtOTg0MzY4MzMzLDE5MTQ3ODQ5MTYsLTE2ODM4NDU3Mz
-MsMTc3ODY4Nzk3OSwyMDU4ODgxMTk1XX0=
+eyJoaXN0b3J5IjpbNDQyNDYzNTY0LC0xMzY0NDc5MDYzLC0xMT
+U0NTY5NzM2LC0xNTEyMjkwNTI4LC0xMzI0MTQ2OTExLDczNDUx
+MTU2OSwxNjA3Njk2NjcsNDc1NDI2NTQ1LDE0OTI1MTkzMTksMT
+E3NzkwMDgxMyw0MDgwMzkxMDQsLTIwMTEzNTA4NjgsODQzODA3
+NDY4LC05ODQzNjgzMzMsMTkxNDc4NDkxNiwtMTY4Mzg0NTczMy
+wxNzc4Njg3OTc5LDIwNTg4ODExOTVdfQ==
 -->
