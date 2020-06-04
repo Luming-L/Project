@@ -29,7 +29,8 @@ score
 p-value
 q-value: The _p_-values for each motif occurrence are converted to _q_-values following the method of Benjamini and Hochberg ("_q_-value" is defined as the minimal false discovery rate at which a given motif occurrence is deemed significant).
 ```bash
-$ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
+wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
+```
     49421 ./Fimo/ACC_peakCalls_fimo_out/fimo.gff
     75487 ./Fimo/BLCA_peakCalls_fimo_out/fimo.gff
     97028 ./Fimo/BRCA_peakCalls_fimo_out/fimo.gff
@@ -55,10 +56,10 @@ $ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
     54759 ./Fimo/UCEC_peakCalls_fimo_out/fimo.gff
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg4NTU0MywtMTE1NDU2OTczNiwtMT
-UxMjI5MDUyOCwtMTMyNDE0NjkxMSw3MzQ1MTE1NjksMTYwNzY5
-NjY3LDQ3NTQyNjU0NSwxNDkyNTE5MzE5LDExNzc5MDA4MTMsND
-A4MDM5MTA0LC0yMDExMzUwODY4LDg0MzgwNzQ2OCwtOTg0MzY4
-MzMzLDE5MTQ3ODQ5MTYsLTE2ODM4NDU3MzMsMTc3ODY4Nzk3OS
-wyMDU4ODgxMTk1XX0=
+eyJoaXN0b3J5IjpbLTEzNjQ0NzkwNjMsLTExNTQ1Njk3MzYsLT
+E1MTIyOTA1MjgsLTEzMjQxNDY5MTEsNzM0NTExNTY5LDE2MDc2
+OTY2Nyw0NzU0MjY1NDUsMTQ5MjUxOTMxOSwxMTc3OTAwODEzLD
+QwODAzOTEwNCwtMjAxMTM1MDg2OCw4NDM4MDc0NjgsLTk4NDM2
+ODMzMywxOTE0Nzg0OTE2LC0xNjgzODQ1NzMzLDE3Nzg2ODc5Nz
+ksMjA1ODg4MTE5NV19
 -->
