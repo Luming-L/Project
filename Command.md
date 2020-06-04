@@ -24,8 +24,8 @@ df -h ./
 du -h ./
 # sed
 ```bash
-# 替换文件中的所有匹配项  
-sed -i 's/原字符串/替换字符串/g' filename
+# 将连续多个空格转换为单个tab
+sed -i 's/\s\+/\t/g' file
 ```
 # vim
 -   $
@@ -52,11 +52,11 @@ sed -i 's/原字符串/替换字符串/g' filename
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MT
-Y4OTM1NiwtMzUzNzY5NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4
-NCwyMDM1MjQ2MDA3LC0zNTA3OTk3NzksLTE1ODA1NTE0NjksLT
-E4MzQzNDY0NzYsMTU0NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIx
-MzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3NywtNjA1NDU4NDQ1LC
-0yNTUxMDMzNywtMTc1MDM0MjA5NSwxNDEwNzEyNTYzLDEyODQ3
-MjI0NzhdfQ==
+eyJoaXN0b3J5IjpbLTE2MzEwMDg0MDQsMTIzMjM2MTE4Myw5ND
+I2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5NzE4LC0xNDA0MDY3
+ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC0zNTA3OTk3NzksLT
+E1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0NjgwMTk4OCwyNDQ5
+Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3Ny
+wtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5NSwxNDEw
+NzEyNTYzXX0=
 -->
