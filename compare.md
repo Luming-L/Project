@@ -18,7 +18,7 @@ convert the coordinates from 37 to 38.
 ```bash
 # download liftOver
 wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/c
-# download map.chain file that has the old genome as the target and the new genome as the query.  is required as input to the liftOver utility.
+# download map.chain file that has the old genome as the target and the new genome as the query. This file is required as input to the liftOver utility.
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
 usage:
    liftOver oldFile map.chain newFile unMapped
@@ -41,8 +41,8 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjExODM5MzUsLTExODgzOTU0MDYsMT
-EyNDE4MjAxNywtOTEzMTAwMTY4LC0xNjMxOTk3OTA4LDE4OTE4
-Nzc3NiwtMTU5Mzk0MzYzMSw2MTYzODcwMjcsMTQ3NTEzOTMxMy
-wtODAwNTgwMjIxXX0=
+eyJoaXN0b3J5IjpbLTgxNDgxMDgwOSwtMTE4ODM5NTQwNiwxMT
+I0MTgyMDE3LC05MTMxMDAxNjgsLTE2MzE5OTc5MDgsMTg5MTg3
+Nzc2LC0xNTkzOTQzNjMxLDYxNjM4NzAyNywxNDc1MTM5MzEzLC
+04MDA1ODAyMjFdfQ==
 -->
