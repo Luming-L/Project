@@ -14,7 +14,7 @@ grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' 
 
 # Programmes
 ## liftOver
-allows conversion of coordinates from one assembly to another.
+convert coordinates from one assembly to another.
 ```bash
 # download liftOver
 wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/c
@@ -38,8 +38,8 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI1ODcxOSwtMTE4ODM5NTQwNiwxMT
-I0MTgyMDE3LC05MTMxMDAxNjgsLTE2MzE5OTc5MDgsMTg5MTg3
-Nzc2LC0xNTkzOTQzNjMxLDYxNjM4NzAyNywxNDc1MTM5MzEzLC
-04MDA1ODAyMjFdfQ==
+eyJoaXN0b3J5IjpbMjY3ODMzMjgzLC0xMTg4Mzk1NDA2LDExMj
+QxODIwMTcsLTkxMzEwMDE2OCwtMTYzMTk5NzkwOCwxODkxODc3
+NzYsLTE1OTM5NDM2MzEsNjE2Mzg3MDI3LDE0NzUxMzkzMTMsLT
+gwMDU4MDIyMV19
 -->
