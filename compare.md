@@ -22,6 +22,7 @@ wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/c
 chmod 700 liftOver
 # download map.chain file that has the old genome as the target and the new genome as the query. This file is required as input to the liftOver utility.
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
+gzip -d hg19ToHg38.over.chain.gz
 usage:
 liftOver oldFile map.chain newFile unMapped
 
@@ -40,8 +41,9 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjEwOTY3NCwtODA3ODk1OTc4LDI2Nz
-gzMzI4MywtMTE4ODM5NTQwNiwxMTI0MTgyMDE3LC05MTMxMDAx
-NjgsLTE2MzE5OTc5MDgsMTg5MTg3Nzc2LC0xNTkzOTQzNjMxLD
-YxNjM4NzAyNywxNDc1MTM5MzEzLC04MDA1ODAyMjFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDc3MDUwNzMsLTg3NjEwOTY3NCwtOD
+A3ODk1OTc4LDI2NzgzMzI4MywtMTE4ODM5NTQwNiwxMTI0MTgy
+MDE3LC05MTMxMDAxNjgsLTE2MzE5OTc5MDgsMTg5MTg3Nzc2LC
+0xNTkzOTQzNjMxLDYxNjM4NzAyNywxNDc1MTM5MzEzLC04MDA1
+ODAyMjFdfQ==
 -->
