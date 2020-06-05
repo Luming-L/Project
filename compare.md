@@ -14,6 +14,7 @@ grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' 
 
 # Programmes
 ## liftOver
+```bash
 http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
 hg19ToHg38.over.chain.gz
 ```bash
@@ -27,7 +28,7 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzEwMDE2OCwtMTYzMTk5NzkwOCwxOD
-kxODc3NzYsLTE1OTM5NDM2MzEsNjE2Mzg3MDI3LDE0NzUxMzkz
-MTMsLTgwMDU4MDIyMV19
+eyJoaXN0b3J5IjpbODU0ODkwMzAwLC05MTMxMDAxNjgsLTE2Mz
+E5OTc5MDgsMTg5MTg3Nzc2LC0xNTkzOTQzNjMxLDYxNjM4NzAy
+NywxNDc1MTM5MzEzLC04MDA1ODAyMjFdfQ==
 -->
