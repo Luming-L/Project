@@ -5,13 +5,10 @@ For a specific type of cancer, whether the PRDM9 binding regions in peaks are ov
 # Files
 [Pratto et al. 2014](https://science.sciencemag.org/content/suppl/2014/11/12/346.6211.1256442.DC1?_ga=2.236340424.892408700.1591381155-1358157743.1587248675)
 ## breakpoints in testes-driven data
-
-liftOver
 ```bash
-# extract 
+# extract A_hotspots_union, i.e.Hotspots found in at least one of the AA1, AA2, AB1 and AB2 individuals
 grep -v ^# humanDSBhotspots.txt | awk '$17 ==1 {print}' | wc -l # 40598
 grep -v ^# humanDSBhotspots.txt | awk '$17 ==1 {print}' > humanDSBhotspots_AA_AB.txt
-
 ```
 ## PRDM9 peaks set in 23 types of cancer
 
@@ -43,7 +40,7 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzAxODc2OSwtODA3ODk1OTc4LDI2Nz
+eyJoaXN0b3J5IjpbLTg3NjEwOTY3NCwtODA3ODk1OTc4LDI2Nz
 gzMzI4MywtMTE4ODM5NTQwNiwxMTI0MTgyMDE3LC05MTMxMDAx
 NjgsLTE2MzE5OTc5MDgsMTg5MTg3Nzc2LC0xNTkzOTQzNjMxLD
 YxNjM4NzAyNywxNDc1MTM5MzEzLC04MDA1ODAyMjFdfQ==
