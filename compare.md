@@ -23,7 +23,7 @@ chmod 700 liftOver
 # download map.chain file that has the old genome as the target and the new genome as the query. This file is required as input to the liftOver utility.
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
 usage:
-   liftOver oldFile map.chain newFile unMapped
+liftOver oldFile map.chain newFile unMapped
 
 
 ```
@@ -40,8 +40,8 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkwMjQwMjIsMjY3ODMzMjgzLC0xMT
-g4Mzk1NDA2LDExMjQxODIwMTcsLTkxMzEwMDE2OCwtMTYzMTk5
-NzkwOCwxODkxODc3NzYsLTE1OTM5NDM2MzEsNjE2Mzg3MDI3LD
-E0NzUxMzkzMTMsLTgwMDU4MDIyMV19
+eyJoaXN0b3J5IjpbLTgwNzg5NTk3OCwyNjc4MzMyODMsLTExOD
+gzOTU0MDYsMTEyNDE4MjAxNywtOTEzMTAwMTY4LC0xNjMxOTk3
+OTA4LDE4OTE4Nzc3NiwtMTU5Mzk0MzYzMSw2MTYzODcwMjcsMT
+Q3NTEzOTMxMywtODAwNTgwMjIxXX0=
 -->
