@@ -18,7 +18,7 @@ convert the coordinates from 37 to 38.
 ```bash
 # download liftOver
 wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/c
-# download
+# download hg19ToHg38.over.chain.gz which is required as input to the liftOver utility.
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
 
 ```
@@ -35,8 +35,8 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzY0OTc3MywxMTI0MTgyMDE3LC05MT
-MxMDAxNjgsLTE2MzE5OTc5MDgsMTg5MTg3Nzc2LC0xNTkzOTQz
-NjMxLDYxNjM4NzAyNywxNDc1MTM5MzEzLC04MDA1ODAyMjFdfQ
-==
+eyJoaXN0b3J5IjpbLTExODgzOTU0MDYsMTEyNDE4MjAxNywtOT
+EzMTAwMTY4LC0xNjMxOTk3OTA4LDE4OTE4Nzc3NiwtMTU5Mzk0
+MzYzMSw2MTYzODcwMjcsMTQ3NTEzOTMxMywtODAwNTgwMjIxXX
+0=
 -->
