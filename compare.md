@@ -14,6 +14,7 @@ grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' 
 
 # Programmes
 ## liftOver
+convert the coordinates from 37 to 38.
 ```bash
 wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/liftOver
 
@@ -31,7 +32,7 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTQ3Njk4OCwtOTEzMTAwMTY4LC0xNj
+eyJoaXN0b3J5IjpbMTEyNDE4MjAxNywtOTEzMTAwMTY4LC0xNj
 MxOTk3OTA4LDE4OTE4Nzc3NiwtMTU5Mzk0MzYzMSw2MTYzODcw
 MjcsMTQ3NTEzOTMxMywtODAwNTgwMjIxXX0=
 -->
