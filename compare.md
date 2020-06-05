@@ -5,8 +5,10 @@ For a specific type of cancer, whether the PRDM9 binding regions in peaks are ov
 # Files
 [Pratto et al. 2014](https://science.sciencemag.org/content/suppl/2014/11/12/346.6211.1256442.DC1?_ga=2.236340424.892408700.1591381155-1358157743.1587248675)
 ## breakpoints in testes-driven data
+
 liftOver
 ```bash
+grep -v ^# humanDSBhotspots.txt | awk '$17 ==1 {print}' > humanDSBhotspots_AA_AB.txt
 grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' >GSE59836_Peak_data_Supplementary_File_1.AA_AB_hotspots
  | wc -l # 40598
 ```
@@ -40,8 +42,8 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzg5NTk3OCwyNjc4MzMyODMsLTExOD
-gzOTU0MDYsMTEyNDE4MjAxNywtOTEzMTAwMTY4LC0xNjMxOTk3
-OTA4LDE4OTE4Nzc3NiwtMTU5Mzk0MzYzMSw2MTYzODcwMjcsMT
-Q3NTEzOTMxMywtODAwNTgwMjIxXX0=
+eyJoaXN0b3J5IjpbMTY1MjIzOTM0NiwtODA3ODk1OTc4LDI2Nz
+gzMzI4MywtMTE4ODM5NTQwNiwxMTI0MTgyMDE3LC05MTMxMDAx
+NjgsLTE2MzE5OTc5MDgsMTg5MTg3Nzc2LC0xNTkzOTQzNjMxLD
+YxNjM4NzAyNywxNDc1MTM5MzEzLC04MDA1ODAyMjFdfQ==
 -->
