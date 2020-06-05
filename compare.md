@@ -25,9 +25,10 @@ chmod 700 liftOver
 # download map.chain file that has the old genome as the target and the new genome as the query. This file is required as input to the liftOver utility.
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
 gzip -d hg19ToHg38.over.chain.gz
-usage:
-liftOver oldFile map.chain newFile unMapped
- ~/Tools/liftOver humanDSBhotspots_AA_AB.txt ~/Tools/hg19ToHg38.over.chain humanDSBhotspots_AA_AB.hg38.txt unMapped
+# 
+~/Tools/liftOver humanDSBhotspots_AA_AB.txt ~/Tools/hg19ToHg38.over.chain humanDSBhotspots_AA_AB.hg38.txt unMapped
+Reading liftover chains
+
 Reading liftover chains
 ```
 http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
@@ -43,9 +44,10 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkzODQwODEsMTQ0MDgyMjMzMCwtMT
-c0NzcwNTA3MywtODc2MTA5Njc0LC04MDc4OTU5NzgsMjY3ODMz
-MjgzLC0xMTg4Mzk1NDA2LDExMjQxODIwMTcsLTkxMzEwMDE2OC
-wtMTYzMTk5NzkwOCwxODkxODc3NzYsLTE1OTM5NDM2MzEsNjE2
-Mzg3MDI3LDE0NzUxMzkzMTMsLTgwMDU4MDIyMV19
+eyJoaXN0b3J5IjpbMTIwMDU0MjE3MSwtMTU3OTM4NDA4MSwxND
+QwODIyMzMwLC0xNzQ3NzA1MDczLC04NzYxMDk2NzQsLTgwNzg5
+NTk3OCwyNjc4MzMyODMsLTExODgzOTU0MDYsMTEyNDE4MjAxNy
+wtOTEzMTAwMTY4LC0xNjMxOTk3OTA4LDE4OTE4Nzc3NiwtMTU5
+Mzk0MzYzMSw2MTYzODcwMjcsMTQ3NTEzOTMxMywtODAwNTgwMj
+IxXX0=
 -->
