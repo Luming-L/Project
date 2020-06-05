@@ -14,7 +14,7 @@ grep -v ^#  GSE59836_Peak_data_Supplementary_File_1.txt  |awk '$17 ==1 {print}' 
 
 # Programmes
 ## liftOver
-convert the coordinates from 37 to 38.
+allows conversion of coordinates from one assembly to another.
 ```bash
 # download liftOver
 wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/c
@@ -22,10 +22,7 @@ wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/c
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
 usage:
    liftOver oldFile map.chain newFile unMapped
-oldFile and newFile are in bed format by default, but can be in GFF and
-maybe eventually others with the appropriate flags below.
-The map.chain file has the old genome as the target and the new genome
-as the query.
+
 
 ```
 http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
@@ -41,7 +38,7 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDgxMDgwOSwtMTE4ODM5NTQwNiwxMT
+eyJoaXN0b3J5IjpbLTIwNzI1ODcxOSwtMTE4ODM5NTQwNiwxMT
 I0MTgyMDE3LC05MTMxMDAxNjgsLTE2MzE5OTc5MDgsMTg5MTg3
 Nzc2LC0xNTkzOTQzNjMxLDYxNjM4NzAyNywxNDc1MTM5MzEzLC
 04MDA1ODAyMjFdfQ==
