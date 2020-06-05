@@ -8,7 +8,7 @@ For a specific type of cancer, whether the PRDM9 binding regions in peaks are ov
 ```bash
 # extract A_hotspots_union, i.e.Hotspots found in at least one of the AA1, AA2, AB1 and AB2 individuals
 grep -v ^# humanDSBhotspots.txt | awk '$17 ==1 {print}' | wc -l # 40598
-grep -v ^# humanDSBhotspots.txt | awk '$17 ==1 {print}' > humanDSBhotspots_AA_AB.txt
+grep -v ^# humanDSBhotspots.txt | awk '{FS=OFS="\t";if($17==1){print $1,$2,$3};}' > humanDSBhotspots_AA_AB.txt
 ```
 ## PRDM9 peaks set in 23 types of cancer
 
@@ -41,9 +41,9 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDgyMjMzMCwtMTc0NzcwNTA3MywtOD
-c2MTA5Njc0LC04MDc4OTU5NzgsMjY3ODMzMjgzLC0xMTg4Mzk1
-NDA2LDExMjQxODIwMTcsLTkxMzEwMDE2OCwtMTYzMTk5NzkwOC
-wxODkxODc3NzYsLTE1OTM5NDM2MzEsNjE2Mzg3MDI3LDE0NzUx
-MzkzMTMsLTgwMDU4MDIyMV19
+eyJoaXN0b3J5IjpbLTU2Mzc1NTg5MSwxNDQwODIyMzMwLC0xNz
+Q3NzA1MDczLC04NzYxMDk2NzQsLTgwNzg5NTk3OCwyNjc4MzMy
+ODMsLTExODgzOTU0MDYsMTEyNDE4MjAxNywtOTEzMTAwMTY4LC
+0xNjMxOTk3OTA4LDE4OTE4Nzc3NiwtMTU5Mzk0MzYzMSw2MTYz
+ODcwMjcsMTQ3NTEzOTMxMywtODAwNTgwMjIxXX0=
 -->
