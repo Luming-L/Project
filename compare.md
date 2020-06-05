@@ -25,8 +25,8 @@ wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.cha
 gzip -d hg19ToHg38.over.chain.gz
 usage:
 liftOver oldFile map.chain newFile unMapped
-
-
+ ~/Tools/liftOver humanDSBhotspots_AA_AB.txt ~/Tools/hg19ToHg38.over.chain humanDSBhotspots_AA_AB.hg38.txt unMapped
+Reading liftover chains
 ```
 http://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
 hg19ToHg38.over.chain.gz
@@ -41,9 +41,9 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc3MDUwNzMsLTg3NjEwOTY3NCwtOD
-A3ODk1OTc4LDI2NzgzMzI4MywtMTE4ODM5NTQwNiwxMTI0MTgy
-MDE3LC05MTMxMDAxNjgsLTE2MzE5OTc5MDgsMTg5MTg3Nzc2LC
-0xNTkzOTQzNjMxLDYxNjM4NzAyNywxNDc1MTM5MzEzLC04MDA1
-ODAyMjFdfQ==
+eyJoaXN0b3J5IjpbMTQ0MDgyMjMzMCwtMTc0NzcwNTA3MywtOD
+c2MTA5Njc0LC04MDc4OTU5NzgsMjY3ODMzMjgzLC0xMTg4Mzk1
+NDA2LDExMjQxODIwMTcsLTkxMzEwMDE2OCwtMTYzMTk5NzkwOC
+wxODkxODc3NzYsLTE1OTM5NDM2MzEsNjE2Mzg3MDI3LDE0NzUx
+MzkzMTMsLTgwMDU4MDIyMV19
 -->
