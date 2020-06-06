@@ -35,6 +35,9 @@ fimo  --verbosity 4 --parse-genomic-coord --o "${bfile}_fimo_out" /home/s1949868
 fimo --verbosity 4 --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/ACC_peakCalls.fasta 
 wc -l fimo.gff # 79802 fimo.gff
 
+fimo  --verbosity 4 -o ACC_peakCalls_fimo.out PRDM9.pwm.meme ../PeakFasta/ACC_peakCalls.fasta
+
+
 fimo --verbosity 4 --parse-genomic-coord --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta
 ```
  ACC_peakCalls_fimo_out]$ ll
@@ -83,11 +86,11 @@ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
     54759 ./Fimo/UCEC_peakCalls_fimo_out/fimo.gff
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNzkyMDI3LDEwMzU0ODYzMTksMTY5Nz
-QwOTk5NiwxOTY2NjEyNDUyLDQ0MjQ2MzU2NCwtMTM2NDQ3OTA2
-MywtMTE1NDU2OTczNiwtMTUxMjI5MDUyOCwtMTMyNDE0NjkxMS
-w3MzQ1MTE1NjksMTYwNzY5NjY3LDQ3NTQyNjU0NSwxNDkyNTE5
-MzE5LDExNzc5MDA4MTMsNDA4MDM5MTA0LC0yMDExMzUwODY4LD
-g0MzgwNzQ2OCwtOTg0MzY4MzMzLDE5MTQ3ODQ5MTYsLTE2ODM4
-NDU3MzNdfQ==
+eyJoaXN0b3J5IjpbMzE5MDc4NTQ2LDUxMDc5MjAyNywxMDM1ND
+g2MzE5LDE2OTc0MDk5OTYsMTk2NjYxMjQ1Miw0NDI0NjM1NjQs
+LTEzNjQ0NzkwNjMsLTExNTQ1Njk3MzYsLTE1MTIyOTA1MjgsLT
+EzMjQxNDY5MTEsNzM0NTExNTY5LDE2MDc2OTY2Nyw0NzU0MjY1
+NDUsMTQ5MjUxOTMxOSwxMTc3OTAwODEzLDQwODAzOTEwNCwtMj
+AxMTM1MDg2OCw4NDM4MDc0NjgsLTk4NDM2ODMzMywxOTE0Nzg0
+OTE2XX0=
 -->
