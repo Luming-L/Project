@@ -32,12 +32,10 @@ q-value: The _p_-values for each motif occurrence are converted to _q_-values fo
 ```bash
 fimo  --verbosity 4 --parse-genomic-coord --o "${bfile}_fimo_out" /home/s1949868/Fimo/PRDM9.pwm.meme $file
 
-fimo --verbosity 4 --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/ACC_peakCalls.fasta 
-wc -l fimo.gff # 79802 fimo.gff
+fimo --verbosity 4 --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/ACC_peakCalls.fasta
+wc -l ACC_peak_fimo_out/fimo.gff # 79802 ACC_peak_fimo_out/fimo.gff
 
-
-
-
+fimo --verbosity 4 --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/ACC_peakCalls.fasta
 fimo --verbosity 4 --parse-genomic-coord --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta
 ```
  ACC_peakCalls_fimo_out]$ ll
@@ -86,11 +84,11 @@ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
     54759 ./Fimo/UCEC_peakCalls_fimo_out/fimo.gff
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTM0MzkxOSw1MTA3OTIwMjcsMTAzNT
-Q4NjMxOSwxNjk3NDA5OTk2LDE5NjY2MTI0NTIsNDQyNDYzNTY0
-LC0xMzY0NDc5MDYzLC0xMTU0NTY5NzM2LC0xNTEyMjkwNTI4LC
-0xMzI0MTQ2OTExLDczNDUxMTU2OSwxNjA3Njk2NjcsNDc1NDI2
-NTQ1LDE0OTI1MTkzMTksMTE3NzkwMDgxMyw0MDgwMzkxMDQsLT
-IwMTEzNTA4NjgsODQzODA3NDY4LC05ODQzNjgzMzMsMTkxNDc4
-NDkxNl19
+eyJoaXN0b3J5IjpbLTE3Njg2NzEwMDUsLTgzNTM0MzkxOSw1MT
+A3OTIwMjcsMTAzNTQ4NjMxOSwxNjk3NDA5OTk2LDE5NjY2MTI0
+NTIsNDQyNDYzNTY0LC0xMzY0NDc5MDYzLC0xMTU0NTY5NzM2LC
+0xNTEyMjkwNTI4LC0xMzI0MTQ2OTExLDczNDUxMTU2OSwxNjA3
+Njk2NjcsNDc1NDI2NTQ1LDE0OTI1MTkzMTksMTE3NzkwMDgxMy
+w0MDgwMzkxMDQsLTIwMTEzNTA4NjgsODQzODA3NDY4LC05ODQz
+NjgzMzNdfQ==
 -->
