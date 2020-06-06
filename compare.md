@@ -14,6 +14,7 @@ wc -l humanDSBhotspots_AA_AB.txt # 40598 humanDSBhotspots_AA_AB.txt
 ```
 ## PRDM9 peaks set in 23 types of cancer
 ```bash
+mkdir PRDM9_binding_perCancer
 awk '{FS=OFS="\t";{print $1,$4,$5,$NF}}' fimo.gff > acc_fimo_out.bed
 ```
 
@@ -39,10 +40,11 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTExNjUyNywtMTQxOTE5ODExNiwtMT
-YxNDQwNzM1MCwtMTU3OTM4NDA4MSwxNDQwODIyMzMwLC0xNzQ3
-NzA1MDczLC04NzYxMDk2NzQsLTgwNzg5NTk3OCwyNjc4MzMyOD
-MsLTExODgzOTU0MDYsMTEyNDE4MjAxNywtOTEzMTAwMTY4LC0x
-NjMxOTk3OTA4LDE4OTE4Nzc3NiwtMTU5Mzk0MzYzMSw2MTYzOD
-cwMjcsMTQ3NTEzOTMxMywtODAwNTgwMjIxXX0=
+eyJoaXN0b3J5IjpbNjM2MDUyMjI2LDE5MzExMTY1MjcsLTE0MT
+kxOTgxMTYsLTE2MTQ0MDczNTAsLTE1NzkzODQwODEsMTQ0MDgy
+MjMzMCwtMTc0NzcwNTA3MywtODc2MTA5Njc0LC04MDc4OTU5Nz
+gsMjY3ODMzMjgzLC0xMTg4Mzk1NDA2LDExMjQxODIwMTcsLTkx
+MzEwMDE2OCwtMTYzMTk5NzkwOCwxODkxODc3NzYsLTE1OTM5ND
+M2MzEsNjE2Mzg3MDI3LDE0NzUxMzkzMTMsLTgwMDU4MDIyMV19
+
 -->
