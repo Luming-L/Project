@@ -4,7 +4,7 @@ For a specific type of cancer, whether the PRDM9 binding regions in peaks are ov
 
 # Files
 [Pratto et al. 2014](https://science.sciencemag.org/content/suppl/2014/11/12/346.6211.1256442.DC1?_ga=2.236340424.892408700.1591381155-1358157743.1587248675)
-## breakpoints in testes-driven data
+
 ```bash
 # extract A_hotspots_union, i.e.Hotspots found in at least one of the AA1, AA2, AB1 and AB2 individuals
 grep -v ^# humanDSBhotspots.txt | awk '$17 ==1 {print}' | wc -l # 40598
@@ -13,6 +13,9 @@ wc -l humanDSBhotspots_AA_AB.txt # 40598 humanDSBhotspots_AA_AB.txt
 
 ```
 ## PRDM9 peaks set in 23 types of cancer
+```bash
+awk '{FS=OFS="\t";{print $1,$4,$5,$NF}}' fimo.gff > acc_fimo_out.bed
+```
 
 # Programmes
 ## liftOver
@@ -36,10 +39,10 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTkxOTgxMTYsLTE2MTQ0MDczNTAsLT
-E1NzkzODQwODEsMTQ0MDgyMjMzMCwtMTc0NzcwNTA3MywtODc2
-MTA5Njc0LC04MDc4OTU5NzgsMjY3ODMzMjgzLC0xMTg4Mzk1ND
-A2LDExMjQxODIwMTcsLTkxMzEwMDE2OCwtMTYzMTk5NzkwOCwx
-ODkxODc3NzYsLTE1OTM5NDM2MzEsNjE2Mzg3MDI3LDE0NzUxMz
-kzMTMsLTgwMDU4MDIyMV19
+eyJoaXN0b3J5IjpbMTkzMTExNjUyNywtMTQxOTE5ODExNiwtMT
+YxNDQwNzM1MCwtMTU3OTM4NDA4MSwxNDQwODIyMzMwLC0xNzQ3
+NzA1MDczLC04NzYxMDk2NzQsLTgwNzg5NTk3OCwyNjc4MzMyOD
+MsLTExODgzOTU0MDYsMTEyNDE4MjAxNywtOTEzMTAwMTY4LC0x
+NjMxOTk3OTA4LDE4OTE4Nzc3NiwtMTU5Mzk0MzYzMSw2MTYzOD
+cwMjcsMTQ3NTEzOTMxMywtODAwNTgwMjIxXX0=
 -->
