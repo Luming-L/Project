@@ -29,24 +29,7 @@ The lines are sorted in order of decreasing statistical significance (increasing
 score
 p-value
 q-value: The _p_-values for each motif occurrence are converted to _q_-values following the method of Benjamini and Hochberg ("_q_-value" is defined as the minimal false discovery rate at which a given motif occurrence is deemed significant).
-```bash
-fimo  --verbosity 4 --parse-genomic-coord --o "${bfile}_fimo_out" /home/s1949868/Fimo/PRDM9.pwm.meme $file
 
-# ACC
-fimo --verbosity 4 --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/ACC_peakCalls.fasta
-wc -l ACC_peak_fimo_out/fimo.gff # 79802 ACC_peak_fimo_out/fimo.gff
-# --parse-genomic-coord
-fimo --parse-genomic-coord --verbosity 4  --o "ACC_peak_fimo_out_GC" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/ACC_peakCalls.fasta
-wc -l ACC_peak_fimo_out_GC/fimo.gff # 79802 ACC_peak_fimo_out_GC/fimo.gff
-
-# COAD
-fimo --verbosity 4 --o "COAD_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/COAD_peakCalls.fasta
-wc -l ./COAD_peak_fimo_out/fimo.gff # 95798 ./COAD_peak_fimo_out/fimo.gff
-# --parse-genomic-coord
-fimo --parse-genomic-coord --verbosity 4  --o "COAD_peak_fimo_out_GC" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/COAD_peakCalls.fasta
-wc -l ./COAD_peak_fimo_out_GC/fimo.gff # 95798 ./COAD_peak_fimo_out_GC/fimo.gff
-
-```
  ACC_peakCalls_fimo_out]$ ll
 total 25600
 -rw-r--r-- 1 s1949868 eddie_users 14674239 Jun  2 05:02 cisml.xml
@@ -93,11 +76,11 @@ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
     54759 ./Fimo/UCEC_peakCalls_fimo_out/fimo.gff
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzYwMjAwNSwxMjU5NzU0NywxMzk0Nz
-k1MDM2LC04MzUzNDM5MTksNTEwNzkyMDI3LDEwMzU0ODYzMTks
-MTY5NzQwOTk5NiwxOTY2NjEyNDUyLDQ0MjQ2MzU2NCwtMTM2ND
-Q3OTA2MywtMTE1NDU2OTczNiwtMTUxMjI5MDUyOCwtMTMyNDE0
-NjkxMSw3MzQ1MTE1NjksMTYwNzY5NjY3LDQ3NTQyNjU0NSwxND
-kyNTE5MzE5LDExNzc5MDA4MTMsNDA4MDM5MTA0LC0yMDExMzUw
-ODY4XX0=
+eyJoaXN0b3J5IjpbLTEzNjU0NjgxMjMsMTY4NzYwMjAwNSwxMj
+U5NzU0NywxMzk0Nzk1MDM2LC04MzUzNDM5MTksNTEwNzkyMDI3
+LDEwMzU0ODYzMTksMTY5NzQwOTk5NiwxOTY2NjEyNDUyLDQ0Mj
+Q2MzU2NCwtMTM2NDQ3OTA2MywtMTE1NDU2OTczNiwtMTUxMjI5
+MDUyOCwtMTMyNDE0NjkxMSw3MzQ1MTE1NjksMTYwNzY5NjY3LD
+Q3NTQyNjU0NSwxNDkyNTE5MzE5LDExNzc5MDA4MTMsNDA4MDM5
+MTA0XX0=
 -->
