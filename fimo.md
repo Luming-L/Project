@@ -34,6 +34,24 @@ fimo  --verbosity 4 --parse-genomic-coord --o "${bfile}_fimo_out" /home/s1949868
  fimo --verbosity 4 --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta/ACC_peakCalls.fasta
 fimo --verbosity 4 --parse-genomic-coord --o "ACC_peak_fimo_out" /home/s1949868/project/Fimo/PRDM9.pwm.meme /home/s1949868/project/PeakFasta/PeakFasta
 ```
+ ACC_peakCalls_fimo_out]$ ll
+total 25600
+-rw-r--r-- 1 s1949868 eddie_users 14674239 Jun  2 05:02 cisml.xml
+-rw-r--r-- 1 s1949868 eddie_users  7172478 Jun  2 05:02 fimo.gff
+-rw-r--r-- 1 s1949868 eddie_users   451659 Jun  2 05:02 fimo.html
+-rw-r--r-- 1 s1949868 eddie_users  3598472 Jun  2 05:02 fimo.txt
+-rw-r--r-- 1 s1949868 eddie_users     2550 Jun  2 05:02 fimo.xml
+
+cd ACC_peak_fimo_out/
+[s1949868@bioinfmsc3 ACC_peak_fimo_out]$ ll
+total 44596
+-rw-------. 1 s1949868 s1949868 22396716 Jun  6 01:39 cisml.xml
+-rw-------. 1 s1949868 s1949868 16207458 Jun  6 01:40 fimo.gff
+-rw-------. 1 s1949868 s1949868   500671 Jun  6 01:40 fimo.html
+-rw-------. 1 s1949868 s1949868  6551092 Jun  6 01:39 fimo.tsv
+-rw-------. 1 s1949868 s1949868     2585 Jun  6 01:39 fimo.xml
+
+
 ```bash
 wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
 ```
@@ -62,11 +80,11 @@ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
     54759 ./Fimo/UCEC_peakCalls_fimo_out/fimo.gff
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzQwOTk5NiwxOTY2NjEyNDUyLDQ0Mj
-Q2MzU2NCwtMTM2NDQ3OTA2MywtMTE1NDU2OTczNiwtMTUxMjI5
-MDUyOCwtMTMyNDE0NjkxMSw3MzQ1MTE1NjksMTYwNzY5NjY3LD
-Q3NTQyNjU0NSwxNDkyNTE5MzE5LDExNzc5MDA4MTMsNDA4MDM5
-MTA0LC0yMDExMzUwODY4LDg0MzgwNzQ2OCwtOTg0MzY4MzMzLD
-E5MTQ3ODQ5MTYsLTE2ODM4NDU3MzMsMTc3ODY4Nzk3OSwyMDU4
-ODgxMTk1XX0=
+eyJoaXN0b3J5IjpbMTAzNTQ4NjMxOSwxNjk3NDA5OTk2LDE5Nj
+Y2MTI0NTIsNDQyNDYzNTY0LC0xMzY0NDc5MDYzLC0xMTU0NTY5
+NzM2LC0xNTEyMjkwNTI4LC0xMzI0MTQ2OTExLDczNDUxMTU2OS
+wxNjA3Njk2NjcsNDc1NDI2NTQ1LDE0OTI1MTkzMTksMTE3Nzkw
+MDgxMyw0MDgwMzkxMDQsLTIwMTEzNTA4NjgsODQzODA3NDY4LC
+05ODQzNjgzMzMsMTkxNDc4NDkxNiwtMTY4Mzg0NTczMywxNzc4
+Njg3OTc5XX0=
 -->
