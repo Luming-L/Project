@@ -31,6 +31,7 @@ p-value
 q-value: The _p_-values for each motif occurrence are converted to _q_-values following the method of Benjamini and Hochberg ("_q_-value" is defined as the minimal false discovery rate at which a given motif occurrence is deemed significant).
 ```bash
 fimo  --verbosity 4 --parse-genomic-coord --o "${bfile}_fimo_out" /home/s1949868/Fimo/PRDM9.pwm.meme $file
+fimo --verbosity 4 --parse-genomic-coord --o "${bfile}_fimo_out" /home/s1949868/Fimo/PRDM9.pwm.meme $file
 ```
 ```bash
 wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
@@ -60,10 +61,10 @@ wc -l ./Fimo/*_peakCalls_fimo_out/fimo.gff
     54759 ./Fimo/UCEC_peakCalls_fimo_out/fimo.gff
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNDYzNTY0LC0xMzY0NDc5MDYzLC0xMT
-U0NTY5NzM2LC0xNTEyMjkwNTI4LC0xMzI0MTQ2OTExLDczNDUx
-MTU2OSwxNjA3Njk2NjcsNDc1NDI2NTQ1LDE0OTI1MTkzMTksMT
-E3NzkwMDgxMyw0MDgwMzkxMDQsLTIwMTEzNTA4NjgsODQzODA3
-NDY4LC05ODQzNjgzMzMsMTkxNDc4NDkxNiwtMTY4Mzg0NTczMy
-wxNzc4Njg3OTc5LDIwNTg4ODExOTVdfQ==
+eyJoaXN0b3J5IjpbMTk2NjYxMjQ1Miw0NDI0NjM1NjQsLTEzNj
+Q0NzkwNjMsLTExNTQ1Njk3MzYsLTE1MTIyOTA1MjgsLTEzMjQx
+NDY5MTEsNzM0NTExNTY5LDE2MDc2OTY2Nyw0NzU0MjY1NDUsMT
+Q5MjUxOTMxOSwxMTc3OTAwODEzLDQwODAzOTEwNCwtMjAxMTM1
+MDg2OCw4NDM4MDc0NjgsLTk4NDM2ODMzMywxOTE0Nzg0OTE2LC
+0xNjgzODQ1NzMzLDE3Nzg2ODc5NzksMjA1ODg4MTE5NV19
 -->
