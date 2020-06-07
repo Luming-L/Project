@@ -12,21 +12,6 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocMana
 [数据框操作](https://www.cnblogs.com/studyzy/p/R_DataFrame_Operation.html)
 ## R packages
 plyr: the split-apply-combine paradigm for R.
-```r
-# Split array, apply function, and discard results.
-a_ply(
-  .data,
-  .margins,
-  .fun = NULL,
-  ...,
-  .expand = TRUE,
-  .progress = "none",
-  .inform = FALSE,
-  .print = FALSE,
-  .parallel = FALSE,
-  .paropts = NULL
-)
-```
 stringr: Simple, Consistent Wrappers for Common String Operations
 # unix
 Shebang #!/bin/sh
@@ -70,11 +55,11 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMxMzE1MDIsLTE2MzEwMDg0MDQsMT
-IzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5
-NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC
-0zNTA3OTk3NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0
-NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNz
-csMjExMTQyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1
-MDM0MjA5NV19
+eyJoaXN0b3J5IjpbMTU2Mzk2NTYwLC0xNjMxMDA4NDA0LDEyMz
+IzNjExODMsOTQyNjM4MDc2LC05NDE2ODkzNTYsLTM1Mzc2OTcx
+OCwtMTQwNDA2Nzg3NCwyMDYyMzQ5ODQsMjAzNTI0NjAwNywtMz
+UwNzk5Nzc5LC0xNTgwNTUxNDY5LC0xODM0MzQ2NDc2LDE1NDY4
+MDE5ODgsMjQ0OTY5NjM5LDg5MDcyMTM0MCwxMDI0MDEzMjc3LD
+IxMTE0MjY3NzcsLTYwNTQ1ODQ0NSwtMjU1MTAzMzcsLTE3NTAz
+NDIwOTVdfQ==
 -->
