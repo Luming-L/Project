@@ -15,6 +15,7 @@ get the type of an object  typeof()
 ## R packages
 plyr: the split-apply-combine paradigm for R.
 stringr: Simple, Consistent Wrappers for Common String Operations
+karyoploteR: plot customizable linear genomes displaying arbitrary data
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -57,11 +58,11 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjg4MTkzNywtMzgzOTk5MDY2LDE1Nj
-M5NjU2MCwtMTYzMTAwODQwNCwxMjMyMzYxMTgzLDk0MjYzODA3
-NiwtOTQxNjg5MzU2LC0zNTM3Njk3MTgsLTE0MDQwNjc4NzQsMj
-A2MjM0OTg0LDIwMzUyNDYwMDcsLTM1MDc5OTc3OSwtMTU4MDU1
-MTQ2OSwtMTgzNDM0NjQ3NiwxNTQ2ODAxOTg4LDI0NDk2OTYzOS
-w4OTA3MjEzNDAsMTAyNDAxMzI3NywyMTExNDI2Nzc3LC02MDU0
-NTg0NDVdfQ==
+eyJoaXN0b3J5IjpbLTY0MjI3NDUzLDEzMzY4ODE5MzcsLTM4Mz
+k5OTA2NiwxNTYzOTY1NjAsLTE2MzEwMDg0MDQsMTIzMjM2MTE4
+Myw5NDI2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5NzE4LC0xND
+A0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC0zNTA3OTk3
+NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0NjgwMTk4OC
+wyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQy
+Njc3N119
 -->
