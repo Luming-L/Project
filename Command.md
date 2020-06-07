@@ -10,7 +10,23 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocMana
 数据框两列相减 atac_acc_norm_ct$end-atac_acc_norm_ct$start
 查看数据框数据类型 str(atac_acc_norm_ct)
 [数据框操作](https://www.cnblogs.com/studyzy/p/R_DataFrame_Operation.html)
-## R
+## R packages
+plyr: the split-apply-combine paradigm for R.
+```r
+# Split array, apply function, and discard results.
+a_ply(
+  .data,
+  .margins,
+  .fun = NULL,
+  ...,
+  .expand = TRUE,
+  .progress = "none",
+  .inform = FALSE,
+  .print = FALSE,
+  .parallel = FALSE,
+  .paropts = NULL
+)
+```
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -53,11 +69,11 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQxMzc5MDQsLTE2MzEwMDg0MDQsMT
-IzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5
-NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC
-0zNTA3OTk3NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0
-NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNz
-csMjExMTQyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1
-MDM0MjA5NV19
+eyJoaXN0b3J5IjpbMTQ3Njg4MDYwMiwtMTYzMTAwODQwNCwxMj
+MyMzYxMTgzLDk0MjYzODA3NiwtOTQxNjg5MzU2LC0zNTM3Njk3
+MTgsLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMzUyNDYwMDcsLT
+M1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0NjQ3NiwxNTQ2
+ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMTAyNDAxMzI3Ny
+wyMTExNDI2Nzc3LC02MDU0NTg0NDUsLTI1NTEwMzM3LC0xNzUw
+MzQyMDk1XX0=
 -->
