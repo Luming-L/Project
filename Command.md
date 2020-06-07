@@ -27,6 +27,7 @@ a_ply(
   .paropts = NULL
 )
 ```
+stringr: Simple, Consistent Wrappers for Common String Operations
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -69,11 +70,11 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Njg4MDYwMiwtMTYzMTAwODQwNCwxMj
-MyMzYxMTgzLDk0MjYzODA3NiwtOTQxNjg5MzU2LC0zNTM3Njk3
-MTgsLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMzUyNDYwMDcsLT
-M1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0NjQ3NiwxNTQ2
-ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMTAyNDAxMzI3Ny
-wyMTExNDI2Nzc3LC02MDU0NTg0NDUsLTI1NTEwMzM3LC0xNzUw
-MzQyMDk1XX0=
+eyJoaXN0b3J5IjpbLTEwMTMxMzE1MDIsLTE2MzEwMDg0MDQsMT
+IzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5
+NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC
+0zNTA3OTk3NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0
+NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNz
+csMjExMTQyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1
+MDM0MjA5NV19
 -->
