@@ -6,7 +6,7 @@ identify if an element belongs to a vector %in%
 返回与字符串同名的变量 get(x_name)
 下载bioconductor包管理器  
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
-install b with `BiocManager`
+install bioconductor packages with `BiocManager` 
 创建文件夹 dir.create("E:/project/CountsMatrices")
 数据框两列相减 atac_acc_norm_ct$end-atac_acc_norm_ct$start
 查看数据框数据类型 str(atac_acc_norm_ct)
@@ -57,11 +57,11 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MzQ1NjkzLC0zODM5OTkwNjYsMTU2Mz
-k2NTYwLC0xNjMxMDA4NDA0LDEyMzIzNjExODMsOTQyNjM4MDc2
-LC05NDE2ODkzNTYsLTM1Mzc2OTcxOCwtMTQwNDA2Nzg3NCwyMD
-YyMzQ5ODQsMjAzNTI0NjAwNywtMzUwNzk5Nzc5LC0xNTgwNTUx
-NDY5LC0xODM0MzQ2NDc2LDE1NDY4MDE5ODgsMjQ0OTY5NjM5LD
-g5MDcyMTM0MCwxMDI0MDEzMjc3LDIxMTE0MjY3NzcsLTYwNTQ1
-ODQ0NV19
+eyJoaXN0b3J5IjpbMTMzNjg4MTkzNywtMzgzOTk5MDY2LDE1Nj
+M5NjU2MCwtMTYzMTAwODQwNCwxMjMyMzYxMTgzLDk0MjYzODA3
+NiwtOTQxNjg5MzU2LC0zNTM3Njk3MTgsLTE0MDQwNjc4NzQsMj
+A2MjM0OTg0LDIwMzUyNDYwMDcsLTM1MDc5OTc3OSwtMTU4MDU1
+MTQ2OSwtMTgzNDM0NjQ3NiwxNTQ2ODAxOTg4LDI0NDk2OTYzOS
+w4OTA3MjEzNDAsMTAyNDAxMzI3NywyMTExNDI2Nzc3LC02MDU0
+NTg0NDVdfQ==
 -->
