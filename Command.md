@@ -10,6 +10,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocMana
 数据框两列相减 atac_acc_norm_ct$end-atac_acc_norm_ct$start
 查看数据框数据类型 str(atac_acc_norm_ct)
 [数据框操作](https://www.cnblogs.com/studyzy/p/R_DataFrame_Operation.html)
+## R
 # unix
 Shebang #!/bin/sh
 解压到指定目录 unzip .zip -d directory
@@ -52,11 +53,11 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzEwMDg0MDQsMTIzMjM2MTE4Myw5ND
-I2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5NzE4LC0xNDA0MDY3
-ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC0zNTA3OTk3NzksLT
-E1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0NjgwMTk4OCwyNDQ5
-Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQyNjc3Ny
-wtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1MDM0MjA5NSwxNDEw
-NzEyNTYzXX0=
+eyJoaXN0b3J5IjpbLTEzODQxMzc5MDQsLTE2MzEwMDg0MDQsMT
+IzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5
+NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC
+0zNTA3OTk3NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0
+NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNz
+csMjExMTQyNjc3NywtNjA1NDU4NDQ1LC0yNTUxMDMzNywtMTc1
+MDM0MjA5NV19
 -->
