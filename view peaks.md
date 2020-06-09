@@ -14,7 +14,8 @@ awk -v OFS="\t" '{$5=$5>1000?1000:$5} {print}' ACCx_025FE5F8_885E_433D_9018_7AE3
 cut -f 5 ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.1000.bed | sort | head
 ```
 
-[https://genome.ucsc.edu/FAQ/FAQformat.html#format12](https://genome.ucsc.edu/FAQ/FAQformat.html#format12)
+[UCSC narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1OTQ3NDQ1LDIwOTA3NjAxNzNdfQ==
+eyJoaXN0b3J5IjpbNzkxMTI3MTE4LDIzNTk0NzQ0NSwyMDkwNz
+YwMTczXX0=
 -->
