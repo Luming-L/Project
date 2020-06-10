@@ -32,7 +32,16 @@ BigWig Files for All Samples
 - normalized read counts
 - call by signal, gap, length
 
+```bash
+### Filter duplicates
+macs2 filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
+macs2 filterdup -i CTCF_Control_200K.bed.gz --keep-dup=1 -o CTCF_Control_200K_filterdup.bed
+### Decide the fragment length  _d_
+macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
+### Extend ChIP sample to get ChIP coverage track
 
+
+```
 
 
 
@@ -116,11 +125,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMzM0MzgxLC0xODU1NzIxNDgyLC0xNz
-Y4MDY5NzE2LC00MjczNTEwODEsMTE1NzMyMjYxMCwtNTg4MTcy
-MTE2LC0xNzc0NzkxMjA2LDczNzQwOTMwLC0yMjQyMDkxMDUsNz
-g2NzkwNzk2LDE3Njg0NjQ0NDksMjI5NTUzNTY5LC0xNTc2NDg2
-OTgwLDEwMTg2NzM5NzksLTE1MDkyNzc5MDAsNzM1NDg3ODgyLC
-05NzA5MDQwNTEsLTE1NzY3OTI4MDcsLTU1Nzg0NjY3NywtNjAw
-Njc4NDUwXX0=
+eyJoaXN0b3J5IjpbMTUzMjI2ODM3OSw3ODAzMzQzODEsLTE4NT
+U3MjE0ODIsLTE3NjgwNjk3MTYsLTQyNzM1MTA4MSwxMTU3MzIy
+NjEwLC01ODgxNzIxMTYsLTE3NzQ3OTEyMDYsNzM3NDA5MzAsLT
+IyNDIwOTEwNSw3ODY3OTA3OTYsMTc2ODQ2NDQ0OSwyMjk1NTM1
+NjksLTE1NzY0ODY5ODAsMTAxODY3Mzk3OSwtMTUwOTI3NzkwMC
+w3MzU0ODc4ODIsLTk3MDkwNDA1MSwtMTU3Njc5MjgwNywtNTU3
+ODQ2Njc3XX0=
 -->
