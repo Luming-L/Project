@@ -1,4 +1,7 @@
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
+how macs2 call peaks
+two important steps: adjust read position, calculate peak enrichment
+
 
 Example for regular peak calling: 
 ```bash
@@ -80,11 +83,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDY3ODQ1MCwxMzkxNzg1ODczLC04OT
-g5MzA1OTMsMTI0NTA5MjU3MSwxNDM5MjMwOTgwLDIyMjI2MDky
-OCwtMTQxNjIxMzU0NSwtNzY3ODU4NDgzLDg3Mzk1NzI5MiwtNT
-ExMjUzODQ3LDIxMjg3OTMwMjUsLTc1Mzg1MDMyNSwtNDIzNTEy
-MzY3LDE3OTU1MjAxODksLTEzODMzNjQ0MiwtMTQ2MjQwMzMyMy
-wtMTc2MTk2MDAsNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC0yMDYw
-Nzk5NTMyXX0=
+eyJoaXN0b3J5IjpbLTU1Nzg0NjY3NywtNjAwNjc4NDUwLDEzOT
+E3ODU4NzMsLTg5ODkzMDU5MywxMjQ1MDkyNTcxLDE0MzkyMzA5
+ODAsMjIyMjYwOTI4LC0xNDE2MjEzNTQ1LC03Njc4NTg0ODMsOD
+czOTU3MjkyLC01MTEyNTM4NDcsMjEyODc5MzAyNSwtNzUzODUw
+MzI1LC00MjM1MTIzNjcsMTc5NTUyMDE4OSwtMTM4MzM2NDQyLC
+0xNDYyNDAzMzIzLC0xNzYxOTYwMCw3OTE5MTA2OTcsLTIxMjk0
+OTY2OTddfQ==
 -->
