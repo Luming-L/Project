@@ -26,6 +26,7 @@ BigWig Files for All Samples
 - per sample level (796 files)
 - 100bp bin 
 - normalized read counts
+- call by signal, gap, length
 
 
 
@@ -111,11 +112,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODE3MjExNiwtMTc3NDc5MTIwNiw3Mz
-c0MDkzMCwtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4NDY0NDQ5
-LDIyOTU1MzU2OSwtMTU3NjQ4Njk4MCwxMDE4NjczOTc5LC0xNT
-A5Mjc3OTAwLDczNTQ4Nzg4MiwtOTcwOTA0MDUxLC0xNTc2Nzky
-ODA3LC01NTc4NDY2NzcsLTYwMDY3ODQ1MCwxMzkxNzg1ODczLC
-04OTg5MzA1OTMsMTI0NTA5MjU3MSwxNDM5MjMwOTgwLDIyMjI2
-MDkyOF19
+eyJoaXN0b3J5IjpbMTE1NzMyMjYxMCwtNTg4MTcyMTE2LC0xNz
+c0NzkxMjA2LDczNzQwOTMwLC0yMjQyMDkxMDUsNzg2NzkwNzk2
+LDE3Njg0NjQ0NDksMjI5NTUzNTY5LC0xNTc2NDg2OTgwLDEwMT
+g2NzM5NzksLTE1MDkyNzc5MDAsNzM1NDg3ODgyLC05NzA5MDQw
+NTEsLTE1NzY3OTI4MDcsLTU1Nzg0NjY3NywtNjAwNjc4NDUwLD
+EzOTE3ODU4NzMsLTg5ODkzMDU5MywxMjQ1MDkyNTcxLDE0Mzky
+MzA5ODBdfQ==
 -->
