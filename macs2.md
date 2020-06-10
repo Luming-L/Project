@@ -49,6 +49,11 @@ macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
 #### The llocal background
 macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
 macs2 bdgopt -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
+#### Combine and generate the maximum background noise
+macs2 bdgcmp -m max -t 1k_bg_norm.bdg -c 10k_bg_norm.bdg -o 1k_10k_bg_norm.bdg
+macs2 bdgcmp -m max -t 1k_10k_bg_norm.bdg -c d_bg.bdg -o d_1k_10k_bg_norm.bdg
+macs2 bdgopt -i d_1k_10k_bg_norm.bdg -m max -p .0188023 -o local_bias_raw.bdg
+
 
 
 ```
@@ -135,11 +140,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NT
-cyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTczMjI2
-MTAsLTU4ODE3MjExNiwtMTc3NDc5MTIwNiw3Mzc0MDkzMCwtMj
-I0MjA5MTA1LDc4Njc5MDc5NiwxNzY4NDY0NDQ5LDIyOTU1MzU2
-OSwtMTU3NjQ4Njk4MCwxMDE4NjczOTc5LC0xNTA5Mjc3OTAwLD
-czNTQ4Nzg4MiwtOTcwOTA0MDUxLC0xNTc2NzkyODA3LC01NTc4
-NDY2NzddfQ==
+eyJoaXN0b3J5IjpbLTIwOTY0ODQyNzQsNTc2MDE4NjI3LDc4MD
+MzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3MzUx
+MDgxLDExNTczMjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MTIwNi
+w3Mzc0MDkzMCwtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4NDY0
+NDQ5LDIyOTU1MzU2OSwtMTU3NjQ4Njk4MCwxMDE4NjczOTc5LC
+0xNTA5Mjc3OTAwLDczNTQ4Nzg4MiwtOTcwOTA0MDUxLC0xNTc2
+NzkyODA3XX0=
 -->
