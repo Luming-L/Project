@@ -19,9 +19,11 @@ The 5th column score = 10 * score in the summit from bedGraph.
 > [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 
 
-BigWig
-CountsMatrices
+
 ATAC-seq Counts Matrices
+BigWig Files for All Samples
+- per sample level (796 files)
+- 
 
 
 
@@ -107,11 +109,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDIwOTEwNSw3ODY3OTA3OTYsMTc2OD
-Q2NDQ0OSwyMjk1NTM1NjksLTE1NzY0ODY5ODAsMTAxODY3Mzk3
-OSwtMTUwOTI3NzkwMCw3MzU0ODc4ODIsLTk3MDkwNDA1MSwtMT
-U3Njc5MjgwNywtNTU3ODQ2Njc3LC02MDA2Nzg0NTAsMTM5MTc4
-NTg3MywtODk4OTMwNTkzLDEyNDUwOTI1NzEsMTQzOTIzMDk4MC
-wyMjIyNjA5MjgsLTE0MTYyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5
-NTcyOTJdfQ==
+eyJoaXN0b3J5IjpbNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3OT
+A3OTYsMTc2ODQ2NDQ0OSwyMjk1NTM1NjksLTE1NzY0ODY5ODAs
+MTAxODY3Mzk3OSwtMTUwOTI3NzkwMCw3MzU0ODc4ODIsLTk3MD
+kwNDA1MSwtMTU3Njc5MjgwNywtNTU3ODQ2Njc3LC02MDA2Nzg0
+NTAsMTM5MTc4NTg3MywtODk4OTMwNTkzLDEyNDUwOTI1NzEsMT
+QzOTIzMDk4MCwyMjIyNjA5MjgsLTE0MTYyMTM1NDUsLTc2Nzg1
+ODQ4M119
 -->
