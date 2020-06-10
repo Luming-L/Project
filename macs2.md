@@ -8,10 +8,15 @@ The local lambda is the maximum of the averages of tags for 1/5/10 kb regions an
 not affect good peak which has low FDR, big fold- enrichment, and high '-10*log(10,pvalue)', if the parameter is reasonable.
 > [macs group](https://groups.google.com/forum/#!msg/macs-announcement/JkufzGpUNRk/kUx0z2M2b_cJ)
 
+## bdgpeakcall
 simple peak calling tool 
 check the 4th column in bedGraph file and call the regions above a given cutoff.
 The 5th column score = 10 * score in the summit from bedGraph.
+
 > [issues379](https://github.com/macs3-project/MACS/issues/379)
+
+
+> [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 
 Example for regular peak calling: 
 ```bash
@@ -93,11 +98,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NTUzNTY5LC0xNTc2NDg2OTgwLDEwMT
-g2NzM5NzksLTE1MDkyNzc5MDAsNzM1NDg3ODgyLC05NzA5MDQw
-NTEsLTE1NzY3OTI4MDcsLTU1Nzg0NjY3NywtNjAwNjc4NDUwLD
-EzOTE3ODU4NzMsLTg5ODkzMDU5MywxMjQ1MDkyNTcxLDE0Mzky
-MzA5ODAsMjIyMjYwOTI4LC0xNDE2MjEzNTQ1LC03Njc4NTg0OD
-MsODczOTU3MjkyLC01MTEyNTM4NDcsMjEyODc5MzAyNSwtNzUz
-ODUwMzI1XX0=
+eyJoaXN0b3J5IjpbMTc2ODQ2NDQ0OSwyMjk1NTM1NjksLTE1Nz
+Y0ODY5ODAsMTAxODY3Mzk3OSwtMTUwOTI3NzkwMCw3MzU0ODc4
+ODIsLTk3MDkwNDA1MSwtMTU3Njc5MjgwNywtNTU3ODQ2Njc3LC
+02MDA2Nzg0NTAsMTM5MTc4NTg3MywtODk4OTMwNTkzLDEyNDUw
+OTI1NzEsMTQzOTIzMDk4MCwyMjIyNjA5MjgsLTE0MTYyMTM1ND
+UsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1Mzg0NywyMTI4
+NzkzMDI1XX0=
 -->
