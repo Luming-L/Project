@@ -1,3 +1,5 @@
+[Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
+
 Example for regular peak calling: 
 ```bash
 macs2 callpeak -t ChIP.bam -c Control.bam -f BED -g hs -n test -B -q 0.01
@@ -78,11 +80,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTc4NTg3MywtODk4OTMwNTkzLDEyND
-UwOTI1NzEsMTQzOTIzMDk4MCwyMjIyNjA5MjgsLTE0MTYyMTM1
-NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1Mzg0NywyMT
-I4NzkzMDI1LC03NTM4NTAzMjUsLTQyMzUxMjM2NywxNzk1NTIw
-MTg5LC0xMzgzMzY0NDIsLTE0NjI0MDMzMjMsLTE3NjE5NjAwLD
-c5MTkxMDY5NywtMjEyOTQ5NjY5NywtMjA2MDc5OTUzMiwyMTI2
-NjEyOTM1XX0=
+eyJoaXN0b3J5IjpbLTYwMDY3ODQ1MCwxMzkxNzg1ODczLC04OT
+g5MzA1OTMsMTI0NTA5MjU3MSwxNDM5MjMwOTgwLDIyMjI2MDky
+OCwtMTQxNjIxMzU0NSwtNzY3ODU4NDgzLDg3Mzk1NzI5MiwtNT
+ExMjUzODQ3LDIxMjg3OTMwMjUsLTc1Mzg1MDMyNSwtNDIzNTEy
+MzY3LDE3OTU1MjAxODksLTEzODMzNjQ0MiwtMTQ2MjQwMzMyMy
+wtMTc2MTk2MDAsNzkxOTEwNjk3LC0yMTI5NDk2Njk3LC0yMDYw
+Nzk5NTMyXX0=
 -->
