@@ -1,4 +1,5 @@
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
+[atac-seq peak-calling](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html#peak-calling)
 how macs2 call peaks
 two important steps: adjust read position, calculate peak enrichment
 
@@ -144,11 +145,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMz
-M0MzgxLC0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEw
-ODEsMTE1NzMyMjYxMCwtNTg4MTcyMTE2LC0xNzc0NzkxMjA2LD
-czNzQwOTMwLC0yMjQyMDkxMDUsNzg2NzkwNzk2LDE3Njg0NjQ0
-NDksMjI5NTUzNTY5LC0xNTc2NDg2OTgwLDEwMTg2NzM5NzksLT
-E1MDkyNzc5MDAsNzM1NDg3ODgyLC05NzA5MDQwNTEsLTE1NzY3
-OTI4MDddfQ==
+eyJoaXN0b3J5IjpbLTEwODQxNzA5MTUsMTI4ODE4MDQ2NCw1Nz
+YwMTg2MjcsNzgwMzM0MzgxLC0xODU1NzIxNDgyLC0xNzY4MDY5
+NzE2LC00MjczNTEwODEsMTE1NzMyMjYxMCwtNTg4MTcyMTE2LC
+0xNzc0NzkxMjA2LDczNzQwOTMwLC0yMjQyMDkxMDUsNzg2Nzkw
+Nzk2LDE3Njg0NjQ0NDksMjI5NTUzNTY5LC0xNTc2NDg2OTgwLD
+EwMTg2NzM5NzksLTE1MDkyNzc5MDAsNzM1NDg3ODgyLC05NzA5
+MDQwNTFdfQ==
 -->
