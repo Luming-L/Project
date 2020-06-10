@@ -5,6 +5,7 @@ two important steps: adjust read position, calculate peak enrichment
 The local lambda is the maximum of the averages of tags for 1/5/10 kb regions and a whole genome background.
 If there is no control data, the ChIP data will be used instead, where the 1kb region is not considered.
 tweaking this parameter should not affect good peak which has low FDR, big fold- enrichment, and high '-10*log(10,pvalue)', if the parameter is reasonable.
+
 Example for regular peak calling: 
 ```bash
 macs2 callpeak -t ChIP.bam -c Control.bam -f BED -g hs -n test -B -q 0.01
@@ -85,7 +86,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzQzMjE1OSwtMTU3Njc5MjgwNywtNT
+eyJoaXN0b3J5IjpbLTk3MDkwNDA1MSwtMTU3Njc5MjgwNywtNT
 U3ODQ2Njc3LC02MDA2Nzg0NTAsMTM5MTc4NTg3MywtODk4OTMw
 NTkzLDEyNDUwOTI1NzEsMTQzOTIzMDk4MCwyMjIyNjA5MjgsLT
 E0MTYyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1
