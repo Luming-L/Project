@@ -24,7 +24,8 @@ ATAC-seq Counts Matrices
 
 BigWig Files for All Samples
 - per sample level (796 files)
-- 
+- 100 bin 
+- normalized
 
 
 
@@ -110,7 +111,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjgzNTM2LDczNzQwOTMwLC0yMjQyMD
+eyJoaXN0b3J5IjpbMjc1MzUzMjI4LDczNzQwOTMwLC0yMjQyMD
 kxMDUsNzg2NzkwNzk2LDE3Njg0NjQ0NDksMjI5NTUzNTY5LC0x
 NTc2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDkyNzc5MDAsNzM1ND
 g3ODgyLC05NzA5MDQwNTEsLTE1NzY3OTI4MDcsLTU1Nzg0NjY3
