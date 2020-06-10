@@ -21,7 +21,7 @@ The 5th column score = 10 * score in the summit from bedGraph.
 
 BigWig
 CountsMatrices
-
+ATAC-seq Counts Matrices
 
 
 
@@ -107,11 +107,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2NzkwNzk2LDE3Njg0NjQ0NDksMjI5NT
-UzNTY5LC0xNTc2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDkyNzc5
-MDAsNzM1NDg3ODgyLC05NzA5MDQwNTEsLTE1NzY3OTI4MDcsLT
-U1Nzg0NjY3NywtNjAwNjc4NDUwLDEzOTE3ODU4NzMsLTg5ODkz
-MDU5MywxMjQ1MDkyNTcxLDE0MzkyMzA5ODAsMjIyMjYwOTI4LC
-0xNDE2MjEzNTQ1LC03Njc4NTg0ODMsODczOTU3MjkyLC01MTEy
-NTM4NDddfQ==
+eyJoaXN0b3J5IjpbLTIyNDIwOTEwNSw3ODY3OTA3OTYsMTc2OD
+Q2NDQ0OSwyMjk1NTM1NjksLTE1NzY0ODY5ODAsMTAxODY3Mzk3
+OSwtMTUwOTI3NzkwMCw3MzU0ODc4ODIsLTk3MDkwNDA1MSwtMT
+U3Njc5MjgwNywtNTU3ODQ2Njc3LC02MDA2Nzg0NTAsMTM5MTc4
+NTg3MywtODk4OTMwNTkzLDEyNDUwOTI1NzEsMTQzOTIzMDk4MC
+wyMjIyNjA5MjgsLTE0MTYyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5
+NTcyOTJdfQ==
 -->
