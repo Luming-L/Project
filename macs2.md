@@ -44,7 +44,11 @@ macs2 pileup -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.
 #### The  _d_  background
 macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
 #### The slocal background
-
+macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 500 -o 1k_bg.bdg
+macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
+#### The llocal background
+macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
+macs2 bdgopt -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
 
 
 ```
@@ -131,11 +135,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjQyMzc3MSw3ODAzMzQzODEsLTE4NT
-U3MjE0ODIsLTE3NjgwNjk3MTYsLTQyNzM1MTA4MSwxMTU3MzIy
-NjEwLC01ODgxNzIxMTYsLTE3NzQ3OTEyMDYsNzM3NDA5MzAsLT
-IyNDIwOTEwNSw3ODY3OTA3OTYsMTc2ODQ2NDQ0OSwyMjk1NTM1
-NjksLTE1NzY0ODY5ODAsMTAxODY3Mzk3OSwtMTUwOTI3NzkwMC
-w3MzU0ODc4ODIsLTk3MDkwNDA1MSwtMTU3Njc5MjgwNywtNTU3
-ODQ2Njc3XX0=
+eyJoaXN0b3J5IjpbNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NT
+cyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTczMjI2
+MTAsLTU4ODE3MjExNiwtMTc3NDc5MTIwNiw3Mzc0MDkzMCwtMj
+I0MjA5MTA1LDc4Njc5MDc5NiwxNzY4NDY0NDQ5LDIyOTU1MzU2
+OSwtMTU3NjQ4Njk4MCwxMDE4NjczOTc5LC0xNTA5Mjc3OTAwLD
+czNTQ4Nzg4MiwtOTcwOTA0MDUxLC0xNTc2NzkyODA3LC01NTc4
+NDY2NzddfQ==
 -->
