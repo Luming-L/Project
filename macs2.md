@@ -40,6 +40,11 @@ macs2 filterdup -i CTCF_Control_200K.bed.gz --keep-dup=1 -o CTCF_Control_200K_fi
 macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 ### Extend ChIP sample to get ChIP coverage track
 macs2 pileup -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
+### Build local bias track from control
+#### The  _d_  background
+macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
+#### The slocal background
+
 
 
 ```
@@ -126,11 +131,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU3MTQxMzIsNzgwMzM0MzgxLC0xOD
-U1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEwODEsMTE1NzMy
-MjYxMCwtNTg4MTcyMTE2LC0xNzc0NzkxMjA2LDczNzQwOTMwLC
-0yMjQyMDkxMDUsNzg2NzkwNzk2LDE3Njg0NjQ0NDksMjI5NTUz
-NTY5LC0xNTc2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDkyNzc5MD
-AsNzM1NDg3ODgyLC05NzA5MDQwNTEsLTE1NzY3OTI4MDcsLTU1
-Nzg0NjY3N119
+eyJoaXN0b3J5IjpbLTIzMjQyMzc3MSw3ODAzMzQzODEsLTE4NT
+U3MjE0ODIsLTE3NjgwNjk3MTYsLTQyNzM1MTA4MSwxMTU3MzIy
+NjEwLC01ODgxNzIxMTYsLTE3NzQ3OTEyMDYsNzM3NDA5MzAsLT
+IyNDIwOTEwNSw3ODY3OTA3OTYsMTc2ODQ2NDQ0OSwyMjk1NTM1
+NjksLTE1NzY0ODY5ODAsMTAxODY3Mzk3OSwtMTUwOTI3NzkwMC
+w3MzU0ODc4ODIsLTk3MDkwNDA1MSwtMTU3Njc5MjgwNywtNTU3
+ODQ2Njc3XX0=
 -->
