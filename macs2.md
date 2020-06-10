@@ -21,7 +21,7 @@ The 5th column score = 10 * score in the summit from bedGraph.
 
 
 ATAC-seq Counts Matrices normalized
-- -2 - 
+- -2 - 8
 ATAC-seq Counts Matrices raw
 - 
 
@@ -115,7 +115,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc2Njc2MTYsLTE3NjgwNjk3MTYsLT
+eyJoaXN0b3J5IjpbLTE4NTU3MjE0ODIsLTE3NjgwNjk3MTYsLT
 QyNzM1MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMTYsLTE3NzQ3
 OTEyMDYsNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3OTA3OTYsMT
 c2ODQ2NDQ0OSwyMjk1NTM1NjksLTE1NzY0ODY5ODAsMTAxODY3
