@@ -26,6 +26,9 @@ Shebang #!/bin/sh
 显示文件某一列出现的不重复字符 awk '{print $4}' run_pileup_CTRL.bed.bdg | sort | uniq
 创建新的目录和它的子目录 mkdir -p LectureExercises/Lecture03
 显示目标文件夹包含文件以及路径 ls PeakFasta/*
+```bash
+ sort -nrk 4 peaks_pvalue.bdg | head
+```
 df -h ./ 
 du -h ./
 # sed
@@ -58,7 +61,7 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjI3NDUzLDEzMzY4ODE5MzcsLTM4Mz
+eyJoaXN0b3J5IjpbNTgzNTkxNDA0LDEzMzY4ODE5MzcsLTM4Mz
 k5OTA2NiwxNTYzOTY1NjAsLTE2MzEwMDg0MDQsMTIzMjM2MTE4
 Myw5NDI2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5NzE4LC0xND
 A0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC0zNTA3OTk3
