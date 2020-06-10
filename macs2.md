@@ -2,9 +2,7 @@
 how macs2 call peaks
 two important steps: adjust read position, calculate peak enrichment
 
-The local lambda is the  
-maximum of the averages of tags for 1/5/10 kb regions and a whole  
-genome background.
+The local lambda is the maximum of the averages of tags for 1/5/10 kb regions and a whole genome background.
 
 Example for regular peak calling: 
 ```bash
@@ -86,7 +84,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkyMzk1MDksLTU1Nzg0NjY3NywtNj
+eyJoaXN0b3J5IjpbLTE1NzY3OTI4MDcsLTU1Nzg0NjY3NywtNj
 AwNjc4NDUwLDEzOTE3ODU4NzMsLTg5ODkzMDU5MywxMjQ1MDky
 NTcxLDE0MzkyMzA5ODAsMjIyMjYwOTI4LC0xNDE2MjEzNTQ1LC
 03Njc4NTg0ODMsODczOTU3MjkyLC01MTEyNTM4NDcsMjEyODc5
