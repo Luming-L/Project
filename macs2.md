@@ -4,6 +4,7 @@ two important steps: adjust read position, calculate peak enrichment
 
 The local lambda is the maximum of the averages of tags for 1/5/10 kb regions and a whole genome background.
 
+
 Example for regular peak calling: 
 ```bash
 macs2 callpeak -t ChIP.bam -c Control.bam -f BED -g hs -n test -B -q 0.01
@@ -84,11 +85,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY3OTI4MDcsLTU1Nzg0NjY3NywtNj
-AwNjc4NDUwLDEzOTE3ODU4NzMsLTg5ODkzMDU5MywxMjQ1MDky
-NTcxLDE0MzkyMzA5ODAsMjIyMjYwOTI4LC0xNDE2MjEzNTQ1LC
-03Njc4NTg0ODMsODczOTU3MjkyLC01MTEyNTM4NDcsMjEyODc5
-MzAyNSwtNzUzODUwMzI1LC00MjM1MTIzNjcsMTc5NTUyMDE4OS
-wtMTM4MzM2NDQyLC0xNDYyNDAzMzIzLC0xNzYxOTYwMCw3OTE5
-MTA2OTddfQ==
+eyJoaXN0b3J5IjpbMTQwNzUxMTQ5NSwtMTU3Njc5MjgwNywtNT
+U3ODQ2Njc3LC02MDA2Nzg0NTAsMTM5MTc4NTg3MywtODk4OTMw
+NTkzLDEyNDUwOTI1NzEsMTQzOTIzMDk4MCwyMjIyNjA5MjgsLT
+E0MTYyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1
+Mzg0NywyMTI4NzkzMDI1LC03NTM4NTAzMjUsLTQyMzUxMjM2Ny
+wxNzk1NTIwMTg5LC0xMzgzMzY0NDIsLTE0NjI0MDMzMjMsLTE3
+NjE5NjAwXX0=
 -->
