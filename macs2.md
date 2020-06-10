@@ -10,7 +10,7 @@ not affect good peak which has low FDR, big fold- enrichment, and high '-10*log(
 
 simple peak calling tool 
 check the 4th column in bedGraph file and call the regions above a given cutoff.
-
+[https://github.com/macs3-project/MACS/issues/379](https://github.com/macs3-project/MACS/issues/379)
 
 Example for regular peak calling: 
 ```bash
@@ -92,11 +92,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY0ODY5ODAsMTAxODY3Mzk3OSwtMT
-UwOTI3NzkwMCw3MzU0ODc4ODIsLTk3MDkwNDA1MSwtMTU3Njc5
-MjgwNywtNTU3ODQ2Njc3LC02MDA2Nzg0NTAsMTM5MTc4NTg3My
-wtODk4OTMwNTkzLDEyNDUwOTI1NzEsMTQzOTIzMDk4MCwyMjIy
-NjA5MjgsLTE0MTYyMTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOT
-IsLTUxMTI1Mzg0NywyMTI4NzkzMDI1LC03NTM4NTAzMjUsLTQy
-MzUxMjM2N119
+eyJoaXN0b3J5IjpbNzg2MTgzNTA3LC0xNTc2NDg2OTgwLDEwMT
+g2NzM5NzksLTE1MDkyNzc5MDAsNzM1NDg3ODgyLC05NzA5MDQw
+NTEsLTE1NzY3OTI4MDcsLTU1Nzg0NjY3NywtNjAwNjc4NDUwLD
+EzOTE3ODU4NzMsLTg5ODkzMDU5MywxMjQ1MDkyNTcxLDE0Mzky
+MzA5ODAsMjIyMjYwOTI4LC0xNDE2MjEzNTQ1LC03Njc4NTg0OD
+MsODczOTU3MjkyLC01MTEyNTM4NDcsMjEyODc5MzAyNSwtNzUz
+ODUwMzI1XX0=
 -->
