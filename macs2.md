@@ -53,9 +53,13 @@ macs2 bdgopt -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
 macs2 bdgcmp -m max -t 1k_bg_norm.bdg -c 10k_bg_norm.bdg -o 1k_10k_bg_norm.bdg
 macs2 bdgcmp -m max -t 1k_10k_bg_norm.bdg -c d_bg.bdg -o d_1k_10k_bg_norm.bdg
 macs2 bdgopt -i d_1k_10k_bg_norm.bdg -m max -p .0188023 -o local_bias_raw.bdg
-
-
-
+### Scale the ChIP and control to the same sequencing depth
+macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
+### Compare ChIP and local lambda to get the scores in pvalue or qvalue
+macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
+macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_bias.bdg -m ppois -o CTCF_ChIP_20
+### Call peaks on score track using a cutoff
+macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 
 
@@ -140,11 +144,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY0ODQyNzQsNTc2MDE4NjI3LDc4MD
-MzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3MzUx
-MDgxLDExNTczMjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MTIwNi
-w3Mzc0MDkzMCwtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4NDY0
-NDQ5LDIyOTU1MzU2OSwtMTU3NjQ4Njk4MCwxMDE4NjczOTc5LC
-0xNTA5Mjc3OTAwLDczNTQ4Nzg4MiwtOTcwOTA0MDUxLC0xNTc2
-NzkyODA3XX0=
+eyJoaXN0b3J5IjpbMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMz
+M0MzgxLC0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEw
+ODEsMTE1NzMyMjYxMCwtNTg4MTcyMTE2LC0xNzc0NzkxMjA2LD
+czNzQwOTMwLC0yMjQyMDkxMDUsNzg2NzkwNzk2LDE3Njg0NjQ0
+NDksMjI5NTUzNTY5LC0xNTc2NDg2OTgwLDEwMTg2NzM5NzksLT
+E1MDkyNzc5MDAsNzM1NDg3ODgyLC05NzA5MDQwNTEsLTE1NzY3
+OTI4MDddfQ==
 -->
