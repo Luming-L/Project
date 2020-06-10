@@ -18,6 +18,15 @@ The 5th column score = 10 * score in the summit from bedGraph.
 
 > [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 
+
+BigWig
+CountsMatrices
+
+
+
+
+
+
 Example for regular peak calling: 
 ```bash
 macs2 callpeak -t ChIP.bam -c Control.bam -f BED -g hs -n test -B -q 0.01
@@ -98,11 +107,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODQ2NDQ0OSwyMjk1NTM1NjksLTE1Nz
-Y0ODY5ODAsMTAxODY3Mzk3OSwtMTUwOTI3NzkwMCw3MzU0ODc4
-ODIsLTk3MDkwNDA1MSwtMTU3Njc5MjgwNywtNTU3ODQ2Njc3LC
-02MDA2Nzg0NTAsMTM5MTc4NTg3MywtODk4OTMwNTkzLDEyNDUw
-OTI1NzEsMTQzOTIzMDk4MCwyMjIyNjA5MjgsLTE0MTYyMTM1ND
-UsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1Mzg0NywyMTI4
-NzkzMDI1XX0=
+eyJoaXN0b3J5IjpbNzg2NzkwNzk2LDE3Njg0NjQ0NDksMjI5NT
+UzNTY5LC0xNTc2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDkyNzc5
+MDAsNzM1NDg3ODgyLC05NzA5MDQwNTEsLTE1NzY3OTI4MDcsLT
+U1Nzg0NjY3NywtNjAwNjc4NDUwLDEzOTE3ODU4NzMsLTg5ODkz
+MDU5MywxMjQ1MDkyNTcxLDE0MzkyMzA5ODAsMjIyMjYwOTI4LC
+0xNDE2MjEzNTQ1LC03Njc4NTg0ODMsODczOTU3MjkyLC01MTEy
+NTM4NDddfQ==
 -->
