@@ -2,9 +2,10 @@
 how macs2 call peaks
 two important steps: adjust read position, calculate peak enrichment
 
-### calculate local lambda 
+### calculate local lambda without control
 The local lambda is the maximum of the averages of tags for 1/5/10 kb regions and a whole genome background. If there is no control data, the ChIP data will be used instead, where the 1kb region is not considered.
-tweaking this parameter should not affect good peak which has low FDR, big fold- enrichment, and high '-10*log(10,pvalue)', if the parameter is reasonable.
+### the principle of tweaking this parameter should 
+not affect good peak which has low FDR, big fold- enrichment, and high '-10*log(10,pvalue)', if the parameter is reasonable.
 [](https://groups.google.com/forum/#!msg/macs-announcement/JkufzGpUNRk/kUx0z2M2b_cJ)
 Example for regular peak calling: 
 ```bash
@@ -86,11 +87,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAxNTAwODcsLTE1MDkyNzc5MDAsNz
-M1NDg3ODgyLC05NzA5MDQwNTEsLTE1NzY3OTI4MDcsLTU1Nzg0
-NjY3NywtNjAwNjc4NDUwLDEzOTE3ODU4NzMsLTg5ODkzMDU5My
-wxMjQ1MDkyNTcxLDE0MzkyMzA5ODAsMjIyMjYwOTI4LC0xNDE2
-MjEzNTQ1LC03Njc4NTg0ODMsODczOTU3MjkyLC01MTEyNTM4ND
-csMjEyODc5MzAyNSwtNzUzODUwMzI1LC00MjM1MTIzNjcsMTc5
-NTUyMDE4OV19
+eyJoaXN0b3J5IjpbMTk3NDg3ODIwNywtMTUwOTI3NzkwMCw3Mz
+U0ODc4ODIsLTk3MDkwNDA1MSwtMTU3Njc5MjgwNywtNTU3ODQ2
+Njc3LC02MDA2Nzg0NTAsMTM5MTc4NTg3MywtODk4OTMwNTkzLD
+EyNDUwOTI1NzEsMTQzOTIzMDk4MCwyMjIyNjA5MjgsLTE0MTYy
+MTM1NDUsLTc2Nzg1ODQ4Myw4NzM5NTcyOTIsLTUxMTI1Mzg0Ny
+wyMTI4NzkzMDI1LC03NTM4NTAzMjUsLTQyMzUxMjM2NywxNzk1
+NTIwMTg5XX0=
 -->
