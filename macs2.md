@@ -4,7 +4,9 @@
 [MACS](https://github.com/macs3-project/MACS)
 [MACS2 subcommand](https://github.com/macs3-project/MACS/wiki/Advanced%3A-Call-peaks-using-MACS2-subcommands#Step_4_Build_local_bias_track_from_control)
 
-calculate lambda 
+calculate different lambda 
+select lamda
+
 evaluate value
 
 ### calculate local lambda without control
@@ -89,6 +91,8 @@ mv CTCF_ChIP_200K.bed.gz\?raw\=true CTCF_ChIP_200K.bed.gz
 wget https://github.com/taoliu/MACS/blob/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test/CTCF_Control_200K.bed.gz?raw=true
 mv CTCF_Control_200K.bed.gz?raw=true CTCF_Control_200K.bed.gz
 ```
+
+
 # Step 1: Filter duplicates
 Remove the redundant reads at each genomic loci in Control and ChIP data.
 By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=1_ for _callpeak_.
@@ -171,11 +175,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjQ3NDM0NSwtMTM3Nzk1ODQ3OSwzMz
-Y1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0Nzcw
-NTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MS
-w3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNTcy
-ODI3NTQxLC02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5ND
-kwNCwyMzE1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3
-NjAxODYyN119
+eyJoaXN0b3J5IjpbLTUxNDUwMDE3LC0xMzc3OTU4NDc5LDMzNj
+UzMzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1
+MDIsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLD
+c2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0NzIsLTE1NzI4
+Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OT
+A0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2
+MDE4NjI3XX0=
 -->
