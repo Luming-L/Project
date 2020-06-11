@@ -138,7 +138,9 @@ sort -k1,1 -k2,2n CTCF_ChIP_200K_filterdup.pileup.bdg | head
 chr1    0       115537  0.00000
 chr1    115537  115791  1.00000
 chr1    115791  237643  0.00000
+> already extend when calling peaks. now 
 # Step 4: Build local bias track from control
+get max r
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
 - surrounding 1kb (set by --slocal)
 - surrounding 10kb (set by --llocal)
@@ -191,7 +193,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTM3NTMxMCwtNzI5MjEzMjkxLC0xNj
+eyJoaXN0b3J5IjpbMTEyMTcxMDMyMiwtNzI5MjEzMjkxLC0xNj
 Y2NzM3MSwxMTQxNDM4MTI2LC0xMzAwMzA2MzY4LC0xMzU0NDAw
 Nzk5LDE2MzU4MDE0MDIsNTAwMDYzMzQsNzAyNTY2NDgxLC0xMz
 c3OTU4NDc5LDMzNjUzMzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4
