@@ -162,6 +162,8 @@ macs2 bdgopt -i d_1k_10k_bg_norm.bdg -m max -p .0188023 -o local_bias_raw.bdg
 ```
 > need genome background
 # Step 5: Scale the ChIP and control to the same sequencing depth
+Scale down the larger sample to the smaller one.
+This will make sure the noise won't be amplified through scaling and improve the specificity of the final results.
 ```bash
 macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
 ```
@@ -169,11 +171,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg1NTQzOCwtNzM3MjgyODMxLDE2Nz
-kxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2Njcz
-NzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OS
-wxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1
-ODQ3OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3Ni
-wtMzA0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5
-MTc5MDE5MV19
+eyJoaXN0b3J5IjpbMzE5NTYwMTA3LC0xNTk4NTU0MzgsLTczNz
+I4MjgzMSwxNjc5MTg5NDY0LC0xMDAzODMzNzE2LC03MjkyMTMy
+OTEsLTE2NjY3MzcxLDExNDE0MzgxMjYsLTEzMDAzMDYzNjgsLT
+EzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAwNjMzNCw3MDI1NjY0
+ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OTEwOTkzMjMsLT
+EyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4MDUzLC0xODc0
+NzAwMzM1XX0=
 -->
