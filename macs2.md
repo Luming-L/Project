@@ -214,17 +214,18 @@ Output BedGraph has -log10(p-value)s/ -log10(q-value)s for each basepair through
 Take the scores and call those regions higher than certain cutoff
 `-g`
 If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough, we should merge the two nearby regions together into a bigger one and tolerate the fluctuation. This value is set as the read length in MACS2 _callpeak_ function since the read length represent the resolution of the dataset.
+
 ```bash
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMzIxMT
-MzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0Mjg0
-NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNzM3MjgyODMxLDE2Nz
-kxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2Njcz
-NzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OS
-wxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1
-ODQ3OV19
+eyJoaXN0b3J5IjpbLTEzMjMxNjk4NDgsMjc5OTUyNDEwLDE4NT
+A2Nzg5NCwtMzIxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4
+NSwtMTc3OTA0Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNz
+M3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIx
+MzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OC
+wtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2
+NjQ4MV19
 -->
