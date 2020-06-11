@@ -180,7 +180,19 @@ macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois
 # ppois
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_bias.bdg -m ppois -o CTCF_ChIP_200K_pvalue.bdg
 ```
-test the output 
+```bash
+sort -k1,1 -k2,2n local_lambda.bdg | head  
+```
+chr1    0       559459  0.01877
+```bash
+```
+sort -k1,1 -k2,2n CTCF_ChIP_200K_filterdup.pileup.bdg | head
+chr1    0       115537  0.00000
+chr1    115537  115791  1.00000
+chr1    115791  237643  0.00000
+chr1    237643  237681  1.00000
+chr1    237681  237897  2.00000
+test the output score
 ```r
 log10(ppois(0, lambda=0.01877, lower=FALSE))
 [1] -1.730605
@@ -193,11 +205,11 @@ Output BedGraph has -log10(p-value)s/ -log10(q-value)s for each basepair through
 # Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0OTI4MDk4LDY0OTU5NTI5MSwtMTI3Nz
-k0NTA4NSwtMTc3OTA0Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQz
-OCwtNzM3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3MTYsLT
-cyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNiwtMTMwMDMw
-NjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2MzM0LD
-cwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMsLTU5MTA5
-OTMyM119
+eyJoaXN0b3J5IjpbMjA1OTIwNDYwNSw2NDk1OTUyOTEsLTEyNz
+c5NDUwODUsLTE3NzkwNDI4NDQsMzE5NTYwMTA3LC0xNTk4NTU0
+MzgsLTczNzI4MjgzMSwxNjc5MTg5NDY0LC0xMDAzODMzNzE2LC
+03MjkyMTMyOTEsLTE2NjY3MzcxLDExNDE0MzgxMjYsLTEzMDAz
+MDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAwNjMzNC
+w3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OTEw
+OTkzMjNdfQ==
 -->
