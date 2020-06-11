@@ -222,12 +222,16 @@ The 5th column score = 10 * score in the summit from bedGraph.
 [issues379](https://github.com/macs3-project/MACS/issues/379)
 [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 [BedGraph.pyx def  call_peaks](https://github.com/macs3-project/MACS/blob/master/MACS2/IO/BedGraph.pyx)
+
+```bash
+macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B -p 0.05
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMjkxMTgzLDg2MTM0MzQ3MiwtMTQ5NT
-IzNjcxMCwtMTk0ODM1NjMyOSwyNzk5NTI0MTAsMTg1MDY3ODk0
-LC0zMjExMzM4MzMsNjQ5NTk1MjkxLC0xMjc3OTQ1MDg1LC0xNz
-c5MDQyODQ0LDMxOTU2MDEwNywtMTU5ODU1NDM4LC03MzcyODI4
-MzEsMTY3OTE4OTQ2NCwtMTAwMzgzMzcxNiwtNzI5MjEzMjkxLC
-0xNjY2NzM3MSwxMTQxNDM4MTI2LC0xMzAwMzA2MzY4LC0xMzU0
-NDAwNzk5XX0=
+eyJoaXN0b3J5IjpbLTE5NTU5ODI0MjcsNjQyMjkxMTgzLDg2MT
+M0MzQ3MiwtMTQ5NTIzNjcxMCwtMTk0ODM1NjMyOSwyNzk5NTI0
+MTAsMTg1MDY3ODk0LC0zMjExMzM4MzMsNjQ5NTk1MjkxLC0xMj
+c3OTQ1MDg1LC0xNzc5MDQyODQ0LDMxOTU2MDEwNywtMTU5ODU1
+NDM4LC03MzcyODI4MzEsMTY3OTE4OTQ2NCwtMTAwMzgzMzcxNi
+wtNzI5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4MTI2LC0xMzAw
+MzA2MzY4XX0=
 -->
