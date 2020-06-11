@@ -169,11 +169,12 @@ The values in the output file can be regarded as the lambda (or expected value) 
 ```bash
 macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
 ```
+> genome background noise as lambda
 Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDU1NjA2OSwzMTk1NjAxMDcsLTE1OT
+eyJoaXN0b3J5IjpbLTY2MjYzOTcxMywzMTk1NjAxMDcsLTE1OT
 g1NTQzOCwtNzM3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3
 MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNiwtMT
 MwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2
