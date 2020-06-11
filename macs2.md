@@ -39,35 +39,7 @@ BigWig Files for All Samples
 - normalized read counts
 - call by signal, gap, length
 
-```bash
-### Filter duplicates
-macs2 filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
-macs2 filterdup -i CTCF_Control_200K.bed.gz --keep-dup=1 -o CTCF_Control_200K_filterdup.bed
-### Decide the fragment length  _d_
-macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
-### Extend ChIP sample to get ChIP coverage track
-macs2 pileup -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
-### Build local bias track from control
-#### The  _d_  background
-macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
-#### The slocal background
-macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 500 -o 1k_bg.bdg
-macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
-#### The llocal background
-macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
-macs2 bdgopt -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
-#### Combine and generate the maximum background noise
-macs2 bdgcmp -m max -t 1k_bg_norm.bdg -c 10k_bg_norm.bdg -o 1k_10k_bg_norm.bdg
-macs2 bdgcmp -m max -t 1k_10k_bg_norm.bdg -c d_bg.bdg -o d_1k_10k_bg_norm.bdg
-macs2 bdgopt -i d_1k_10k_bg_norm.bdg -m max -p .0188023 -o local_bias_raw.bdg
-### Scale the ChIP and control to the same sequencing depth
-macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
-### Compare ChIP and local lambda to get the scores in pvalue or qvalue
-macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
-macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_bias.bdg -m ppois -o CTCF_ChIP_20
-### Call peaks on score track using a cutoff
-macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
-```
+`
 
 
 
@@ -138,7 +110,8 @@ sort -k1,1 -k2,2n CTCF_ChIP_200K_filterdup.pileup.bdg | head
 chr1    0       115537  0.00000
 chr1    115537  115791  1.00000
 chr1    115791  237643  0.00000
-> already extend when calling peaks. now it is read counts for each bin.
+> skip. already extend when calling peaks. now it is read counts for each bin. 
+> We already have regions 
 # Step 4: Build local bias track from control
 get maximum number of reads at a certain position
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
@@ -193,11 +166,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzI4MjgzMSwxNjc5MTg5NDY0LC0xMD
-AzODMzNzE2LC03MjkyMTMyOTEsLTE2NjY3MzcxLDExNDE0Mzgx
-MjYsLTEzMDAzMDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMi
-w1MDAwNjMzNCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMz
-NDEzLC01OTEwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMi
-wxMTM0MDQ4MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOTEsNzY1
-NzYzMTgzXX0=
+eyJoaXN0b3J5IjpbMTk0MDI1MjM1NCwtNzM3MjgyODMxLDE2Nz
+kxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2Njcz
+NzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OS
+wxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1
+ODQ3OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3Ni
+wtMzA0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5
+MTc5MDE5MV19
 -->
