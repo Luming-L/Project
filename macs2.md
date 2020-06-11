@@ -216,17 +216,19 @@ Take the scores and call those regions higher than certain cutoff
 If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough, we should merge the two nearby regions together into a bigger one and tolerate the fluctuation. This value is set as the read length in MACS2 _callpeak_ function since the read length represent the resolution of the dataset.
 `-l`
 Set a minimum length for the peak.
+`-c`
+Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -log10 form, so if you need the cutoff as 0.05, the -log10 value is about 1.3.
 ```bash
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NT
-A2Nzg5NCwtMzIxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4
-NSwtMTc3OTA0Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNz
-M3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIx
-MzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OC
-wtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2
-NjQ4MV19
+eyJoaXN0b3J5IjpbLTU5NTgzODE3OCwtMTk0ODM1NjMyOSwyNz
+k5NTI0MTAsMTg1MDY3ODk0LC0zMjExMzM4MzMsNjQ5NTk1Mjkx
+LC0xMjc3OTQ1MDg1LC0xNzc5MDQyODQ0LDMxOTU2MDEwNywtMT
+U5ODU1NDM4LC03MzcyODI4MzEsMTY3OTE4OTQ2NCwtMTAwMzgz
+MzcxNiwtNzI5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4MTI2LC
+0xMzAwMzA2MzY4LC0xMzU0NDAwNzk5LDE2MzU4MDE0MDIsNTAw
+MDYzMzRdfQ==
 -->
