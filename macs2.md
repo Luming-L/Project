@@ -216,7 +216,7 @@ Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -lo
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 BED6+4 format file
-5th: integer score for display. It's calculated as `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-m ppois` (pvalue) or `-m qpois` (qvalue) is used in bdgcmp.
+5th: integer score for display. It's calculated as `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-m ppois` (-log10pvalue) or `-m qpois` (-log10qvalue) is used in bdgcmp.
 peak locations together with peak summit, p-value, and q-value.
 locations of peaks, 10*score, and the summit location in the last column.
 simple peak calling tool 
@@ -230,11 +230,11 @@ The 5th column score = 10 * score in the summit from bedGraph.
 macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDAwNzYxMCwxNTQ0ODU4NjYxLC0xOT
-U1OTgyNDI3LDY0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3
-MTAsLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMz
-IxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0
-Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNzM3MjgyODMxLD
-E2NzkxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2
-NjczNzFdfQ==
+eyJoaXN0b3J5IjpbLTE4Njc4NTQ1MjIsMTU0NDg1ODY2MSwtMT
+k1NTk4MjQyNyw2NDIyOTExODMsODYxMzQzNDcyLC0xNDk1MjM2
+NzEwLC0xOTQ4MzU2MzI5LDI3OTk1MjQxMCwxODUwNjc4OTQsLT
+MyMTEzMzgzMyw2NDk1OTUyOTEsLTEyNzc5NDUwODUsLTE3Nzkw
+NDI4NDQsMzE5NTYwMTA3LC0xNTk4NTU0MzgsLTczNzI4MjgzMS
+wxNjc5MTg5NDY0LC0xMDAzODMzNzE2LC03MjkyMTMyOTEsLTE2
+NjY3MzcxXX0=
 -->
