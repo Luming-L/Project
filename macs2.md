@@ -156,7 +156,7 @@ Simply imagine that each cutting site (sequenced read) represent a 1kb (default,
 ```bash
 macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 500 -o 1k_bg.bdg
 ```
-normalize noise track
+normalize the background noise track
 Because the ChIP signal track was built by extending reads into _d_ size fragments, we have to normalize the 1kb noise by multiplying the values by _d_/slocal, which is 254/1000=0.254 in our example.
 ```bash
 macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
@@ -179,11 +179,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2ODg0NjQzLDUwMDA2MzM0LDcwMjU2Nj
-Q4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywt
-MTIxNjU3ODc3NiwtMzA0NzcwNTAyLDExMzQwNDgwNTMsLTE4Nz
-Q3MDAzMzUsMTA5MTc5MDE5MSw3NjU3NjMxODMsOTk4MDQyOTY5
-LC0xMzA3MDY5NDcyLC0xNTcyODI3NTQxLC02NDcyNDg3MDgsMT
-YwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMzE1MjQ4MDgsLTk5ODY5
-OTU0OF19
+eyJoaXN0b3J5IjpbMTYzNTgwMTQwMiw1MDAwNjMzNCw3MDI1Nj
+Y0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OTEwOTkzMjMs
+LTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4MDUzLC0xOD
+c0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLDk5ODA0Mjk2
+OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3MjQ4NzA4LD
+E2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OTg2
+OTk1NDhdfQ==
 -->
