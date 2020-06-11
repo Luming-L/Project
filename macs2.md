@@ -165,6 +165,7 @@ macs2 bdgopt -i d_1k_10k_bg_norm.bdg -m max -p .0188023 -o local_bias_raw.bdg
 Scale down the larger sample to the smaller one.
 This will make sure the noise won't be amplified through scaling and improve the specificity of the final results.
 Scaled down the control bias by multiplying with the ratio between ChIP and control which is 199583/199867=.99858
+The values in the output file can be regarded as the lambda (or expected value) and can be compared with ChIP signals using the local Poisson test.
 ```bash
 macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
 ```
@@ -172,7 +173,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTk1ODcxNCwzMTk1NjAxMDcsLTE1OT
+eyJoaXN0b3J5IjpbMTA1MDU1NjA2OSwzMTk1NjAxMDcsLTE1OT
 g1NTQzOCwtNzM3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3
 MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNiwtMT
 MwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2
