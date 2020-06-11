@@ -2,8 +2,9 @@
 [atac-seq peak-calling](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html#peak-calling)
 [MACS](https://github.com/macs3-project/MACS)
 [MACS2 subcommand](https://github.com/macs3-project/MACS/wiki/Advanced%3A-Call-peaks-using-MACS2-subcommands#Step_4_Build_local_bias_track_from_control)
-how macs2 call peaks
-two important steps: adjust read position, calculate peak enrichment
+
+calculate lambda 
+evaluate value
 
 ### calculate local lambda without control
 The local lambda is the maximum of the averages of tags for 1/5/10 kb regions and a whole genome background. If there is no control data, the ChIP data will be used instead, where the 1kb region is not considered.
@@ -147,11 +148,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3Nj
-AxODYyNyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3NjgwNjk3
-MTYsLTQyNzM1MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMTYsLT
-E3NzQ3OTEyMDYsNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3OTA3
-OTYsMTc2ODQ2NDQ0OSwyMjk1NTM1NjksLTE1NzY0ODY5ODAsMT
-AxODY3Mzk3OSwtMTUwOTI3NzkwMCw3MzU0ODc4ODIsLTk3MDkw
-NDA1MV19
+eyJoaXN0b3J5IjpbMjMxNTI0ODA4LC05OTg2OTk1NDgsMTI4OD
+E4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0MzgxLC0xODU1NzIxNDgy
+LC0xNzY4MDY5NzE2LC00MjczNTEwODEsMTE1NzMyMjYxMCwtNT
+g4MTcyMTE2LC0xNzc0NzkxMjA2LDczNzQwOTMwLC0yMjQyMDkx
+MDUsNzg2NzkwNzk2LDE3Njg0NjQ0NDksMjI5NTUzNTY5LC0xNT
+c2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDkyNzc5MDAsNzM1NDg3
+ODgyXX0=
 -->
