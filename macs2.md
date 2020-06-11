@@ -172,16 +172,19 @@ macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
 > genome background noise as lambda
 Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 ```bash
+# qpois
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
+# ppois
+macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_bias.bdg -m ppois -o CTCF_ChIP_200K_pvalue.bdg
 ```
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDY3MTgyOSwzMTk1NjAxMDcsLTE1OT
-g1NTQzOCwtNzM3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3
-MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNiwtMT
-MwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2
-MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMsLT
-U5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0NzcwNTAyLDExMzQw
-NDgwNTNdfQ==
+eyJoaXN0b3J5IjpbLTE3NzkwNDI4NDQsMzE5NTYwMTA3LC0xNT
+k4NTU0MzgsLTczNzI4MjgzMSwxNjc5MTg5NDY0LC0xMDAzODMz
+NzE2LC03MjkyMTMyOTEsLTE2NjY3MzcxLDExNDE0MzgxMjYsLT
+EzMDAzMDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAw
+NjMzNCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC
+01OTEwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0
+MDQ4MDUzXX0=
 -->
