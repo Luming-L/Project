@@ -177,14 +177,17 @@ You don't need to run subcommands to build a genome background track since it's 
 ## Combine and generate the maximum background noise
 Combine all background noises
 Compute the maximum bias for each genomic location 
-
+```bash
+# Take the maximum between slocal (1k) and llocal (10k) background
+macs2 bdgcmp -m max -t 1k_bg_norm.bdg -c 10k_bg_norm.bdg -o 1k_10k_bg_norm.bdg
+```
 
 Step 5: Scale the ChIP and control to the same sequencing depth
 Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1OTA2MTQxLDExNDE0MzgxMjYsLTEzMD
+eyJoaXN0b3J5IjpbLTE2NjY3MzcxLDExNDE0MzgxMjYsLTEzMD
 AzMDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAwNjMz
 NCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OT
 EwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4
