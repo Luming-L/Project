@@ -222,7 +222,7 @@ macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_Ch
 [issues379](https://github.com/macs3-project/MACS/issues/379)
 [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 [BedGraph.pyx def  call_peaks](https://github.com/macs3-project/MACS/blob/master/MACS2/IO/BedGraph.pyx)
-
+# Call peaks from alignment results by main MACS2 Function `callpeak`
 ```bash
 macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 ```
@@ -233,7 +233,7 @@ chr1    840239  840240  test_peak_1     7.0862
 chr1    919549  919550  test_peak_2     8.70937
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDcyODY4MCwtOTgxNDYxNTIwLDE1ND
+eyJoaXN0b3J5IjpbLTI1MzgxMDIwNSwtOTgxNDYxNTIwLDE1ND
 Q4NTg2NjEsLTE5NTU5ODI0MjcsNjQyMjkxMTgzLDg2MTM0MzQ3
 MiwtMTQ5NTIzNjcxMCwtMTk0ODM1NjMyOSwyNzk5NTI0MTAsMT
 g1MDY3ODk0LC0zMjExMzM4MzMsNjQ5NTk1MjkxLC0xMjc3OTQ1
