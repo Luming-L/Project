@@ -175,7 +175,8 @@ bdgopt -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
 _the_number_of_control_reads*fragment_length/genome_size_: 199867*254/2700000000 ~= .0188023.
 You don't need to run subcommands to build a genome background track since it's just a single value.
 ## Combine and generate the maximum background noise
-take the maximum value among all tracks
+Combine all background noises
+Compute the maximum bias for each genomic location 
 
 
 Step 5: Scale the ChIP and control to the same sequencing depth
@@ -183,11 +184,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTQzODEyNiwtMTMwMDMwNjM2OCwtMT
-M1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4
-MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywtMT
-IxNjU3ODc3NiwtMzA0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3
-MDAzMzUsMTA5MTc5MDE5MSw3NjU3NjMxODMsOTk4MDQyOTY5LC
-0xMzA3MDY5NDcyLC0xNTcyODI3NTQxLC02NDcyNDg3MDgsMTYw
-NTcyOTE3OF19
+eyJoaXN0b3J5IjpbODg1OTA2MTQxLDExNDE0MzgxMjYsLTEzMD
+AzMDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAwNjMz
+NCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OT
+EwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4
+MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLD
+k5ODA0Mjk2OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3
+MjQ4NzA4XX0=
 -->
