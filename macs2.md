@@ -133,12 +133,6 @@ sort -k1,1 -k2,2n CTCF_ChIP_200K_filterdup.pileup.bdg | head
 chr1    0       115537  0.00000
 chr1    115537  115791  1.00000
 chr1    115791  237643  0.00000
-
-The file 'CTCF_ChIP_200K_filterdup.pileup.bdg' contains the fragment pileup signals for ChIP sample.
-For DNAse-Seq data or you think the cutting site, that is detected by short read sequencing, is just in the _middle_ of the fragment you are interested in, you need to use _-B_ option to extend the read in both direction. This option will be ignored when the format is set as BAMPE or BEDPE. DEFAULT: False
-```bash
-sort -k4,4nr CTCF_ChIP_200K_filterdup.pileup.bdg | cut -f 4 | uniq # 0-27
-```
 # Step 4: Build local bias track from control
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
 - surrounding 1kb (set by --slocal)
@@ -174,11 +168,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDEzMTg4MSwtMTIxNjU3ODc3NiwtMz
-A0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5
-MDE5MSw3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC
-0xNTcyODI3NTQxLC02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkw
-MDA5NDkwNCwyMzE1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwND
-Y0LDU3NjAxODYyNyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3
-NjgwNjk3MTZdfQ==
+eyJoaXN0b3J5IjpbMzk2ODg4NjU2LC0xMjE2NTc4Nzc2LC0zMD
+Q3NzA1MDIsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkw
+MTkxLDc2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0NzIsLT
+E1NzI4Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAw
+MDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0Nj
+QsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2
+ODA2OTcxNl19
 -->
