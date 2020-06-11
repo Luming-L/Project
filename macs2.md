@@ -3,7 +3,7 @@
 [atac-seq peak-calling](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html#peak-calling)
 [MACS](https://github.com/macs3-project/MACS)
 [MACS2 subcommand](https://github.com/macs3-project/MACS/wiki/Advanced%3A-Call-peaks-using-MACS2-subcommands#Step_4_Build_local_bias_track_from_control)
-
+select significant bins and combine
 calculate different lambda 
 select lamda use average read counts to model the genome background lambda
 poisson distribution
@@ -193,11 +193,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzODU0NzI4LDE2NzkxODk0NjQsLTEwMD
-M4MzM3MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEy
-NiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLD
-UwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0
-MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0NzcwNTAyLD
-ExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MSw3NjU3
-NjMxODNdfQ==
+eyJoaXN0b3J5IjpbLTczNzI4MjgzMSwxNjc5MTg5NDY0LC0xMD
+AzODMzNzE2LC03MjkyMTMyOTEsLTE2NjY3MzcxLDExNDE0Mzgx
+MjYsLTEzMDAzMDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMi
+w1MDAwNjMzNCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMz
+NDEzLC01OTEwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMi
+wxMTM0MDQ4MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOTEsNzY1
+NzYzMTgzXX0=
 -->
