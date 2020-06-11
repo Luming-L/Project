@@ -87,7 +87,6 @@ The q-value (minimum FDR) cutoff to call significant regions. Default is 0.05. F
 wget https://github.com/macs3-project/MACS/blob/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test/CTCF_ChIP_200K.bed.gz
 wget https://github.com/macs3-project/MACS/blob/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test/CTCF_Control_200K.bed.gz
 ```
-
 # Step 1: Filter duplicates
 Remove the redundant reads at each genomic loci in Control and ChIP data.
 By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=1_ for _callpeak_.
@@ -155,11 +154,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OT
-g2OTk1NDgsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0Mzgx
-LC0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEwODEsMT
-E1NzMyMjYxMCwtNTg4MTcyMTE2LC0xNzc0NzkxMjA2LDczNzQw
-OTMwLC0yMjQyMDkxMDUsNzg2NzkwNzk2LDE3Njg0NjQ0NDksMj
-I5NTUzNTY5LC0xNTc2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDky
-Nzc5MDBdfQ==
+eyJoaXN0b3J5IjpbMTYwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMz
+E1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3NjAxODYy
+Nyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3NjgwNjk3MTYsLT
+QyNzM1MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMTYsLTE3NzQ3
+OTEyMDYsNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3OTA3OTYsMT
+c2ODQ2NDQ0OSwyMjk1NTM1NjksLTE1NzY0ODY5ODAsMTAxODY3
+Mzk3OV19
 -->
