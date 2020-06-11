@@ -114,8 +114,10 @@ Output the fragment length _d_: 254.
 > you have a better estimation on fragment length, you can simply skip this step.
 # Step 3: Extend ChIP sample to get ChIP coverage track
 For ChIP-seq:
-Extend each read towards downstream direction with  EXTSIZE bps.
+Extend each read towards downstream direction with  EXTSIZE bps (default).
 Generate a pileup track in BEDGRAPH format for ChIP sample. 
+For DNAse-Seq data
+or the cutting site, that is detected by short read sequencing, is in the _middle_ of the fragment you are interested in
 
 For ChIP-Seq data, we extend reads in 5' to 3' direction by the fragment length estimated, which is the default behavior of _pileup_ function.
 ```bash
@@ -161,11 +163,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMD
-kxNzkwMTkxLDc2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0
-NzIsLTE1NzI4Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC
-0xOTAwMDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgx
-ODA0NjQsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NTcyMTQ4Mi
-wtMTc2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTczMjI2MTAsLTU4
-ODE3MjExNl19
+eyJoaXN0b3J5IjpbMTQ3MTcwNTE5NiwxMTM0MDQ4MDUzLC0xOD
+c0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLDk5ODA0Mjk2
+OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3MjQ4NzA4LD
+E2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OTg2
+OTk1NDgsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0MzgxLC
+0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEwODEsMTE1
+NzMyMjYxMF19
 -->
