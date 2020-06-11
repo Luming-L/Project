@@ -164,11 +164,6 @@ macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
 ## The llocal background
 ```bash
 macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
-
-pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
-sort -k4,4nr 10k_bg.bdg | cut -f 4 | uniq | head # 0-1191
-macs2 bdgopt -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
-sort -k4,4nr 10k_bg_norm.bdg | cut -f 4 | uniq | head # 0-30.25140
 ```
 ## The genome background
 _the_number_of_control_reads*fragment_length/genome_size_: 199867*254/2700000000 ~= .0188023.
@@ -178,7 +173,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjQ3NzU3MCwxNjM1ODAxNDAyLDUwMD
+eyJoaXN0b3J5IjpbMTY4ODEzNTg5NCwxNjM1ODAxNDAyLDUwMD
 A2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMs
 LTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0NzcwNTAyLDExMz
 QwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MSw3NjU3NjMx
