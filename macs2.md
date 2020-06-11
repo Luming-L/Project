@@ -93,7 +93,7 @@ Remove the redundant reads at each genomic loci in Control and ChIP data.
 By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=1_ for _callpeak_.
 ```bash
 macs2 filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
-
+macs2 filterdup -i CTCF_Control_200K.bed.gz --keep-dup=1 -o CTCF_Control_200K_filterdup.bed
 
 
 
@@ -161,11 +161,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOT
-AwMDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0
-NjQsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMT
-c2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3
-MjExNiwtMTc3NDc5MTIwNiw3Mzc0MDkzMCwtMjI0MjA5MTA1LD
-c4Njc5MDc5NiwxNzY4NDY0NDQ5LDIyOTU1MzU2OSwtMTU3NjQ4
-Njk4MF19
+eyJoaXN0b3J5IjpbLTE1NzI4Mjc1NDEsLTY0NzI0ODcwOCwxNj
+A1NzI5MTc4LC0xOTAwMDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5
+NTQ4LDEyODgxODA0NjQsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMT
+g1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTcz
+MjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MTIwNiw3Mzc0MDkzMC
+wtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4NDY0NDQ5LDIyOTU1
+MzU2OV19
 -->
