@@ -94,14 +94,8 @@ By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=
 ```bash
 macs2 filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
 macs2 filterdup -i CTCF_Control_200K.bed.gz --keep-dup=1 -o CTCF_Control_200K_filterdup.bed
-
-
-
-
-filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
-filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50k_filterdup.bed
-wc -l CTCF_SE_ChIP_chr22_50k_filterdup.bed # 48047 CTCF_SE_ChIP_chr22_50k_filterdup.bed
-wc -l CTCF_SE_CTRL_chr22_50k_filterdup.bed # 50783 CTCF_SE_CTRL_chr22_50k_filterdup.bed
+wc -l CTCF_ChIP_200K_filterdup.bed # 199583 CTCF_ChIP_200K_filterdup.bed
+wc -l CTCF_Control_200K_filterdup.bed # 199867 CTCF_Control_200K_filterdup.bed
 ```
 ChIP: tags after filtering in alignment file: 199583
 Control: tags after filtering in alignment file: 199867
@@ -161,11 +155,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE1OTk0OTIsLTE1NzI4Mjc1NDEsLT
-Y0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OTA0LDIzMTUy
-NDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2MDE4NjI3LD
-c4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3
-MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MT
-IwNiw3Mzc0MDkzMCwtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4
-NDY0NDQ5XX0=
+eyJoaXN0b3J5IjpbMjIzMjkzMzQ5LC0xNTcyODI3NTQxLC02ND
+cyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMzE1MjQ4
+MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3NjAxODYyNyw3OD
+AzMzQzODEsLTE4NTU3MjE0ODIsLTE3NjgwNjk3MTYsLTQyNzM1
+MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMTYsLTE3NzQ3OTEyMD
+YsNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3OTA3OTYsMTc2ODQ2
+NDQ0OV19
 -->
