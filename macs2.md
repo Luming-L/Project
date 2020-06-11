@@ -162,6 +162,8 @@ Because the ChIP signal track was built by extending reads into _d_ size fragmen
 macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
 ```
 ## The llocal background
+extend the control read to both sides with 5000 bps by default.
+represent a 10 kb surrounding noise.
 ```bash
 macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
 ```
@@ -173,11 +175,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODEzNTg5NCwxNjM1ODAxNDAyLDUwMD
-A2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMs
-LTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0NzcwNTAyLDExMz
-QwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MSw3NjU3NjMx
-ODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNTcyODI3NTQxLC
-02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMzE1
-MjQ4MDhdfQ==
+eyJoaXN0b3J5IjpbLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MD
+AwNjMzNCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEz
+LC01OTEwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMT
+M0MDQ4MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYz
+MTgzLDk5ODA0Mjk2OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MS
+wtNjQ3MjQ4NzA4LDE2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMx
+NTI0ODA4XX0=
 -->
