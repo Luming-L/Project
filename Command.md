@@ -26,6 +26,11 @@ Shebang #!/bin/sh
 显示文件某一列出现的不重复字符 awk '{print $4}' run_pileup_CTRL.bed.bdg | sort | uniq
 创建新的目录和它的子目录 mkdir -p LectureExercises/Lecture03
 显示目标文件夹包含文件以及路径 ls PeakFasta/*
+more 
+-   按回车：默认下一行数据；
+-   按空格键盘，默认下一页，以当前屏幕为单位；
+-   按Ctrl+ B 上一页，以当前屏幕大小为单位；
+-   按B 回到文档第一页面
 ```bash
  sort -nrk 4 peaks_pvalue.bdg | head
 ```
@@ -61,11 +66,11 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNTkxNDA0LDEzMzY4ODE5MzcsLTM4Mz
-k5OTA2NiwxNTYzOTY1NjAsLTE2MzEwMDg0MDQsMTIzMjM2MTE4
-Myw5NDI2MzgwNzYsLTk0MTY4OTM1NiwtMzUzNzY5NzE4LC0xND
-A0MDY3ODc0LDIwNjIzNDk4NCwyMDM1MjQ2MDA3LC0zNTA3OTk3
-NzksLTE1ODA1NTE0NjksLTE4MzQzNDY0NzYsMTU0NjgwMTk4OC
-wyNDQ5Njk2MzksODkwNzIxMzQwLDEwMjQwMTMyNzcsMjExMTQy
-Njc3N119
+eyJoaXN0b3J5IjpbLTYzNzI2MzMxMSw1ODM1OTE0MDQsMTMzNj
+g4MTkzNywtMzgzOTk5MDY2LDE1NjM5NjU2MCwtMTYzMTAwODQw
+NCwxMjMyMzYxMTgzLDk0MjYzODA3NiwtOTQxNjg5MzU2LC0zNT
+M3Njk3MTgsLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMzUyNDYw
+MDcsLTM1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0NjQ3Ni
+wxNTQ2ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMTAyNDAx
+MzI3N119
 -->
