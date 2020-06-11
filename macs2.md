@@ -185,7 +185,7 @@ macs2 bdgcmp -m max -t 1k_bg_norm.bdg -c 10k_bg_norm.bdg -o 1k_10k_bg_norm.bdg
 # Then, take the maximum then by comparing with _d_ background
 macs2 bdgcmp -m max -t 1k_10k_bg_norm.bdg -c d_bg.bdg -o d_1k_10k_bg_norm.bdg
 # Finally, combine with the genome wide background using _bdgopt_ subcommand
-
+macs2 bdgopt -i d_1k_10k_bg_norm.bdg -m max -p .0188023 -o local_bias_raw.bdg
 ```
 >
 Step 5: Scale the ChIP and control to the same sequencing depth
@@ -193,11 +193,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTE4OTQ2NCwtMTAwMzgzMzcxNiwtNz
-I5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4MTI2LC0xMzAwMzA2
-MzY4LC0xMzU0NDAwNzk5LDE2MzU4MDE0MDIsNTAwMDYzMzQsNz
-AyNTY2NDgxLC0xMzc3OTU4NDc5LDMzNjUzMzQxMywtNTkxMDk5
-MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1MDIsMTEzNDA0ODA1My
-wtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLDc2NTc2MzE4Myw5OTgw
-NDI5NjldfQ==
+eyJoaXN0b3J5IjpbLTE0MDU4OTg1OTAsMTY3OTE4OTQ2NCwtMT
+AwMzgzMzcxNiwtNzI5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4
+MTI2LC0xMzAwMzA2MzY4LC0xMzU0NDAwNzk5LDE2MzU4MDE0MD
+IsNTAwMDYzMzQsNzAyNTY2NDgxLC0xMzc3OTU4NDc5LDMzNjUz
+MzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1MD
+IsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLDc2
+NTc2MzE4M119
 -->
