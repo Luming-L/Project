@@ -170,7 +170,9 @@ The values in the output file can be regarded as the lambda (or expected value) 
 macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
 ```
 > genome background noise as lambda
-Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
+# Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
+to find enriched regions and predict the so-called 'peaks', the ChIP signals and local lambda stored in BEDGRAPH file have to be compared using certain statistic model.
+_bdgcmp_ module will output score for each basepair in the genome
 ```bash
 # qpois
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
@@ -180,11 +182,11 @@ macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_bias.bdg -m ppois -
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzkwNDI4NDQsMzE5NTYwMTA3LC0xNT
-k4NTU0MzgsLTczNzI4MjgzMSwxNjc5MTg5NDY0LC0xMDAzODMz
-NzE2LC03MjkyMTMyOTEsLTE2NjY3MzcxLDExNDE0MzgxMjYsLT
-EzMDAzMDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAw
-NjMzNCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC
-01OTEwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0
-MDQ4MDUzXX0=
+eyJoaXN0b3J5IjpbLTQ5MDk0NTg0MywtMTc3OTA0Mjg0NCwzMT
+k1NjAxMDcsLTE1OTg1NTQzOCwtNzM3MjgyODMxLDE2NzkxODk0
+NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMT
+E0MTQzODEyNiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1
+ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OS
+wzMzY1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0
+NzcwNTAyXX0=
 -->
