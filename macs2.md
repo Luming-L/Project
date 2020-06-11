@@ -1,4 +1,5 @@
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
+[https://www.biorxiv.org/content/10.1101/496521v1.full.pdf](https://www.biorxiv.org/content/10.1101/496521v1.full.pdf)
 [atac-seq peak-calling](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html#peak-calling)
 [MACS](https://github.com/macs3-project/MACS)
 [MACS2 subcommand](https://github.com/macs3-project/MACS/wiki/Advanced%3A-Call-peaks-using-MACS2-subcommands#Step_4_Build_local_bias_track_from_control)
@@ -168,11 +169,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2ODg4NjU2LC0xMjE2NTc4Nzc2LC0zMD
-Q3NzA1MDIsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkw
-MTkxLDc2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0NzIsLT
-E1NzI4Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAw
-MDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0Nj
-QsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2
-ODA2OTcxNl19
+eyJoaXN0b3J5IjpbLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMz
+A0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5
+MDE5MSw3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC
+0xNTcyODI3NTQxLC02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkw
+MDA5NDkwNCwyMzE1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwND
+Y0LDU3NjAxODYyNyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3
+NjgwNjk3MTZdfQ==
 -->
