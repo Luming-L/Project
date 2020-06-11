@@ -113,12 +113,13 @@ macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 Output the fragment length _d_: 254.
 > you have a better estimation on fragment length, you can simply skip this step.
 # Step 3: Extend ChIP sample to get ChIP coverage track
+Extend and pileup
 For ChIP-seq:
-Extend each read towards downstream direction with  EXTSIZE bps (default).
-Generate a pileup track in BEDGRAPH format for ChIP sample. 
+- Extend each read towards downstream direction with  EXTSIZE bps (default).
+- Generate a pileup track in BEDGRAPH format for ChIP sample. 
 For DNAse-Seq data
 or the cutting site, that is detected by short read sequencing, is in the _middle_ of the fragment you are interested in
-
+use _-B_ option to extend the read in both direction
 For ChIP-Seq data, we extend reads in 5' to 3' direction by the fragment length estimated, which is the default behavior of _pileup_ function.
 ```bash
 macs2 pileup -f BED -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
@@ -163,11 +164,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTcwNTE5NiwxMTM0MDQ4MDUzLC0xOD
-c0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLDk5ODA0Mjk2
-OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3MjQ4NzA4LD
-E2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OTg2
-OTk1NDgsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0MzgxLC
-0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEwODEsMTE1
-NzMyMjYxMF19
+eyJoaXN0b3J5IjpbLTI0OTY4OTA2LDExMzQwNDgwNTMsLTE4Nz
+Q3MDAzMzUsMTA5MTc5MDE5MSw3NjU3NjMxODMsOTk4MDQyOTY5
+LC0xMzA3MDY5NDcyLC0xNTcyODI3NTQxLC02NDcyNDg3MDgsMT
+YwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMzE1MjQ4MDgsLTk5ODY5
+OTU0OCwxMjg4MTgwNDY0LDU3NjAxODYyNyw3ODAzMzQzODEsLT
+E4NTU3MjE0ODIsLTE3NjgwNjk3MTYsLTQyNzM1MTA4MSwxMTU3
+MzIyNjEwXX0=
 -->
