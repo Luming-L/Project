@@ -84,6 +84,7 @@ The q-value (minimum FDR) cutoff to call significant regions. Default is 0.05. F
 # Input files
 [test: CTCF_ChIP_200K.bed.gz, CTCF_Control_200K.bed.gz](https://github.com/macs3-project/MACS/tree/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test)
 ```bash
+wget https://github.com/taoliu/MACS/blob/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test/CTCF_ChIP_200K.bed.gz?raw=true
 wget https://github.com/macs3-project/MACS/blob/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test/CTCF_ChIP_200K.bed.gz
 wget https://github.com/macs3-project/MACS/blob/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test/CTCF_Control_200K.bed.gz
 ```
@@ -154,11 +155,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMz
-E1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3NjAxODYy
-Nyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3NjgwNjk3MTYsLT
-QyNzM1MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMTYsLTE3NzQ3
-OTEyMDYsNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3OTA3OTYsMT
-c2ODQ2NDQ0OSwyMjk1NTM1NjksLTE1NzY0ODY5ODAsMTAxODY3
-Mzk3OV19
+eyJoaXN0b3J5IjpbLTY3NTQ3MTgxMCwxNjA1NzI5MTc4LC0xOT
+AwMDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0
+NjQsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMT
+c2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3
+MjExNiwtMTc3NDc5MTIwNiw3Mzc0MDkzMCwtMjI0MjA5MTA1LD
+c4Njc5MDc5NiwxNzY4NDY0NDQ5LDIyOTU1MzU2OSwtMTU3NjQ4
+Njk4MF19
 -->
