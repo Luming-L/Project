@@ -211,13 +211,17 @@ chr1    237681  237897  5.96387
 ```
 Output BedGraph has -log10(p-value)s/ -log10(q-value)s for each basepair through local Poisson test.
 # Step 7: Call peaks on score track using a cutoff
+```bash
+macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
+```
+
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjQ4NDgzLDY0OTU5NTI5MSwtMTI3Nz
-k0NTA4NSwtMTc3OTA0Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQz
-OCwtNzM3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3MTYsLT
-cyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNiwtMTMwMDMw
-NjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2MzM0LD
-cwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMsLTU5MTA5
-OTMyM119
+eyJoaXN0b3J5IjpbLTMyMTEzMzgzMyw2NDk1OTUyOTEsLTEyNz
+c5NDUwODUsLTE3NzkwNDI4NDQsMzE5NTYwMTA3LC0xNTk4NTU0
+MzgsLTczNzI4MjgzMSwxNjc5MTg5NDY0LC0xMDAzODMzNzE2LC
+03MjkyMTMyOTEsLTE2NjY3MzcxLDExNDE0MzgxMjYsLTEzMDAz
+MDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAwNjMzNC
+w3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OTEw
+OTkzMjNdfQ==
 -->
