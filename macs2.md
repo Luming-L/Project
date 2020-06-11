@@ -205,6 +205,8 @@ chr1    237681  237897  5.96387
 ```
 Output BedGraph has -log10(p-value)s/ -log10(q-value)s for each basepair through local Poisson test.
 # Step 7: Call peaks on score track using a cutoff
+simple peak calling tool 
+check the 4th column in bedGraph file and call the regions above a given cutoff.
 Take the scores and call those regions higher than certain cutoff
 `-g`
 If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough, we should merge the two nearby regions together into a bigger one and tolerate the fluctuation. This value is set as the read length in MACS2 _callpeak_ function since the read length represent the resolution of the dataset.
@@ -215,12 +217,7 @@ Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -lo
 ```bash
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
-BED6+4 format file
 5th: integer score for display. It's calculated as 10 * score in the summit from bedGraph. `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-m ppois` (-log10pvalue) or `-m qpois` (-log10qvalue) is used in bdgcmp.
-peak locations together with peak summit, p-value, and q-value.
-locations of peaks, 10*score, and the summit location in the last column.
-simple peak calling tool 
-check the 4th column in bedGraph file and call the regions above a given cutoff.
 10th: relative summit position to peak start
 [issues379](https://github.com/macs3-project/MACS/issues/379)
 [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
@@ -229,12 +226,18 @@ check the 4th column in bedGraph file and call the regions above a given cutoff.
 ```bash
 macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 ```
+```bash
+head test_summits.bed
+```
+chr1    840239  840240  test_peak_1     7.0862
+chr1    919549  919550  test_peak_2     8.70937
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTQ2MTUyMCwxNTQ0ODU4NjYxLC0xOT
-U1OTgyNDI3LDY0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3
-MTAsLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMz
-IxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0
-Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNzM3MjgyODMxLD
-E2NzkxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2
-NjczNzFdfQ==
+eyJoaXN0b3J5IjpbMjE0MDcyODY4MCwtOTgxNDYxNTIwLDE1ND
+Q4NTg2NjEsLTE5NTU5ODI0MjcsNjQyMjkxMTgzLDg2MTM0MzQ3
+MiwtMTQ5NTIzNjcxMCwtMTk0ODM1NjMyOSwyNzk5NTI0MTAsMT
+g1MDY3ODk0LC0zMjExMzM4MzMsNjQ5NTk1MjkxLC0xMjc3OTQ1
+MDg1LC0xNzc5MDQyODQ0LDMxOTU2MDEwNywtMTU5ODU1NDM4LC
+03MzcyODI4MzEsMTY3OTE4OTQ2NCwtMTAwMzgzMzcxNiwtNzI5
+MjEzMjkxXX0=
 -->
