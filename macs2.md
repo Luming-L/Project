@@ -216,12 +216,12 @@ Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -lo
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 BED6+4 format file
-5th: integer score for display. It's calculated as `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-m ppois` (-log10pvalue) or `-m qpois` (-log10qvalue) is used in bdgcmp.
+5th: integer score for display. It's calculated as 10 * score in the summit from bedGraph. `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-m ppois` (-log10pvalue) or `-m qpois` (-log10qvalue) is used in bdgcmp.
 peak locations together with peak summit, p-value, and q-value.
 locations of peaks, 10*score, and the summit location in the last column.
 simple peak calling tool 
 check the 4th column in bedGraph file and call the regions above a given cutoff.
-The 5th column score = 10 * score in the summit from bedGraph.
+The 5th column score = 
 [issues379](https://github.com/macs3-project/MACS/issues/379)
 [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 [BedGraph.pyx def  call_peaks](https://github.com/macs3-project/MACS/blob/master/MACS2/IO/BedGraph.pyx)
@@ -230,11 +230,11 @@ The 5th column score = 10 * score in the summit from bedGraph.
 macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc4NTQ1MjIsMTU0NDg1ODY2MSwtMT
-k1NTk4MjQyNyw2NDIyOTExODMsODYxMzQzNDcyLC0xNDk1MjM2
-NzEwLC0xOTQ4MzU2MzI5LDI3OTk1MjQxMCwxODUwNjc4OTQsLT
-MyMTEzMzgzMyw2NDk1OTUyOTEsLTEyNzc5NDUwODUsLTE3Nzkw
-NDI4NDQsMzE5NTYwMTA3LC0xNTk4NTU0MzgsLTczNzI4MjgzMS
-wxNjc5MTg5NDY0LC0xMDAzODMzNzE2LC03MjkyMTMyOTEsLTE2
-NjY3MzcxXX0=
+eyJoaXN0b3J5IjpbNzM2OTM4NzQ4LDE1NDQ4NTg2NjEsLTE5NT
+U5ODI0MjcsNjQyMjkxMTgzLDg2MTM0MzQ3MiwtMTQ5NTIzNjcx
+MCwtMTk0ODM1NjMyOSwyNzk5NTI0MTAsMTg1MDY3ODk0LC0zMj
+ExMzM4MzMsNjQ5NTk1MjkxLC0xMjc3OTQ1MDg1LC0xNzc5MDQy
+ODQ0LDMxOTU2MDEwNywtMTU5ODU1NDM4LC03MzcyODI4MzEsMT
+Y3OTE4OTQ2NCwtMTAwMzgzMzcxNiwtNzI5MjEzMjkxLC0xNjY2
+NzM3MV19
 -->
