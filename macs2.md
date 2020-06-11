@@ -140,7 +140,7 @@ chr1    115537  115791  1.00000
 chr1    115791  237643  0.00000
 > already extend when calling peaks. now 
 # Step 4: Build local bias track from control
-get maximum reads at a certain position
+get maximum number of reads at a certain position
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
 - surrounding 1kb (set by --slocal)
 - surrounding 10kb (set by --llocal)
@@ -193,11 +193,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMT
-Y2NjczNzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OCwtMTM1NDQw
-MDc5OSwxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMT
-M3Nzk1ODQ3OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3
-ODc3NiwtMzA0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMz
-UsMTA5MTc5MDE5MSw3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3
-MDY5NDcyXX0=
+eyJoaXN0b3J5IjpbLTIxNDI1ODc1OCwtMTAwMzgzMzcxNiwtNz
+I5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4MTI2LC0xMzAwMzA2
+MzY4LC0xMzU0NDAwNzk5LDE2MzU4MDE0MDIsNTAwMDYzMzQsNz
+AyNTY2NDgxLC0xMzc3OTU4NDc5LDMzNjUzMzQxMywtNTkxMDk5
+MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1MDIsMTEzNDA0ODA1My
+wtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLDc2NTc2MzE4Myw5OTgw
+NDI5NjldfQ==
 -->
