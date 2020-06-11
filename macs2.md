@@ -221,7 +221,7 @@ peak locations together with peak summit, p-value, and q-value.
 locations of peaks, 10*score, and the summit location in the last column.
 simple peak calling tool 
 check the 4th column in bedGraph file and call the regions above a given cutoff.
-The 5th column score = 
+10th: relative summit position to peak start
 [issues379](https://github.com/macs3-project/MACS/issues/379)
 [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 [BedGraph.pyx def  call_peaks](https://github.com/macs3-project/MACS/blob/master/MACS2/IO/BedGraph.pyx)
@@ -230,11 +230,11 @@ The 5th column score =
 macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2OTM4NzQ4LDE1NDQ4NTg2NjEsLTE5NT
-U5ODI0MjcsNjQyMjkxMTgzLDg2MTM0MzQ3MiwtMTQ5NTIzNjcx
-MCwtMTk0ODM1NjMyOSwyNzk5NTI0MTAsMTg1MDY3ODk0LC0zMj
-ExMzM4MzMsNjQ5NTk1MjkxLC0xMjc3OTQ1MDg1LC0xNzc5MDQy
-ODQ0LDMxOTU2MDEwNywtMTU5ODU1NDM4LC03MzcyODI4MzEsMT
-Y3OTE4OTQ2NCwtMTAwMzgzMzcxNiwtNzI5MjEzMjkxLC0xNjY2
-NzM3MV19
+eyJoaXN0b3J5IjpbLTk4MTQ2MTUyMCwxNTQ0ODU4NjYxLC0xOT
+U1OTgyNDI3LDY0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3
+MTAsLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMz
+IxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0
+Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNzM3MjgyODMxLD
+E2NzkxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2
+NjczNzFdfQ==
 -->
