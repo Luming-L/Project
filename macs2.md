@@ -113,7 +113,7 @@ macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 Output the fragment length _d_: 254.
 > you have a better estimation on fragment length, you can simply skip this step.
 # Step 3: Extend ChIP sample to get ChIP coverage track
-Extend each read towards downstream direction with 254 bps。
+Extend each read towards downstream direction with 254 bps (--extsize 254)
 Generate a pileup track in BEDGRAPH format for ChIP sample. 
 
 For ChIP-Seq data, we extend reads in 5' to 3' direction by the fragment length estimated, which is the default behavior of _pileup_ function.
@@ -160,11 +160,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjE5ODA1NSwxMDkxNzkwMTkxLDc2NT
-c2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0NzIsLTE1NzI4Mjc1
-NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OTA0LD
-IzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2MDE4
-NjI3LDc4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2ODA2OTcxNi
-wtNDI3MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3MjExNiwtMTc3
-NDc5MTIwNl19
+eyJoaXN0b3J5IjpbLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MSw3Nj
+U3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNTcyODI3
+NTQxLC02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5NDkwNC
+wyMzE1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3NjAx
+ODYyNyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3NjgwNjk3MT
+YsLTQyNzM1MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMTYsLTE3
+NzQ3OTEyMDZdfQ==
 -->
