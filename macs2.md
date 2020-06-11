@@ -5,7 +5,7 @@
 [MACS2 subcommand](https://github.com/macs3-project/MACS/wiki/Advanced%3A-Call-peaks-using-MACS2-subcommands#Step_4_Build_local_bias_track_from_control)
 
 calculate different lambda 
-select lamda
+select lamda use average read counts to model the genome background lambda
 poisson distribution
 merge regions
 
@@ -178,11 +178,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNTY2NDgxLC0xMzc3OTU4NDc5LDMzNj
-UzMzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1
-MDIsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLD
-c2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0NzIsLTE1NzI4
-Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OT
-A0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2
-MDE4NjI3XX0=
+eyJoaXN0b3J5IjpbNTAwMDYzMzQsNzAyNTY2NDgxLC0xMzc3OT
+U4NDc5LDMzNjUzMzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4Nzc2
+LC0zMDQ3NzA1MDIsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMD
+kxNzkwMTkxLDc2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0
+NzIsLTE1NzI4Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC
+0xOTAwMDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgx
+ODA0NjRdfQ==
 -->
