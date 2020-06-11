@@ -111,7 +111,7 @@ chr1    0       115537  0.00000
 chr1    115537  115791  1.00000
 chr1    115791  237643  0.00000
 > skip. already extend when calling peaks. now it is read counts for each bin. 
-> We already have regions 
+> We already have peak regions and peak signal.
 # Step 4: Build local bias track from control
 get maximum number of reads at a certain position
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
@@ -160,17 +160,18 @@ macs2 bdgcmp -m max -t 1k_10k_bg_norm.bdg -c d_bg.bdg -o d_1k_10k_bg_norm.bdg
 # Finally, combine with the genome wide background using _bdgopt_ subcommand
 macs2 bdgopt -i d_1k_10k_bg_norm.bdg -m max -p .0188023 -o local_bias_raw.bdg
 ```
->
-Step 5: Scale the ChIP and control to the same sequencing depth
+> need genome background
+# Step 5: Scale the ChIP and control to the same sequencing depth
+
 Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDI1MjM1NCwtNzM3MjgyODMxLDE2Nz
-kxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2Njcz
-NzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OS
-wxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1
-ODQ3OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3Ni
-wtMzA0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5
-MTc5MDE5MV19
+eyJoaXN0b3J5IjpbLTM4MzMyMDUsLTczNzI4MjgzMSwxNjc5MT
+g5NDY0LC0xMDAzODMzNzE2LC03MjkyMTMyOTEsLTE2NjY3Mzcx
+LDExNDE0MzgxMjYsLTEzMDAzMDYzNjgsLTEzNTQ0MDA3OTksMT
+YzNTgwMTQwMiw1MDAwNjMzNCw3MDI1NjY0ODEsLTEzNzc5NTg0
+NzksMzM2NTMzNDEzLC01OTEwOTkzMjMsLTEyMTY1Nzg3NzYsLT
+MwNDc3MDUwMiwxMTM0MDQ4MDUzLC0xODc0NzAwMzM1LDEwOTE3
+OTAxOTFdfQ==
 -->
