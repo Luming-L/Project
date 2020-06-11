@@ -141,7 +141,7 @@ By default, MACS2 _callpeak_ function computes the local bias by taking the maxi
 - the size of fragment length _d_ (predicted as what you got from _predictd_)
 - the whole genome background
 ## The d background
-extend the control read to both sides (-B option) using _pileup_ function.
+use _pileup_ function to extend the control read to both sides (-B option) 
 The idea is that the cutting site from control sample contains the noise representing a region surrounding it. To do this, take half of _d_ you got from _predictd_, 127 (1/2 of 254) for our example, then:
 ```bash
 macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
@@ -170,11 +170,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NTMzNDEzLC01OTEwOTkzMjMsLTEyMT
-Y1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4MDUzLC0xODc0NzAw
-MzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLDk5ODA0Mjk2OSwtMT
-MwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3MjQ4NzA4LDE2MDU3
-MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OTg2OTk1ND
-gsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0MzgxLC0xODU1
-NzIxNDgyXX0=
+eyJoaXN0b3J5IjpbLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OT
+EwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4
+MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLD
+k5ODA0Mjk2OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3
+MjQ4NzA4LDE2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0OD
+A4LC05OTg2OTk1NDgsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgw
+MzM0MzgxXX0=
 -->
