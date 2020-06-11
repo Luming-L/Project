@@ -144,7 +144,8 @@ By default, MACS2 _callpeak_ function computes the local bias by taking the maxi
 extend the control read to both sides (-B option) using _pileup_ function.
 The idea is that the cutting site from control sample contains the noise representing a region surrounding it. To do this, take half of _d_ you got from _predictd_, 127 (1/2 of 254) for our example, then:
 ```bash
-pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
+macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
+
 sort -k4,4nr d_bg.bdg | cut -f 4 | uniq # 0-74
 ```
 ## The slocal background
@@ -169,11 +170,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMz
-A0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5
-MDE5MSw3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC
-0xNTcyODI3NTQxLC02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkw
-MDA5NDkwNCwyMzE1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwND
-Y0LDU3NjAxODYyNyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3
-NjgwNjk3MTZdfQ==
+eyJoaXN0b3J5IjpbMzM2NTMzNDEzLC01OTEwOTkzMjMsLTEyMT
+Y1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4MDUzLC0xODc0NzAw
+MzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLDk5ODA0Mjk2OSwtMT
+MwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3MjQ4NzA4LDE2MDU3
+MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OTg2OTk1ND
+gsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0MzgxLC0xODU1
+NzIxNDgyXX0=
 -->
