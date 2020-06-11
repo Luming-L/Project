@@ -139,6 +139,7 @@ chr1    0       115537  0.00000
 chr1    115537  115791  1.00000
 chr1    115791  237643  0.00000
 # Step 4: Build local bias track from control
+create a background noise track
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
 - surrounding 1kb (set by --slocal)
 - surrounding 10kb (set by --llocal)
@@ -151,7 +152,7 @@ The idea is that the cutting site from control sample contains the noise represe
 macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 127 -o d_bg.bdg
 ```
 ## The slocal background
-extend the control read to both sides with 500 bps
+extend the control read to both sides with 500 bps by default.
 create a background noise track of slocal local window, or 1kb window by default. 
 
 Simply imagine that each cutting site (sequenced read) represent a 1kb (default, you can tweak it) surrounding noise. So:
@@ -179,7 +180,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzUzNzk3OCwtMTM3Nzk1ODQ3OSwzMz
+eyJoaXN0b3J5IjpbMTM3Mjk1MDg4OCwtMTM3Nzk1ODQ3OSwzMz
 Y1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0Nzcw
 NTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MS
 w3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNTcy
