@@ -163,8 +163,7 @@ macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
 ```
 ## The llocal background
 ```bash
-macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 500 -o 1k_bg.bdg
-
+macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
 
 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_bg.bdg
 sort -k4,4nr 10k_bg.bdg | cut -f 4 | uniq | head # 0-1191
@@ -179,11 +178,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTgwMTQwMiw1MDAwNjMzNCw3MDI1Nj
-Y0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OTEwOTkzMjMs
-LTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4MDUzLC0xOD
-c0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLDk5ODA0Mjk2
-OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3MjQ4NzA4LD
-E2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OTg2
-OTk1NDhdfQ==
+eyJoaXN0b3J5IjpbMTQyNjQ3NzU3MCwxNjM1ODAxNDAyLDUwMD
+A2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMs
+LTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0NzcwNTAyLDExMz
+QwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MSw3NjU3NjMx
+ODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNTcyODI3NTQxLC
+02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMzE1
+MjQ4MDhdfQ==
 -->
