@@ -138,7 +138,7 @@ sort -k1,1 -k2,2n CTCF_ChIP_200K_filterdup.pileup.bdg | head
 chr1    0       115537  0.00000
 chr1    115537  115791  1.00000
 chr1    115791  237643  0.00000
-> already extend when calling peaks. now it is read counts in each bin.
+> already extend when calling peaks. now it is read counts for each bin.
 # Step 4: Build local bias track from control
 get maximum number of reads at a certain position
 By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from 
@@ -193,11 +193,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU4OTg1OTAsMTY3OTE4OTQ2NCwtMT
-AwMzgzMzcxNiwtNzI5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4
-MTI2LC0xMzAwMzA2MzY4LC0xMzU0NDAwNzk5LDE2MzU4MDE0MD
-IsNTAwMDYzMzQsNzAyNTY2NDgxLC0xMzc3OTU4NDc5LDMzNjUz
-MzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1MD
-IsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLDc2
-NTc2MzE4M119
+eyJoaXN0b3J5IjpbODgzODU0NzI4LDE2NzkxODk0NjQsLTEwMD
+M4MzM3MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEy
+NiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLD
+UwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMzY1MzM0
+MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0NzcwNTAyLD
+ExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MSw3NjU3
+NjMxODNdfQ==
 -->
