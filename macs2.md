@@ -212,18 +212,18 @@ chr1    237681  237897  5.96387
 Output BedGraph has -log10(p-value)s/ -log10(q-value)s for each basepair through local Poisson test.
 # Step 7: Call peaks on score track using a cutoff
 Take the scores and call those regions higher than certain cutoff
-
+First, if two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough, we should merge the two nearby regions together into a bigger one and tolerate the fluctuation. This value is set as the read length in MACS2 _callpeak_ function since the read length represent the resolution of the dataset.
 ```bash
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDY3ODk0LC0zMjExMzM4MzMsNjQ5NT
-k1MjkxLC0xMjc3OTQ1MDg1LC0xNzc5MDQyODQ0LDMxOTU2MDEw
-NywtMTU5ODU1NDM4LC03MzcyODI4MzEsMTY3OTE4OTQ2NCwtMT
-AwMzgzMzcxNiwtNzI5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4
-MTI2LC0xMzAwMzA2MzY4LC0xMzU0NDAwNzk5LDE2MzU4MDE0MD
-IsNTAwMDYzMzQsNzAyNTY2NDgxLC0xMzc3OTU4NDc5LDMzNjUz
-MzQxM119
+eyJoaXN0b3J5IjpbLTIwMDUzMzc2MDIsMTg1MDY3ODk0LC0zMj
+ExMzM4MzMsNjQ5NTk1MjkxLC0xMjc3OTQ1MDg1LC0xNzc5MDQy
+ODQ0LDMxOTU2MDEwNywtMTU5ODU1NDM4LC03MzcyODI4MzEsMT
+Y3OTE4OTQ2NCwtMTAwMzgzMzcxNiwtNzI5MjEzMjkxLC0xNjY2
+NzM3MSwxMTQxNDM4MTI2LC0xMzAwMzA2MzY4LC0xMzU0NDAwNz
+k5LDE2MzU4MDE0MDIsNTAwMDYzMzQsNzAyNTY2NDgxLC0xMzc3
+OTU4NDc5XX0=
 -->
