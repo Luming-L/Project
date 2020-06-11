@@ -171,7 +171,9 @@ macs2 bdgopt -i local_bias_raw.bdg -m multiply -p .99858 -o local_lambda.bdg
 ```
 > genome background noise as lambda
 # Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
--log10(p-value)s or -log10(q-value)s for each basepair through local Poisson test, which means the ChIP signal at each basepair will be tested against the corresponding local lambda derived from control with Poisson model.
+-log10(p-value)s or -log10(q-value)s for each basepair through local Poisson test, which means 
+
+Test the ChIP signal at each basepair against the corresponding local lambda derived from control with Poisson model.
 to find enriched regions and predict the so-called 'peaks', the ChIP signals and local lambda stored in BEDGRAPH file have to be compared using certain statistic model.
 _bdgcmp_ module will output score for each basepair in the genome
 BEDGRAPH can merge nearby regions with the same score.
@@ -185,11 +187,11 @@ macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_bias.bdg -m ppois -
 # Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTE5ODUwNiwtMTI3Nzk0NTA4NSwtMT
-c3OTA0Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNzM3Mjgy
-ODMxLDE2NzkxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MS
-wtMTY2NjczNzEsMTE0MTQzODEyNiwtMTMwMDMwNjM2OCwtMTM1
-NDQwMDc5OSwxNjM1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MS
-wtMTM3Nzk1ODQ3OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywtMTIx
-NjU3ODc3Nl19
+eyJoaXN0b3J5IjpbLTEzNDkxODk4MjQsLTEyNzc5NDUwODUsLT
+E3NzkwNDI4NDQsMzE5NTYwMTA3LC0xNTk4NTU0MzgsLTczNzI4
+MjgzMSwxNjc5MTg5NDY0LC0xMDAzODMzNzE2LC03MjkyMTMyOT
+EsLTE2NjY3MzcxLDExNDE0MzgxMjYsLTEzMDAzMDYzNjgsLTEz
+NTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAwNjMzNCw3MDI1NjY0OD
+EsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OTEwOTkzMjMsLTEy
+MTY1Nzg3NzZdfQ==
 -->
