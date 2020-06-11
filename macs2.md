@@ -100,6 +100,7 @@ wc -l CTCF_Control_200K_filterdup.bed # 199867 CTCF_Control_200K_filterdup.bed
 ChIP: tags after filtering in alignment file: 199583
 Control: tags after filtering in alignment file: 199867
 They will be used to scale the ChIP and control signals to the same depth.
+In this case, the number is 199583 for ChIP and 199867 for control, and the ratio between them is 199583/199867=.99858
 # Step 2: Decide the fragment length d
 The location of sequenced read may only tell you the end of a DNA fragment that you are interested in (such as TFBS or DNA hypersensitive regions). 
 You have to estimate how long this DNA fragment is in order to recover the actual enrichment.
@@ -155,11 +156,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMjkzMzQ5LC0xNTcyODI3NTQxLC02ND
-cyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5NDkwNCwyMzE1MjQ4
-MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3NjAxODYyNyw3OD
-AzMzQzODEsLTE4NTU3MjE0ODIsLTE3NjgwNjk3MTYsLTQyNzM1
-MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMTYsLTE3NzQ3OTEyMD
-YsNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3OTA3OTYsMTc2ODQ2
-NDQ0OV19
+eyJoaXN0b3J5IjpbLTEzMDcwNjk0NzIsLTE1NzI4Mjc1NDEsLT
+Y0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OTA0LDIzMTUy
+NDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2MDE4NjI3LD
+c4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3
+MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MT
+IwNiw3Mzc0MDkzMCwtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4
+NDY0NDQ5XX0=
 -->
