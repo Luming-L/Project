@@ -103,8 +103,8 @@ filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50
 wc -l CTCF_SE_ChIP_chr22_50k_filterdup.bed # 48047 CTCF_SE_ChIP_chr22_50k_filterdup.bed
 wc -l CTCF_SE_CTRL_chr22_50k_filterdup.bed # 50783 CTCF_SE_CTRL_chr22_50k_filterdup.bed
 ```
-ChIP: tag size = 100 tags after filtering in alignment file: 199583
-CRTL: tag size = 86 tags after filtering in alignment file: 199867
+ChIP: tags after filtering in alignment file: 199583
+Control: tags after filtering in alignment file: 199867
 They will be used to scale the ChIP and control signals to the same depth.
 # Step 2: Decide the fragment length d
 The location of sequenced read may only tell you the end of a DNA fragment that you are interested in (such as TFBS or DNA hypersensitive regions). 
@@ -161,11 +161,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI4Mjc1NDEsLTY0NzI0ODcwOCwxNj
-A1NzI5MTc4LC0xOTAwMDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5
-NTQ4LDEyODgxODA0NjQsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMT
-g1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTcz
-MjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MTIwNiw3Mzc0MDkzMC
-wtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4NDY0NDQ5LDIyOTU1
-MzU2OV19
+eyJoaXN0b3J5IjpbLTE2NzE1OTk0OTIsLTE1NzI4Mjc1NDEsLT
+Y0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OTA0LDIzMTUy
+NDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2MDE4NjI3LD
+c4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3
+MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MT
+IwNiw3Mzc0MDkzMCwtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4
+NDY0NDQ5XX0=
 -->
