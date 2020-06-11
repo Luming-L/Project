@@ -81,6 +81,10 @@ If this flag is on, MACS will store the fragment pileup, control lambda in bedGr
 `-q`/`--qvalue`
 The q-value (minimum FDR) cutoff to call significant regions. Default is 0.05. For broad marks, you can try 0.05 as the cutoff. Q-values are calculated from p-values using the Benjamini-Hochberg procedure.
 
+# Input files
+[CTCF_ChIP_200K.bed.gz CTCF_Control_200K.bed.gz](https://github.com/macs3-project/MACS/tree/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test)
+
+
 # Step 1: Filter duplicates
 Remove the redundant reads at each genomic loci in Control and ChIP data.
 By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=1_ for _callpeak_.
@@ -148,11 +152,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNTI0ODA4LC05OTg2OTk1NDgsMTI4OD
-E4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0MzgxLC0xODU1NzIxNDgy
-LC0xNzY4MDY5NzE2LC00MjczNTEwODEsMTE1NzMyMjYxMCwtNT
-g4MTcyMTE2LC0xNzc0NzkxMjA2LDczNzQwOTMwLC0yMjQyMDkx
-MDUsNzg2NzkwNzk2LDE3Njg0NjQ0NDksMjI5NTUzNTY5LC0xNT
-c2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDkyNzc5MDAsNzM1NDg3
-ODgyXX0=
+eyJoaXN0b3J5IjpbLTE5MjAyNjU3MDUsMjMxNTI0ODA4LC05OT
+g2OTk1NDgsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0Mzgx
+LC0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEwODEsMT
+E1NzMyMjYxMCwtNTg4MTcyMTE2LC0xNzc0NzkxMjA2LDczNzQw
+OTMwLC0yMjQyMDkxMDUsNzg2NzkwNzk2LDE3Njg0NjQ0NDksMj
+I5NTUzNTY5LC0xNTc2NDg2OTgwLDEwMTg2NzM5NzksLTE1MDky
+Nzc5MDBdfQ==
 -->
