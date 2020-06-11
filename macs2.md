@@ -16,14 +16,8 @@ not affect good peak which has low FDR, big fold- enrichment, and high '-10*log(
 > [macs group](https://groups.google.com/forum/#!msg/macs-announcement/JkufzGpUNRk/kUx0z2M2b_cJ)
 
 ## bdgpeakcall
-simple peak calling tool 
-check the 4th column in bedGraph file and call the regions above a given cutoff.
-The 5th column score = 10 * score in the summit from bedGraph.
-
-> [issues379](https://github.com/macs3-project/MACS/issues/379)
 
 
-> [bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 
 
 
@@ -224,11 +218,11 @@ macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_Ch
 locations of peaks, 10*score, and the summit location in the last column.
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUyMzY3MTAsLTE5NDgzNTYzMjksMj
-c5OTUyNDEwLDE4NTA2Nzg5NCwtMzIxMTMzODMzLDY0OTU5NTI5
-MSwtMTI3Nzk0NTA4NSwtMTc3OTA0Mjg0NCwzMTk1NjAxMDcsLT
-E1OTg1NTQzOCwtNzM3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4
-MzM3MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNi
-wtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUw
-MDA2MzM0XX0=
+eyJoaXN0b3J5IjpbNzIyODE3MTQ4LC0xNDk1MjM2NzEwLC0xOT
+Q4MzU2MzI5LDI3OTk1MjQxMCwxODUwNjc4OTQsLTMyMTEzMzgz
+Myw2NDk1OTUyOTEsLTEyNzc5NDUwODUsLTE3NzkwNDI4NDQsMz
+E5NTYwMTA3LC0xNTk4NTU0MzgsLTczNzI4MjgzMSwxNjc5MTg5
+NDY0LC0xMDAzODMzNzE2LC03MjkyMTMyOTEsLTE2NjY3MzcxLD
+ExNDE0MzgxMjYsLTEzMDAzMDYzNjgsLTEzNTQ0MDA3OTksMTYz
+NTgwMTQwMl19
 -->
