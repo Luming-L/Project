@@ -101,6 +101,7 @@ ChIP: tags after filtering in alignment file: 199583
 Control: tags after filtering in alignment file: 199867
 They will be used to scale the ChIP and control signals to the same depth.
 In this case, the number is 199583 for ChIP and 199867 for control, and the ratio between them is 199583/199867=.99858
+> skip
 # Step 2: Decide the fragment length d
 The location of sequenced read may only tell you the end of a DNA fragment that you are interested in (such as TFBS or DNA hypersensitive regions). 
 You have to estimate how long this DNA fragment is in order to recover the actual enrichment.
@@ -110,6 +111,7 @@ macs2 predictd -i CTCF_ChIP_200K_filterdup.bed -g hs -m 5 50
 ```
 `-m` mfold parameters. To simulate the default behavior of _macs2 callpeak_, set _-m 5 50_.
 Output the fragment length _d_: 254.
+> you have a better estimation on fragment length, you can simply skip this step.
 # Step 3: Extend ChIP sample to get ChIP coverage track
 Generate a pileup track in BEDGRAPH format for ChIP sample. 
 For ChIP-Seq data, we extend reads in 5' to 3' direction by the fragment length estimated, which is the default behavior of _pileup_ function.
@@ -156,11 +158,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcwNjk0NzIsLTE1NzI4Mjc1NDEsLT
-Y0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OTA0LDIzMTUy
-NDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2MDE4NjI3LD
-c4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMTc2ODA2OTcxNiwtNDI3
-MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3MjExNiwtMTc3NDc5MT
-IwNiw3Mzc0MDkzMCwtMjI0MjA5MTA1LDc4Njc5MDc5NiwxNzY4
-NDY0NDQ5XX0=
+eyJoaXN0b3J5IjpbOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNT
+cyODI3NTQxLC02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5
+NDkwNCwyMzE1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LD
+U3NjAxODYyNyw3ODAzMzQzODEsLTE4NTU3MjE0ODIsLTE3Njgw
+Njk3MTYsLTQyNzM1MTA4MSwxMTU3MzIyNjEwLC01ODgxNzIxMT
+YsLTE3NzQ3OTEyMDYsNzM3NDA5MzAsLTIyNDIwOTEwNSw3ODY3
+OTA3OTZdfQ==
 -->
