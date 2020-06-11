@@ -215,6 +215,8 @@ Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -lo
 ```bash
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
+BED6+4 format file
+peak locations together with peak summit, p-value, and q-value.
 locations of peaks, 10*score, and the summit location in the last column.
 simple peak calling tool 
 check the 4th column in bedGraph file and call the regions above a given cutoff.
@@ -227,11 +229,11 @@ The 5th column score = 10 * score in the summit from bedGraph.
 macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDg1ODY2MSwtMTk1NTk4MjQyNyw2ND
-IyOTExODMsODYxMzQzNDcyLC0xNDk1MjM2NzEwLC0xOTQ4MzU2
-MzI5LDI3OTk1MjQxMCwxODUwNjc4OTQsLTMyMTEzMzgzMyw2ND
-k1OTUyOTEsLTEyNzc5NDUwODUsLTE3NzkwNDI4NDQsMzE5NTYw
-MTA3LC0xNTk4NTU0MzgsLTczNzI4MjgzMSwxNjc5MTg5NDY0LC
-0xMDAzODMzNzE2LC03MjkyMTMyOTEsLTE2NjY3MzcxLDExNDE0
-MzgxMjZdfQ==
+eyJoaXN0b3J5IjpbMTE1MzMzMDEwMSwxNTQ0ODU4NjYxLC0xOT
+U1OTgyNDI3LDY0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3
+MTAsLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMz
+IxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0
+Mjg0NCwzMTk1NjAxMDcsLTE1OTg1NTQzOCwtNzM3MjgyODMxLD
+E2NzkxODk0NjQsLTEwMDM4MzM3MTYsLTcyOTIxMzI5MSwtMTY2
+NjczNzFdfQ==
 -->
