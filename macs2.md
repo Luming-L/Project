@@ -169,7 +169,7 @@ macs2 pileup -f BED -i CTCF_Control_200K_filterdup.bed -B --extsize 5000 -o 10k_
 ```
 the multiplier now is _d_/llocal
 ```bash
-macs2 bdgopt -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
+macs2 bdgopt -f BED -i 10k_bg.bdg -m multiply -p 0.0254 -o 10k_bg_norm.bdg
 ```
 ## The genome background
 _the_number_of_control_reads*fragment_length/genome_size_: 199867*254/2700000000 ~= .0188023.
@@ -179,7 +179,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzQ4MzQ4NCwtMTM1NDQwMDc5OSwxNj
+eyJoaXN0b3J5IjpbLTY2NjA1MjE0MCwtMTM1NDQwMDc5OSwxNj
 M1ODAxNDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3
 OSwzMzY1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMz
 A0NzcwNTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5
