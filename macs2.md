@@ -216,10 +216,7 @@ Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -lo
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 BED6+4 format file
-1st: chr
-2nd: chrStart
-3rd: chrEnd
-4th: peakName
+5th: integer score for display. It's calculated as `int(-10*log10pvalue)` or `int(-10*log10qvalue)` depending on whether `-p` (pvalue) or `-q` (qvalue) is used as score cutoff.
 peak locations together with peak summit, p-value, and q-value.
 locations of peaks, 10*score, and the summit location in the last column.
 simple peak calling tool 
@@ -233,7 +230,7 @@ The 5th column score = 10 * score in the summit from bedGraph.
 macs2 callpeak -t CTCF_ChIP_200K.bed.gz -c CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTg2OTExOCwxNTQ0ODU4NjYxLC0xOT
+eyJoaXN0b3J5IjpbMTgxODQxMDg5OSwxNTQ0ODU4NjYxLC0xOT
 U1OTgyNDI3LDY0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3
 MTAsLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMz
 IxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0
