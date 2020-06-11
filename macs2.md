@@ -180,6 +180,8 @@ Compute the maximum bias for each genomic location
 ```bash
 # Take the maximum between slocal (1k) and llocal (10k) background
 macs2 bdgcmp -m max -t 1k_bg_norm.bdg -c 10k_bg_norm.bdg -o 1k_10k_bg_norm.bdg
+# Then, take the maximum then by comparing with _d_ background
+macs2 bdgcmp -m max -t 1k_10k_bg_norm.bdg -c d_bg.bdg -o d_1k_10k_bg_norm.bdg
 ```
 
 Step 5: Scale the ChIP and control to the same sequencing depth
@@ -187,11 +189,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY3MzcxLDExNDE0MzgxMjYsLTEzMD
-AzMDYzNjgsLTEzNTQ0MDA3OTksMTYzNTgwMTQwMiw1MDAwNjMz
-NCw3MDI1NjY0ODEsLTEzNzc5NTg0NzksMzM2NTMzNDEzLC01OT
-EwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMTM0MDQ4
-MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLD
-k5ODA0Mjk2OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3
-MjQ4NzA4XX0=
+eyJoaXN0b3J5IjpbLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MT
+QzODEyNiwtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAx
+NDAyLDUwMDA2MzM0LDcwMjU2NjQ4MSwtMTM3Nzk1ODQ3OSwzMz
+Y1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0Nzcw
+NTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MS
+w3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNTcy
+ODI3NTQxXX0=
 -->
