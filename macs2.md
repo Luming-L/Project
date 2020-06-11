@@ -6,8 +6,8 @@
 
 calculate different lambda 
 select lamda
-
-evaluate value
+poisson distribution
+merge regions
 
 ### calculate local lambda without control
 The local lambda is the maximum of the averages of tags for 1/5/10 kb regions and a whole genome background. If there is no control data, the ChIP data will be used instead, where the 1kb region is not considered.
@@ -175,11 +175,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDUwMDE3LC0xMzc3OTU4NDc5LDMzNj
-UzMzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1
-MDIsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLD
-c2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0NzIsLTE1NzI4
-Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OT
-A0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2
-MDE4NjI3XX0=
+eyJoaXN0b3J5IjpbLTE4MjU5NDM1NzMsLTEzNzc5NTg0NzksMz
+M2NTMzNDEzLC01OTEwOTkzMjMsLTEyMTY1Nzg3NzYsLTMwNDc3
+MDUwMiwxMTM0MDQ4MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOT
+EsNzY1NzYzMTgzLDk5ODA0Mjk2OSwtMTMwNzA2OTQ3MiwtMTU3
+MjgyNzU0MSwtNjQ3MjQ4NzA4LDE2MDU3MjkxNzgsLTE5MDAwOT
+Q5MDQsMjMxNTI0ODA4LC05OTg2OTk1NDgsMTI4ODE4MDQ2NCw1
+NzYwMTg2MjddfQ==
 -->
