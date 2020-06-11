@@ -221,14 +221,14 @@ Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -lo
 ```bash
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
-
+locations of peaks, 10*score, and the summit location in the last column.
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTgzODE3OCwtMTk0ODM1NjMyOSwyNz
-k5NTI0MTAsMTg1MDY3ODk0LC0zMjExMzM4MzMsNjQ5NTk1Mjkx
-LC0xMjc3OTQ1MDg1LC0xNzc5MDQyODQ0LDMxOTU2MDEwNywtMT
-U5ODU1NDM4LC03MzcyODI4MzEsMTY3OTE4OTQ2NCwtMTAwMzgz
-MzcxNiwtNzI5MjEzMjkxLC0xNjY2NzM3MSwxMTQxNDM4MTI2LC
-0xMzAwMzA2MzY4LC0xMzU0NDAwNzk5LDE2MzU4MDE0MDIsNTAw
-MDYzMzRdfQ==
+eyJoaXN0b3J5IjpbLTE0OTUyMzY3MTAsLTE5NDgzNTYzMjksMj
+c5OTUyNDEwLDE4NTA2Nzg5NCwtMzIxMTMzODMzLDY0OTU5NTI5
+MSwtMTI3Nzk0NTA4NSwtMTc3OTA0Mjg0NCwzMTk1NjAxMDcsLT
+E1OTg1NTQzOCwtNzM3MjgyODMxLDE2NzkxODk0NjQsLTEwMDM4
+MzM3MTYsLTcyOTIxMzI5MSwtMTY2NjczNzEsMTE0MTQzODEyNi
+wtMTMwMDMwNjM2OCwtMTM1NDQwMDc5OSwxNjM1ODAxNDAyLDUw
+MDA2MzM0XX0=
 -->
