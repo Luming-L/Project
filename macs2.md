@@ -156,10 +156,9 @@ Simply imagine that each cutting site (sequenced read) represent a 1kb (default,
 ```bash
 macs2 pileup -i CTCF_Control_200K_filterdup.bed -B --extsize 500 -o 1k_bg.bdg
 ```
-normalize noise 
- sort -k4,4nr 1k_bg.bdg | cut -f 4 | uniq #0-240
- macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
- sort -k4,4nr 1k_bg_norm.bdg | cut -f 4 | uniq #0- 60.96
+normalize noise track
+```bash
+macs2 bdgopt -i 1k_bg.bdg -m multiply -p 0.254 -o 1k_bg_norm.bdg
 ```
 ## The llocal background
 ```bash
@@ -179,11 +178,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTMyMjU1OCwtMTM3Nzk1ODQ3OSwzMz
-Y1MzM0MTMsLTU5MTA5OTMyMywtMTIxNjU3ODc3NiwtMzA0Nzcw
-NTAyLDExMzQwNDgwNTMsLTE4NzQ3MDAzMzUsMTA5MTc5MDE5MS
-w3NjU3NjMxODMsOTk4MDQyOTY5LC0xMzA3MDY5NDcyLC0xNTcy
-ODI3NTQxLC02NDcyNDg3MDgsMTYwNTcyOTE3OCwtMTkwMDA5ND
-kwNCwyMzE1MjQ4MDgsLTk5ODY5OTU0OCwxMjg4MTgwNDY0LDU3
-NjAxODYyN119
+eyJoaXN0b3J5IjpbNzAyNTY2NDgxLC0xMzc3OTU4NDc5LDMzNj
+UzMzQxMywtNTkxMDk5MzIzLC0xMjE2NTc4Nzc2LC0zMDQ3NzA1
+MDIsMTEzNDA0ODA1MywtMTg3NDcwMDMzNSwxMDkxNzkwMTkxLD
+c2NTc2MzE4Myw5OTgwNDI5NjksLTEzMDcwNjk0NzIsLTE1NzI4
+Mjc1NDEsLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOTAwMDk0OT
+A0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0NjQsNTc2
+MDE4NjI3XX0=
 -->
