@@ -122,6 +122,7 @@ Extend each read and Generate a pileup track in BEDGRAPH format
 ```bash
 macs2 pileup -f BED -i CTCF_ChIP_200K_filterdup.bed -o CTCF_ChIP_200K_filterdup.pileup.bdg --extsize 254
 ```
+
 The file 'CTCF_ChIP_200K_filterdup.pileup.bdg' contains the fragment pileup signals for ChIP sample.
 For DNAse-Seq data or you think the cutting site, that is detected by short read sequencing, is just in the _middle_ of the fragment you are interested in, you need to use _-B_ option to extend the read in both direction. This option will be ignored when the format is set as BAMPE or BEDPE. DEFAULT: False
 ```bash
@@ -162,11 +163,11 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDc3MDUwMiwxMTM0MDQ4MDUzLC0xOD
-c0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYzMTgzLDk5ODA0Mjk2
-OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MSwtNjQ3MjQ4NzA4LD
-E2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMxNTI0ODA4LC05OTg2
-OTk1NDgsMTI4ODE4MDQ2NCw1NzYwMTg2MjcsNzgwMzM0MzgxLC
-0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00MjczNTEwODEsMTE1
-NzMyMjYxMF19
+eyJoaXN0b3J5IjpbLTEyMTY1Nzg3NzYsLTMwNDc3MDUwMiwxMT
+M0MDQ4MDUzLC0xODc0NzAwMzM1LDEwOTE3OTAxOTEsNzY1NzYz
+MTgzLDk5ODA0Mjk2OSwtMTMwNzA2OTQ3MiwtMTU3MjgyNzU0MS
+wtNjQ3MjQ4NzA4LDE2MDU3MjkxNzgsLTE5MDAwOTQ5MDQsMjMx
+NTI0ODA4LC05OTg2OTk1NDgsMTI4ODE4MDQ2NCw1NzYwMTg2Mj
+csNzgwMzM0MzgxLC0xODU1NzIxNDgyLC0xNzY4MDY5NzE2LC00
+MjczNTEwODFdfQ==
 -->
