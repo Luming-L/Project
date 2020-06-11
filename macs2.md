@@ -82,7 +82,6 @@ If this flag is on, MACS will store the fragment pileup, control lambda in bedGr
 The q-value (minimum FDR) cutoff to call significant regions. Default is 0.05. For broad marks, you can try 0.05 as the cutoff. Q-values are calculated from p-values using the Benjamini-Hochberg procedure.
 
 # Input files
-[test: CTCF_ChIP_200K.bed.gz, CTCF_Control_200K.bed.gz](https://github.com/macs3-project/MACS/tree/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test)
 ```bash
 wget https://github.com/taoliu/MACS/blob/aafbcaf04e6fdd363ad8ebd01cc1779712875974/test/CTCF_ChIP_200K.bed.gz?raw=true
 mv CTCF_ChIP_200K.bed.gz\?raw\=true CTCF_ChIP_200K.bed.gz
@@ -93,6 +92,12 @@ mv CTCF_Control_200K.bed.gz?raw=true CTCF_Control_200K.bed.gz
 Remove the redundant reads at each genomic loci in Control and ChIP data.
 By default, the maximum number of allowed duplicated reads is 1, or _--keep-dup=1_ for _callpeak_.
 ```bash
+macs2 filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
+
+
+
+
+
 filterdup -i CTCF_ChIP_200K.bed.gz --keep-dup=1 -o CTCF_ChIP_200K_filterdup.bed
 filterdup -i CTCF_SE_CTRL_chr22_50k.bed.gz --keep-dup=1 -o CTCF_SE_CTRL_chr22_50k_filterdup.bed
 wc -l CTCF_SE_ChIP_chr22_50k_filterdup.bed # 48047 CTCF_SE_ChIP_chr22_50k_filterdup.bed
@@ -156,7 +161,7 @@ Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
 Step 7: Call peaks on score track using a cutoff
 Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTQ1NDgzOCwxNjA1NzI5MTc4LC0xOT
+eyJoaXN0b3J5IjpbLTY0NzI0ODcwOCwxNjA1NzI5MTc4LC0xOT
 AwMDk0OTA0LDIzMTUyNDgwOCwtOTk4Njk5NTQ4LDEyODgxODA0
 NjQsNTc2MDE4NjI3LDc4MDMzNDM4MSwtMTg1NTcyMTQ4MiwtMT
 c2ODA2OTcxNiwtNDI3MzUxMDgxLDExNTczMjI2MTAsLTU4ODE3
