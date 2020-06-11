@@ -216,9 +216,13 @@ Set the cutoff value. Remember the scores in the output from _bdgcmp_ are in -lo
 macs2 bdgpeakcall -i CTCF_ChIP_200K_qvalue.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_peaks.bed
 ```
 locations of peaks, 10*score, and the summit location in the last column.
-Summary
+simple peak calling tool 
+check the 4th column in bedGraph file and call the regions above a given cutoff.
+The 5th column score = 10 * score in the summit from bedGraph.
+[issues379](https://github.com/macs3-project/MACS/issues/379)
+[bdgpeakcall_cmd.py](https://github.com/macs3-project/MACS/blob/master/MACS2/bdgpeakcall_cmd.py)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODE3MTQ4LC0xNDk1MjM2NzEwLC0xOT
+eyJoaXN0b3J5IjpbODYxMzQzNDcyLC0xNDk1MjM2NzEwLC0xOT
 Q4MzU2MzI5LDI3OTk1MjQxMCwxODUwNjc4OTQsLTMyMTEzMzgz
 Myw2NDk1OTUyOTEsLTEyNzc5NDUwODUsLTE3NzkwNDI4NDQsMz
 E5NTYwMTA3LC0xNTk4NTU0MzgsLTczNzI4MjgzMSwxNjc5MTg5
