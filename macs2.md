@@ -269,13 +269,17 @@ wc -l ../test_callpeak/test_peaks.narrowPeak #13294
 ```
 ```bash
 bedtools intersect -wa -wb -a ../test_callpeak/test_peaks.narrowPeak -b ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -sorted -filenames -f 1.0 | wc -l
+# 13294
+bedtools intersect -wa -wb -a ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -b ../test_callpeak/test_peaks.narrowPeak -sorted -filenames -f 1 | wc -l
+# 12284
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ1NDk1MDUsLTQ0MTQwNTQ3MSwtOT
-E5OTgwMzg3LDYzMzA2OTM1MywtMTU3OTMwNjAyOSwtMTc5OTkw
-NDc3MSw5NjQ3ODkzNTIsLTI1MzgxMDIwNSwtOTgxNDYxNTIwLD
-E1NDQ4NTg2NjEsLTE5NTU5ODI0MjcsNjQyMjkxMTgzLDg2MTM0
-MzQ3MiwtMTQ5NTIzNjcxMCwtMTk0ODM1NjMyOSwyNzk5NTI0MT
-AsMTg1MDY3ODk0LC0zMjExMzM4MzMsNjQ5NTk1MjkxLC0xMjc3
-OTQ1MDg1XX0=
+eyJoaXN0b3J5IjpbLTE0MTIxMzY4MjcsLTE1NjQ1NDk1MDUsLT
+Q0MTQwNTQ3MSwtOTE5OTgwMzg3LDYzMzA2OTM1MywtMTU3OTMw
+NjAyOSwtMTc5OTkwNDc3MSw5NjQ3ODkzNTIsLTI1MzgxMDIwNS
+wtOTgxNDYxNTIwLDE1NDQ4NTg2NjEsLTE5NTU5ODI0MjcsNjQy
+MjkxMTgzLDg2MTM0MzQ3MiwtMTQ5NTIzNjcxMCwtMTk0ODM1Nj
+MyOSwyNzk5NTI0MTAsMTg1MDY3ODk0LC0zMjExMzM4MzMsNjQ5
+NTk1MjkxXX0=
 -->
