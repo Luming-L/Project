@@ -262,14 +262,17 @@ chr1    840401  851460  1.73061
 ./peakRecall.py ../CTCF_ChIP_200K_filterdup.pileup.bdg
 macs2 bdgcmp -t ../CTCF_ChIP_200K_filterdup.pileup.bdg -c CTCF_ChIP_200K_filterdup.pileup.lambda.bdg -m qpois -o CTCF_ChIP_200K_filterdup.pileup.qvalue.bdg
 macs2 bdgpeakcall -i ../CTCF_ChIP_200K_filterdup.pileup.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_filterdup.pileup.peaks.bed
-
+```
+```bash
+wc -l CTCF_ChIP_200K_filterdup.pileup.peaks.bed #16813 
+wc -l ../test_callpeak/test_peaks.narrowPeak #13294 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTk4MDM4Nyw2MzMwNjkzNTMsLTE1Nz
-kzMDYwMjksLTE3OTk5MDQ3NzEsOTY0Nzg5MzUyLC0yNTM4MTAy
-MDUsLTk4MTQ2MTUyMCwxNTQ0ODU4NjYxLC0xOTU1OTgyNDI3LD
-Y0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3MTAsLTE5NDgz
-NTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMzIxMTMzODMzLD
-Y0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0Mjg0NCwzMTk1
-NjAxMDddfQ==
+eyJoaXN0b3J5IjpbLTEyMTQxNjczMDUsLTkxOTk4MDM4Nyw2Mz
+MwNjkzNTMsLTE1NzkzMDYwMjksLTE3OTk5MDQ3NzEsOTY0Nzg5
+MzUyLC0yNTM4MTAyMDUsLTk4MTQ2MTUyMCwxNTQ0ODU4NjYxLC
+0xOTU1OTgyNDI3LDY0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUy
+MzY3MTAsLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NC
+wtMzIxMTMzODMzLDY0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3
+OTA0Mjg0NF19
 -->
