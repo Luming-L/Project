@@ -260,14 +260,16 @@ chr1    840401  851460  1.73061
 
 ```bash
 ./peakRecall.py ../CTCF_ChIP_200K_filterdup.pileup.bdg
+macs2 bdgcmp -t ../CTCF_ChIP_200K_filterdup.pileup.bdg -c CTCF_ChIP_200K_filterdup.pileup.lambda.bdg -m qpois -o CTCF_ChIP_200K_filterdup.pileup.qvalue.bdg
+macs2 bdgpeakcall -i ../CTCF_ChIP_200K_filterdup.pileup.bdg -c 1.301 -l 245 -g 100 -o CTCF_ChIP_200K_filterdup.pileup.peaks.bed
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMDY5MzUzLC0xNTc5MzA2MDI5LC0xNz
-k5OTA0NzcxLDk2NDc4OTM1MiwtMjUzODEwMjA1LC05ODE0NjE1
-MjAsMTU0NDg1ODY2MSwtMTk1NTk4MjQyNyw2NDIyOTExODMsOD
-YxMzQzNDcyLC0xNDk1MjM2NzEwLC0xOTQ4MzU2MzI5LDI3OTk1
-MjQxMCwxODUwNjc4OTQsLTMyMTEzMzgzMyw2NDk1OTUyOTEsLT
-EyNzc5NDUwODUsLTE3NzkwNDI4NDQsMzE5NTYwMTA3LC0xNTk4
-NTU0MzhdfQ==
+eyJoaXN0b3J5IjpbLTkxOTk4MDM4Nyw2MzMwNjkzNTMsLTE1Nz
+kzMDYwMjksLTE3OTk5MDQ3NzEsOTY0Nzg5MzUyLC0yNTM4MTAy
+MDUsLTk4MTQ2MTUyMCwxNTQ0ODU4NjYxLC0xOTU1OTgyNDI3LD
+Y0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3MTAsLTE5NDgz
+NTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMzIxMTMzODMzLD
+Y0OTU5NTI5MSwtMTI3Nzk0NTA4NSwtMTc3OTA0Mjg0NCwzMTk1
+NjAxMDddfQ==
 -->
