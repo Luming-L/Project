@@ -65,8 +65,11 @@ sed -i 's/\s\+/\t/g' file
 # ~ 表示模式开始。// 匹配代码块，可以是字符串或正则表达式
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
+# Python
+iloc 则是通过行号对行进行索引
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzI2MzMxMSw1ODM1OTE0MDQsMTMzNj
+eyJoaXN0b3J5IjpbLTEyMjk1Mzc2MCw1ODM1OTE0MDQsMTMzNj
 g4MTkzNywtMzgzOTk5MDY2LDE1NjM5NjU2MCwtMTYzMTAwODQw
 NCwxMjMyMzYxMTgzLDk0MjYzODA3NiwtOTQxNjg5MzU2LC0zNT
 M3Njk3MTgsLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMzUyNDYw
