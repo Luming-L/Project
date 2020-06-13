@@ -27,10 +27,10 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 
 For our input files, we start from step 4.
 In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
-In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
+In our case, the orginal command `callpeak` in paper turned on `--nolambda` option, which means MACS will use the background lambda as local lambda. we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We generate a BedGraph file to store the lambda.
-The orginal command `callpeak` turn on `--nolambda` option, which means MACS will use the background lambda as local lambda. This means MACS will not consider the local bias at peak candidate regions.
+
 In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
 The main function `callpeak` by default uses 0.05 as q-value (minimum FDR) cutoff to call significant regions. So in our case, we set `-m qpois` in `bdgcmp` and `-c 1.301` in `bdgpeakcall`.
 ```bash
@@ -48,11 +48,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NTg3NzgyLC0xMzgzNjIxMzg1LC05Mz
-EzMDYzODQsLTEyMjU4NjIzNTAsLTc1MDYzMjE3MCwxMzU0NzA0
-MDU1LC00Mjc2NzYwODMsLTEwOTE2NjY0MTMsMjUwODcwMjg3LC
-0xMjc3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3
-ODk4ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwtNTc3Nz
-Q0Mzg2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2
-OSwxMTczNDc4Nl19
+eyJoaXN0b3J5IjpbMjAxOTY1OTc3OSwtMTM4MzYyMTM4NSwtOT
+MxMzA2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIxNzAsMTM1NDcw
+NDA1NSwtNDI3Njc2MDgzLC0xMDkxNjY2NDEzLDI1MDg3MDI4Ny
+wtMTI3Nzc1ODY5MiwxMjEwOTM2NDkwLC0xMzE5NzY1Mjg1LC0x
+Nzg5ODgxNzYxLDE2NTkyOTgyNDcsLTExNzAxMTk4MTksLTU3Nz
+c0NDM4NiwtNDY5OTY4MDE5LC0xNDU4OTcyNTIxLDExNzc0Njc5
+NjksMTE3MzQ3ODZdfQ==
 -->
