@@ -33,16 +33,16 @@ In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will 
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
-In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
+In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMT
-c4OTg4MTc2MSwxNjU5Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3
-NDQzODYsLTQ2OTk2ODAxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OT
-Y5LDExNzM0Nzg2LDk5MzA3MjA2MCwxODY2MDI1Njc0LC0xMzE0
-NDIzNzQxLC0xOTgxMDM1NjEsLTU0NzMxMjI0MywtMTkzOTU2OT
-M0NywzNzkzNzMzMzEsLTY5NTUyNTU0LDc0Njc3NTI1MSwtMTk5
-Nzc1MzIxN119
+eyJoaXN0b3J5IjpbNjk5OTM0NzAzLDEyMTA5MzY0OTAsLTEzMT
+k3NjUyODUsLTE3ODk4ODE3NjEsMTY1OTI5ODI0NywtMTE3MDEx
+OTgxOSwtNTc3NzQ0Mzg2LC00Njk5NjgwMTksLTE0NTg5NzI1Mj
+EsMTE3NzQ2Nzk2OSwxMTczNDc4Niw5OTMwNzIwNjAsMTg2NjAy
+NTY3NCwtMTMxNDQyMzc0MSwtMTk4MTAzNTYxLC01NDczMTIyND
+MsLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC02OTU1MjU1NCw3NDY3
+NzUyNTFdfQ==
 -->
