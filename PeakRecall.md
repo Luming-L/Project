@@ -68,7 +68,6 @@ Positions with scores higher than certain cutoff (set by `-c`) will be kept. If 
 ```bash
 macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks.p001.bed
 ```
-# test
 # result
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
@@ -78,11 +77,11 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAwMzgwNDIsLTE2NTM4NTM5MjksLT
-E2MjMyMzc2MDAsLTE5Mzc3Nzg3NTcsLTQ0ODQxMjIxOSw2NTU0
-ODIwMzgsLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1ODY1Nz
-Y2LC0xOTIyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1Niwt
-MTQ3MDg4NjExMCwxMzU1MzkzNzU5LDIwMzc4MTI1NjgsLTc1OD
-I4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUw
-NiwtMTE4NzU4NDAzM119
+eyJoaXN0b3J5IjpbLTQ3MDc2MzkzMSwtMTY1Mzg1MzkyOSwtMT
+YyMzIzNzYwMCwtMTkzNzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4
+MjAzOCwtMTk5MjUyODYxMiwxMDk3OTQ0MzgwLDE3NDU4NjU3Nj
+YsLTE5MjI1Mzk5NjEsMTk3Njg2OTc3MiwtNjE5NTk4NDU2LC0x
+NDcwODg2MTEwLDEzNTUzOTM3NTksMjAzNzgxMjU2OCwtNzU4Mj
+gxODQ5LC01NzkzNDU2MDMsMTA3Mjg2OTczOSwtMjQyODcxNTA2
+LC0xMTg3NTg0MDMzXX0=
 -->
