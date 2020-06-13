@@ -35,7 +35,7 @@ The main function `callpeak` by default uses 0.05 as q-value (minimum FDR) cutof
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
 Step 7 is the final task of peak calling. 
-In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`) will be reported. `-l` is set as the fragment size _d_ by default. 
+In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`, i.e. `--max-gap`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`, i.e. `--min-length`) will be reported. `-l` is set as the fragment size _d_ by default. 
 
 # test
 # result
@@ -44,11 +44,11 @@ In this step, positions with scores higher than certain cutoff (set by `-c`) wil
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzY3NjA4MywtMTA5MTY2NjQxMywyNT
-A4NzAyODcsLTEyNzc3NTg2OTIsMTIxMDkzNjQ5MCwtMTMxOTc2
-NTI4NSwtMTc4OTg4MTc2MSwxNjU5Mjk4MjQ3LC0xMTcwMTE5OD
-E5LC01Nzc3NDQzODYsLTQ2OTk2ODAxOSwtMTQ1ODk3MjUyMSwx
-MTc3NDY3OTY5LDExNzM0Nzg2LDk5MzA3MjA2MCwxODY2MDI1Nj
-c0LC0xMzE0NDIzNzQxLC0xOTgxMDM1NjEsLTU0NzMxMjI0Mywt
-MTkzOTU2OTM0N119
+eyJoaXN0b3J5IjpbMTM1NDcwNDA1NSwtNDI3Njc2MDgzLC0xMD
+kxNjY2NDEzLDI1MDg3MDI4NywtMTI3Nzc1ODY5MiwxMjEwOTM2
+NDkwLC0xMzE5NzY1Mjg1LC0xNzg5ODgxNzYxLDE2NTkyOTgyND
+csLTExNzAxMTk4MTksLTU3Nzc0NDM4NiwtNDY5OTY4MDE5LC0x
+NDU4OTcyNTIxLDExNzc0Njc5NjksMTE3MzQ3ODYsOTkzMDcyMD
+YwLDE4NjYwMjU2NzQsLTEzMTQ0MjM3NDEsLTE5ODEwMzU2MSwt
+NTQ3MzEyMjQzXX0=
 -->
