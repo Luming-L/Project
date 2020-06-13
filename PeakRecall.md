@@ -33,12 +33,12 @@ In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will 
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
-In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
+In step 7,The final task of peak calling is to just take the scores and call those regions higher than certain cutoff. with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5OTM0NzAzLDEyMTA5MzY0OTAsLTEzMT
+eyJoaXN0b3J5IjpbNzEzMjI3ODY5LDEyMTA5MzY0OTAsLTEzMT
 k3NjUyODUsLTE3ODk4ODE3NjEsMTY1OTI5ODI0NywtMTE3MDEx
 OTgxOSwtNTc3NzQ0Mzg2LC00Njk5NjgwMTksLTE0NTg5NzI1Mj
 EsMTE3NzQ2Nzk2OSwxMTczNDc4Niw5OTMwNzIwNjAsMTg2NjAy
