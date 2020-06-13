@@ -30,9 +30,7 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 6. Compare ChIP and local lambda to get the scores in pvalue or qvalue
 7. Call peaks on score track using a cutoff
 
-
-
-For our input files, we start from step 4.
+For our input files, we follow step 4, 6 and 7.
 In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 In our case, the orginal command `callpeak` in paper turned on `--nolambda` option, which means MACS will use the background lambda as local lambda and we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads. Therefore, the genome-wide average signal is used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
@@ -56,7 +54,7 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDkyMTYzOCwxMzU1MzkzNzU5LDIwMz
+eyJoaXN0b3J5IjpbMTE2MTg1MDUwNSwxMzU1MzkzNzU5LDIwMz
 c4MTI1NjgsLTc1ODI4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3
 MzksLTI0Mjg3MTUwNiwtMTE4NzU4NDAzMywtMTM4MzYyMTM4NS
 wtOTMxMzA2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIxNzAsMTM1
