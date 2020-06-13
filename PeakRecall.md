@@ -47,7 +47,7 @@ The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be
 |chr7|10099|10199|2.28348|
 **In our case**, `callpeak` used by author set `-p 0.01`, so we set `-m ppois` in `bdgcmp` and `-c 2` in `bdgpeakcall`.
 ```bash
-macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
+macs2 bdgcmp -t ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c lambda.bdg -m qpois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.qvalue.bdg
 ```
 # Step 7: Call peaks on score track using a cutoff
 is the final task of peak calling. 
@@ -63,11 +63,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Nzk0NDM4MCwxNzQ1ODY1NzY2LC0xOT
-IyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1NiwtMTQ3MDg4
-NjExMCwxMzU1MzkzNzU5LDIwMzc4MTI1NjgsLTc1ODI4MTg0OS
-wtNTc5MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUwNiwtMTE4
-NzU4NDAzMywtMTM4MzYyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1OD
-YyMzUwLC03NTA2MzIxNzAsMTM1NDcwNDA1NSwtNDI3Njc2MDgz
-LC0xMDkxNjY2NDEzXX0=
+eyJoaXN0b3J5IjpbLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNz
+Q1ODY1NzY2LC0xOTIyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5
+ODQ1NiwtMTQ3MDg4NjExMCwxMzU1MzkzNzU5LDIwMzc4MTI1Nj
+gsLTc1ODI4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3MzksLTI0
+Mjg3MTUwNiwtMTE4NzU4NDAzMywtMTM4MzYyMTM4NSwtOTMxMz
+A2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIxNzAsMTM1NDcwNDA1
+NSwtNDI3Njc2MDgzXX0=
 -->
