@@ -60,8 +60,8 @@ Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-
 
 **In our case**, we set 
 `-c 2`
-`-g 75` 
-`-l 501`: The peak width is 501 bp.
+`-g 75`: The read length is 75 bp.
+`-l 501`: The author extended peak summits by 250 bp on either side to a final width of 501 bp.
 ```bash
 macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks.p001.bed
 
@@ -74,7 +74,7 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjEyNzkwNiwtMTYyMzIzNzYwMCwtMT
+eyJoaXN0b3J5IjpbLTQ4ODY1NjUwNSwtMTYyMzIzNzYwMCwtMT
 kzNzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4MjAzOCwtMTk5MjUy
 ODYxMiwxMDk3OTQ0MzgwLDE3NDU4NjU3NjYsLTE5MjI1Mzk5Nj
 EsMTk3Njg2OTc3MiwtNjE5NTk4NDU2LC0xNDcwODg2MTEwLDEz
