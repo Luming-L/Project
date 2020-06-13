@@ -28,16 +28,18 @@ In step 4, `callpeak` by default computes the local noise by taking the maximum 
 In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 
- For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
+Next, to find enriched regions and predict the so-called 'peaks', the ChIP signals and local lambda stored in BEDGRAPH file have to be compared using certain statistic model.
+
+In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTk2ODAxOSwtMTQ1ODk3MjUyMSwxMT
-c3NDY3OTY5LDExNzM0Nzg2LDk5MzA3MjA2MCwxODY2MDI1Njc0
-LC0xMzE0NDIzNzQxLC0xOTgxMDM1NjEsLTU0NzMxMjI0MywtMT
-kzOTU2OTM0NywzNzkzNzMzMzEsLTY5NTUyNTU0LDc0Njc3NTI1
-MSwtMTk5Nzc1MzIxNywtMjcxNDkwMDIzLC0yMTM0ODQxODEwLD
-EwMjY5Mjk0MzAsLTU2NzE0MTEzMiwxMzUwNDUyMTMsNjYzODMw
-NDcwXX0=
+eyJoaXN0b3J5IjpbLTU3Nzc0NDM4NiwtNDY5OTY4MDE5LC0xND
+U4OTcyNTIxLDExNzc0Njc5NjksMTE3MzQ3ODYsOTkzMDcyMDYw
+LDE4NjYwMjU2NzQsLTEzMTQ0MjM3NDEsLTE5ODEwMzU2MSwtNT
+Q3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3OTM3MzMzMSwtNjk1NTI1
+NTQsNzQ2Nzc1MjUxLC0xOTk3NzUzMjE3LC0yNzE0OTAwMjMsLT
+IxMzQ4NDE4MTAsMTAyNjkyOTQzMCwtNTY3MTQxMTMyLDEzNTA0
+NTIxM119
 -->
