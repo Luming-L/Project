@@ -30,7 +30,7 @@ In step 4, `callpeak` by default computes the local noise by taking the maximum 
 In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We generate a BedGraph file to store the lambda.
-
+The orginal command `callpeak` turn on `--nolambda` option, which means MACS will use the background lambda as local lambda. This means MACS will not consider the local bias at peak candidate regions.
 In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
 The main function `callpeak` by default uses 0.05 as q-value (minimum FDR) cutoff to call significant regions. So in our case, we set `-m qpois` in `bdgcmp` and `-c 1.301` in `bdgpeakcall`.
 ```bash
@@ -48,11 +48,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM2MjEzODUsLTkzMTMwNjM4NCwtMT
-IyNTg2MjM1MCwtNzUwNjMyMTcwLDEzNTQ3MDQwNTUsLTQyNzY3
-NjA4MywtMTA5MTY2NjQxMywyNTA4NzAyODcsLTEyNzc3NTg2OT
-IsMTIxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMTc4OTg4MTc2MSwx
-NjU5Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OT
-k2ODAxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2
-LDk5MzA3MjA2MF19
+eyJoaXN0b3J5IjpbNjc4NTg3NzgyLC0xMzgzNjIxMzg1LC05Mz
+EzMDYzODQsLTEyMjU4NjIzNTAsLTc1MDYzMjE3MCwxMzU0NzA0
+MDU1LC00Mjc2NzYwODMsLTEwOTE2NjY0MTMsMjUwODcwMjg3LC
+0xMjc3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3
+ODk4ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwtNTc3Nz
+Q0Mzg2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2
+OSwxMTczNDc4Nl19
 -->
