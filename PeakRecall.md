@@ -50,7 +50,10 @@ The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be
 macs2 bdgcmp -t ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c lambda.bdg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg
 ```
 # Step 7: Call peaks on score track using a cutoff
-It is the final task of peak calling. We need to set three arguments in this step
+It is the final task of peak calling. We need to set three arguments in this step:
+`-c CUTOFF, --cutoff`
+`-l MINLEN, --min-length`
+`-g MAXGAP, --max-gap`
  positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`, i.e. `--max-gap`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`, i.e. `--min-length`) will be reported. `-l` is set as the fragment size _d_ by default. 
 
 We set  `-c 1.301`, `-g 75` and `-l 501` here.
@@ -67,11 +70,11 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAwMDQ3OTksNjU1NDgyMDM4LC0xOT
-kyNTI4NjEyLDEwOTc5NDQzODAsMTc0NTg2NTc2NiwtMTkyMjUz
-OTk2MSwxOTc2ODY5NzcyLC02MTk1OTg0NTYsLTE0NzA4ODYxMT
-AsMTM1NTM5Mzc1OSwyMDM3ODEyNTY4LC03NTgyODE4NDksLTU3
-OTM0NTYwMywxMDcyODY5NzM5LC0yNDI4NzE1MDYsLTExODc1OD
-QwMzMsLTEzODM2MjEzODUsLTkzMTMwNjM4NCwtMTIyNTg2MjM1
-MCwtNzUwNjMyMTcwXX0=
+eyJoaXN0b3J5IjpbLTQ0ODQxMjIxOSw2NTU0ODIwMzgsLTE5OT
+I1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1ODY1NzY2LC0xOTIyNTM5
+OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1NiwtMTQ3MDg4NjExMC
+wxMzU1MzkzNzU5LDIwMzc4MTI1NjgsLTc1ODI4MTg0OSwtNTc5
+MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUwNiwtMTE4NzU4ND
+AzMywtMTM4MzYyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1ODYyMzUw
+LC03NTA2MzIxNzBdfQ==
 -->
