@@ -25,54 +25,15 @@ In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus
 |chr|start|end|score|
 |--|--|--|--|
 |chr1|0|9999|0.000000|
-|chr1|9999|10099|
-|chr1|  |  |
-
-
-chr
-
-start
-
-end
-
-score
-
-0
-
-chr1
-
-0
-
-9999
-
-0.000000
-
-1
-
-chr1
-
-9999
-
-10099
-
-9.525880
-
-2
-
-chr1
-
-10099
-
-10199
-
-14.288800
+|chr1|9999|10099|9.525880|
+|chr1|10099|10199|14.288800|
 
  For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjgxNTk1NCwxMTc3NDY3OTY5LDExNz
+eyJoaXN0b3J5IjpbLTI3NTM5Mjg1MCwxMTc3NDY3OTY5LDExNz
 M0Nzg2LDk5MzA3MjA2MCwxODY2MDI1Njc0LC0xMzE0NDIzNzQx
 LC0xOTgxMDM1NjEsLTU0NzMxMjI0MywtMTkzOTU2OTM0NywzNz
 kzNzMzMzEsLTY5NTUyNTU0LDc0Njc3NTI1MSwtMTk5Nzc1MzIx
