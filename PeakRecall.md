@@ -39,14 +39,14 @@ In this step, positions with scores higher than certain cutoff (set by `-c`) wil
 # result
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
-[https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
+[MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NDM5MDU5LDI1MDg3MDI4NywtMTI3Nz
-c1ODY5MiwxMjEwOTM2NDkwLC0xMzE5NzY1Mjg1LC0xNzg5ODgx
-NzYxLDE2NTkyOTgyNDcsLTExNzAxMTk4MTksLTU3Nzc0NDM4Ni
-wtNDY5OTY4MDE5LC0xNDU4OTcyNTIxLDExNzc0Njc5NjksMTE3
-MzQ3ODYsOTkzMDcyMDYwLDE4NjYwMjU2NzQsLTEzMTQ0MjM3ND
-EsLTE5ODEwMzU2MSwtNTQ3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3
-OTM3MzMzMV19
+eyJoaXN0b3J5IjpbLTEwOTE2NjY0MTMsMjUwODcwMjg3LC0xMj
+c3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3ODk4
+ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mz
+g2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2OSwx
+MTczNDc4Niw5OTMwNzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMz
+c0MSwtMTk4MTAzNTYxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcs
+Mzc5MzczMzMxXX0=
 -->
