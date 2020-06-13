@@ -34,18 +34,19 @@ In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will 
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
 Step 7 is the final task of peak calling. 
-In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`) will be reported, which is the fragment size _d_ by default. 
+In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`) will be reported. `-l` is set as the fragment size _d_ by default. 
 # test
 # result
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
+[https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE3MjkyNTgsMjUwODcwMjg3LC0xMj
-c3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3ODk4
-ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mz
-g2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2OSwx
-MTczNDc4Niw5OTMwNzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMz
-c0MSwtMTk4MTAzNTYxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcs
-Mzc5MzczMzMxXX0=
+eyJoaXN0b3J5IjpbMzE4NDM5MDU5LDI1MDg3MDI4NywtMTI3Nz
+c1ODY5MiwxMjEwOTM2NDkwLC0xMzE5NzY1Mjg1LC0xNzg5ODgx
+NzYxLDE2NTkyOTgyNDcsLTExNzAxMTk4MTksLTU3Nzc0NDM4Ni
+wtNDY5OTY4MDE5LC0xNDU4OTcyNTIxLDExNzc0Njc5NjksMTE3
+MzQ3ODYsOTkzMDcyMDYwLDE4NjYwMjU2NzQsLTEzMTQ0MjM3ND
+EsLTE5ODEwMzU2MSwtNTQ3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3
+OTM3MzMzMV19
 -->
