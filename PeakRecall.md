@@ -46,14 +46,14 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
-
+[Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgzMzY1NjMsLTExODc1ODQwMzMsLT
-EzODM2MjEzODUsLTkzMTMwNjM4NCwtMTIyNTg2MjM1MCwtNzUw
-NjMyMTcwLDEzNTQ3MDQwNTUsLTQyNzY3NjA4MywtMTA5MTY2Nj
-QxMywyNTA4NzAyODcsLTEyNzc3NTg2OTIsMTIxMDkzNjQ5MCwt
-MTMxOTc2NTI4NSwtMTc4OTg4MTc2MSwxNjU5Mjk4MjQ3LC0xMT
-cwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OTk2ODAxOSwtMTQ1ODk3
-MjUyMSwxMTc3NDY3OTY5XX0=
+eyJoaXN0b3J5IjpbLTI0Mjg3MTUwNiwtMTE4NzU4NDAzMywtMT
+M4MzYyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1ODYyMzUwLC03NTA2
+MzIxNzAsMTM1NDcwNDA1NSwtNDI3Njc2MDgzLC0xMDkxNjY2ND
+EzLDI1MDg3MDI4NywtMTI3Nzc1ODY5MiwxMjEwOTM2NDkwLC0x
+MzE5NzY1Mjg1LC0xNzg5ODgxNzYxLDE2NTkyOTgyNDcsLTExNz
+AxMTk4MTksLTU3Nzc0NDM4NiwtNDY5OTY4MDE5LC0xNDU4OTcy
+NTIxLDExNzc0Njc5NjldfQ==
 -->
