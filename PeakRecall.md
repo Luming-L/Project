@@ -20,16 +20,16 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 7. Call peaks on score track using a cutoff
 
 For our input files, we start from step 4.
-In step 4, `callpeak` by default computes the local bias by taking the maximum bias from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 100kb background, 
+In step 4, `callpeak` by default computes the local bias by taking the maximum bias from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 100kb background, the control read will be extended to both sides
  For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzkyMDc1NSwtMTk4MTAzNTYxLC01ND
-czMTIyNDMsLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC02OTU1MjU1
-NCw3NDY3NzUyNTEsLTE5OTc3NTMyMTcsLTI3MTQ5MDAyMywtMj
-EzNDg0MTgxMCwxMDI2OTI5NDMwLC01NjcxNDExMzIsMTM1MDQ1
-MjEzLDY2MzgzMDQ3MCwxNTY5NDcyMDg1LC0xMjc3MTY5MDk4LD
-EyOTA2Njk0NzMsNzkyNjMxNTQ5LC0xMjQ5MDcwODg4LDYwMjA5
-MTM0XX0=
+eyJoaXN0b3J5IjpbLTIwMTM3NTEyMTksLTE5ODEwMzU2MSwtNT
+Q3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3OTM3MzMzMSwtNjk1NTI1
+NTQsNzQ2Nzc1MjUxLC0xOTk3NzUzMjE3LC0yNzE0OTAwMjMsLT
+IxMzQ4NDE4MTAsMTAyNjkyOTQzMCwtNTY3MTQxMTMyLDEzNTA0
+NTIxMyw2NjM4MzA0NzAsMTU2OTQ3MjA4NSwtMTI3NzE2OTA5OC
+wxMjkwNjY5NDczLDc5MjYzMTU0OSwtMTI0OTA3MDg4OCw2MDIw
+OTEzNF19
 -->
