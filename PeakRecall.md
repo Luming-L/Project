@@ -30,7 +30,7 @@ In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus
 We generate a BedGraph file to store the lambda.
 
 In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
-The main function `callpeak` by default use 0.05 as q-value (minimum FDR) cutoff to call significant regions. Default is 0.0
+The main function `callpeak` by default use 0.05 as q-value (minimum FDR) cutoff to call significant regions. So we set `-m qpois` in `bdgcmp` and `-c 1.301` in `bdgpeakcall`
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
@@ -44,11 +44,11 @@ In this step, positions with scores higher than certain cutoff (set by `-c`) wil
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4NjQ5NDc5LC0xMDkxNjY2NDEzLDI1MD
-g3MDI4NywtMTI3Nzc1ODY5MiwxMjEwOTM2NDkwLC0xMzE5NzY1
-Mjg1LC0xNzg5ODgxNzYxLDE2NTkyOTgyNDcsLTExNzAxMTk4MT
-ksLTU3Nzc0NDM4NiwtNDY5OTY4MDE5LC0xNDU4OTcyNTIxLDEx
-Nzc0Njc5NjksMTE3MzQ3ODYsOTkzMDcyMDYwLDE4NjYwMjU2Nz
-QsLTEzMTQ0MjM3NDEsLTE5ODEwMzU2MSwtNTQ3MzEyMjQzLC0x
-OTM5NTY5MzQ3XX0=
+eyJoaXN0b3J5IjpbLTE4MDkyMjQyODksLTEwOTE2NjY0MTMsMj
+UwODcwMjg3LC0xMjc3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3
+NjUyODUsLTE3ODk4ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOT
+gxOSwtNTc3NzQ0Mzg2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEs
+MTE3NzQ2Nzk2OSwxMTczNDc4Niw5OTMwNzIwNjAsMTg2NjAyNT
+Y3NCwtMTMxNDQyMzc0MSwtMTk4MTAzNTYxLC01NDczMTIyNDMs
+LTE5Mzk1NjkzNDddfQ==
 -->
