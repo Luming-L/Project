@@ -1,7 +1,8 @@
 # input file
 The input files for peak recalling are ATAC-seq signal tracks that have been normalized by the number of reads in peaks. The format of signal tracks files provided by author are BigWig and we convert them to BedGraph.
 **Method of generating ATAC-seq signal tracks in the paper:**
- 1. List ite
+ 1. bin genome into 100-bp intervals
+ 2. convert the Tn5 offset-corrected insertion sites into a coverage
 
 # rationale
 In macs2, the `call peak` function can be decomposed to a series of subcommands. These subcommands follow these steps: 1. Filter duplicates, 2.Decide the fragment length d, 3.Extend ChIP sample to get ChIP coverage track, 4.Build local bias track from control, 5.Scale the ChIP and control to the same sequencing depth, 6.Compare ChIP and local lambda to get the scores in pvalue or qvalue, and 7.Call peaks on score track using a cutoff. Here we start from step4.
@@ -9,8 +10,8 @@ In step 4, to build local bias track from control, macs2 will will choose the ma
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk0MjY1NDYsMTU2OTQ3MjA4NSwtMT
-I3NzE2OTA5OCwxMjkwNjY5NDczLDc5MjYzMTU0OSwtMTI0OTA3
-MDg4OCw2MDIwOTEzNCwtMTM0NzM4ODI1MiwtMTMzMTMwMzIzNy
-wtMzk5NjQ2NjU1LC0xNjc5Njc5MjgxXX0=
+eyJoaXN0b3J5IjpbNjYzODMwNDcwLDE1Njk0NzIwODUsLTEyNz
+cxNjkwOTgsMTI5MDY2OTQ3Myw3OTI2MzE1NDksLTEyNDkwNzA4
+ODgsNjAyMDkxMzQsLTEzNDczODgyNTIsLTEzMzEzMDMyMzcsLT
+M5OTY0NjY1NSwtMTY3OTY3OTI4MV19
 -->
