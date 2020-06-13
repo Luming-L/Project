@@ -33,18 +33,19 @@ In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will 
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
-Step 7 is the final task of peak calling. Regions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want  p-value cutoff to be 0.05 (-log10(0.05) = 1.301. If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. `-l` specifies a minimum length for the peak, which is set as the fragment size _d_ by default. 
+Step 7 is the final task of peak calling. 
+Regions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want  p-value cutoff to be 0.05 (-log10(0.05) = 1.301. If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. `-l` specifies a minimum length for the peak, which is set as the fragment size _d_ by default. 
 # test
 # result
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIyNTg3NTgsLTEyNzc3NTg2OTIsMT
-IxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMTc4OTg4MTc2MSwxNjU5
-Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OTk2OD
-AxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2LDk5
-MzA3MjA2MCwxODY2MDI1Njc0LC0xMzE0NDIzNzQxLC0xOTgxMD
-M1NjEsLTU0NzMxMjI0MywtMTkzOTU2OTM0NywzNzkzNzMzMzEs
-LTY5NTUyNTU0XX0=
+eyJoaXN0b3J5IjpbMjA5ODc2OTg5NiwtMTI3Nzc1ODY5MiwxMj
+EwOTM2NDkwLC0xMzE5NzY1Mjg1LC0xNzg5ODgxNzYxLDE2NTky
+OTgyNDcsLTExNzAxMTk4MTksLTU3Nzc0NDM4NiwtNDY5OTY4MD
+E5LC0xNDU4OTcyNTIxLDExNzc0Njc5NjksMTE3MzQ3ODYsOTkz
+MDcyMDYwLDE4NjYwMjU2NzQsLTEzMTQ0MjM3NDEsLTE5ODEwMz
+U2MSwtNTQ3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3OTM3MzMzMSwt
+Njk1NTI1NTRdfQ==
 -->
