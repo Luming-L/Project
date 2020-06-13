@@ -39,7 +39,7 @@ For our input files, we follow step 4, 6 and 7.
 We will generate a new BedGraph file to store the lambda.
 
 # Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
-The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be tested against the local lambda with Poisson distribution. The score in the output file is -log10(p-value) or -log10(q-value) (according `-m`) for each location.
+The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be tested against the local lambda with Poisson distribution. The score in the output file is -log10(p-value) or -log10(q-value) (according to `-m ppois` or `-m qpois`) for each location.
 |chr|start|end|score|
 |--|--|--|--|
 |chr7|0|9999|0.10360|
@@ -63,11 +63,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTY2Nzg5OSwxNzQ1ODY1NzY2LC0xOT
-IyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1NiwtMTQ3MDg4
-NjExMCwxMzU1MzkzNzU5LDIwMzc4MTI1NjgsLTc1ODI4MTg0OS
-wtNTc5MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUwNiwtMTE4
-NzU4NDAzMywtMTM4MzYyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1OD
-YyMzUwLC03NTA2MzIxNzAsMTM1NDcwNDA1NSwtNDI3Njc2MDgz
-LC0xMDkxNjY2NDEzXX0=
+eyJoaXN0b3J5IjpbMTExMjUzMDE0LDE3NDU4NjU3NjYsLTE5Mj
+I1Mzk5NjEsMTk3Njg2OTc3MiwtNjE5NTk4NDU2LC0xNDcwODg2
+MTEwLDEzNTUzOTM3NTksMjAzNzgxMjU2OCwtNzU4MjgxODQ5LC
+01NzkzNDU2MDMsMTA3Mjg2OTczOSwtMjQyODcxNTA2LC0xMTg3
+NTg0MDMzLC0xMzgzNjIxMzg1LC05MzEzMDYzODQsLTEyMjU4Nj
+IzNTAsLTc1MDYzMjE3MCwxMzU0NzA0MDU1LC00Mjc2NzYwODMs
+LTEwOTE2NjY0MTNdfQ==
 -->
