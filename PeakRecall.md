@@ -31,17 +31,20 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 7. Call peaks on score track using a cutoff
 
 For our input files, we follow step 4, 6 and 7.
-In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
+# Step 4: Build local bias track from control
+`callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 In our case, the orginal command `callpeak` in paper turned on `--nolambda` option, which means MACS will use the background lambda as local lambda and we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads. Therefore, the genome-wide average signal is used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We generate a BedGraph file to store the lambda.
 
-In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
+# Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
+the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
 The main function `callpeak` by default uses 0.05 as q-value (minimum FDR) cutoff to call significant regions. So in our case, we set `-m qpois` in `bdgcmp` and `-c 1.301` in `bdgpeakcall`.
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
-Step 7 is the final task of peak calling. 
+# Step 7: Call peaks on score track using a cutoff
+is the final task of peak calling. 
 In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`, i.e. `--max-gap`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`, i.e. `--min-length`) will be reported. `-l` is set as the fragment size _d_ by default. 
 We set  `-c 1.301`, `-g 75` and `-l 501` here.
 `-l 501`: The peak width is 501 bp.
@@ -54,7 +57,7 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTg1MDUwNSwxMzU1MzkzNzU5LDIwMz
+eyJoaXN0b3J5IjpbMTkyMTg2NTMyNCwxMzU1MzkzNzU5LDIwMz
 c4MTI1NjgsLTc1ODI4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3
 MzksLTI0Mjg3MTUwNiwtMTE4NzU4NDAzMywtMTM4MzYyMTM4NS
 wtOTMxMzA2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIxNzAsMTM1
