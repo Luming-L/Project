@@ -47,6 +47,7 @@ The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be
 |chr7|10099|10199|2.28348|
 
 **In our case**, `callpeak` used by author set `-p 0.01`, so we set `-m ppois` in `bdgcmp` and `-c 2` in `bdgpeakcall`.
+**Command:**
 ```bash
 macs2 bdgcmp -t ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c lambda.bdg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg
 ```
@@ -61,9 +62,9 @@ Positions with scores higher than certain cutoff (set by `-c`) will be kept. If 
 `-c 2`: The scores in the output from _bdgcmp_ are in -log10 form and we want to select positions with p-value lower than 0.01 (-log10(0.01) = 2).
 `-g 75`: The read length is 75 bp.
 `-l 501`: The author extended peak summits by 250 bp on either side to a final width of 501 bp.
+
 ```bash
 macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks.p001.bed
-
 ```
 # test
 # result
@@ -73,7 +74,7 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDkxMzAwMSwtMTY1Mzg1MzkyOSwtMT
+eyJoaXN0b3J5IjpbMTY3NTU1MzU2MCwtMTY1Mzg1MzkyOSwtMT
 YyMzIzNzYwMCwtMTkzNzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4
 MjAzOCwtMTk5MjUyODYxMiwxMDk3OTQ0MzgwLDE3NDU4NjU3Nj
 YsLTE5MjI1Mzk5NjEsMTk3Njg2OTc3MiwtNjE5NTk4NDU2LC0x
