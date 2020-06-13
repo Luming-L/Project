@@ -10,7 +10,7 @@ The input files for peak recalling are ATAC-seq signal tracks that have been nor
 In the BedGraph file, the score is the signal in each 100-bp bin. We can take the average signal of all bins as genome background and calculate the statistical significance for signal in each bin.
 
 # rationale
-In MACS2, the main function `call peak` can be decomposed into a pipeline containing MACS2 subcommands. These subcommands follow these steps: 
+In MACS2, the main function `call peak` can be decomposed into a pipeline containing MACS2 subcommands. The pipeline follows these steps: 
 1. Filter duplicates, 
 2. Decide the fragment length d, 
 3. Extend ChIP sample to get ChIP coverage track, 
@@ -24,11 +24,11 @@ In step 4, to build local bias track from control, macs2 will will choose the ma
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC02OT
-U1MjU1NCw3NDY3NzUyNTEsLTE5OTc3NTMyMTcsLTI3MTQ5MDAy
-MywtMjEzNDg0MTgxMCwxMDI2OTI5NDMwLC01NjcxNDExMzIsMT
-M1MDQ1MjEzLDY2MzgzMDQ3MCwxNTY5NDcyMDg1LC0xMjc3MTY5
-MDk4LDEyOTA2Njk0NzMsNzkyNjMxNTQ5LC0xMjQ5MDcwODg4LD
-YwMjA5MTM0LC0xMzQ3Mzg4MjUyLC0xMzMxMzAzMjM3LC0zOTk2
-NDY2NTVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzUzMjc1OCwtMTkzOTU2OTM0NywzNz
+kzNzMzMzEsLTY5NTUyNTU0LDc0Njc3NTI1MSwtMTk5Nzc1MzIx
+NywtMjcxNDkwMDIzLC0yMTM0ODQxODEwLDEwMjY5Mjk0MzAsLT
+U2NzE0MTEzMiwxMzUwNDUyMTMsNjYzODMwNDcwLDE1Njk0NzIw
+ODUsLTEyNzcxNjkwOTgsMTI5MDY2OTQ3Myw3OTI2MzE1NDksLT
+EyNDkwNzA4ODgsNjAyMDkxMzQsLTEzNDczODgyNTIsLTEzMzEz
+MDMyMzddfQ==
 -->
