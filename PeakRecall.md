@@ -30,11 +30,13 @@ In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus
 We generate a BedGraph file to store the lambda.
 
 In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
+By default, 
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
 Step 7 is the final task of peak calling. 
 In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`) will be reported. `-l` is set as the fragment size _d_ by default. 
+
 # test
 # result
 # Ref
@@ -42,11 +44,11 @@ In this step, positions with scores higher than certain cutoff (set by `-c`) wil
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE2NjY0MTMsMjUwODcwMjg3LC0xMj
-c3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3ODk4
-ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mz
-g2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2OSwx
-MTczNDc4Niw5OTMwNzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMz
-c0MSwtMTk4MTAzNTYxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcs
-Mzc5MzczMzMxXX0=
+eyJoaXN0b3J5IjpbMTQ0OTgyOTI1MSwtMTA5MTY2NjQxMywyNT
+A4NzAyODcsLTEyNzc3NTg2OTIsMTIxMDkzNjQ5MCwtMTMxOTc2
+NTI4NSwtMTc4OTg4MTc2MSwxNjU5Mjk4MjQ3LC0xMTcwMTE5OD
+E5LC01Nzc3NDQzODYsLTQ2OTk2ODAxOSwtMTQ1ODk3MjUyMSwx
+MTc3NDY3OTY5LDExNzM0Nzg2LDk5MzA3MjA2MCwxODY2MDI1Nj
+c0LC0xMzE0NDIzNzQxLC0xOTgxMDM1NjEsLTU0NzMxMjI0Mywt
+MTkzOTU2OTM0N119
 -->
