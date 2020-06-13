@@ -34,7 +34,7 @@ For our input files, we follow step 4, 6 and 7.
 # Step 4: Build local bias track from control
 `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. As to the noise from genome background, it is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 
-**In our case**, `callpeak` used by author turned on `--nolambda` option, which means MACS used the background lambda as local lambda, and we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads. Therefore, the genome-wide average signal is used as noise. We can calculate it as:
+**In our case**, `callpeak` used by author turned on `--nolambda` option, which means MACS used the background lambda as local lambda, and we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads. Therefore, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We generate a BedGraph file to store the lambda.
 
@@ -58,11 +58,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Njg2OTc3MiwtNjE5NTk4NDU2LC0xND
-cwODg2MTEwLDEzNTUzOTM3NTksMjAzNzgxMjU2OCwtNzU4Mjgx
-ODQ5LC01NzkzNDU2MDMsMTA3Mjg2OTczOSwtMjQyODcxNTA2LC
-0xMTg3NTg0MDMzLC0xMzgzNjIxMzg1LC05MzEzMDYzODQsLTEy
-MjU4NjIzNTAsLTc1MDYzMjE3MCwxMzU0NzA0MDU1LC00Mjc2Nz
-YwODMsLTEwOTE2NjY0MTMsMjUwODcwMjg3LC0xMjc3NzU4Njky
-LDEyMTA5MzY0OTBdfQ==
+eyJoaXN0b3J5IjpbLTE5MjI1Mzk5NjEsMTk3Njg2OTc3MiwtNj
+E5NTk4NDU2LC0xNDcwODg2MTEwLDEzNTUzOTM3NTksMjAzNzgx
+MjU2OCwtNzU4MjgxODQ5LC01NzkzNDU2MDMsMTA3Mjg2OTczOS
+wtMjQyODcxNTA2LC0xMTg3NTg0MDMzLC0xMzgzNjIxMzg1LC05
+MzEzMDYzODQsLTEyMjU4NjIzNTAsLTc1MDYzMjE3MCwxMzU0Nz
+A0MDU1LC00Mjc2NzYwODMsLTEwOTE2NjY0MTMsMjUwODcwMjg3
+LC0xMjc3NzU4NjkyXX0=
 -->
