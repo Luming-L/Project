@@ -20,12 +20,12 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 7. Call peaks on score track using a cutoff
 
 For our input files, we start from step 4.
-In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to simulate noise from a region surrounding the read. pileup and normalize.
+In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. pileup and normalize.
  For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Njc4Mzg3MywtMTMxNDQyMzc0MSwtMT
+eyJoaXN0b3J5IjpbLTI3ODA2NTc1MiwtMTMxNDQyMzc0MSwtMT
 k4MTAzNTYxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcsMzc5Mzcz
 MzMxLC02OTU1MjU1NCw3NDY3NzUyNTEsLTE5OTc3NTMyMTcsLT
 I3MTQ5MDAyMywtMjEzNDg0MTgxMCwxMDI2OTI5NDMwLC01Njcx
