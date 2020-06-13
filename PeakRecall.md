@@ -22,9 +22,9 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 For our input files, we start from step 4.
 In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise.
-|chr  |start  |
-|--|--|
-|  |  |
+|chr|start|end|score|
+|--|--|--|
+|chr1|  |  |
 
 chr
 
@@ -68,11 +68,11 @@ chr1
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg5NTk0ODIsMTE3NzQ2Nzk2OSwxMT
-czNDc4Niw5OTMwNzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMzc0
-MSwtMTk4MTAzNTYxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcsMz
-c5MzczMzMxLC02OTU1MjU1NCw3NDY3NzUyNTEsLTE5OTc3NTMy
-MTcsLTI3MTQ5MDAyMywtMjEzNDg0MTgxMCwxMDI2OTI5NDMwLC
-01NjcxNDExMzIsMTM1MDQ1MjEzLDY2MzgzMDQ3MCwxNTY5NDcy
-MDg1XX0=
+eyJoaXN0b3J5IjpbNTM3NTk1NjAxLDExNzc0Njc5NjksMTE3Mz
+Q3ODYsOTkzMDcyMDYwLDE4NjYwMjU2NzQsLTEzMTQ0MjM3NDEs
+LTE5ODEwMzU2MSwtNTQ3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3OT
+M3MzMzMSwtNjk1NTI1NTQsNzQ2Nzc1MjUxLC0xOTk3NzUzMjE3
+LC0yNzE0OTAwMjMsLTIxMzQ4NDE4MTAsMTAyNjkyOTQzMCwtNT
+Y3MTQxMTMyLDEzNTA0NTIxMyw2NjM4MzA0NzAsMTU2OTQ3MjA4
+NV19
 -->
