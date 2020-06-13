@@ -1,5 +1,6 @@
 # input file
 The input files for peak recalling are ATAC-seq signal tracks that have been normalized by the number of reads in peaks. The format of signal tracks files provided by author are BigWig and we convert them to BedGraph.
+
 **Method of generating ATAC-seq signal tracks in the paper:**
  1. bin genome into 100-bp intervals
  2. convert the Tn5 offset-corrected insertion sites into a coverage
@@ -49,11 +50,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Mjg2OTczOSwtMjQyODcxNTA2LC0xMT
-g3NTg0MDMzLC0xMzgzNjIxMzg1LC05MzEzMDYzODQsLTEyMjU4
-NjIzNTAsLTc1MDYzMjE3MCwxMzU0NzA0MDU1LC00Mjc2NzYwOD
-MsLTEwOTE2NjY0MTMsMjUwODcwMjg3LC0xMjc3NzU4NjkyLDEy
-MTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3ODk4ODE3NjEsMTY1OT
-I5ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mzg2LC00Njk5Njgw
-MTksLTE0NTg5NzI1MjFdfQ==
+eyJoaXN0b3J5IjpbLTU3OTM0NTYwMywxMDcyODY5NzM5LC0yND
+I4NzE1MDYsLTExODc1ODQwMzMsLTEzODM2MjEzODUsLTkzMTMw
+NjM4NCwtMTIyNTg2MjM1MCwtNzUwNjMyMTcwLDEzNTQ3MDQwNT
+UsLTQyNzY3NjA4MywtMTA5MTY2NjQxMywyNTA4NzAyODcsLTEy
+Nzc3NTg2OTIsMTIxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMTc4OT
+g4MTc2MSwxNjU5Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3NDQz
+ODYsLTQ2OTk2ODAxOV19
 -->
