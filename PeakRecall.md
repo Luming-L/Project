@@ -20,12 +20,12 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 7. Call peaks on score track using a cutoff
 
 For our input files, we start from step 4.
-In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At a position, the maximum in these four values will be local noise.
+In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise.
  For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzkxOTU1NCwxMTczNDc4Niw5OTMwNz
+eyJoaXN0b3J5IjpbMTE3NzQ2Nzk2OSwxMTczNDc4Niw5OTMwNz
 IwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMzc0MSwtMTk4MTAzNTYx
 LC01NDczMTIyNDMsLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC02OT
 U1MjU1NCw3NDY3NzUyNTEsLTE5OTc3NTMyMTcsLTI3MTQ5MDAy
