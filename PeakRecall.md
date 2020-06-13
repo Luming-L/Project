@@ -17,7 +17,7 @@ In the BedGraph file, the score is the signal in each 100-bp bin. We can take th
 |chr1|9999|10099|9.525880|
 |chr1|10099|10199|14.288800|
 # rationale
-> `callpeak` used in paper: For each sample, peak calling was performed on the Tn5-corrected single-base insertions using the MACS2 callpeak command with parameters “--shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01”. The peak summits were then extended by 250 bp on either side to a final width of 501 bp.
+> `callpeak` used by author: For each sample, peak calling was performed on the Tn5-corrected single-base insertions using the MACS2 callpeak command with parameters “--shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01”. The peak summits were then extended by 250 bp on either side to a final width of 501 bp.
 
 In MACS2, the main function `callpeak` can be decomposed into a pipeline containing MACS2 subcommands. The pipeline follows these steps: 
 1. Filter duplicates
@@ -54,11 +54,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzgxMjU2OCwtNzU4MjgxODQ5LC01Nz
-kzNDU2MDMsMTA3Mjg2OTczOSwtMjQyODcxNTA2LC0xMTg3NTg0
-MDMzLC0xMzgzNjIxMzg1LC05MzEzMDYzODQsLTEyMjU4NjIzNT
-AsLTc1MDYzMjE3MCwxMzU0NzA0MDU1LC00Mjc2NzYwODMsLTEw
-OTE2NjY0MTMsMjUwODcwMjg3LC0xMjc3NzU4NjkyLDEyMTA5Mz
-Y0OTAsLTEzMTk3NjUyODUsLTE3ODk4ODE3NjEsMTY1OTI5ODI0
-NywtMTE3MDExOTgxOV19
+eyJoaXN0b3J5IjpbMTM1NTM5Mzc1OSwyMDM3ODEyNTY4LC03NT
+gyODE4NDksLTU3OTM0NTYwMywxMDcyODY5NzM5LC0yNDI4NzE1
+MDYsLTExODc1ODQwMzMsLTEzODM2MjEzODUsLTkzMTMwNjM4NC
+wtMTIyNTg2MjM1MCwtNzUwNjMyMTcwLDEzNTQ3MDQwNTUsLTQy
+NzY3NjA4MywtMTA5MTY2NjQxMywyNTA4NzAyODcsLTEyNzc3NT
+g2OTIsMTIxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMTc4OTg4MTc2
+MSwxNjU5Mjk4MjQ3XX0=
 -->
