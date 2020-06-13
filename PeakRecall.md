@@ -20,16 +20,16 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 7. Call peaks on score track using a cutoff
 
 For our input files, we start from step 4.
-In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_.
+In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. 
  For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMDcyMDYwLDE4NjYwMjU2NzQsLTEzMT
-Q0MjM3NDEsLTE5ODEwMzU2MSwtNTQ3MzEyMjQzLC0xOTM5NTY5
-MzQ3LDM3OTM3MzMzMSwtNjk1NTI1NTQsNzQ2Nzc1MjUxLC0xOT
-k3NzUzMjE3LC0yNzE0OTAwMjMsLTIxMzQ4NDE4MTAsMTAyNjky
-OTQzMCwtNTY3MTQxMTMyLDEzNTA0NTIxMyw2NjM4MzA0NzAsMT
-U2OTQ3MjA4NSwtMTI3NzE2OTA5OCwxMjkwNjY5NDczLDc5MjYz
-MTU0OV19
+eyJoaXN0b3J5IjpbMTE3MzQ3ODYsOTkzMDcyMDYwLDE4NjYwMj
+U2NzQsLTEzMTQ0MjM3NDEsLTE5ODEwMzU2MSwtNTQ3MzEyMjQz
+LC0xOTM5NTY5MzQ3LDM3OTM3MzMzMSwtNjk1NTI1NTQsNzQ2Nz
+c1MjUxLC0xOTk3NzUzMjE3LC0yNzE0OTAwMjMsLTIxMzQ4NDE4
+MTAsMTAyNjkyOTQzMCwtNTY3MTQxMTMyLDEzNTA0NTIxMyw2Nj
+M4MzA0NzAsMTU2OTQ3MjA4NSwtMTI3NzE2OTA5OCwxMjkwNjY5
+NDczXX0=
 -->
