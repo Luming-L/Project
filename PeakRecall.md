@@ -36,9 +36,9 @@ For our input files, we follow step 4, 6 and 7.
 
 **In our case**, `callpeak` used by author turned on `--nolambda` option, which means MACS used the background lambda as local lambda, and we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads. Therefore, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
-We generate a new BedGraph file to store the lambda.
+We will generate a new BedGraph file to store the lambda.
 
-# Step 6: Compare ChIP and local lambda to get the scores in pvalue or qvalue
+# Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
 the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
 The main function `callpeak` by default uses 0.05 as q-value (minimum FDR) cutoff to call significant regions. So in our case, we set `-m qpois` in `bdgcmp` and `-c 1.301` in `bdgpeakcall`.
 ```bash
@@ -58,11 +58,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQwMjU2NTcsLTE5MjI1Mzk5NjEsMT
-k3Njg2OTc3MiwtNjE5NTk4NDU2LC0xNDcwODg2MTEwLDEzNTUz
-OTM3NTksMjAzNzgxMjU2OCwtNzU4MjgxODQ5LC01NzkzNDU2MD
-MsMTA3Mjg2OTczOSwtMjQyODcxNTA2LC0xMTg3NTg0MDMzLC0x
-MzgzNjIxMzg1LC05MzEzMDYzODQsLTEyMjU4NjIzNTAsLTc1MD
-YzMjE3MCwxMzU0NzA0MDU1LC00Mjc2NzYwODMsLTEwOTE2NjY0
-MTMsMjUwODcwMjg3XX0=
+eyJoaXN0b3J5IjpbLTY1MzIwMjc1MSwtMTkyMjUzOTk2MSwxOT
+c2ODY5NzcyLC02MTk1OTg0NTYsLTE0NzA4ODYxMTAsMTM1NTM5
+Mzc1OSwyMDM3ODEyNTY4LC03NTgyODE4NDksLTU3OTM0NTYwMy
+wxMDcyODY5NzM5LC0yNDI4NzE1MDYsLTExODc1ODQwMzMsLTEz
+ODM2MjEzODUsLTkzMTMwNjM4NCwtMTIyNTg2MjM1MCwtNzUwNj
+MyMTcwLDEzNTQ3MDQwNTUsLTQyNzY3NjA4MywtMTA5MTY2NjQx
+MywyNTA4NzAyODddfQ==
 -->
