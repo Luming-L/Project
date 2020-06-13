@@ -34,18 +34,18 @@ In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will 
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
 Step 7 is the final task of peak calling. 
-In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Final`-l` specifies a minimum length for the peak, which is set as the fragment size _d_ by default. 
+In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`) will be reported, which is the fragment size _d_ by default. 
 # test
 # result
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzE3MjgwOSwyNTA4NzAyODcsLTEyNz
-c3NTg2OTIsMTIxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMTc4OTg4
-MTc2MSwxNjU5Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3NDQzOD
-YsLTQ2OTk2ODAxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OTY5LDEx
-NzM0Nzg2LDk5MzA3MjA2MCwxODY2MDI1Njc0LC0xMzE0NDIzNz
-QxLC0xOTgxMDM1NjEsLTU0NzMxMjI0MywtMTkzOTU2OTM0Nywz
-NzkzNzMzMzFdfQ==
+eyJoaXN0b3J5IjpbLTEyMTE3MjkyNTgsMjUwODcwMjg3LC0xMj
+c3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3ODk4
+ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mz
+g2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2OSwx
+MTczNDc4Niw5OTMwNzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMz
+c0MSwtMTk4MTAzNTYxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcs
+Mzc5MzczMzMxXX0=
 -->
