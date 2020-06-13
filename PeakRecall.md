@@ -9,6 +9,7 @@ The input files for peak recalling are ATAC-seq signal tracks that have been nor
  5. normalize samples by their quality and read depth
 
 In the BedGraph file, the score is the signal in each 100-bp bin. We can take the average signal of all bins as genome background and calculate the statistical significance for signal in each bin.
+
 |chr|start|end|score|
 |--|--|--|--|
 |chr1|0|9999|0.000000|
@@ -50,11 +51,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODI4MTg0OSwtNTc5MzQ1NjAzLDEwNz
-I4Njk3MzksLTI0Mjg3MTUwNiwtMTE4NzU4NDAzMywtMTM4MzYy
-MTM4NSwtOTMxMzA2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIxNz
-AsMTM1NDcwNDA1NSwtNDI3Njc2MDgzLC0xMDkxNjY2NDEzLDI1
-MDg3MDI4NywtMTI3Nzc1ODY5MiwxMjEwOTM2NDkwLC0xMzE5Nz
-Y1Mjg1LC0xNzg5ODgxNzYxLDE2NTkyOTgyNDcsLTExNzAxMTk4
-MTksLTU3Nzc0NDM4Nl19
+eyJoaXN0b3J5IjpbLTE0OTE3Njg1NTEsLTc1ODI4MTg0OSwtNT
+c5MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUwNiwtMTE4NzU4
+NDAzMywtMTM4MzYyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1ODYyMz
+UwLC03NTA2MzIxNzAsMTM1NDcwNDA1NSwtNDI3Njc2MDgzLC0x
+MDkxNjY2NDEzLDI1MDg3MDI4NywtMTI3Nzc1ODY5MiwxMjEwOT
+M2NDkwLC0xMzE5NzY1Mjg1LC0xNzg5ODgxNzYxLDE2NTkyOTgy
+NDcsLTExNzAxMTk4MTldfQ==
 -->
