@@ -29,17 +29,19 @@ In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 
 In step 6, the ATAC-seq signal and lambda at each genomic location stored in BedGraph will be compared using Poisson test.
-
+```bash
+macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
+```
 In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjMzMDIwOSwxNjU5Mjk4MjQ3LC0xMT
-cwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OTk2ODAxOSwtMTQ1ODk3
-MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2LDk5MzA3MjA2MCwxOD
-Y2MDI1Njc0LC0xMzE0NDIzNzQxLC0xOTgxMDM1NjEsLTU0NzMx
-MjI0MywtMTkzOTU2OTM0NywzNzkzNzMzMzEsLTY5NTUyNTU0LD
-c0Njc3NTI1MSwtMTk5Nzc1MzIxNywtMjcxNDkwMDIzLC0yMTM0
-ODQxODEwXX0=
+eyJoaXN0b3J5IjpbLTE3ODk4ODE3NjEsMTY1OTI5ODI0NywtMT
+E3MDExOTgxOSwtNTc3NzQ0Mzg2LC00Njk5NjgwMTksLTE0NTg5
+NzI1MjEsMTE3NzQ2Nzk2OSwxMTczNDc4Niw5OTMwNzIwNjAsMT
+g2NjAyNTY3NCwtMTMxNDQyMzc0MSwtMTk4MTAzNTYxLC01NDcz
+MTIyNDMsLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC02OTU1MjU1NC
+w3NDY3NzUyNTEsLTE5OTc3NTMyMTcsLTI3MTQ5MDAyMywtMjEz
+NDg0MTgxMF19
 -->
