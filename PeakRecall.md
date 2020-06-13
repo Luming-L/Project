@@ -54,8 +54,9 @@ It is the final task of peak calling. We need to set three arguments in this ste
 `-c CUTOFF, --cutoff`
 `-l MINLEN, --min-length`
 `-g MAXGAP, --max-gap`
- positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`, i.e. `--max-gap`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`, i.e. `--min-length`) will be reported. `-l` is set as the fragment size _d_ by default. 
+Positions with scores higher than certain cutoff (set by `-c`) will be kept. If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`) will be reported. `-l` is set as the fragment size _d_ by default. 
 
+Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301).
 We set  `-c 1.301`, `-g 75` and `-l 501` here.
 `-l 501`: The peak width is 501 bp.
 ```bash
@@ -70,11 +71,11 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODQxMjIxOSw2NTU0ODIwMzgsLTE5OT
-I1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1ODY1NzY2LC0xOTIyNTM5
-OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1NiwtMTQ3MDg4NjExMC
-wxMzU1MzkzNzU5LDIwMzc4MTI1NjgsLTc1ODI4MTg0OSwtNTc5
-MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUwNiwtMTE4NzU4ND
-AzMywtMTM4MzYyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1ODYyMzUw
-LC03NTA2MzIxNzBdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzc3Nzg3NTcsLTQ0ODQxMjIxOSw2NT
+U0ODIwMzgsLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1ODY1
+NzY2LC0xOTIyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1Ni
+wtMTQ3MDg4NjExMCwxMzU1MzkzNzU5LDIwMzc4MTI1NjgsLTc1
+ODI4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MT
+UwNiwtMTE4NzU4NDAzMywtMTM4MzYyMTM4NSwtOTMxMzA2Mzg0
+LC0xMjI1ODYyMzUwXX0=
 -->
