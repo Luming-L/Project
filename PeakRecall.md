@@ -39,6 +39,7 @@ macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois
 Step 7 is the final task of peak calling. 
 In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`, i.e. `--max-gap`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`, i.e. `--min-length`) will be reported. `-l` is set as the fragment size _d_ by default. 
 We set  `-c 1.301`, `-g 75` and `-l 501` here.
+`-l 501`: The peak width is 501 bp.
 
 # test
 # result
@@ -47,11 +48,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTMwNjM4NCwtMTIyNTg2MjM1MCwtNz
-UwNjMyMTcwLDEzNTQ3MDQwNTUsLTQyNzY3NjA4MywtMTA5MTY2
-NjQxMywyNTA4NzAyODcsLTEyNzc3NTg2OTIsMTIxMDkzNjQ5MC
-wtMTMxOTc2NTI4NSwtMTc4OTg4MTc2MSwxNjU5Mjk4MjQ3LC0x
-MTcwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OTk2ODAxOSwtMTQ1OD
-k3MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2LDk5MzA3MjA2MCwx
-ODY2MDI1Njc0XX0=
+eyJoaXN0b3J5IjpbLTEzODM2MjEzODUsLTkzMTMwNjM4NCwtMT
+IyNTg2MjM1MCwtNzUwNjMyMTcwLDEzNTQ3MDQwNTUsLTQyNzY3
+NjA4MywtMTA5MTY2NjQxMywyNTA4NzAyODcsLTEyNzc3NTg2OT
+IsMTIxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMTc4OTg4MTc2MSwx
+NjU5Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OT
+k2ODAxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2
+LDk5MzA3MjA2MF19
 -->
