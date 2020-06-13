@@ -36,10 +36,11 @@ macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois
 Step 7 is the final task of peak calling. Regions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want  p-value cutoff to be 0.05 (-log10(0.05) = 1.301. If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. `-l` specifies a minimum length for the peak, which is set as the fragment size _d_ by default. 
 # test
 # result
-# 
+# Ref
+[Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA5NTk3MjYsLTEyNzc3NTg2OTIsMT
+eyJoaXN0b3J5IjpbLTE1NDIyNTg3NTgsLTEyNzc3NTg2OTIsMT
 IxMDkzNjQ5MCwtMTMxOTc2NTI4NSwtMTc4OTg4MTc2MSwxNjU5
 Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OTk2OD
 AxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2LDk5
