@@ -20,12 +20,12 @@ In MACS2, the main function `call peak` can be decomposed into a pipeline contai
 7. Call peaks on score track using a cutoff
 
 For our input files, we start from step 4.
-By default, MACS2 _callpeak_ function computes the local bias by taking the maximum bias from surrounding 1kb, 10kb, the size of fragment length _d_ (predicted as what you got from _predictd_), and the whole genome background.
+In step 4, MACS2 _callpeak_ function by d computes the local bias by taking the maximum bias from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background.
 In step 4, to build local bias track from control, macs2 will will choose the maximum bias from fragment length surrounding 1k, 10k, and genome background. For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyODczNDAwLC01NDczMTIyNDMsLTE5Mz
+eyJoaXN0b3J5IjpbNjEyMzE3ODkxLC01NDczMTIyNDMsLTE5Mz
 k1NjkzNDcsMzc5MzczMzMxLC02OTU1MjU1NCw3NDY3NzUyNTEs
 LTE5OTc3NTMyMTcsLTI3MTQ5MDAyMywtMjEzNDg0MTgxMCwxMD
 I2OTI5NDMwLC01NjcxNDExMzIsMTM1MDQ1MjEzLDY2MzgzMDQ3
