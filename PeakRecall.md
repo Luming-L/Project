@@ -23,6 +23,8 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 6. Compare ChIP and local lambda to get the scores in pvalue or qvalue
 7. Call peaks on score track using a cutoff
 
+> For each sample, peak calling was performed on the Tn5-corrected single-base insertions using the MACS2 callpeak command with parameters “--shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01”. The peak summits were then extended by 250 bp on either side to a final width of 501 bp,
+
 For our input files, we start from step 4.
 In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
@@ -45,11 +47,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDYzMjE3MCwxMzU0NzA0MDU1LC00Mj
-c2NzYwODMsLTEwOTE2NjY0MTMsMjUwODcwMjg3LC0xMjc3NzU4
-NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUsLTE3ODk4ODE3Nj
-EsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mzg2LC00
-Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2OSwxMTczND
-c4Niw5OTMwNzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMzc0MSwt
-MTk4MTAzNTYxXX0=
+eyJoaXN0b3J5IjpbLTEyMjU4NjIzNTAsLTc1MDYzMjE3MCwxMz
+U0NzA0MDU1LC00Mjc2NzYwODMsLTEwOTE2NjY0MTMsMjUwODcw
+Mjg3LC0xMjc3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyOD
+UsLTE3ODk4ODE3NjEsMTY1OTI5ODI0NywtMTE3MDExOTgxOSwt
+NTc3NzQ0Mzg2LC00Njk5NjgwMTksLTE0NTg5NzI1MjEsMTE3Nz
+Q2Nzk2OSwxMTczNDc4Niw5OTMwNzIwNjAsMTg2NjAyNTY3NCwt
+MTMxNDQyMzc0MV19
 -->
