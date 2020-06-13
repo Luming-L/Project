@@ -6,6 +6,7 @@ The input files for peak recalling are ATAC-seq signal tracks that have been nor
  3. calculate the sum of per position coverage in each bin as the number of Tn5 insertions within each bin
  4. convert all samples to a constant 30 million reads within peaks to normalize the total number of reads
  5. normalize samples by their quality and read depth
+
 In the BedGraph file, the score is the signal in each 100-bp bin. We can take the average signal of all bins as genome background and calculate the statistical significance for each bin.
 
 # rationale
@@ -14,10 +15,11 @@ In step 4, to build local bias track from control, macs2 will will choose the ma
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MjI2MTQ4LDc0Njc3NTI1MSwtMTk5Nz
-c1MzIxNywtMjcxNDkwMDIzLC0yMTM0ODQxODEwLDEwMjY5Mjk0
-MzAsLTU2NzE0MTEzMiwxMzUwNDUyMTMsNjYzODMwNDcwLDE1Nj
-k0NzIwODUsLTEyNzcxNjkwOTgsMTI5MDY2OTQ3Myw3OTI2MzE1
-NDksLTEyNDkwNzA4ODgsNjAyMDkxMzQsLTEzNDczODgyNTIsLT
-EzMzEzMDMyMzcsLTM5OTY0NjY1NSwtMTY3OTY3OTI4MV19
+eyJoaXN0b3J5IjpbLTEzMzc2MDcxNzgsNzQ2Nzc1MjUxLC0xOT
+k3NzUzMjE3LC0yNzE0OTAwMjMsLTIxMzQ4NDE4MTAsMTAyNjky
+OTQzMCwtNTY3MTQxMTMyLDEzNTA0NTIxMyw2NjM4MzA0NzAsMT
+U2OTQ3MjA4NSwtMTI3NzE2OTA5OCwxMjkwNjY5NDczLDc5MjYz
+MTU0OSwtMTI0OTA3MDg4OCw2MDIwOTEzNCwtMTM0NzM4ODI1Mi
+wtMTMzMTMwMzIzNywtMzk5NjQ2NjU1LC0xNjc5Njc5MjgxXX0=
+
 -->
