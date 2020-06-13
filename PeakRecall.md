@@ -1,8 +1,7 @@
 # rationale
-In M
+In macs2, the call peak function can be decomposed to a series of 
 # application
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEwMTk0OTEsLTE2Nzk2NzkyODFdfQ
-==
+eyJoaXN0b3J5IjpbMTE4NzU5MzgyMCwtMTY3OTY3OTI4MV19
 -->
