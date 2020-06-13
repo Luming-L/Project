@@ -27,7 +27,7 @@ For our input files, we start from step 4.
 In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
-
+We generate a BedGraph file to store the lambda.
 In step 6, the ATAC-seq signal and lambda at each genomic location stored in BedGraph will be compared using Poisson test.
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
@@ -37,11 +37,11 @@ In step 6, for each position, the qvalue will be calculate based on poisson dist
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk4ODE3NjEsMTY1OTI5ODI0NywtMT
-E3MDExOTgxOSwtNTc3NzQ0Mzg2LC00Njk5NjgwMTksLTE0NTg5
-NzI1MjEsMTE3NzQ2Nzk2OSwxMTczNDc4Niw5OTMwNzIwNjAsMT
-g2NjAyNTY3NCwtMTMxNDQyMzc0MSwtMTk4MTAzNTYxLC01NDcz
-MTIyNDMsLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC02OTU1MjU1NC
-w3NDY3NzUyNTEsLTE5OTc3NTMyMTcsLTI3MTQ5MDAyMywtMjEz
-NDg0MTgxMF19
+eyJoaXN0b3J5IjpbNTM2OTYyOTAsLTE3ODk4ODE3NjEsMTY1OT
+I5ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mzg2LC00Njk5Njgw
+MTksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2OSwxMTczNDc4Niw5OT
+MwNzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMzc0MSwtMTk4MTAz
+NTYxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC
+02OTU1MjU1NCw3NDY3NzUyNTEsLTE5OTc3NTMyMTcsLTI3MTQ5
+MDAyM119
 -->
