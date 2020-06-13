@@ -4,21 +4,21 @@ The input files for peak recalling are ATAC-seq signal tracks that have been nor
  1. bin genome into 100-bp intervals
  2. convert the Tn5 offset-corrected insertion sites into a coverage
  3. calculate the sum of per position coverage in each bin as the number of Tn5 insertions within each bin
- 4. 
+ 4. convert all samples to a constant 30 million reads within peaks to normalize the total number of reads
+ 5. normalize samples by their quality and read depth
  In the BedGraph file, the score is the signal in each 100-bp bin.
-convert all samples to a constant 30 million reads within peaks.
-normalized the total number of reads
- This approach simultaneously normalizes samples by their quality and read depth, analogous to the reads in peaks normalization within a counts matrix.
+
+ This approach simultaneously 
 # rationale
 In macs2, the `call peak` function can be decomposed to a series of subcommands. These subcommands follow these steps: 1. Filter duplicates, 2.Decide the fragment length d, 3.Extend ChIP sample to get ChIP coverage track, 4.Build local bias track from control, 5.Scale the ChIP and control to the same sequencing depth, 6.Compare ChIP and local lambda to get the scores in pvalue or qvalue, and 7.Call peaks on score track using a cutoff. Here we start from step4.
 In step 4, to build local bias track from control, macs2 will will choose the maximum bias from fragment length surrounding 1k, 10k, and genome background. For fragment length, the reads will be extend to length of fragment; As to surrounding 1k or 10k, the reads will be extended by both sides. Then the pileup read counts will be the score in bedGraph file. Because our file just contain peaks, so we just calculate genome background noise. The genome backgound bias is calculated by read length*read number/genome length. In each position, the maximum of these four value will be the lambda. In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc3NTMyMTcsLTI3MTQ5MDAyMywtMj
-EzNDg0MTgxMCwxMDI2OTI5NDMwLC01NjcxNDExMzIsMTM1MDQ1
-MjEzLDY2MzgzMDQ3MCwxNTY5NDcyMDg1LC0xMjc3MTY5MDk4LD
-EyOTA2Njk0NzMsNzkyNjMxNTQ5LC0xMjQ5MDcwODg4LDYwMjA5
-MTM0LC0xMzQ3Mzg4MjUyLC0xMzMxMzAzMjM3LC0zOTk2NDY2NT
-UsLTE2Nzk2NzkyODFdfQ==
+eyJoaXN0b3J5IjpbNzQ2Nzc1MjUxLC0xOTk3NzUzMjE3LC0yNz
+E0OTAwMjMsLTIxMzQ4NDE4MTAsMTAyNjkyOTQzMCwtNTY3MTQx
+MTMyLDEzNTA0NTIxMyw2NjM4MzA0NzAsMTU2OTQ3MjA4NSwtMT
+I3NzE2OTA5OCwxMjkwNjY5NDczLDc5MjYzMTU0OSwtMTI0OTA3
+MDg4OCw2MDIwOTEzNCwtMTM0NzM4ODI1MiwtMTMzMTMwMzIzNy
+wtMzk5NjQ2NjU1LC0xNjc5Njc5MjgxXX0=
 -->
