@@ -33,17 +33,17 @@ In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will 
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
-Step 7 is the final task of peak calling. Regions with scores higher than certain cutoff (set by `-c`) will be kept. If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Secondly, we don't want to call too many small 'peaks' so we need to have a minimum length for the peak. MACS2 _callpeak_ function automatically uses the fragment size _d_ as the parameter of minimum length of peak, and as for _bdgpeakcall_, you need to set the _-l_ option as the _d_ you got from Step 2.
+Step 7 is the final task of peak calling. Regions with scores higher than certain cutoff (set by `-c`) will be kept. If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. `-l` sep a minimum length for the peak, which is . MACS2 _callpeak_ function automatically uses the fragment size _d_ as the parameter of minimum length of peak, and as for _bdgpeakcall_, you need to set the _-l_ option as the _d_ you got from Step 2.
 with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzIxNzc1OSwtMTI3Nzc1ODY5MiwxMj
-EwOTM2NDkwLC0xMzE5NzY1Mjg1LC0xNzg5ODgxNzYxLDE2NTky
-OTgyNDcsLTExNzAxMTk4MTksLTU3Nzc0NDM4NiwtNDY5OTY4MD
-E5LC0xNDU4OTcyNTIxLDExNzc0Njc5NjksMTE3MzQ3ODYsOTkz
-MDcyMDYwLDE4NjYwMjU2NzQsLTEzMTQ0MjM3NDEsLTE5ODEwMz
-U2MSwtNTQ3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3OTM3MzMzMSwt
-Njk1NTI1NTRdfQ==
+eyJoaXN0b3J5IjpbODg3NTY3ODc0LC0xMjc3NzU4NjkyLDEyMT
+A5MzY0OTAsLTEzMTk3NjUyODUsLTE3ODk4ODE3NjEsMTY1OTI5
+ODI0NywtMTE3MDExOTgxOSwtNTc3NzQ0Mzg2LC00Njk5NjgwMT
+ksLTE0NTg5NzI1MjEsMTE3NzQ2Nzk2OSwxMTczNDc4Niw5OTMw
+NzIwNjAsMTg2NjAyNTY3NCwtMTMxNDQyMzc0MSwtMTk4MTAzNT
+YxLC01NDczMTIyNDMsLTE5Mzk1NjkzNDcsMzc5MzczMzMxLC02
+OTU1MjU1NF19
 -->
