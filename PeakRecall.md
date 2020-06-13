@@ -17,6 +17,8 @@ In the BedGraph file, the score is the signal in each 100-bp bin. We can take th
 |chr1|9999|10099|9.525880|
 |chr1|10099|10199|14.288800|
 # rationale
+> `callpeak` used in paper: For each sample, peak calling was performed on the Tn5-corrected single-base insertions using the MACS2 callpeak command with parameters “--shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01”. The peak summits were then extended by 250 bp on either side to a final width of 501 bp.
+
 In MACS2, the main function `callpeak` can be decomposed into a pipeline containing MACS2 subcommands. The pipeline follows these steps: 
 1. Filter duplicates
 2. Decide the fragment length d
@@ -26,7 +28,7 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 6. Compare ChIP and local lambda to get the scores in pvalue or qvalue
 7. Call peaks on score track using a cutoff
 
-> `callpeak` used in paper: For each sample, peak calling was performed on the Tn5-corrected single-base insertions using the MACS2 callpeak command with parameters “--shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01”. The peak summits were then extended by 250 bp on either side to a final width of 501 bp.
+
 
 For our input files, we start from step 4.
 In step 4, `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. The noise from genome background is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
@@ -52,11 +54,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIxMzI5NTYsLTc1ODI4MTg0OSwtNT
-c5MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUwNiwtMTE4NzU4
-NDAzMywtMTM4MzYyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1ODYyMz
-UwLC03NTA2MzIxNzAsMTM1NDcwNDA1NSwtNDI3Njc2MDgzLC0x
-MDkxNjY2NDEzLDI1MDg3MDI4NywtMTI3Nzc1ODY5MiwxMjEwOT
-M2NDkwLC0xMzE5NzY1Mjg1LC0xNzg5ODgxNzYxLDE2NTkyOTgy
-NDcsLTExNzAxMTk4MTldfQ==
+eyJoaXN0b3J5IjpbMjAzNzgxMjU2OCwtNzU4MjgxODQ5LC01Nz
+kzNDU2MDMsMTA3Mjg2OTczOSwtMjQyODcxNTA2LC0xMTg3NTg0
+MDMzLC0xMzgzNjIxMzg1LC05MzEzMDYzODQsLTEyMjU4NjIzNT
+AsLTc1MDYzMjE3MCwxMzU0NzA0MDU1LC00Mjc2NzYwODMsLTEw
+OTE2NjY0MTMsMjUwODcwMjg3LC0xMjc3NzU4NjkyLDEyMTA5Mz
+Y0OTAsLTEzMTk3NjUyODUsLTE3ODk4ODE3NjEsMTY1OTI5ODI0
+NywtMTE3MDExOTgxOV19
 -->
