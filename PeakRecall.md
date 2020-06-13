@@ -28,8 +28,8 @@ In step 4, `callpeak` by default computes the local noise by taking the maximum 
 In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We generate a BedGraph file to store the lambda.
-In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  using Poisson test.
-The 'CTCF_ChIP_200K_pvalue.bdg' or 'CTCF_ChIP_200K_qvalue.bdg' file contains the -log10(p-value)s or -log10(q-value)s for each basepair through local Poisson test, which means the ChIP signal at each basepair will be tested against the corresponding local lambda derived from control with Poisson model.
+In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s for each basepair 
+The 'CTCF_ChIP_200K_pvalue.bdg' or 'CTCF_ChIP_200K_qvalue.bdg' file contains the -log10(p-value)s or -log10(q-value)s for each basepair through local Poisson test, 
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
@@ -38,7 +38,7 @@ In step 6, for each position, the qvalue will be calculate based on poisson dist
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzYzODAxOCwtMTc4OTg4MTc2MSwxNj
+eyJoaXN0b3J5IjpbMTIzODQ0NTc3OSwtMTc4OTg4MTc2MSwxNj
 U5Mjk4MjQ3LC0xMTcwMTE5ODE5LC01Nzc3NDQzODYsLTQ2OTk2
 ODAxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2LD
 k5MzA3MjA2MCwxODY2MDI1Njc0LC0xMzE0NDIzNzQxLC0xOTgx
