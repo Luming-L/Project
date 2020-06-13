@@ -28,18 +28,18 @@ In step 4, `callpeak` by default computes the local noise by taking the maximum 
 In our case, we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 
-In this step, the ChIP signals and local lambda stored in BEDGRAPH file have to be compared using certain statistic model.
+In this step, the ATAC-seq signals and lambda stored in BedGraph will be compared using certain statistic model.
 
 In step 6, for each position, the qvalue will be calculate based on poisson distribution. In step 7, with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEzNDYyMTIsLTU3Nzc0NDM4NiwtND
-Y5OTY4MDE5LC0xNDU4OTcyNTIxLDExNzc0Njc5NjksMTE3MzQ3
-ODYsOTkzMDcyMDYwLDE4NjYwMjU2NzQsLTEzMTQ0MjM3NDEsLT
-E5ODEwMzU2MSwtNTQ3MzEyMjQzLC0xOTM5NTY5MzQ3LDM3OTM3
-MzMzMSwtNjk1NTI1NTQsNzQ2Nzc1MjUxLC0xOTk3NzUzMjE3LC
-0yNzE0OTAwMjMsLTIxMzQ4NDE4MTAsMTAyNjkyOTQzMCwtNTY3
-MTQxMTMyXX0=
+eyJoaXN0b3J5IjpbOTExODM1ODgxLC01Nzc3NDQzODYsLTQ2OT
+k2ODAxOSwtMTQ1ODk3MjUyMSwxMTc3NDY3OTY5LDExNzM0Nzg2
+LDk5MzA3MjA2MCwxODY2MDI1Njc0LC0xMzE0NDIzNzQxLC0xOT
+gxMDM1NjEsLTU0NzMxMjI0MywtMTkzOTU2OTM0NywzNzkzNzMz
+MzEsLTY5NTUyNTU0LDc0Njc3NTI1MSwtMTk5Nzc1MzIxNywtMj
+cxNDkwMDIzLC0yMTM0ODQxODEwLDEwMjY5Mjk0MzAsLTU2NzE0
+MTEzMl19
 -->
