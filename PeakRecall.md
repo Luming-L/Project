@@ -8,7 +8,7 @@ The input files for peak recalling are ATAC-seq signal tracks that have been nor
  4. normalize the total number of reads by a scale factor that converted all samples to a constant 30 million reads within peaks
  5. normalize samples by their quality and read depth
 
-**usage:**
+**Usage:**
 
 In the BedGraph file, the score is the signal in each 100-bp bin. We can take the average signal of all bins as genome background and calculate the statistical significance for signal in each bin.
 |chr|start|end|score|
@@ -18,6 +18,7 @@ In the BedGraph file, the score is the signal in each 100-bp bin. We can take th
 |chr1|10099|10199|14.288800|
 # rationale
 > `callpeak` used by author: For each sample, peak calling was performed on the Tn5-corrected single-base insertions using the MACS2 callpeak command with parameters “--shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01”. The peak summits were then extended by 250 bp on either side to a final width of 501 bp.
+
 > read length: 75 bp paired-end.
 
 In MACS2, the main function `callpeak` can be decomposed into a pipeline containing MACS2 subcommands. The pipeline follows these steps: 
@@ -55,11 +56,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5OTM2MTE2LDEzNTUzOTM3NTksMjAzNz
-gxMjU2OCwtNzU4MjgxODQ5LC01NzkzNDU2MDMsMTA3Mjg2OTcz
-OSwtMjQyODcxNTA2LC0xMTg3NTg0MDMzLC0xMzgzNjIxMzg1LC
-05MzEzMDYzODQsLTEyMjU4NjIzNTAsLTc1MDYzMjE3MCwxMzU0
-NzA0MDU1LC00Mjc2NzYwODMsLTEwOTE2NjY0MTMsMjUwODcwMj
-g3LC0xMjc3NzU4NjkyLDEyMTA5MzY0OTAsLTEzMTk3NjUyODUs
-LTE3ODk4ODE3NjFdfQ==
+eyJoaXN0b3J5IjpbMTQ2MDkyMTYzOCwxMzU1MzkzNzU5LDIwMz
+c4MTI1NjgsLTc1ODI4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3
+MzksLTI0Mjg3MTUwNiwtMTE4NzU4NDAzMywtMTM4MzYyMTM4NS
+wtOTMxMzA2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIxNzAsMTM1
+NDcwNDA1NSwtNDI3Njc2MDgzLC0xMDkxNjY2NDEzLDI1MDg3MD
+I4NywtMTI3Nzc1ODY5MiwxMjEwOTM2NDkwLC0xMzE5NzY1Mjg1
+LC0xNzg5ODgxNzYxXX0=
 -->
