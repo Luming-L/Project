@@ -56,6 +56,7 @@ It is the final task of peak calling. We need to set three arguments in this ste
 `-l MINLEN, --min-length`
 `-g MAXGAP, --max-gap`
 Positions with scores higher than certain cutoff (set by `-c`) will be kept. If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represents the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`) will be reported. `-l` is set as the fragment size _d_ by default. 
+
 **In our case**, we set 
 `-c 2`: The scores in the output from _bdgcmp_ are in -log10 form and we want to select positions with p-value lower than 0.01 (-log10(0.01) = 2).
 `-g 75`: The read length is 75 bp.
@@ -72,11 +73,11 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc0MjM1NDcsLTE2NTM4NTM5MjksLT
-E2MjMyMzc2MDAsLTE5Mzc3Nzg3NTcsLTQ0ODQxMjIxOSw2NTU0
-ODIwMzgsLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1ODY1Nz
-Y2LC0xOTIyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1Niwt
-MTQ3MDg4NjExMCwxMzU1MzkzNzU5LDIwMzc4MTI1NjgsLTc1OD
-I4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3MzksLTI0Mjg3MTUw
-NiwtMTE4NzU4NDAzM119
+eyJoaXN0b3J5IjpbLTM0MDkxMzAwMSwtMTY1Mzg1MzkyOSwtMT
+YyMzIzNzYwMCwtMTkzNzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4
+MjAzOCwtMTk5MjUyODYxMiwxMDk3OTQ0MzgwLDE3NDU4NjU3Nj
+YsLTE5MjI1Mzk5NjEsMTk3Njg2OTc3MiwtNjE5NTk4NDU2LC0x
+NDcwODg2MTEwLDEzNTUzOTM3NTksMjAzNzgxMjU2OCwtNzU4Mj
+gxODQ5LC01NzkzNDU2MDMsMTA3Mjg2OTczOSwtMjQyODcxNTA2
+LC0xMTg3NTg0MDMzXX0=
 -->
