@@ -39,7 +39,7 @@ For our input files, we follow step 4, 6 and 7.
 We will generate a new BedGraph file to store the lambda.
 
 # Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
-the ATAC-seq signal at each genomic location stored in BedGraph will be tested against the lambda  with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
+The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be tested against the local lambda with Poisson distribution. The score in the output file is -log10(p-value)s or -log10(q-value)s (according to the option `-m`) for each location.
 The main function `callpeak` by default uses 0.05 as q-value (minimum FDR) cutoff to call significant regions. So in our case, we set `-m qpois` in `bdgcmp` and `-c 1.301` in `bdgpeakcall`.
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
@@ -58,7 +58,7 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzIwMjc1MSwtMTkyMjUzOTk2MSwxOT
+eyJoaXN0b3J5IjpbLTc4NzA4MjQyMywtMTkyMjUzOTk2MSwxOT
 c2ODY5NzcyLC02MTk1OTg0NTYsLTE0NzA4ODYxMTAsMTM1NTM5
 Mzc1OSwyMDM3ODEyNTY4LC03NTgyODE4NDksLTU3OTM0NTYwMy
 wxMDcyODY5NzM5LC0yNDI4NzE1MDYsLTExODc1ODQwMzMsLTEz
