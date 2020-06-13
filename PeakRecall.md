@@ -33,16 +33,19 @@ In step 6, the ATAC-seq signal at each genomic location stored in BedGraph will 
 ```bash
 macs2 bdgcmp -t CTCF_ChIP_200K_filterdup.pileup.bdg -c local_lambda.bdg -m qpois -o CTCF_ChIP_200K_qvalue.bdg
 ```
-Step 7 is the final task of peak calling. Regions with scores higher than certain cutoff will be kept. with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
+Step 7 is the final task of peak calling. Regions with scores higher than certain cutoff (set by `-c`) will be kept. 
+First, if two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough, we should merge the two nearby regions together into a bigger one and tolerate the fluctuation. This value is set as the read length in MACS2 _callpeak_ function since the read length represent the resolution of the dataset. As for _bdgpeakcall_, you need to get the read length information from Step 1 or by checking the raw fastq file and set the _-g_ option.
+
+with the given cutoff, gap length and peak length, position higher than the cutoff will be selected and small gap will be merged, and finally report the peaks larger than the length.  
 # test
 # result
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc2MTYxMzgsMTIxMDkzNjQ5MCwtMT
-MxOTc2NTI4NSwtMTc4OTg4MTc2MSwxNjU5Mjk4MjQ3LC0xMTcw
-MTE5ODE5LC01Nzc3NDQzODYsLTQ2OTk2ODAxOSwtMTQ1ODk3Mj
-UyMSwxMTc3NDY3OTY5LDExNzM0Nzg2LDk5MzA3MjA2MCwxODY2
-MDI1Njc0LC0xMzE0NDIzNzQxLC0xOTgxMDM1NjEsLTU0NzMxMj
-I0MywtMTkzOTU2OTM0NywzNzkzNzMzMzEsLTY5NTUyNTU0LDc0
-Njc3NTI1MV19
+eyJoaXN0b3J5IjpbMjEzMDQxMzQsMTIxMDkzNjQ5MCwtMTMxOT
+c2NTI4NSwtMTc4OTg4MTc2MSwxNjU5Mjk4MjQ3LC0xMTcwMTE5
+ODE5LC01Nzc3NDQzODYsLTQ2OTk2ODAxOSwtMTQ1ODk3MjUyMS
+wxMTc3NDY3OTY5LDExNzM0Nzg2LDk5MzA3MjA2MCwxODY2MDI1
+Njc0LC0xMzE0NDIzNzQxLC0xOTgxMDM1NjEsLTU0NzMxMjI0My
+wtMTkzOTU2OTM0NywzNzkzNzMzMzEsLTY5NTUyNTU0LDc0Njc3
+NTI1MV19
 -->
