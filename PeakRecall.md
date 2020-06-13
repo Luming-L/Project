@@ -47,14 +47,17 @@ The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be
 |chr7|10099|10199|2.28348|
 **In our case**, `callpeak` used by author set `-p 0.01`, so we set `-m ppois` in `bdgcmp` and `-c 2` in `bdgpeakcall`.
 ```bash
-macs2 bdgcmp -t ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c lambda.bdg -m qpois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.qvalue.bdg
+macs2 bdgcmp -t ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c lambda.bdg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg
 ```
 # Step 7: Call peaks on score track using a cutoff
 is the final task of peak calling. 
 In this step, positions with scores higher than certain cutoff (set by `-c`) will be kept. Remember the scores in the output from _bdgcmp_ are in -log10 form, so we set `-c 1.301` when we want to select positions with p-value lower than 0.05 (-log10(0.05) = 1.301). If two nearby regions are both above cutoff but the region in-between is lower, and if the region in-between is small enough (set by `-g`, i.e. `--max-gap`), we will merge the two nearby regions together into a bigger one. `-g` is set as the read length since the read length represent the resolution of the dataset. Finally, only peaks larger than a minimum length (set by `-l`, i.e. `--min-length`) will be reported. `-l` is set as the fragment size _d_ by default. 
 We set  `-c 1.301`, `-g 75` and `-l 501` here.
 `-l 501`: The peak width is 501 bp.
+```bash
+macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks.p001.bed
 
+```
 # test
 # result
 # Ref
@@ -63,11 +66,11 @@ We set  `-c 1.301`, `-g 75` and `-l 501` here.
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNz
-Q1ODY1NzY2LC0xOTIyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5
-ODQ1NiwtMTQ3MDg4NjExMCwxMzU1MzkzNzU5LDIwMzc4MTI1Nj
-gsLTc1ODI4MTg0OSwtNTc5MzQ1NjAzLDEwNzI4Njk3MzksLTI0
-Mjg3MTUwNiwtMTE4NzU4NDAzMywtMTM4MzYyMTM4NSwtOTMxMz
-A2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIxNzAsMTM1NDcwNDA1
-NSwtNDI3Njc2MDgzXX0=
+eyJoaXN0b3J5IjpbLTEwODY5ODAxNzksLTE5OTI1Mjg2MTIsMT
+A5Nzk0NDM4MCwxNzQ1ODY1NzY2LC0xOTIyNTM5OTYxLDE5NzY4
+Njk3NzIsLTYxOTU5ODQ1NiwtMTQ3MDg4NjExMCwxMzU1MzkzNz
+U5LDIwMzc4MTI1NjgsLTc1ODI4MTg0OSwtNTc5MzQ1NjAzLDEw
+NzI4Njk3MzksLTI0Mjg3MTUwNiwtMTE4NzU4NDAzMywtMTM4Mz
+YyMTM4NSwtOTMxMzA2Mzg0LC0xMjI1ODYyMzUwLC03NTA2MzIx
+NzAsMTM1NDcwNDA1NV19
 -->
