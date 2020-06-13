@@ -72,11 +72,13 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 # result
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
+
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
+
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI0NDg1MzgsLTE2NTM4NTM5MjksLT
+eyJoaXN0b3J5IjpbLTE0OTAwMzgwNDIsLTE2NTM4NTM5MjksLT
 E2MjMyMzc2MDAsLTE5Mzc3Nzg3NTcsLTQ0ODQxMjIxOSw2NTU0
 ODIwMzgsLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1ODY1Nz
 Y2LC0xOTIyNTM5OTYxLDE5NzY4Njk3NzIsLTYxOTU5ODQ1Niwt
