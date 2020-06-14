@@ -82,15 +82,10 @@ number of peaks we get: 52519
 plot genome-wide signal from BigWig file and peaks recalled to compare
 
 region: chr1
-
+![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/peakRecall_chr1.png?raw=true)
 
 region: chr1: 777499-1233399
-
-
-```bash
-
-```
-
+![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/peakRecall_chr1_777499_1233399.png?raw=true)
 # Reference
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 
@@ -101,5 +96,5 @@ region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDgzNDc2NV19
+eyJoaXN0b3J5IjpbLTE1MTY5NzI3ODYsMTcyNDgzNDc2NV19
 -->
