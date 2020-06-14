@@ -1,6 +1,7 @@
 # Make PeakSet for each sample
 ## input files
-Cancer type-specific peak calls (23)
+**Cancer type-specific peak calls (23)**
+Each text file represents all merged peak calls from each cancer type. 
 Recalled peaks in each technical replicate (796)
 ```bash
 # download cancer type-specific PeakCalls
@@ -14,6 +15,6 @@ mv *.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDA5MzYzNywtMTUxOTM4MjQxNiwtMz
-QyMTYzNzEsLTE5NTEwNDMwMjddfQ==
+eyJoaXN0b3J5IjpbLTIwNTIyNzAzMTIsMTQ1NDA5MzYzNywtMT
+UxOTM4MjQxNiwtMzQyMTYzNzEsLTE5NTEwNDMwMjddfQ==
 -->
