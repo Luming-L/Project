@@ -95,7 +95,7 @@ Region: chr1: 777499-1233399
 macs2 callpeak -t ../CTCF_ChIP_200K.bed.gz -c ../CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 wc -l ../test_callpeak/test_peaks.narrowPeak #13294
 ./peakRecall_test_CTCF.py CTCF_ChIP_200K_filterdup.pileup.bdg
-
+wc -l CTCF_ChIP_200K_filterdup.pileup.peaks.bed #16813 
 ```
 # Reference
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
@@ -107,7 +107,7 @@ wc -l ../test_callpeak/test_peaks.narrowPeak #13294
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDQ2MTgyNiwtMTU0NTkyODg0OSwtMj
-A5NjI5NzkxNywtMTQyNzE3NDMxNCwyODg2MTI0NjcsMjA4MjE4
-NTg2MywyMDAwODMzNDQwLDE3MjQ4MzQ3NjVdfQ==
+eyJoaXN0b3J5IjpbLTE5ODEzMTYzODQsLTE1NDU5Mjg4NDksLT
+IwOTYyOTc5MTcsLTE0MjcxNzQzMTQsMjg4NjEyNDY3LDIwODIx
+ODU4NjMsMjAwMDgzMzQ0MCwxNzI0ODM0NzY1XX0=
 -->
