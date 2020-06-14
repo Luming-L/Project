@@ -11,14 +11,16 @@ mkdir TCGA-ATAC_Cancer_Type-specific_PeakCalls
 mv *.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls
 ```
 ```bash
-Bedrolls intersect -u -a  -b sample_peaks -r 0.8
+for cancer in 23 cancer
+for sample in ACC_samples
+Bedrolls intersect -u -a ACC -b ACC_sample_peaks -r 0.8
 ```
 ## overlap
 ## merge peaks in different replicates
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI5MzE1ODcsMTU4NzczOTM1MiwtMj
-A1MjI3MDMxMiwxNDU0MDkzNjM3LC0xNTE5MzgyNDE2LC0zNDIx
-NjM3MSwtMTk1MTA0MzAyN119
+eyJoaXN0b3J5IjpbMjg4NTk5MjkwLDE1ODc3MzkzNTIsLTIwNT
+IyNzAzMTIsMTQ1NDA5MzYzNywtMTUxOTM4MjQxNiwtMzQyMTYz
+NzEsLTE5NTEwNDMwMjddfQ==
 -->
