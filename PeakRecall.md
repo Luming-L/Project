@@ -63,6 +63,7 @@ Positions with scores higher than certain cutoff (set by `-c`) will be kept. If 
 `-c 2`: The scores in the output from _bdgcmp_ are in -log10 form and we want to select positions with p-value lower than 0.01 (-log10(0.01) = 2).
 `-g 75`: The read length is 75 bp.
 `-l 501`: The author extended peak summits by 250 bp on either side to a final width of 501 bp.
+
 The **score** in the output bed file is `int(-10*log10pvalue) at peak summit`
 **macs2 bdgpeakcall command:**
 ```bash
@@ -92,11 +93,11 @@ number of peaks we get: 52519
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODg1MDQ3LC0xNDgyMDEyODE0LC0yMD
-Y2MzgyNjk1LDc3MjI5NTc1OSwtMTI4MTk5MDQ2NCwtMzc5MDMw
-NzQ2LDc3MTcyNzYyNCwtMTIwMzA3MjUwMiw1MjYyMjY3NzgsLT
-Q3MDc2MzkzMSwtMTY1Mzg1MzkyOSwtMTYyMzIzNzYwMCwtMTkz
-Nzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4MjAzOCwtMTk5MjUyOD
-YxMiwxMDk3OTQ0MzgwLDE3NDU4NjU3NjYsLTE5MjI1Mzk5NjEs
-MTk3Njg2OTc3Ml19
+eyJoaXN0b3J5IjpbODIzMzY3MDAzLC04Mzg4NTA0NywtMTQ4Mj
+AxMjgxNCwtMjA2NjM4MjY5NSw3NzIyOTU3NTksLTEyODE5OTA0
+NjQsLTM3OTAzMDc0Niw3NzE3Mjc2MjQsLTEyMDMwNzI1MDIsNT
+I2MjI2Nzc4LC00NzA3NjM5MzEsLTE2NTM4NTM5MjksLTE2MjMy
+Mzc2MDAsLTE5Mzc3Nzg3NTcsLTQ0ODQxMjIxOSw2NTU0ODIwMz
+gsLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1ODY1NzY2LC0x
+OTIyNTM5OTYxXX0=
 -->
