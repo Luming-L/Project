@@ -38,7 +38,7 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We will generate a new BedGraph file to store the lambda.
 
-**another thing:** 
+**another thing:** The score  is signal in each 100-bp bin
 ## Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
 The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be tested against the local lambda with Poisson distribution. The score in the output file is -log10(p-value) or -log10(q-value) (depending on `-m ppois` or `-m qpois`) for each location.
 |chr|start|end|score|
@@ -100,6 +100,6 @@ Region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjE4NTg2MywyMDAwODMzNDQwLDE3Mj
-Q4MzQ3NjVdfQ==
+eyJoaXN0b3J5IjpbLTM2Mzg5MTY3NywyMDgyMTg1ODYzLDIwMD
+A4MzM0NDAsMTcyNDgzNDc2NV19
 -->
