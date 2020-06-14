@@ -1,6 +1,6 @@
-# make PeakSet for each sample
+# Make PeakSet for each sample
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEwNDMwMjddfQ==
+eyJoaXN0b3J5IjpbLTM0MjE2MzcxLC0xOTUxMDQzMDI3XX0=
 -->
