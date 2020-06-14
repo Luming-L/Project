@@ -1,10 +1,16 @@
 # Make PeakSet for each sample
-
+```bash
+# download 
+wget https://api.gdc.cancer.gov/data/71ccfc55-b428-4a04-bb5a-227f7f3bf91c
+unzip 71ccfc55-b428-4a04-bb5a-227f7f3bf91c
+mkdir TCGA-ATAC_Cancer_Type-specific_PeakCalls
+mv *.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls
+```
 ## overlap
 ## merge peaks in different replicates
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA4NzAwMTQsLTM0MjE2MzcxLC0xOT
-UxMDQzMDI3XX0=
+eyJoaXN0b3J5IjpbNDE2MDU5NjU5LC0zNDIxNjM3MSwtMTk1MT
+A0MzAyN119
 -->
