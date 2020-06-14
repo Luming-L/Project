@@ -78,7 +78,7 @@ number of peaks we get: 52519
 ```bash
  wc -l ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed # 52519
 ```
-
+plot 
 
 
 ```bash
@@ -95,11 +95,11 @@ number of peaks we get: 52519
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTQ0MTksLTgzODg1MDQ3LC0xNDgyMD
-EyODE0LC0yMDY2MzgyNjk1LDc3MjI5NTc1OSwtMTI4MTk5MDQ2
-NCwtMzc5MDMwNzQ2LDc3MTcyNzYyNCwtMTIwMzA3MjUwMiw1Mj
-YyMjY3NzgsLTQ3MDc2MzkzMSwtMTY1Mzg1MzkyOSwtMTYyMzIz
-NzYwMCwtMTkzNzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4MjAzOC
-wtMTk5MjUyODYxMiwxMDk3OTQ0MzgwLDE3NDU4NjU3NjYsLTE5
-MjI1Mzk5NjFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTU3NTIyMzAsMTQ4NTQ0MTksLTgzOD
+g1MDQ3LC0xNDgyMDEyODE0LC0yMDY2MzgyNjk1LDc3MjI5NTc1
+OSwtMTI4MTk5MDQ2NCwtMzc5MDMwNzQ2LDc3MTcyNzYyNCwtMT
+IwMzA3MjUwMiw1MjYyMjY3NzgsLTQ3MDc2MzkzMSwtMTY1Mzg1
+MzkyOSwtMTYyMzIzNzYwMCwtMTkzNzc3ODc1NywtNDQ4NDEyMj
+E5LDY1NTQ4MjAzOCwtMTk5MjUyODYxMiwxMDk3OTQ0MzgwLDE3
+NDU4NjU3NjZdfQ==
 -->
