@@ -16,8 +16,8 @@ for sample in ACC_samples
 Bedrolls intersect -u -a ACC -b ACC_sample_peaks -r 0.8
 ```
 ```bash
-sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" | awk '{FS=OFS="\t"; {print $1,$2,$3,$4}}' > ACC_peakCalls.sorted.txt
-sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" | awk '{FS=OFS="\t"; {print $1,$2,$3}}' > ACC_peakCalls.sorted.txt
+sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" | awk '{FS=OFS="\t"; {print $1,$2,$3,$4}}' > ACC_peakCalls.pure.txt
+sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" | awk '{FS=OFS="\t"; {print $1,$2,$3}}' > ACC
 ```
 **awk** '{FS="_"; print NF;}' file1
 ## overlap
@@ -25,8 +25,8 @@ sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" | awk '{FS=OFS="\t"; {print $1,$2
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjE2Mzg1NiwtMTkyNTc5MDU2LC03Nj
-Q2NjI3MDEsMjg4NTk5MjkwLDE1ODc3MzkzNTIsLTIwNTIyNzAz
-MTIsMTQ1NDA5MzYzNywtMTUxOTM4MjQxNiwtMzQyMTYzNzEsLT
-E5NTEwNDMwMjddfQ==
+eyJoaXN0b3J5IjpbNTc5NTk5MTc1LC0xOTI1NzkwNTYsLTc2ND
+Y2MjcwMSwyODg1OTkyOTAsMTU4NzczOTM1MiwtMjA1MjI3MDMx
+MiwxNDU0MDkzNjM3LC0xNTE5MzgyNDE2LC0zNDIxNjM3MSwtMT
+k1MTA0MzAyN119
 -->
