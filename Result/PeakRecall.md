@@ -92,12 +92,14 @@ Region: chr1: 777499-1233399
 ![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/peakRecall_chr1_777499_1233399.png?raw=true)
 ## test on MACS2 testing file
 ```bash
-
+# use main function `callpeak` to call peak
 macs2 callpeak -t ../CTCF_ChIP_200K.bed.gz -c ../CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
 wc -l ../test_callpeak/test_peaks.narrowPeak #13294
+# use the script ./peakRecall_test_CTCF.py
 ./peakRecall_test_CTCF.py CTCF_ChIP_200K_filterdup.pileup.bdg
 wc -l CTCF_ChIP_200K_filterdup.pileup.peaks.bed #16813 
-test_peakRecall_CTCF]$ bedtools intersect -wa -wb -a ../test_callpeak/test_peaks.narrowPeak -b ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -sorted -filenames -f 1.0 | wc -l # 13294
+# check o
+bedtools intersect -wa -wb -a ../test_callpeak/test_peaks.narrowPeak -b ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -sorted -filenames -f 1.0 | wc -l # 13294
 bedtools intersect -wa -wb -a ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -b ../test_callpeak/test_peaks.narrowPeak -sorted -filenames -f 1.0 | wc -l # 12284
 ```
 # Reference
@@ -110,8 +112,8 @@ bedtools intersect -wa -wb -a ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -b ../
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODkyMDQ1OSwtMTk4MTMxNjM4NCwtMT
-U0NTkyODg0OSwtMjA5NjI5NzkxNywtMTQyNzE3NDMxNCwyODg2
-MTI0NjcsMjA4MjE4NTg2MywyMDAwODMzNDQwLDE3MjQ4MzQ3Nj
-VdfQ==
+eyJoaXN0b3J5IjpbNzk0NzI3NDQ2LC0xOTgxMzE2Mzg0LC0xNT
+Q1OTI4ODQ5LC0yMDk2Mjk3OTE3LC0xNDI3MTc0MzE0LDI4ODYx
+MjQ2NywyMDgyMTg1ODYzLDIwMDA4MzM0NDAsMTcyNDgzNDc2NV
+19
 -->
