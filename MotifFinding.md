@@ -2,7 +2,7 @@
 ## input files
 **Cancer type-specific peak calls (23)**
 Each text file represents all merged peak calls from each cancer type. 
-Recalled peaks in each technical replicate (796)
+*Recalled peaks in each technical replicate (796)
 ```bash
 # download cancer type-specific PeakCalls
 wget https://api.gdc.cancer.gov/data/71ccfc55-b428-4a04-bb5a-227f7f3bf91c
@@ -15,6 +15,7 @@ mv *.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTIyNzAzMTIsMTQ1NDA5MzYzNywtMT
-UxOTM4MjQxNiwtMzQyMTYzNzEsLTE5NTEwNDMwMjddfQ==
+eyJoaXN0b3J5IjpbNjQ4OTgxODc2LC0yMDUyMjcwMzEyLDE0NT
+QwOTM2MzcsLTE1MTkzODI0MTYsLTM0MjE2MzcxLC0xOTUxMDQz
+MDI3XX0=
 -->
