@@ -69,7 +69,10 @@ Positions with scores higher than certain cutoff (set by `-c`) will be kept. If 
 macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks.p001.bed
 ```
 # test
-Write a script `peakRecall.py` to recall peaks including these three steps above
+Write a script `peakRecall.py` to recall peaks including these three steps above.
+```bash
+
+```
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 
@@ -78,7 +81,7 @@ Write a script `peakRecall.py` to recall peaks including these three steps above
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTE5MTcxNiw1MjYyMjY3NzgsLTQ3MD
+eyJoaXN0b3J5IjpbMTc0NzA3ODU5NCw1MjYyMjY3NzgsLTQ3MD
 c2MzkzMSwtMTY1Mzg1MzkyOSwtMTYyMzIzNzYwMCwtMTkzNzc3
 ODc1NywtNDQ4NDEyMjE5LDY1NTQ4MjAzOCwtMTk5MjUyODYxMi
 wxMDk3OTQ0MzgwLDE3NDU4NjU3NjYsLTE5MjI1Mzk5NjEsMTk3
