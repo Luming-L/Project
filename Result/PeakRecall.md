@@ -96,6 +96,8 @@ macs2 callpeak -t ../CTCF_ChIP_200K.bed.gz -c ../CTCF_Control_200K.bed.gz -f BED
 wc -l ../test_callpeak/test_peaks.narrowPeak #13294
 ./peakRecall_test_CTCF.py CTCF_ChIP_200K_filterdup.pileup.bdg
 wc -l CTCF_ChIP_200K_filterdup.pileup.peaks.bed #16813 
+test_peakRecall_CTCF]$ bedtools intersect -wa -wb -a ../test_callpeak/test_peaks.narrowPeak -b ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -sorted -filenames -f 1.0 | wc -l # 13294
+
 ```
 # Reference
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
@@ -107,7 +109,8 @@ wc -l CTCF_ChIP_200K_filterdup.pileup.peaks.bed #16813
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODEzMTYzODQsLTE1NDU5Mjg4NDksLT
-IwOTYyOTc5MTcsLTE0MjcxNzQzMTQsMjg4NjEyNDY3LDIwODIx
-ODU4NjMsMjAwMDgzMzQ0MCwxNzI0ODM0NzY1XX0=
+eyJoaXN0b3J5IjpbMTkwOTkwODg3NywtMTk4MTMxNjM4NCwtMT
+U0NTkyODg0OSwtMjA5NjI5NzkxNywtMTQyNzE3NDMxNCwyODg2
+MTI0NjcsMjA4MjE4NTg2MywyMDAwODMzNDQwLDE3MjQ4MzQ3Nj
+VdfQ==
 -->
