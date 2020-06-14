@@ -50,7 +50,7 @@ The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be
 
 **macs2 bdgcmp command:**
 ```bash
-macs2 bdgcmp -t ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c lambda.bdg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg
+macs2 bdgcmp -t ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.lambda.bg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg
 ```
 # Step 7: Call peaks on score track using a cutoff
 It is the final task of peak calling. We need to set three arguments in this step:
@@ -66,7 +66,7 @@ Positions with scores higher than certain cutoff (set by `-c`) will be kept. If 
 
 **macs2 bdgpeakcall command:**
 ```bash
-macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bdg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks.p001.bed
+macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed
 ```
 # test
 Write a script `peakRecall.py` to recall peaks including these three steps above.
@@ -77,8 +77,8 @@ Write a script `peakRecall.py` to recall peaks including these three steps above
 **number of peaks**
 ```bash
 ```
-macs2 bdgcmp -t ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.lambda.bg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg
-macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed
+
+
 
 
 ```bash
@@ -93,11 +93,11 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE5OTA0NjQsLTM3OTAzMDc0Niw3Nz
-E3Mjc2MjQsLTEyMDMwNzI1MDIsNTI2MjI2Nzc4LC00NzA3NjM5
-MzEsLTE2NTM4NTM5MjksLTE2MjMyMzc2MDAsLTE5Mzc3Nzg3NT
-csLTQ0ODQxMjIxOSw2NTU0ODIwMzgsLTE5OTI1Mjg2MTIsMTA5
-Nzk0NDM4MCwxNzQ1ODY1NzY2LC0xOTIyNTM5OTYxLDE5NzY4Nj
-k3NzIsLTYxOTU5ODQ1NiwtMTQ3MDg4NjExMCwxMzU1MzkzNzU5
-LDIwMzc4MTI1NjhdfQ==
+eyJoaXN0b3J5IjpbNzcyMjk1NzU5LC0xMjgxOTkwNDY0LC0zNz
+kwMzA3NDYsNzcxNzI3NjI0LC0xMjAzMDcyNTAyLDUyNjIyNjc3
+OCwtNDcwNzYzOTMxLC0xNjUzODUzOTI5LC0xNjIzMjM3NjAwLC
+0xOTM3Nzc4NzU3LC00NDg0MTIyMTksNjU1NDgyMDM4LC0xOTky
+NTI4NjEyLDEwOTc5NDQzODAsMTc0NTg2NTc2NiwtMTkyMjUzOT
+k2MSwxOTc2ODY5NzcyLC02MTk1OTg0NTYsLTE0NzA4ODYxMTAs
+MTM1NTM5Mzc1OV19
 -->
