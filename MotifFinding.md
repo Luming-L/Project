@@ -15,12 +15,16 @@ for cancer in 23 cancer
 for sample in ACC_samples
 Bedrolls intersect -u -a ACC -b ACC_sample_peaks -r 0.8
 ```
+```bash
+grep "chr" ACC_peakCalls.txt > ACC_peakCalls.headerNo.txt
+```
+
 ## overlap
 ## merge peaks in different replicates
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4NTk5MjkwLDE1ODc3MzkzNTIsLTIwNT
-IyNzAzMTIsMTQ1NDA5MzYzNywtMTUxOTM4MjQxNiwtMzQyMTYz
-NzEsLTE5NTEwNDMwMjddfQ==
+eyJoaXN0b3J5IjpbLTc2NDY2MjcwMSwyODg1OTkyOTAsMTU4Nz
+czOTM1MiwtMjA1MjI3MDMxMiwxNDU0MDkzNjM3LC0xNTE5Mzgy
+NDE2LC0zNDIxNjM3MSwtMTk1MTA0MzAyN119
 -->
