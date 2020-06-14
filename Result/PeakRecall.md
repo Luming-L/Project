@@ -1,4 +1,4 @@
-# input file
+# Input file
 The input files for peak recalling are ATAC-seq signal tracks that have been normalized by the number of reads in peaks. The format of signal tracks files provided by author are BigWig and we convert them to BedGraph as input.
 
 **Method of generating ATAC-seq signal tracks in the paper:**
@@ -16,7 +16,7 @@ In the BedGraph file, the score is the signal in each 100-bp bin. We can take th
 |chr1|0|9999|0.000000|
 |chr1|9999|10099|9.525880|
 |chr1|10099|10199|14.288800|
-# rationale
+# Rationale
 > `callpeak` used by author: For each sample, peak calling was performed on the Tn5-corrected single-base insertions using the MACS2 callpeak command with parameters “--shift -75 --extsize 150 --nomodel --call-summits --nolambda --keep-dup all -p 0.01”. The peak summits were then extended by 250 bp on either side to a final width of 501 bp.
 
 > read length: 75 bp paired-end.
@@ -31,14 +31,14 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 7. Call peaks on score track using a cutoff
 
 For our input files, we follow step 4, 6 and 7.
-# Step 4: Build local bias track from control
+## Step 4: Build local bias track from control
 `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. As to the noise from genome background, it is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 
 **In our case**, `callpeak` used by author turned on `--nolambda` option, which means MACS used the background lambda as local lambda, and we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads. Therefore, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We will generate a new BedGraph file to store the lambda.
 
-# Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
+## Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
 The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be tested against the local lambda with Poisson distribution. The score in the output file is -log10(p-value) or -log10(q-value) (depending on `-m ppois` or `-m qpois`) for each location.
 |chr|start|end|score|
 |--|--|--|--|
@@ -52,7 +52,7 @@ The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be
 ```bash
 macs2 bdgcmp -t ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.lambda.bg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg
 ```
-# Step 7: Call peaks on score track using a cutoff
+## Step 7: Call peaks on score track using a cutoff
 It is the final task of peak calling. We need to set three arguments in this step:
 `-c CUTOFF, --cutoff`
 `-l MINLEN, --min-length`
@@ -70,12 +70,12 @@ The **score** in the output bed file is `int(-10*log10pvalue) at peak summit`
 ```bash
 macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed
 ```
-# test
-Write a script `peakRecall.py` to recall peaks including these three steps above.
+# Test
+Write **number of peaks** **a script `peakRecall.py`** to recall peaks including these three steps above.
 ```bash
 ./peakRecall.py ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg
 ```
-number of peaks we get: 52519
+**number of peaks** we get: 52519
 ```bash
  wc -l ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed # 52519
 ```
@@ -96,5 +96,5 @@ region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY5NzI3ODYsMTcyNDgzNDc2NV19
+eyJoaXN0b3J5IjpbMTI3NTE4MzI0NSwxNzI0ODM0NzY1XX0=
 -->
