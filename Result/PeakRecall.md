@@ -71,7 +71,7 @@ The **score** in the output bed file is `int(-10*log10pvalue) at peak summit`
 macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed
 ```
 # Test
-Write **number of peaks** **a script `peakRecall.py`** to recall peaks including these three steps above.
+Write **a script** `peakRecall.py` to recall peaks including these three steps above.
 ```bash
 ./peakRecall.py ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg
 ```
@@ -79,12 +79,12 @@ Write **number of peaks** **a script `peakRecall.py`** to recall peaks including
 ```bash
  wc -l ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed # 52519
 ```
-plot genome-wide signal from BigWig file and peaks recalled to compare
+**Plot genome-wide signal from BigWig file and peaks recalled to compare**
 
-region: chr1
+- Region: chr1
 ![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/peakRecall_chr1.png?raw=true)
 
-region: chr1: 777499-1233399
+Region: chr1: 777499-1233399
 ![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/peakRecall_chr1_777499_1233399.png?raw=true)
 # Reference
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
@@ -96,5 +96,5 @@ region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTE4MzI0NSwxNzI0ODM0NzY1XX0=
+eyJoaXN0b3J5IjpbLTEyNjA3NjgxMzIsMTcyNDgzNDc2NV19
 -->
