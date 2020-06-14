@@ -78,7 +78,7 @@ number of peaks we get: 52519
  wc -l ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed # 52519
 ```
 
-
+int((-log10qvalue at peak summit)*10)
 
 
 ```bash
@@ -93,11 +93,11 @@ number of peaks we get: 52519
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjYzODI2OTUsNzcyMjk1NzU5LC0xMj
-gxOTkwNDY0LC0zNzkwMzA3NDYsNzcxNzI3NjI0LC0xMjAzMDcy
-NTAyLDUyNjIyNjc3OCwtNDcwNzYzOTMxLC0xNjUzODUzOTI5LC
-0xNjIzMjM3NjAwLC0xOTM3Nzc4NzU3LC00NDg0MTIyMTksNjU1
-NDgyMDM4LC0xOTkyNTI4NjEyLDEwOTc5NDQzODAsMTc0NTg2NT
-c2NiwtMTkyMjUzOTk2MSwxOTc2ODY5NzcyLC02MTk1OTg0NTYs
-LTE0NzA4ODYxMTBdfQ==
+eyJoaXN0b3J5IjpbLTE0ODIwMTI4MTQsLTIwNjYzODI2OTUsNz
+cyMjk1NzU5LC0xMjgxOTkwNDY0LC0zNzkwMzA3NDYsNzcxNzI3
+NjI0LC0xMjAzMDcyNTAyLDUyNjIyNjc3OCwtNDcwNzYzOTMxLC
+0xNjUzODUzOTI5LC0xNjIzMjM3NjAwLC0xOTM3Nzc4NzU3LC00
+NDg0MTIyMTksNjU1NDgyMDM4LC0xOTkyNTI4NjEyLDEwOTc5ND
+QzODAsMTc0NTg2NTc2NiwtMTkyMjUzOTk2MSwxOTc2ODY5Nzcy
+LC02MTk1OTg0NTZdfQ==
 -->
