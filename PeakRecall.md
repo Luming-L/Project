@@ -73,7 +73,8 @@ Write a script `peakRecall.py` to recall peaks including these three steps above
 ```bash
 ./peakRecall.py ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg
 ```
-number 
+
+**number of peaks**
 ```bash
 ```
 
@@ -91,7 +92,7 @@ macs2 bdgpeakcall -i ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI3MjgxOSw3NzE3Mjc2MjQsLTEyMD
+eyJoaXN0b3J5IjpbLTM3OTAzMDc0Niw3NzE3Mjc2MjQsLTEyMD
 MwNzI1MDIsNTI2MjI2Nzc4LC00NzA3NjM5MzEsLTE2NTM4NTM5
 MjksLTE2MjMyMzc2MDAsLTE5Mzc3Nzg3NTcsLTQ0ODQxMjIxOS
 w2NTU0ODIwMzgsLTE5OTI1Mjg2MTIsMTA5Nzk0NDM4MCwxNzQ1
