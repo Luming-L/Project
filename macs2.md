@@ -257,7 +257,16 @@ chr1    840401  851460  1.73061
 -log10(ppois(4, lambda=0.01877, lower=FALSE))
 [1] 10.71865
 ```
-
+```bash
+ wc -l CTCF_ChIP_200K_peaks.bed
+13827 CTCF_ChIP_200K_peaks.bed
+[s1949868@bioinfmsc4 macs2]$ wc -l ./test_callpeak/test_peaks.narrowPeak
+13294 ./test_callpeak/test_peaks.narrowPeak
+ bedtools intersect -wa -wb -a ./test_callpeak/test_peaks.narrowPeak -b ./CTCF_ChIP_200K_peaks.bed -sorted -filenames -f 1.0 | wc -l
+13294
+bedtools intersect -wa -wb -a ./CTCF_ChIP_200K_peaks.bed -b ./test_callpeak/test_peaks.narrowPeak -sorted -filenames -f 1.0 | wc -l
+13294
+```
 ```bash
 ./peakRecall.py ../CTCF_ChIP_200K_filterdup.pileup.bdg
 macs2 bdgcmp -t ../CTCF_ChIP_200K_filterdup.pileup.bdg -c CTCF_ChIP_200K_filterdup.pileup.lambda.bdg -m qpois -o CTCF_ChIP_200K_filterdup.pileup.qvalue.bdg
@@ -275,11 +284,11 @@ bedtools intersect -wa -wb -a ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -b ../
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTIxMzY4MjcsLTE1NjQ1NDk1MDUsLT
-Q0MTQwNTQ3MSwtOTE5OTgwMzg3LDYzMzA2OTM1MywtMTU3OTMw
-NjAyOSwtMTc5OTkwNDc3MSw5NjQ3ODkzNTIsLTI1MzgxMDIwNS
-wtOTgxNDYxNTIwLDE1NDQ4NTg2NjEsLTE5NTU5ODI0MjcsNjQy
-MjkxMTgzLDg2MTM0MzQ3MiwtMTQ5NTIzNjcxMCwtMTk0ODM1Nj
-MyOSwyNzk5NTI0MTAsMTg1MDY3ODk0LC0zMjExMzM4MzMsNjQ5
-NTk1MjkxXX0=
+eyJoaXN0b3J5IjpbNjQ2NDgyNDg1LC0xNDEyMTM2ODI3LC0xNT
+Y0NTQ5NTA1LC00NDE0MDU0NzEsLTkxOTk4MDM4Nyw2MzMwNjkz
+NTMsLTE1NzkzMDYwMjksLTE3OTk5MDQ3NzEsOTY0Nzg5MzUyLC
+0yNTM4MTAyMDUsLTk4MTQ2MTUyMCwxNTQ0ODU4NjYxLC0xOTU1
+OTgyNDI3LDY0MjI5MTE4Myw4NjEzNDM0NzIsLTE0OTUyMzY3MT
+AsLTE5NDgzNTYzMjksMjc5OTUyNDEwLDE4NTA2Nzg5NCwtMzIx
+MTMzODMzXX0=
 -->
