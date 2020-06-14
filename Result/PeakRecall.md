@@ -38,7 +38,7 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
 We will generate a another BedGraph file to store the lambda.
 
-**another thing:** The score in BedGraph for peak calling is signal in each 100-bp bin, so the local lambda should be the average signal on 100-bp level. Then we can test signal against the local lambda with Poisson distribution and get a p. Although the default behavior in MACS2 is testing at each basepair, our each position in a 100-bp bin will generate the same p-value and call be merged again. Therefore, this process still can be throught as test at each 100-bp bin.
+**another thing:** The score in BedGraph for peak calling is signal in each 100-bp bin, so the local lambda should be the average signal on 100-bp level. Then we can test signal against the local lambda with Poisson distribution and get the p-value of each 100-bp bin. Although the default behavior in MACS2 is testing at each basepair, our each position in a 100-bp bin will generate the same p-value and call be merged again. Therefore, this process still can be throught as test at each 100-bp bin.
 ## Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
 The ChIP-seq/ATAC-seq signal at each genomic location stored in BedGraph will be tested against the local lambda with Poisson distribution. The score in the output file is -log10(p-value) or -log10(q-value) (depending on `-m ppois` or `-m qpois`) for each location.
 |chr|start|end|score|
@@ -100,6 +100,6 @@ Region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDc2OTIzLDI4ODYxMjQ2NywyMDgyMT
-g1ODYzLDIwMDA4MzM0NDAsMTcyNDgzNDc2NV19
+eyJoaXN0b3J5IjpbLTE0MjcxNzQzMTQsMjg4NjEyNDY3LDIwOD
+IxODU4NjMsMjAwMDgzMzQ0MCwxNzI0ODM0NzY1XX0=
 -->
