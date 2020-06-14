@@ -85,21 +85,21 @@ number of peaks we get: 52519
 
 ```
 
-# Ref
+# Reference
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 
 [MACS#macs-model-based-analysis-for-chip-seq](https://github.com/macs3-project/MACS#macs-model-based-analysis-for-chip-seq)
 
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
-[https://github.com/macs3-project/MACS/issues/379](https://github.com/macs3-project/MACS/issues/379)
+[issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTIyNTE2NiwtODM4ODUwNDcsLTE0OD
-IwMTI4MTQsLTIwNjYzODI2OTUsNzcyMjk1NzU5LC0xMjgxOTkw
-NDY0LC0zNzkwMzA3NDYsNzcxNzI3NjI0LC0xMjAzMDcyNTAyLD
-UyNjIyNjc3OCwtNDcwNzYzOTMxLC0xNjUzODUzOTI5LC0xNjIz
-MjM3NjAwLC0xOTM3Nzc4NzU3LC00NDg0MTIyMTksNjU1NDgyMD
-M4LC0xOTkyNTI4NjEyLDEwOTc5NDQzODAsMTc0NTg2NTc2Niwt
-MTkyMjUzOTk2MV19
+eyJoaXN0b3J5IjpbMTQ4NTQ0MTksLTgzODg1MDQ3LC0xNDgyMD
+EyODE0LC0yMDY2MzgyNjk1LDc3MjI5NTc1OSwtMTI4MTk5MDQ2
+NCwtMzc5MDMwNzQ2LDc3MTcyNzYyNCwtMTIwMzA3MjUwMiw1Mj
+YyMjY3NzgsLTQ3MDc2MzkzMSwtMTY1Mzg1MzkyOSwtMTYyMzIz
+NzYwMCwtMTkzNzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4MjAzOC
+wtMTk5MjUyODYxMiwxMDk3OTQ0MzgwLDE3NDU4NjU3NjYsLTE5
+MjI1Mzk5NjFdfQ==
 -->
