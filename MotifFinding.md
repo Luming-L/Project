@@ -16,7 +16,7 @@ for sample in ACC_samples
 Bedrolls intersect -u -a ACC -b ACC_sample_peaks -r 0.8
 ```
 ```bash
-sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" > ACC_peakCalls.sorted.txt
+sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" | awk '{FS=OFS="\t"; print $1,$2,$3,$5}' > ACC_peakCalls.sorted.txt
 ```
 
 ## overlap
@@ -24,8 +24,8 @@ sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" > ACC_peakCalls.sorted.txt
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU3OTA1NiwtNzY0NjYyNzAxLDI4OD
-U5OTI5MCwxNTg3NzM5MzUyLC0yMDUyMjcwMzEyLDE0NTQwOTM2
-MzcsLTE1MTkzODI0MTYsLTM0MjE2MzcxLC0xOTUxMDQzMDI3XX
-0=
+eyJoaXN0b3J5IjpbLTE5ODAyMDczNDksLTE5MjU3OTA1NiwtNz
+Y0NjYyNzAxLDI4ODU5OTI5MCwxNTg3NzM5MzUyLC0yMDUyMjcw
+MzEyLDE0NTQwOTM2MzcsLTE1MTkzODI0MTYsLTM0MjE2MzcxLC
+0xOTUxMDQzMDI3XX0=
 -->
