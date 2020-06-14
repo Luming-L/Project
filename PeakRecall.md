@@ -77,6 +77,8 @@ Write a script `peakRecall.py` to recall peaks including these three steps above
 **number of peaks**
 ```bash
 ```
+macs2 bdgcmp -t ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg -c ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.lambda.bg -m ppois -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg
+macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.pvalue.bg -c 2 -l 501 -g 75 -o ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed
 
 ```bash
 
@@ -90,7 +92,7 @@ Write a script `peakRecall.py` to recall peaks including these three steps above
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzU5OTE5MiwtMzc5MDMwNzQ2LDc3MT
+eyJoaXN0b3J5IjpbMTIxMzYwMzgyMiwtMzc5MDMwNzQ2LDc3MT
 cyNzYyNCwtMTIwMzA3MjUwMiw1MjYyMjY3NzgsLTQ3MDc2Mzkz
 MSwtMTY1Mzg1MzkyOSwtMTYyMzIzNzYwMCwtMTkzNzc3ODc1Ny
 wtNDQ4NDEyMjE5LDY1NTQ4MjAzOCwtMTk5MjUyODYxMiwxMDk3
