@@ -12,6 +12,7 @@ mv *.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls
 ```
 ```bash
 for cancer in 23 cancer
+sample set ()
 for sample in ACC_samples
 Bedrolls intersect -u -a ACC -b ACC_sample_peaks -r 0.8
 ```
@@ -28,9 +29,9 @@ bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEwNDY5MTQsLTIxMzc3NTk3OTUsLT
-IxMTc4OTYzMSw1Nzk1OTkxNzUsLTE5MjU3OTA1NiwtNzY0NjYy
-NzAxLDI4ODU5OTI5MCwxNTg3NzM5MzUyLC0yMDUyMjcwMzEyLD
-E0NTQwOTM2MzcsLTE1MTkzODI0MTYsLTM0MjE2MzcxLC0xOTUx
-MDQzMDI3XX0=
+eyJoaXN0b3J5IjpbMzUzMjE5LC0yMTM3NzU5Nzk1LC0yMTE3OD
+k2MzEsNTc5NTk5MTc1LC0xOTI1NzkwNTYsLTc2NDY2MjcwMSwy
+ODg1OTkyOTAsMTU4NzczOTM1MiwtMjA1MjI3MDMxMiwxNDU0MD
+kzNjM3LC0xNTE5MzgyNDE2LC0zNDIxNjM3MSwtMTk1MTA0MzAy
+N119
 -->
