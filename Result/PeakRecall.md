@@ -81,7 +81,7 @@ Write **a script** `peakRecall.py` to recall peaks including these three steps a
 ```
 **Plot genome-wide signal from BigWig file and peaks recalled to compare**
 
-- Region: chr1
+Region: chr1
 ![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/peakRecall_chr1.png?raw=true)
 
 Region: chr1: 777499-1233399
@@ -96,5 +96,5 @@ Region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA3NjgxMzIsMTcyNDgzNDc2NV19
+eyJoaXN0b3J5IjpbOTM4NjczNzUsMTcyNDgzNDc2NV19
 -->
