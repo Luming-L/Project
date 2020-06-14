@@ -93,6 +93,7 @@ Region: chr1: 777499-1233399
 ## test on MACS2 testing file
 ```bash
 macs2 callpeak -t ../CTCF_ChIP_200K.bed.gz -c ../CTCF_Control_200K.bed.gz -f BED -g hs -n test -B
+
 ```
 # Reference
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
@@ -104,7 +105,7 @@ macs2 callpeak -t ../CTCF_ChIP_200K.bed.gz -c ../CTCF_Control_200K.bed.gz -f BED
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU5Mjg4NDksLTIwOTYyOTc5MTcsLT
-E0MjcxNzQzMTQsMjg4NjEyNDY3LDIwODIxODU4NjMsMjAwMDgz
-MzQ0MCwxNzI0ODM0NzY1XX0=
+eyJoaXN0b3J5IjpbMTgyNTkzMjMxNywtMTU0NTkyODg0OSwtMj
+A5NjI5NzkxNywtMTQyNzE3NDMxNCwyODg2MTI0NjcsMjA4MjE4
+NTg2MywyMDAwODMzNDQwLDE3MjQ4MzQ3NjVdfQ==
 -->
