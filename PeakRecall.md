@@ -73,6 +73,10 @@ Write a script `peakRecall.py` to recall peaks including these three steps above
 ```bash
 ./peakRecall.py ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg
 ```
+```bash
+
+```
+
 # Ref
 [Advanced:-Call-peaks-using-MACS2-subcommands](https://github.com/macs3-project/MACS/wiki/Advanced:-Call-peaks-using-MACS2-subcommands)
 
@@ -81,11 +85,11 @@ Write a script `peakRecall.py` to recall peaks including these three steps above
 [Identifying ChIP-seq enrichment using MACS](https://www.nature.com/articles/nprot.2012.101)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjQzNTUwLDUyNjIyNjc3OCwtNDcwNz
-YzOTMxLC0xNjUzODUzOTI5LC0xNjIzMjM3NjAwLC0xOTM3Nzc4
-NzU3LC00NDg0MTIyMTksNjU1NDgyMDM4LC0xOTkyNTI4NjEyLD
-EwOTc5NDQzODAsMTc0NTg2NTc2NiwtMTkyMjUzOTk2MSwxOTc2
-ODY5NzcyLC02MTk1OTg0NTYsLTE0NzA4ODYxMTAsMTM1NTM5Mz
-c1OSwyMDM3ODEyNTY4LC03NTgyODE4NDksLTU3OTM0NTYwMywx
-MDcyODY5NzM5XX0=
+eyJoaXN0b3J5IjpbLTEyMDMwNzI1MDIsNTI2MjI2Nzc4LC00Nz
+A3NjM5MzEsLTE2NTM4NTM5MjksLTE2MjMyMzc2MDAsLTE5Mzc3
+Nzg3NTcsLTQ0ODQxMjIxOSw2NTU0ODIwMzgsLTE5OTI1Mjg2MT
+IsMTA5Nzk0NDM4MCwxNzQ1ODY1NzY2LC0xOTIyNTM5OTYxLDE5
+NzY4Njk3NzIsLTYxOTU5ODQ1NiwtMTQ3MDg4NjExMCwxMzU1Mz
+kzNzU5LDIwMzc4MTI1NjgsLTc1ODI4MTg0OSwtNTc5MzQ1NjAz
+LDEwNzI4Njk3MzldfQ==
 -->
