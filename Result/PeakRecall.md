@@ -30,7 +30,7 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 6. Compare ChIP and local lambda to get the scores in pvalue or qvalue
 7. Call peaks on score track using a cutoff
 
-For our input files, we follow step 4, 6 and 7.
+**For our input files, we follow step 4, 6 and 7.**
 ## Step 4: Build local bias track from control
 `callpeak` by default computes the local noise by taking the maximum noise from surrounding 1kb, 10kb, the size of fragment length _d_ (the predicted length of the DNA fragment that you are interested), and the whole genome background. For d, 1kb and 10kb background, the control read will be extended to both sides by d/2, 500 and 5000 bp, respectively, to reproduce noise from a region surrounding the read. The coverage at each position after normalization will be the corresponding local noise. As to the noise from genome background, it is calculated as _the_number_of_control_reads*fragment_length/genome_size_. At each position, the maximum in these four values will be the local noise, which is regarded as the lambda and can be compared with ChIP signals using the local Poisson test. When a control sample is not available, lambda is calculated from the ChIP-seq sample, excluding d and 1kb.
 
@@ -96,5 +96,5 @@ Region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4NjczNzUsMTcyNDgzNDc2NV19
+eyJoaXN0b3J5IjpbLTExMjEyNjk0NTcsMTcyNDgzNDc2NV19
 -->
