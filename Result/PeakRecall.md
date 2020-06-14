@@ -80,7 +80,9 @@ number of peaks we get: 52519
  wc -l ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed # 52519
 ```
 plot genome-wide signal from BigWig file and peaks recalled to compare
+
 region: chr1
+
 
 region: chr1: 777499-1233399
 
@@ -99,5 +101,5 @@ region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODA3ODQ5XX0=
+eyJoaXN0b3J5IjpbMTcyNDgzNDc2NV19
 -->
