@@ -80,7 +80,7 @@ number of peaks we get: 52519
 ```
 plot genome-wide signal from BigWig file and peaks recalled to compare
 region: chr1
-region: chr1: 
+region: chr1: 777499-1233399
 
 
 ```bash
@@ -97,11 +97,11 @@ region: chr1:
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIyMTEyODksLTE2MTU3NTIyMzAsMT
-Q4NTQ0MTksLTgzODg1MDQ3LC0xNDgyMDEyODE0LC0yMDY2Mzgy
-Njk1LDc3MjI5NTc1OSwtMTI4MTk5MDQ2NCwtMzc5MDMwNzQ2LD
-c3MTcyNzYyNCwtMTIwMzA3MjUwMiw1MjYyMjY3NzgsLTQ3MDc2
-MzkzMSwtMTY1Mzg1MzkyOSwtMTYyMzIzNzYwMCwtMTkzNzc3OD
-c1NywtNDQ4NDEyMjE5LDY1NTQ4MjAzOCwtMTk5MjUyODYxMiwx
-MDk3OTQ0MzgwXX0=
+eyJoaXN0b3J5IjpbLTE4MjMwODU5MTEsLTEyMjIyMTEyODksLT
+E2MTU3NTIyMzAsMTQ4NTQ0MTksLTgzODg1MDQ3LC0xNDgyMDEy
+ODE0LC0yMDY2MzgyNjk1LDc3MjI5NTc1OSwtMTI4MTk5MDQ2NC
+wtMzc5MDMwNzQ2LDc3MTcyNzYyNCwtMTIwMzA3MjUwMiw1MjYy
+MjY3NzgsLTQ3MDc2MzkzMSwtMTY1Mzg1MzkyOSwtMTYyMzIzNz
+YwMCwtMTkzNzc3ODc1NywtNDQ4NDEyMjE5LDY1NTQ4MjAzOCwt
+MTk5MjUyODYxMl19
 -->
