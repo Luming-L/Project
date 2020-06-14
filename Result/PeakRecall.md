@@ -72,6 +72,7 @@ macs2 bdgpeakcall -i ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_
 ```
 # Test
 **Test file:** `ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg`
+
 Write **a script** `peakRecall.py` to recall peaks including these three steps above.
 ```bash
 ./peakRecall.py ./ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.bg
@@ -97,5 +98,5 @@ Region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwNDI0MzM0LDE3MjQ4MzQ3NjVdfQ==
+eyJoaXN0b3J5IjpbMjAwMDgzMzQ0MCwxNzI0ODM0NzY1XX0=
 -->
