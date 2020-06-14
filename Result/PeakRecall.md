@@ -36,7 +36,7 @@ In MACS2, the main function `callpeak` can be decomposed into a pipeline contain
 
 **In our case**, `callpeak` used by author turned on `--nolambda` option, which means MACS used the background lambda as local lambda, and we just have normalized ATAC-seq signal tracks in BedGraph and thus cannot extend reads. Therefore, the genome-wide average signal will be used as noise. We can calculate it as:
 (_sum_of_signals_in_all_bins/genome_zise)*bin_size_
-We will generate a new BedGraph file to store the lambda.
+We will generate a another BedGraph file to store the lambda.
 
 **another thing:** The score in BedGraph is signal in each 100-bp bin
 ## Step 6: Compare ChIP/ATAC signal and local lambda to get the scores in pvalue or qvalue
@@ -100,6 +100,6 @@ Region: chr1: 777499-1233399
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4NjEyNDY3LDIwODIxODU4NjMsMjAwMD
-gzMzQ0MCwxNzI0ODM0NzY1XX0=
+eyJoaXN0b3J5IjpbLTU4MTMyOTMyMiwyODg2MTI0NjcsMjA4Mj
+E4NTg2MywyMDAwODMzNDQwLDE3MjQ4MzQ3NjVdfQ==
 -->
