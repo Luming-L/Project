@@ -20,7 +20,7 @@ sort -k1,1 -k2n ACC_peakCalls.txt | grep "chr" | awk '{FS=OFS="\t"; {print $1,$2
 awk '{FS=OFS="\t"; {print $1,$2,$3}}' ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.bed | grep "chr"> ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.pure.bed
 bedtools intersect -wa -wb -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.pure.bed -sorted -filenames -f 1.0 | wc -l
 bedtools intersect -a A.bed -b B.bed C.bed -c
-
+bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.pure.bed -sorted -filenames -c -f 1.0
 ```
 **awk** '{FS="_"; print NF;}' file1
 ## overlap
@@ -28,9 +28,9 @@ bedtools intersect -a A.bed -b B.bed C.bed -c
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTI2NzY0LC0yMTM3NzU5Nzk1LC0yMT
-E3ODk2MzEsNTc5NTk5MTc1LC0xOTI1NzkwNTYsLTc2NDY2Mjcw
-MSwyODg1OTkyOTAsMTU4NzczOTM1MiwtMjA1MjI3MDMxMiwxND
-U0MDkzNjM3LC0xNTE5MzgyNDE2LC0zNDIxNjM3MSwtMTk1MTA0
-MzAyN119
+eyJoaXN0b3J5IjpbLTE4MzEwNDY5MTQsLTIxMzc3NTk3OTUsLT
+IxMTc4OTYzMSw1Nzk1OTkxNzUsLTE5MjU3OTA1NiwtNzY0NjYy
+NzAxLDI4ODU5OTI5MCwxNTg3NzM5MzUyLC0yMDUyMjcwMzEyLD
+E0NTQwOTM2MzcsLTE1MTkzODI0MTYsLTM0MjE2MzcxLC0xOTUx
+MDQzMDI3XX0=
 -->
