@@ -25,7 +25,7 @@ bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018
 
 bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.pure.bed -sorted -filenames -c -f 1.0
 ```
-`-f`： Minimum overlap required as **a fraction of A**. Default is 1E-9 (i.e. 1bp).
+`-f`： Minimum overlap required as **a fraction of A**. `-f 1.0` means 100% of the query record is overlapped by a database record
 `-c`: For each entry in A, report the number of hits in B while restricting to -f.
 `-sorted`: For very large B files, invoke a “sweeping” algorithm that requires position-sorted (e.g.,  `sort  -k1,1  -k2,2n`  for BED files) input. When using -sorted, memory usage remains low even for very large files.
 ## overlap
@@ -33,7 +33,7 @@ bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTgyMDg4OSwtMTE1MjU3NTk2NywtNj
+eyJoaXN0b3J5IjpbMTM4NjM0OTEwOSwtMTE1MjU3NTk2NywtNj
 cyMDYwNjg4LC0xMDc0Mzc4NDYsLTE4NDczMjc5MzksMzUzMjE5
 LC0yMTM3NzU5Nzk1LC0yMTE3ODk2MzEsNTc5NTk5MTc1LC0xOT
 I1NzkwNTYsLTc2NDY2MjcwMSwyODg1OTkyOTAsMTU4NzczOTM1
