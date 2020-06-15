@@ -31,13 +31,14 @@ bedtools intersect -wa -a -b -f 1.0 -c -sorted
 `-wa`: Write the original entry in A for each overlap.
 `-sorted`: For very large B files, invoke a “sweeping” algorithm that requires position-sorted (e.g.,  `sort  -k1,1  -k2,2n`  for BED files) input. When using -sorted, memory usage remains low even for very large files.
 
-ls /exports/eddie/scratch/s1949868/PeakRecall_peaks001/ACC*
+ls ACC*
+
 ## overlap
 ## merge peaks in different replicates
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwODY0MTQxLC0xNzQ2MjQ3MjAzLDQ0Mj
+eyJoaXN0b3J5IjpbNzQxNzU0Mzc3LC0xNzQ2MjQ3MjAzLDQ0Mj
 Y2MzE0OCwtMTE1MjU3NTk2NywtNjcyMDYwNjg4LC0xMDc0Mzc4
 NDYsLTE4NDczMjc5MzksMzUzMjE5LC0yMTM3NzU5Nzk1LC0yMT
 E3ODk2MzEsNTc5NTk5MTc1LC0xOTI1NzkwNTYsLTc2NDY2Mjcw
