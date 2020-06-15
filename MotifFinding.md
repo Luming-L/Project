@@ -25,7 +25,7 @@ bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018
 
 bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.pure.bed -sorted -filenames -c -f 1.0
 ```
-
+bedtools intersect -wa -a -b -f 1.0 -c -sorted
 `-f`： Minimum overlap required as **a fraction of A**. `-f 1.0` means 100% of the query record is overlapped by a database record.
 `-c`: For each entry in A, report the number of hits in B while restricting to -f.
 `-wa`: Write the original entry in A for each overlap.
@@ -36,7 +36,7 @@ bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY3MTA1MjYsNDQyNjYzMTQ4LC0xMT
+eyJoaXN0b3J5IjpbLTE3NDYyNDcyMDMsNDQyNjYzMTQ4LC0xMT
 UyNTc1OTY3LC02NzIwNjA2ODgsLTEwNzQzNzg0NiwtMTg0NzMy
 NzkzOSwzNTMyMTksLTIxMzc3NTk3OTUsLTIxMTc4OTYzMSw1Nz
 k1OTkxNzUsLTE5MjU3OTA1NiwtNzY0NjYyNzAxLDI4ODU5OTI5
