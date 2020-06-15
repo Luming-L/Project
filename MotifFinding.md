@@ -25,15 +25,16 @@ bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018
 
 bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018_7AE322A92285_X034_S09_L133_B1_T1_PMRG.insertions.peaks001.pure.bed -sorted -filenames -c -f 1.0
 ```
-`-f`Minimum overlap required as a fraction of A. Default is 1E-9 (i.e. 1bp).
+`-f`： Minimum overlap required as **a fraction of A**. Default is 1E-9 (i.e. 1bp).
 ## overlap
 ## merge peaks in different replicates
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQzNzg0NiwtMTg0NzMyNzkzOSwzNT
-MyMTksLTIxMzc3NTk3OTUsLTIxMTc4OTYzMSw1Nzk1OTkxNzUs
-LTE5MjU3OTA1NiwtNzY0NjYyNzAxLDI4ODU5OTI5MCwxNTg3Nz
-M5MzUyLC0yMDUyMjcwMzEyLDE0NTQwOTM2MzcsLTE1MTkzODI0
-MTYsLTM0MjE2MzcxLC0xOTUxMDQzMDI3XX0=
+eyJoaXN0b3J5IjpbLTY3MjA2MDY4OCwtMTA3NDM3ODQ2LC0xOD
+Q3MzI3OTM5LDM1MzIxOSwtMjEzNzc1OTc5NSwtMjExNzg5NjMx
+LDU3OTU5OTE3NSwtMTkyNTc5MDU2LC03NjQ2NjI3MDEsMjg4NT
+k5MjkwLDE1ODc3MzkzNTIsLTIwNTIyNzAzMTIsMTQ1NDA5MzYz
+NywtMTUxOTM4MjQxNiwtMzQyMTYzNzEsLTE5NTEwNDMwMjddfQ
+==
 -->
