@@ -31,15 +31,17 @@ bedtools intersect -wa -a -b -f 1.0 -c -sorted
 `-wa`: Write the original entry in A for each overlap.
 `-sorted`: For very large B files, invoke a “sweeping” algorithm that requires position-sorted (e.g.,  `sort  -k1,1  -k2,2n`  for BED files) input. When using -sorted, memory usage remains low even for very large files.
 
+ls /exports/eddie/scratch/s1949868/PeakRecall_peaks001/ACC*
 ## overlap
 ## merge peaks in different replicates
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYyNDcyMDMsNDQyNjYzMTQ4LC0xMT
-UyNTc1OTY3LC02NzIwNjA2ODgsLTEwNzQzNzg0NiwtMTg0NzMy
-NzkzOSwzNTMyMTksLTIxMzc3NTk3OTUsLTIxMTc4OTYzMSw1Nz
-k1OTkxNzUsLTE5MjU3OTA1NiwtNzY0NjYyNzAxLDI4ODU5OTI5
-MCwxNTg3NzM5MzUyLC0yMDUyMjcwMzEyLDE0NTQwOTM2MzcsLT
-E1MTkzODI0MTYsLTM0MjE2MzcxLC0xOTUxMDQzMDI3XX0=
+eyJoaXN0b3J5IjpbODQwODY0MTQxLC0xNzQ2MjQ3MjAzLDQ0Mj
+Y2MzE0OCwtMTE1MjU3NTk2NywtNjcyMDYwNjg4LC0xMDc0Mzc4
+NDYsLTE4NDczMjc5MzksMzUzMjE5LC0yMTM3NzU5Nzk1LC0yMT
+E3ODk2MzEsNTc5NTk5MTc1LC0xOTI1NzkwNTYsLTc2NDY2Mjcw
+MSwyODg1OTkyOTAsMTU4NzczOTM1MiwtMjA1MjI3MDMxMiwxND
+U0MDkzNjM3LC0xNTE5MzgyNDE2LC0zNDIxNjM3MSwtMTk1MTA0
+MzAyN119
 -->
