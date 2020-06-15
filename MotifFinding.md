@@ -27,15 +27,16 @@ bedtools intersect -wa -a ACC_peakCalls.pure.txt -b ACCx_025FE5F8_885E_433D_9018
 ```
 `-f`： Minimum overlap required as **a fraction of A**. Default is 1E-9 (i.e. 1bp).
 `-c`: For each entry in A, report the number of hits in B while restricting to -f.
+`-sorted`: For very large B files, invoke a “sweeping” algorithm that requires position-sorted (e.g.,  `sort  -k1,1  -k2,2n`  for BED files) input. When using -sorted, memory usage remains low even for very large files.
 ## overlap
 ## merge peaks in different replicates
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI1NzU5NjcsLTY3MjA2MDY4OCwtMT
-A3NDM3ODQ2LC0xODQ3MzI3OTM5LDM1MzIxOSwtMjEzNzc1OTc5
-NSwtMjExNzg5NjMxLDU3OTU5OTE3NSwtMTkyNTc5MDU2LC03Nj
-Q2NjI3MDEsMjg4NTk5MjkwLDE1ODc3MzkzNTIsLTIwNTIyNzAz
-MTIsMTQ1NDA5MzYzNywtMTUxOTM4MjQxNiwtMzQyMTYzNzEsLT
-E5NTEwNDMwMjddfQ==
+eyJoaXN0b3J5IjpbLTI5OTgyMDg4OSwtMTE1MjU3NTk2NywtNj
+cyMDYwNjg4LC0xMDc0Mzc4NDYsLTE4NDczMjc5MzksMzUzMjE5
+LC0yMTM3NzU5Nzk1LC0yMTE3ODk2MzEsNTc5NTk5MTc1LC0xOT
+I1NzkwNTYsLTc2NDY2MjcwMSwyODg1OTkyOTAsMTU4NzczOTM1
+MiwtMjA1MjI3MDMxMiwxNDU0MDkzNjM3LC0xNTE5MzgyNDE2LC
+0zNDIxNjM3MSwtMTk1MTA0MzAyN119
 -->
