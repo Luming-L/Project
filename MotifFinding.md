@@ -30,7 +30,7 @@ bedtools intersect -wa -a -b -f 1.0 -c -sorted
 `-c`: For each entry in A, report the number of hits in B while restricting to -f.
 `-wa`: Write the original entry in A for each overlap.
 `-sorted`: For very large B files, invoke a “sweeping” algorithm that requires position-sorted (e.g.,  `sort  -k1,1  -k2,2n`  for BED files) input. When using -sorted, memory usage remains low even for very large files.
-
+bedtools intersect -a -b f 1.0 -c -wa -sorted
 ls ACC*
 
 ## overlap
@@ -38,11 +38,11 @@ ls ACC*
 # Motif finding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxNzU0Mzc3LC0xNzQ2MjQ3MjAzLDQ0Mj
-Y2MzE0OCwtMTE1MjU3NTk2NywtNjcyMDYwNjg4LC0xMDc0Mzc4
-NDYsLTE4NDczMjc5MzksMzUzMjE5LC0yMTM3NzU5Nzk1LC0yMT
-E3ODk2MzEsNTc5NTk5MTc1LC0xOTI1NzkwNTYsLTc2NDY2Mjcw
-MSwyODg1OTkyOTAsMTU4NzczOTM1MiwtMjA1MjI3MDMxMiwxND
-U0MDkzNjM3LC0xNTE5MzgyNDE2LC0zNDIxNjM3MSwtMTk1MTA0
-MzAyN119
+eyJoaXN0b3J5IjpbMzM0MzI1ODUxLDc0MTc1NDM3NywtMTc0Nj
+I0NzIwMyw0NDI2NjMxNDgsLTExNTI1NzU5NjcsLTY3MjA2MDY4
+OCwtMTA3NDM3ODQ2LC0xODQ3MzI3OTM5LDM1MzIxOSwtMjEzNz
+c1OTc5NSwtMjExNzg5NjMxLDU3OTU5OTE3NSwtMTkyNTc5MDU2
+LC03NjQ2NjI3MDEsMjg4NTk5MjkwLDE1ODc3MzkzNTIsLTIwNT
+IyNzAzMTIsMTQ1NDA5MzYzNywtMTUxOTM4MjQxNiwtMzQyMTYz
+NzFdfQ==
 -->
