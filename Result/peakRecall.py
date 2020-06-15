@@ -41,6 +41,7 @@ s4 = pd.Series(np.full(len(Chrs.keys()),Lambda))
 
 # make a dataframe to store tracks
 df2=pd.DataFrame({'chr':s1,'start':s2,'end':s3,'Lambda':s4})
+df2 = df2[['chr','start','end','Lambda']]
 
 df2.to_csv(fileName+".lambda.bg",sep="\t",header=False,index=False)
 
