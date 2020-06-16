@@ -143,14 +143,17 @@ scp [file you want to copy] [destination]
 scp myfavouritefile s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868  
 s1949868@eddie.ecdf.ed.ac.uk:/home/s1949868/
 s1949868@eddie.ecdf.ed.ac.uk:/exports/eddie/scratch/s1949868/
+s1949868@bioinfmsc4.med.ed.ac.uk:/home/s1949868
+s1949868@bioinfmsc5.bio.ed.ac.uk
+s1949868@bioinfmsc3.mvm.ed.ac.uk
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk2Nzg1NjksLTEyOTg4MDgwOTIsLT
-E5NDcxNTc1NjUsLTE2ODA3NzIxMDcsMTM4NDg2MjEyOCwtOTEx
-OTEyNzUzLDExMTMyMDUzODYsNjU2OTI3NzM0LDg0NDY0NzUxLD
-E0MDQ3OTYzNzIsMTgzNzkyOTYzNCwxMTg0OTYwMjkxLDg4ODYx
-MzY0OCwxNjg3MzMzMjA5LC0xMTkxMDU1OTM5LDE4NDAzMjU3OT
-UsMTk3NTczNzY2NywtNDY1NDYyNDU4LC0xNTY4NTgyMTQxLDY1
-MDgyMzA2OF19
+eyJoaXN0b3J5IjpbOTA2OTIxODUzLC0xODY5Njc4NTY5LC0xMj
+k4ODA4MDkyLC0xOTQ3MTU3NTY1LC0xNjgwNzcyMTA3LDEzODQ4
+NjIxMjgsLTkxMTkxMjc1MywxMTEzMjA1Mzg2LDY1NjkyNzczNC
+w4NDQ2NDc1MSwxNDA0Nzk2MzcyLDE4Mzc5Mjk2MzQsMTE4NDk2
+MDI5MSw4ODg2MTM2NDgsMTY4NzMzMzIwOSwtMTE5MTA1NTkzOS
+wxODQwMzI1Nzk1LDE5NzU3Mzc2NjcsLTQ2NTQ2MjQ1OCwtMTU2
+ODU4MjE0MV19
 -->
