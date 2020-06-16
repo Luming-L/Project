@@ -88,7 +88,7 @@ Write **a script** `peakRecall.py` to recall peaks including these three steps a
 Region: chr1
 ![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/PeakRecall/peakRecall_chr1.png?raw=true)
 Region: chr1: 777499-1233399
-
+![enter image description here](https://github.com/Luming-L/Project/blob/master/Result/PeakRecall/peakRecall_chr1_777499_1233399.png?raw=true)
 ## test on MACS2 testing file
 ```bash
 # use main function `callpeak` to call peak
@@ -111,5 +111,5 @@ bedtools intersect -wa -wb -a ./CTCF_ChIP_200K_filterdup.pileup.peaks.bed -b ../
 [issues/379: The 5th column score = 10 * score in the summit from bedGraph.](https://github.com/macs3-project/MACS/issues/379)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODI2NjIwMV19
+eyJoaXN0b3J5IjpbLTE3MjIyMTY0MzNdfQ==
 -->
