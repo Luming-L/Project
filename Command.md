@@ -67,9 +67,12 @@ $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[nam
 ```
 # Python
 iloc 则是通过行号对行进行索引
+# Tips
+revise a little bit and test each time
+use the same platform to develop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk1Mzc2MCw1ODM1OTE0MDQsMTMzNj
+eyJoaXN0b3J5IjpbMTM0OTMxNDc4OSw1ODM1OTE0MDQsMTMzNj
 g4MTkzNywtMzgzOTk5MDY2LDE1NjM5NjU2MCwtMTYzMTAwODQw
 NCwxMjMyMzYxMTgzLDk0MjYzODA3NiwtOTQxNjg5MzU2LC0zNT
 M3Njk3MTgsLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMzUyNDYw
