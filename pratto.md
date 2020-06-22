@@ -12,8 +12,10 @@ Contribution of individual PRDM9 alleles to the LD-based recombination rate map
 Interindividual variability in hotspot strength
 PRDM9 heterozygosity modulates hotspot strength
 The mutagenic effect of meiotic recombination
-DSB frequency is a major determinant of crossover rate
+DSB frequency is a major determinant of crossover rat
+Meiotic recombination drives genome instability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDIzNzg0MSwzMTk5MDgwMjksMTI3ND
-A3ODg2NSwtNTkwNTg4MTIzLDk5NTQ5ODg4M119
+eyJoaXN0b3J5IjpbMTU3MTg4NjA1OCwxMjUwMjM3ODQxLDMxOT
+kwODAyOSwxMjc0MDc4ODY1LC01OTA1ODgxMjMsOTk1NDk4ODgz
+XX0=
 -->
