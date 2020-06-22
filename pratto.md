@@ -8,8 +8,10 @@ Furthermore, our data indicate that DSB frequency is a major determinant of cros
 These maps provide new insights into the regulation of meiotic recombination and the impact of meiotic recombination on genome function.
 
 Genome-wide DSB hotspot map in humans
-
+Contribution of individual PRDM9 alleles to the LD-based recombination rate map
+Interindividual variability in hotspot strength
+PRDM9 heterozygosity modulates hotspot strength
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjUzNDIwNywzMTk5MDgwMjksMTI3ND
+eyJoaXN0b3J5IjpbMTg2NDYzMjQyOCwzMTk5MDgwMjksMTI3ND
 A3ODg2NSwtNTkwNTg4MTIzLDk5NTQ5ODg4M119
 -->
