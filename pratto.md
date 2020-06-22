@@ -6,7 +6,10 @@ Comparing DSB maps between individuals shows that along with DNA binding by PRDM
 **We find evidence for both GC-biased gene conversion and mutagenesis around meiotic DSB hotspots, while frequent colocalization of DSB hotspots with chromosome rearrangement breakpoints implicates the aberrant repair of meiotic DSBs in genomic disorders.**
 Furthermore, our data indicate that DSB frequency is a major determinant of crossover rate. 
 These maps provide new insights into the regulation of meiotic recombination and the impact of meiotic recombination on genome function.
+
+Genome-wide DSB hotspot map in humans
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5OTA4MDI5LDEyNzQwNzg4NjUsLTU5MD
-U4ODEyMyw5OTU0OTg4ODNdfQ==
+eyJoaXN0b3J5IjpbLTI0NjUzNDIwNywzMTk5MDgwMjksMTI3ND
+A3ODg2NSwtNTkwNTg4MTIzLDk5NTQ5ODg4M119
 -->
