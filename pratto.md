@@ -1,3 +1,12 @@
+ the human DSB hotspots 
+## Column 9  : AA1_hotspots: Hotspots in the AA1
+## Column 10 : AA2_hotspots: Hotspots in the AA2
+## Column 11 : AB1_hotspots: Hotspots in the AB1
+## Column 12 : AB2_hotspots: Hotspots in the AB2
+## Column 13 : AC_hotspots: Hotspots in the AC
+## Column 17 : A_hotspots_union: Hotspots found in at least one of the AA1, AA2, AB1 and AB2 individuals. Overlapping hotspots are merged (described in supplementary methods)
+
+
 # Recombination initiation maps of individual human genomes
 
 DNA double-strand breaks (DSBs) are introduced in meiosis to initiate recombination and generate crossovers, the reciprocal exchanges of genetic material between parental chromosomes. 
@@ -15,7 +24,7 @@ The mutagenic effect of meiotic recombination
 DSB frequency is a major determinant of crossover rate
 Meiotic recombination drives genome instability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Mjk4MzEzLDEyNTAyMzc4NDEsMzE5OT
-A4MDI5LDEyNzQwNzg4NjUsLTU5MDU4ODEyMyw5OTU0OTg4ODNd
-fQ==
+eyJoaXN0b3J5IjpbLTE0Mzk1NjYwMSwxMjUwMjM3ODQxLDMxOT
+kwODAyOSwxMjc0MDc4ODY1LC01OTA1ODgxMjMsOTk1NDk4ODgz
+XX0=
 -->
