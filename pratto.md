@@ -11,7 +11,9 @@ Genome-wide DSB hotspot map in humans
 Contribution of individual PRDM9 alleles to the LD-based recombination rate map
 Interindividual variability in hotspot strength
 PRDM9 heterozygosity modulates hotspot strength
+The mutagenic effect of meiotic recombination
+DSB frequency is a major determinant of crossover rate
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDYzMjQyOCwzMTk5MDgwMjksMTI3ND
+eyJoaXN0b3J5IjpbMTI1MDIzNzg0MSwzMTk5MDgwMjksMTI3ND
 A3ODg2NSwtNTkwNTg4MTIzLDk5NTQ5ODg4M119
 -->
