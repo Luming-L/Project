@@ -65,6 +65,7 @@ sed -i 's/\s\+/\t/g' file
 # ~ 表示模式开始。// 匹配代码块，可以是字符串或正则表达式
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
+不等于: awk '$1 != "asima"' temp
 # Python
 iloc 则是通过行号对行进行索引
 # Tips
@@ -72,11 +73,11 @@ revise a little bit and test each time
 use the same platform to develop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTMxNDc4OSw1ODM1OTE0MDQsMTMzNj
-g4MTkzNywtMzgzOTk5MDY2LDE1NjM5NjU2MCwtMTYzMTAwODQw
-NCwxMjMyMzYxMTgzLDk0MjYzODA3NiwtOTQxNjg5MzU2LC0zNT
-M3Njk3MTgsLTE0MDQwNjc4NzQsMjA2MjM0OTg0LDIwMzUyNDYw
-MDcsLTM1MDc5OTc3OSwtMTU4MDU1MTQ2OSwtMTgzNDM0NjQ3Ni
-wxNTQ2ODAxOTg4LDI0NDk2OTYzOSw4OTA3MjEzNDAsMTAyNDAx
-MzI3N119
+eyJoaXN0b3J5IjpbLTgxOTY5MzA4LDEzNDkzMTQ3ODksNTgzNT
+kxNDA0LDEzMzY4ODE5MzcsLTM4Mzk5OTA2NiwxNTYzOTY1NjAs
+LTE2MzEwMDg0MDQsMTIzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MT
+Y4OTM1NiwtMzUzNzY5NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4
+NCwyMDM1MjQ2MDA3LC0zNTA3OTk3NzksLTE1ODA1NTE0NjksLT
+E4MzQzNDY0NzYsMTU0NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIx
+MzQwXX0=
 -->
