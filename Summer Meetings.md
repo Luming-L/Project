@@ -11,8 +11,15 @@ Record what you do and plan your work carefully
 
 supervisor can see and discuss the draft once
 
+structure:
+Title page
+Abstract/Summary
+Introduction
+Methodology
+Results
+Discussion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQwODU3NzQsNDAyMDk2ODUzLDExMz
-g0Mjc2MjAsLTI0NjkxODU3NSwtMTgyNTgxNjUyNSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTgxNjk4MzI0NCwtMTIzNDA4NTc3NCw0MD
+IwOTY4NTMsMTEzODQyNzYyMCwtMjQ2OTE4NTc1LC0xODI1ODE2
+NTI1LC0yMDg4NzQ2NjEyXX0=
 -->
