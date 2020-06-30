@@ -9,7 +9,10 @@ Record what you do and plan your work carefully
 
 90% mark is depended on your dissertation
 
+supervisor can see and discuss the draft once
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyMDk2ODUzLDExMzg0Mjc2MjAsLTI0Nj
-kxODU3NSwtMTgyNTgxNjUyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyMzQwODU3NzQsNDAyMDk2ODUzLDExMz
+g0Mjc2MjAsLTI0NjkxODU3NSwtMTgyNTgxNjUyNSwtMjA4ODc0
+NjYxMl19
 -->
