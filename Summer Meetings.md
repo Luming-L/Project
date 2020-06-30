@@ -13,6 +13,8 @@ supervisor can see and discuss the draft once
 
 reword the content of research proposal in dissertation
 
+discuss the discussion with supervisor, in lab meeting, in summer meeting
+
 structure:
 Title page
 Abstract/Summary
@@ -22,7 +24,8 @@ Results
 Discussion
 Conclusion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTMzOTU3NCwxODE2OTgzMjQ0LC0xMj
-M0MDg1Nzc0LDQwMjA5Njg1MywxMTM4NDI3NjIwLC0yNDY5MTg1
-NzUsLTE4MjU4MTY1MjUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEyMDk4MDk3MzUsMTMwNTMzOTU3NCwxOD
+E2OTgzMjQ0LC0xMjM0MDg1Nzc0LDQwMjA5Njg1MywxMTM4NDI3
+NjIwLC0yNDY5MTg1NzUsLTE4MjU4MTY1MjUsLTIwODg3NDY2MT
+JdfQ==
 -->
