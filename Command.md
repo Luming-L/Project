@@ -66,6 +66,7 @@ sed -i 's/\s\+/\t/g' file
 $ awk 'BEGIN{OFS=FS="\t"}{if($0~/>/) {name=$0; sub(">", "", name);} else seq[name]=$0;}END{print ">SOX2"; print seq["SOX2"]}' test.fasta
 ```
 不等于: awk '$1 != "asima"' temp
+[https://my.oschina.net/u/2391658/blog/703922](https://my.oschina.net/u/2391658/blog/703922)
 # Python
 iloc 则是通过行号对行进行索引
 # Tips
@@ -73,11 +74,11 @@ revise a little bit and test each time
 use the same platform to develop
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTY5MzA4LDEzNDkzMTQ3ODksNTgzNT
-kxNDA0LDEzMzY4ODE5MzcsLTM4Mzk5OTA2NiwxNTYzOTY1NjAs
-LTE2MzEwMDg0MDQsMTIzMjM2MTE4Myw5NDI2MzgwNzYsLTk0MT
-Y4OTM1NiwtMzUzNzY5NzE4LC0xNDA0MDY3ODc0LDIwNjIzNDk4
-NCwyMDM1MjQ2MDA3LC0zNTA3OTk3NzksLTE1ODA1NTE0NjksLT
-E4MzQzNDY0NzYsMTU0NjgwMTk4OCwyNDQ5Njk2MzksODkwNzIx
-MzQwXX0=
+eyJoaXN0b3J5IjpbMTIxMjcxNzM5NSwtODE5NjkzMDgsMTM0OT
+MxNDc4OSw1ODM1OTE0MDQsMTMzNjg4MTkzNywtMzgzOTk5MDY2
+LDE1NjM5NjU2MCwtMTYzMTAwODQwNCwxMjMyMzYxMTgzLDk0Mj
+YzODA3NiwtOTQxNjg5MzU2LC0zNTM3Njk3MTgsLTE0MDQwNjc4
+NzQsMjA2MjM0OTg0LDIwMzUyNDYwMDcsLTM1MDc5OTc3OSwtMT
+U4MDU1MTQ2OSwtMTgzNDM0NjQ3NiwxNTQ2ODAxOTg4LDI0NDk2
+OTYzOV19
 -->
