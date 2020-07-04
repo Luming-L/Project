@@ -1,14 +1,5 @@
 
-# Files
-[Pratto et al. 2014](https://science.sciencemag.org/content/suppl/2014/11/12/346.6211.1256442.DC1?_ga=2.236340424.892408700.1591381155-1358157743.1587248675)
 
-```bash
-# extract A_hotspots_union, i.e.Hotspots found in at least one of the AA1, AA2, AB1 and AB2 individuals
-grep -v ^# humanDSBhotspots.txt | awk '$17 ==1 {print}' | wc -l # 40598
-grep -v ^# humanDSBhotspots.txt | awk '{FS=OFS="\t";if($17==1){print $1,$2,$3};}' > humanDSBhotspots_AA_AB.txt
-wc -l humanDSBhotspots_AA_AB.txt # 40598 humanDSBhotspots_AA_AB.txt
-
-```
 ## PRDM9 peaks set in 23 types of cancer
 ```bash
 mkdir PRDM9_binding_perCancer
@@ -37,11 +28,11 @@ bedtools intersect
 ## R
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTcxMjA0Nyw2MzYwNTIyMjYsMTkzMT
-ExNjUyNywtMTQxOTE5ODExNiwtMTYxNDQwNzM1MCwtMTU3OTM4
-NDA4MSwxNDQwODIyMzMwLC0xNzQ3NzA1MDczLC04NzYxMDk2Nz
-QsLTgwNzg5NTk3OCwyNjc4MzMyODMsLTExODgzOTU0MDYsMTEy
-NDE4MjAxNywtOTEzMTAwMTY4LC0xNjMxOTk3OTA4LDE4OTE4Nz
-c3NiwtMTU5Mzk0MzYzMSw2MTYzODcwMjcsMTQ3NTEzOTMxMywt
-ODAwNTgwMjIxXX0=
+eyJoaXN0b3J5IjpbLTg0ODIwODI3MywtNzQxNzEyMDQ3LDYzNj
+A1MjIyNiwxOTMxMTE2NTI3LC0xNDE5MTk4MTE2LC0xNjE0NDA3
+MzUwLC0xNTc5Mzg0MDgxLDE0NDA4MjIzMzAsLTE3NDc3MDUwNz
+MsLTg3NjEwOTY3NCwtODA3ODk1OTc4LDI2NzgzMzI4MywtMTE4
+ODM5NTQwNiwxMTI0MTgyMDE3LC05MTMxMDAxNjgsLTE2MzE5OT
+c5MDgsMTg5MTg3Nzc2LC0xNTkzOTQzNjMxLDYxNjM4NzAyNywx
+NDc1MTM5MzEzXX0=
 -->
