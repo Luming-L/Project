@@ -6,9 +6,12 @@ As for the paper size other possible values are a4paper and legalpaper;
 the encoding for the document
 
 Comments are pieces of text you can include in the document which will not be printed, and will not affect the document in any way.
+
+[proper-tables-with-latex/](https://texblog.org/2017/02/06/proper-tables-with-latex/)
 [What_is_LaTeX.3F](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#What_is_LaTeX.3F)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMjg5NjkxLDE1NjgwMDkzMzAsLTEwMT
-QzMzgzMDksLTE4MjM0NzM2MzMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTI4NDcwNjkwNiw0MjAyODk2OTEsMTU2OD
+AwOTMzMCwtMTAxNDMzODMwOSwtMTgyMzQ3MzYzMyw3MzA5OTgx
+MTZdfQ==
 -->
