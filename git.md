@@ -7,7 +7,8 @@ A version control system to record what was done and when, by who.
 
 # GitHub
 ```bash
-# CREATE a repository in your account on GitHub
+# CREATE a repository in your account on GitHub 
+# user: Luming-L
 curl -u Luming-L https://api.github.com/user/repos -d '{"name":"MscProject"}'
 
 ```
@@ -104,7 +105,7 @@ zip -m Assignment.zip motif_file.txt
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzYzOTM1LC02ODI1NjkwOTQsNjI4OT
+eyJoaXN0b3J5IjpbNDg3MjQ0MjA4LC02ODI1NjkwOTQsNjI4OT
 M5ODIzLC0xOTEzMjY4MiwtMTE1NDYzMjA5NCwxMzAyODcwODcw
 LDE1NzIwNTY1ODgsOTYxOTY4MzE1LDExMzM3ODQyMzgsMjA1Mz
 MyMzM5NCwtNjM0NzA1NjQ0LDEzNjkwOTgwMDUsMTkwOTYxNDY2
