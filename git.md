@@ -13,6 +13,7 @@ curl -u Luming-L https://api.github.com/user/repos -d '{"name":"MscProject"}'
 
 # 
 # The remote version is usually called "origin", but you could call it anything!
+git remote add MscProject https://github.com/Luming-L/MscProject.git
 ```
 
 set up a repository
@@ -107,11 +108,11 @@ zip -m Assignment.zip motif_file.txt
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY0OTQwODYsLTY4MjU2OTA5NCw2Mj
-g5Mzk4MjMsLTE5MTMyNjgyLC0xMTU0NjMyMDk0LDEzMDI4NzA4
-NzAsMTU3MjA1NjU4OCw5NjE5NjgzMTUsMTEzMzc4NDIzOCwyMD
-UzMzIzMzk0LC02MzQ3MDU2NDQsMTM2OTA5ODAwNSwxOTA5NjE0
-NjYxLDIwNjIwMDg4NjQsLTE0OTE0MDE4NDAsMjAzMjY2OTY3Ny
-w5NjM4Njg5OTMsMTM4MzcwMTI2MCwtMTM2NjE2MTQ1MSwtNTgz
-OTg3MDMyXX0=
+eyJoaXN0b3J5IjpbLTc0MjQ5MDA0MSwtMTY0NjQ5NDA4NiwtNj
+gyNTY5MDk0LDYyODkzOTgyMywtMTkxMzI2ODIsLTExNTQ2MzIw
+OTQsMTMwMjg3MDg3MCwxNTcyMDU2NTg4LDk2MTk2ODMxNSwxMT
+MzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4
+MDA1LDE5MDk2MTQ2NjEsMjA2MjAwODg2NCwtMTQ5MTQwMTg0MC
+wyMDMyNjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAxMjYwLC0xMzY2
+MTYxNDUxXX0=
 -->
