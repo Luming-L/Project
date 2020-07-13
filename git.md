@@ -11,7 +11,7 @@ A version control system to record what was done and when, by who.
 # user: Luming-L
 curl -u Luming-L https://api.github.com/user/repos -d '{"name":"MscProject"}'
 
-# Tell git about our repository on GitHub, and that we are calling it "origin"
+# Tell git our repository on GitHub (MscProject.git), and that we are calling it "origin"
 git remote add MscProject https://github.com/Luming-L/MscProject.git
 ```
 
@@ -107,11 +107,11 @@ zip -m Assignment.zip motif_file.txt
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Njg5MTAzMSwtMTY0NjQ5NDA4NiwtNj
-gyNTY5MDk0LDYyODkzOTgyMywtMTkxMzI2ODIsLTExNTQ2MzIw
-OTQsMTMwMjg3MDg3MCwxNTcyMDU2NTg4LDk2MTk2ODMxNSwxMT
-MzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4
-MDA1LDE5MDk2MTQ2NjEsMjA2MjAwODg2NCwtMTQ5MTQwMTg0MC
-wyMDMyNjY5Njc3LDk2Mzg2ODk5MywxMzgzNzAxMjYwLC0xMzY2
-MTYxNDUxXX0=
+eyJoaXN0b3J5IjpbLTE1MDU3OTE3NzcsMTI2Njg5MTAzMSwtMT
+Y0NjQ5NDA4NiwtNjgyNTY5MDk0LDYyODkzOTgyMywtMTkxMzI2
+ODIsLTExNTQ2MzIwOTQsMTMwMjg3MDg3MCwxNTcyMDU2NTg4LD
+k2MTk2ODMxNSwxMTMzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcw
+NTY0NCwxMzY5MDk4MDA1LDE5MDk2MTQ2NjEsMjA2MjAwODg2NC
+wtMTQ5MTQwMTg0MCwyMDMyNjY5Njc3LDk2Mzg2ODk5MywxMzgz
+NzAxMjYwXX0=
 -->
