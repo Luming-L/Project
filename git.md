@@ -94,6 +94,7 @@ git add .gitignore
 # remove a file from the staging area
 # Unstaging
 
+git add GroupByPRDM9Expression/
 ```bash
 # log
 git log
@@ -110,11 +111,11 @@ zip -m Assignment.zip motif_file.txt
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUwMDQ5NTksLTIxMTcyNzU5NzksMT
-I2Njg5MTAzMSwtMTY0NjQ5NDA4NiwtNjgyNTY5MDk0LDYyODkz
-OTgyMywtMTkxMzI2ODIsLTExNTQ2MzIwOTQsMTMwMjg3MDg3MC
-wxNTcyMDU2NTg4LDk2MTk2ODMxNSwxMTMzNzg0MjM4LDIwNTMz
-MjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4MDA1LDE5MDk2MTQ2Nj
-EsMjA2MjAwODg2NCwtMTQ5MTQwMTg0MCwyMDMyNjY5Njc3LDk2
-Mzg2ODk5M119
+eyJoaXN0b3J5IjpbNTEyNDE3OTE5LC0xNDM1MDA0OTU5LC0yMT
+E3Mjc1OTc5LDEyNjY4OTEwMzEsLTE2NDY0OTQwODYsLTY4MjU2
+OTA5NCw2Mjg5Mzk4MjMsLTE5MTMyNjgyLC0xMTU0NjMyMDk0LD
+EzMDI4NzA4NzAsMTU3MjA1NjU4OCw5NjE5NjgzMTUsMTEzMzc4
+NDIzOCwyMDUzMzIzMzk0LC02MzQ3MDU2NDQsMTM2OTA5ODAwNS
+wxOTA5NjE0NjYxLDIwNjIwMDg4NjQsLTE0OTE0MDE4NDAsMjAz
+MjY2OTY3N119
 -->
