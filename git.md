@@ -94,7 +94,9 @@ git add .gitignore
 # remove a file from the staging area
 # Unstaging
 
+# stage 
 git add GroupByPRDM9Expression/
+git commit -m "compare two groups defined by PRDM9 expression"
 ```bash
 # log
 git log
@@ -110,8 +112,12 @@ zip -m Assignment.zip motif_file.txt
 ```bash
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
+
+# Reference
+[https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository](https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNDE3OTE5LC0xNDM1MDA0OTU5LC0yMT
+eyJoaXN0b3J5IjpbMzYyNjU4MDk3LC0xNDM1MDA0OTU5LC0yMT
 E3Mjc1OTc5LDEyNjY4OTEwMzEsLTE2NDY0OTQwODYsLTY4MjU2
 OTA5NCw2Mjg5Mzk4MjMsLTE5MTMyNjgyLC0xMTU0NjMyMDk0LD
 EzMDI4NzA4NzAsMTU3MjA1NjU4OCw5NjE5NjgzMTUsMTEzMzc4
