@@ -115,13 +115,14 @@ git remote add origin https://github.com/Luming-L/MScProject.git
 
 # Reference
 [https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository](https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository)
+[https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNjU4MDk3LC0xNDM1MDA0OTU5LC0yMT
-E3Mjc1OTc5LDEyNjY4OTEwMzEsLTE2NDY0OTQwODYsLTY4MjU2
-OTA5NCw2Mjg5Mzk4MjMsLTE5MTMyNjgyLC0xMTU0NjMyMDk0LD
-EzMDI4NzA4NzAsMTU3MjA1NjU4OCw5NjE5NjgzMTUsMTEzMzc4
-NDIzOCwyMDUzMzIzMzk0LC02MzQ3MDU2NDQsMTM2OTA5ODAwNS
-wxOTA5NjE0NjYxLDIwNjIwMDg4NjQsLTE0OTE0MDE4NDAsMjAz
-MjY2OTY3N119
+eyJoaXN0b3J5IjpbLTEzNDM4NTM0MzQsMzYyNjU4MDk3LC0xND
+M1MDA0OTU5LC0yMTE3Mjc1OTc5LDEyNjY4OTEwMzEsLTE2NDY0
+OTQwODYsLTY4MjU2OTA5NCw2Mjg5Mzk4MjMsLTE5MTMyNjgyLC
+0xMTU0NjMyMDk0LDEzMDI4NzA4NzAsMTU3MjA1NjU4OCw5NjE5
+NjgzMTUsMTEzMzc4NDIzOCwyMDUzMzIzMzk0LC02MzQ3MDU2ND
+QsMTM2OTA5ODAwNSwxOTA5NjE0NjYxLDIwNjIwMDg4NjQsLTE0
+OTE0MDE4NDBdfQ==
 -->
