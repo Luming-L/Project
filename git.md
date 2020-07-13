@@ -11,8 +11,7 @@ A version control system to record what was done and when, by who.
 # user: Luming-L
 curl -u Luming-L https://api.github.com/user/repos -d '{"name":"MscProject"}'
 
-# 
-# The remote version is usually called "origin", but you could call it anything!
+# Tell git about our repository on GitHub, and that we are calling it "origin"
 git remote add MscProject https://github.com/Luming-L/MscProject.git
 ```
 
@@ -108,7 +107,7 @@ zip -m Assignment.zip motif_file.txt
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjQ5MDA0MSwtMTY0NjQ5NDA4NiwtNj
+eyJoaXN0b3J5IjpbMTI2Njg5MTAzMSwtMTY0NjQ5NDA4NiwtNj
 gyNTY5MDk0LDYyODkzOTgyMywtMTkxMzI2ODIsLTExNTQ2MzIw
 OTQsMTMwMjg3MDg3MCwxNTcyMDU2NTg4LDk2MTk2ODMxNSwxMT
 MzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4
