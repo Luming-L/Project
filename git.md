@@ -13,6 +13,8 @@ curl -u Luming-L https://api.github.com/user/repos -d '{"name":"MscProject"}'
 
 # Tell git our repository on GitHub (MscProject.git), we call it MscProject 
 git remote add MscProject https://github.com/Luming-L/MscProject.git
+
+
 ```
 
 set up a repository
@@ -107,7 +109,7 @@ zip -m Assignment.zip motif_file.txt
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTYyNjA2NDcsMTI2Njg5MTAzMSwtMT
+eyJoaXN0b3J5IjpbLTIxMTcyNzU5NzksMTI2Njg5MTAzMSwtMT
 Y0NjQ5NDA4NiwtNjgyNTY5MDk0LDYyODkzOTgyMywtMTkxMzI2
 ODIsLTExNTQ2MzIwOTQsMTMwMjg3MDg3MCwxNTcyMDU2NTg4LD
 k2MTk2ODMxNSwxMTMzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcw
