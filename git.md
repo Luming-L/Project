@@ -5,7 +5,12 @@ A version control system to record what was done and when, by who.
 **repository: ** complete history of commits/metadata for a particular project
 **branching: ** go back to previous versions and modify in a different direction
 
+# GitHub
+```bash
+# CREATE a repository in your account on GitHub
+curl -u Luming-L https://api.github.com/user/repos -d '{"name":"MscProject"}'
 
+```
 
 set up a repository
 manipulate the contents of a repository
@@ -99,11 +104,11 @@ zip -m Assignment.zip motif_file.txt
 git remote add origin https://github.com/Luming-L/MScProject.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjU2OTA5NCw2Mjg5Mzk4MjMsLTE5MT
-MyNjgyLC0xMTU0NjMyMDk0LDEzMDI4NzA4NzAsMTU3MjA1NjU4
-OCw5NjE5NjgzMTUsMTEzMzc4NDIzOCwyMDUzMzIzMzk0LC02Mz
-Q3MDU2NDQsMTM2OTA5ODAwNSwxOTA5NjE0NjYxLDIwNjIwMDg4
-NjQsLTE0OTE0MDE4NDAsMjAzMjY2OTY3Nyw5NjM4Njg5OTMsMT
-M4MzcwMTI2MCwtMTM2NjE2MTQ1MSwtNTgzOTg3MDMyLC0xOTE0
-MDEwMTcwXX0=
+eyJoaXN0b3J5IjpbMTExNzYzOTM1LC02ODI1NjkwOTQsNjI4OT
+M5ODIzLC0xOTEzMjY4MiwtMTE1NDYzMjA5NCwxMzAyODcwODcw
+LDE1NzIwNTY1ODgsOTYxOTY4MzE1LDExMzM3ODQyMzgsMjA1Mz
+MyMzM5NCwtNjM0NzA1NjQ0LDEzNjkwOTgwMDUsMTkwOTYxNDY2
+MSwyMDYyMDA4ODY0LC0xNDkxNDAxODQwLDIwMzI2Njk2NzcsOT
+YzODY4OTkzLDEzODM3MDEyNjAsLTEzNjYxNjE0NTEsLTU4Mzk4
+NzAzMl19
 -->
