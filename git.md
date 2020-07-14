@@ -1,4 +1,9 @@
 A version control system to record what was done and when, by who.
+```bash
+git add Results/
+git commit -m "add selectPRDM9BoundPeaks.sh to MotifFind"
+git push -u MscProject master
+```
 
 # term
 **commit:** record the changes that are made at each step (each one becomes a version with associated information/metadata) when we want it to
@@ -118,11 +123,11 @@ git remote add origin https://github.com/Luming-L/MScProject.git
 [https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM4NTM0MzQsMzYyNjU4MDk3LC0xND
-M1MDA0OTU5LC0yMTE3Mjc1OTc5LDEyNjY4OTEwMzEsLTE2NDY0
-OTQwODYsLTY4MjU2OTA5NCw2Mjg5Mzk4MjMsLTE5MTMyNjgyLC
-0xMTU0NjMyMDk0LDEzMDI4NzA4NzAsMTU3MjA1NjU4OCw5NjE5
-NjgzMTUsMTEzMzc4NDIzOCwyMDUzMzIzMzk0LC02MzQ3MDU2ND
-QsMTM2OTA5ODAwNSwxOTA5NjE0NjYxLDIwNjIwMDg4NjQsLTE0
-OTE0MDE4NDBdfQ==
+eyJoaXN0b3J5IjpbLTE3NTM5MTg1NDAsLTEzNDM4NTM0MzQsMz
+YyNjU4MDk3LC0xNDM1MDA0OTU5LC0yMTE3Mjc1OTc5LDEyNjY4
+OTEwMzEsLTE2NDY0OTQwODYsLTY4MjU2OTA5NCw2Mjg5Mzk4Mj
+MsLTE5MTMyNjgyLC0xMTU0NjMyMDk0LDEzMDI4NzA4NzAsMTU3
+MjA1NjU4OCw5NjE5NjgzMTUsMTEzMzc4NDIzOCwyMDUzMzIzMz
+k0LC02MzQ3MDU2NDQsMTM2OTA5ODAwNSwxOTA5NjE0NjYxLDIw
+NjIwMDg4NjRdfQ==
 -->
