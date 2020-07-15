@@ -3,6 +3,8 @@ A version control system to record what was done and when, by who.
 git add Results/
 git commit -m "add selectPRDM9BoundPeaks.sh to MotifFind"
 git push -u MscProject master
+
+git clone https://github.com/Luming-L/MscProject
 ```
 
 # term
@@ -123,11 +125,11 @@ git remote add origin https://github.com/Luming-L/MScProject.git
 [https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM5MTg1NDAsLTEzNDM4NTM0MzQsMz
-YyNjU4MDk3LC0xNDM1MDA0OTU5LC0yMTE3Mjc1OTc5LDEyNjY4
-OTEwMzEsLTE2NDY0OTQwODYsLTY4MjU2OTA5NCw2Mjg5Mzk4Mj
-MsLTE5MTMyNjgyLC0xMTU0NjMyMDk0LDEzMDI4NzA4NzAsMTU3
-MjA1NjU4OCw5NjE5NjgzMTUsMTEzMzc4NDIzOCwyMDUzMzIzMz
-k0LC02MzQ3MDU2NDQsMTM2OTA5ODAwNSwxOTA5NjE0NjYxLDIw
-NjIwMDg4NjRdfQ==
+eyJoaXN0b3J5IjpbLTczOTkwMTA0MywtMTc1MzkxODU0MCwtMT
+M0Mzg1MzQzNCwzNjI2NTgwOTcsLTE0MzUwMDQ5NTksLTIxMTcy
+NzU5NzksMTI2Njg5MTAzMSwtMTY0NjQ5NDA4NiwtNjgyNTY5MD
+k0LDYyODkzOTgyMywtMTkxMzI2ODIsLTExNTQ2MzIwOTQsMTMw
+Mjg3MDg3MCwxNTcyMDU2NTg4LDk2MTk2ODMxNSwxMTMzNzg0Mj
+M4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4MDA1LDE5
+MDk2MTQ2NjFdfQ==
 -->
