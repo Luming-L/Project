@@ -4,7 +4,7 @@ git add Results/
 git commit -m "add selectPRDM9BoundPeaks.sh to MotifFind"
 git push -u MscProject master
 
-git clone https://github.com/Luming-L/MscProject
+git clone https://github.com/Luming-L/MScProject
 ```
 
 # term
@@ -19,7 +19,7 @@ git clone https://github.com/Luming-L/MscProject
 curl -u Luming-L https://api.github.com/user/repos -d '{"name":"MscProject"}'
 
 # Tell git our repository on GitHub (MscProject.git), we call it MscProject 
-git remote add MscProject https://github.com/Luming-L/MscProject.git
+git remote add MScProject https://github.com/Luming-L/MScProject.git
 
 # # push our repository off to our repository on GitHub
 git push -u MscProject master
@@ -125,11 +125,11 @@ git remote add origin https://github.com/Luming-L/MScProject.git
 [https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTkwMTA0MywtMTc1MzkxODU0MCwtMT
-M0Mzg1MzQzNCwzNjI2NTgwOTcsLTE0MzUwMDQ5NTksLTIxMTcy
-NzU5NzksMTI2Njg5MTAzMSwtMTY0NjQ5NDA4NiwtNjgyNTY5MD
-k0LDYyODkzOTgyMywtMTkxMzI2ODIsLTExNTQ2MzIwOTQsMTMw
-Mjg3MDg3MCwxNTcyMDU2NTg4LDk2MTk2ODMxNSwxMTMzNzg0Mj
-M4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwxMzY5MDk4MDA1LDE5
-MDk2MTQ2NjFdfQ==
+eyJoaXN0b3J5IjpbLTE5MDcwNzM2ODMsLTczOTkwMTA0MywtMT
+c1MzkxODU0MCwtMTM0Mzg1MzQzNCwzNjI2NTgwOTcsLTE0MzUw
+MDQ5NTksLTIxMTcyNzU5NzksMTI2Njg5MTAzMSwtMTY0NjQ5ND
+A4NiwtNjgyNTY5MDk0LDYyODkzOTgyMywtMTkxMzI2ODIsLTEx
+NTQ2MzIwOTQsMTMwMjg3MDg3MCwxNTcyMDU2NTg4LDk2MTk2OD
+MxNSwxMTMzNzg0MjM4LDIwNTMzMjMzOTQsLTYzNDcwNTY0NCwx
+MzY5MDk4MDA1XX0=
 -->
