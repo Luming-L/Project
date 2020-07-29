@@ -116,20 +116,16 @@ git log --oneline
 zip -m Assignment.zip motif_file.txt
 ```
 
-```bash
-git remote add origin https://github.com/Luming-L/MScProject.git
-```
-
 # Reference
 [https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository](https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository)
 [https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5Njg5MDksLTE5MDcwNzM2ODMsLTczOT
-kwMTA0MywtMTc1MzkxODU0MCwtMTM0Mzg1MzQzNCwzNjI2NTgw
-OTcsLTE0MzUwMDQ5NTksLTIxMTcyNzU5NzksMTI2Njg5MTAzMS
-wtMTY0NjQ5NDA4NiwtNjgyNTY5MDk0LDYyODkzOTgyMywtMTkx
-MzI2ODIsLTExNTQ2MzIwOTQsMTMwMjg3MDg3MCwxNTcyMDU2NT
-g4LDk2MTk2ODMxNSwxMTMzNzg0MjM4LDIwNTMzMjMzOTQsLTYz
-NDcwNTY0NF19
+eyJoaXN0b3J5IjpbMTA3NDEwMTM2OCw3NTk2ODkwOSwtMTkwNz
+A3MzY4MywtNzM5OTAxMDQzLC0xNzUzOTE4NTQwLC0xMzQzODUz
+NDM0LDM2MjY1ODA5NywtMTQzNTAwNDk1OSwtMjExNzI3NTk3OS
+wxMjY2ODkxMDMxLC0xNjQ2NDk0MDg2LC02ODI1NjkwOTQsNjI4
+OTM5ODIzLC0xOTEzMjY4MiwtMTE1NDYzMjA5NCwxMzAyODcwOD
+cwLDE1NzIwNTY1ODgsOTYxOTY4MzE1LDExMzM3ODQyMzgsMjA1
+MzMyMzM5NF19
 -->
