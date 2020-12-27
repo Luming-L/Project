@@ -23,9 +23,10 @@ get_overlapped_subSequences(sequence, subSequences_positions, REase)
 1. [0,1], [2,4],[5,6],[7,9]
 2. [0,2],[2,5],[5,7],[7,9]
 3. abc, cabc, cab, bab
-half_positive_half
-add_recognition_site()
+half_on_positive_half_on_negative(division, overlapped_subSequences)
+add_recognition_site(REase)
+add_conplementary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzgzODE4OSwtMzcxNzg1NDQwLC0xMT
-cxNDYxMzExLDE3OTkyMjM3NV19
+eyJoaXN0b3J5IjpbLTIwOTg3NzU3MzMsLTM3MTc4NTQ0MCwtMT
+E3MTQ2MTMxMSwxNzk5MjIzNzVdfQ==
 -->
