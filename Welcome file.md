@@ -1,9 +1,9 @@
 determine_REase
 input:  subSequences, default_REase, REase_list
-output: REase
+output: REase/None
 process:
 change the order of REase_list, make default one be the first
- Iterate the 
+Iterate the REase_list
 1. subSequences to overlapped_subSequences
 2. check REase
 
@@ -14,6 +14,10 @@ methods:
 get_name
 get_recognition_site
 cleave_location
+
+Class OligoGroup
+properties:
+me
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTUyOTkyNCwxNzk5MjIzNzVdfQ==
+eyJoaXN0b3J5IjpbMTIzNzQyODAsMTc5OTIyMzc1XX0=
 -->
