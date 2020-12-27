@@ -17,7 +17,8 @@ cleave_location
 
 Class OligoGroup
 properties:
-me
+REase, 
+methods:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzQyODAsMTc5OTIyMzc1XX0=
+eyJoaXN0b3J5IjpbLTE5NjEyOTc0NjYsMTc5OTIyMzc1XX0=
 -->
