@@ -25,10 +25,11 @@ get_overlapped_subSequences(sequence, subSequences_positions, REase)
 3. abc, cabc, cab, bab
 half_on_positive_half_on_negative(division, overlapped_subSequences)
 get_oligos(overlapped_subSequences, division, REase, )
+1. half positive half ne
 
 add_recognition_site(REase)
 add_conplementary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTM3MTg5MiwtMzcxNzg1NDQwLC0xMT
-cxNDYxMzExLDE3OTkyMjM3NV19
+eyJoaXN0b3J5IjpbMTA3MTUzNDk5LDEzOTEzNzE4OTIsLTM3MT
+c4NTQ0MCwtMTE3MTQ2MTMxMSwxNzk5MjIzNzVdfQ==
 -->
