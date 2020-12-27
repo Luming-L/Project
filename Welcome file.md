@@ -2,7 +2,8 @@ determine_REase
 input:  subSequences, default_REase, REase_list
 output: REase
 process:
-put 
+change the order of REase_list, make default one be the first
+ Iterate the 
 1. subSequences to overlapped_subSequences
 2. check REase
 
@@ -14,5 +15,5 @@ get_name
 get_recognition_site
 cleave_location
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUwNjkwMDgsMTc5OTIyMzc1XX0=
+eyJoaXN0b3J5IjpbLTUyMTUyOTkyNCwxNzk5MjIzNzVdfQ==
 -->
