@@ -1,5 +1,5 @@
 determine_REase
-input:  subSequences, REase_list
+input:  subSequences, default_REase, REase_list
 output: REase
 process:
 1. subSequences to overlapped_subSequences
@@ -13,5 +13,5 @@ get_name
 get_recognition_site
 cleave_location
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTIyMzc1XX0=
+eyJoaXN0b3J5IjpbLTcwODE2Njk5NSwxNzk5MjIzNzVdfQ==
 -->
