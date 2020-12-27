@@ -20,8 +20,9 @@ properties:
 sequence, subSequences_positions, REase, 
 methods:
 get_overlapped_subSequences(sequence, subSequences_positions, REase)
-1. 
+1. [0,1], [2,4],[5,6],[7,9]
+2. [0,1s, [2,4],[5,6],[7,9]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTc4NTQ0MCwtMTE3MTQ2MTMxMSwxNz
-k5MjIzNzVdfQ==
+eyJoaXN0b3J5IjpbLTE0ODg1MDQ0NTYsLTM3MTc4NTQ0MCwtMT
+E3MTQ2MTMxMSwxNzk5MjIzNzVdfQ==
 -->
