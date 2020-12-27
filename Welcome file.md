@@ -17,10 +17,11 @@ cleave_location
 
 Class OligoGroup
 properties:
-sequence, subsequences_positions, REase, 
+sequence, subSequences_positions, REase, 
 methods:
-get_overlappedSubsequences
+get_overlapped_subSequences(sequence, subSequences_positions, REase)
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMTIzNDc5LC0xMTcxNDYxMzExLDE3OT
-kyMjM3NV19
+eyJoaXN0b3J5IjpbLTM3MTc4NTQ0MCwtMTE3MTQ2MTMxMSwxNz
+k5MjIzNzVdfQ==
 -->
