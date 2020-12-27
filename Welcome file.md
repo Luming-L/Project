@@ -3,7 +3,9 @@ input:  subSequences,
 output: REase
 process:
 1. subSequences to overlapped_subSequences
-2. 
+2. check REase
+
+Class REase
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTYxMjUxMV19
+eyJoaXN0b3J5IjpbNTA5NDcxMzQ3XX0=
 -->
