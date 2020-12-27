@@ -19,7 +19,8 @@ Class OligoGroup
 properties:
 sequence, subsequences_positions, REase, 
 methods:
+get_overlappedSubsequences
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc2MDI3MDgsLTExNzE0NjEzMTEsMT
-c5OTIyMzc1XX0=
+eyJoaXN0b3J5IjpbMzkwMTIzNDc5LC0xMTcxNDYxMzExLDE3OT
+kyMjM3NV19
 -->
