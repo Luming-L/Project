@@ -3,7 +3,7 @@
 git clone https://github.com/MareesAT/GWA_tutorial.git
 # change the directory
 cd GWA_tutorial/
-# 
+# unzip tutorial1 zip and move files into the newly created directory
 unzip 1_QC_GWAS.zip -d 1_QC_GWAS
 
 ```
@@ -14,6 +14,6 @@ unzip 1_QC_GWAS.zip -d 1_QC_GWAS
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzQ3OTYwNSwxNjM5MTI2NDYwLC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTY3MjE4NDUzLDE2MzkxMjY0NjAsLTMzMj
+Q1NTM2M119
 -->
