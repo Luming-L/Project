@@ -10,6 +10,7 @@ Install PLink
 uname -m
 ```
 >x86_64
+
 ## All essential GWAS QC steps along with scripts for data visualization.
 ```
 # unzip tutorial1 zip and move files into the newly created directory
@@ -20,6 +21,6 @@ unzip 1_QC_GWAS.zip -d 1_QC_GWAS
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5NzQwNzYxLC0xNzcyODQzNDYyLC0xMz
-A0MzEwODAzLDE2MzkxMjY0NjAsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTUwMjI0NTc1MywtMTc3Mjg0MzQ2MiwtMT
+MwNDMxMDgwMywxNjM5MTI2NDYwLC0zMzI0NTUzNjNdfQ==
 -->
