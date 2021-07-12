@@ -4,8 +4,9 @@ git clone https://github.com/MareesAT/GWA_tutorial.git
 # change the directory
 cd GWA_tutorial/
 ```
-
+Install PLink
 ```
+
 ```
 
 ## All essential GWAS QC steps along with scripts for data visualization.
@@ -18,6 +19,6 @@ unzip 1_QC_GWAS.zip -d 1_QC_GWAS
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQzMTA4MDMsMTYzOTEyNjQ2MCwtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE3NzI4NDM0NjIsLTEzMDQzMTA4MDMsMT
+YzOTEyNjQ2MCwtMzMyNDU1MzYzXX0=
 -->
