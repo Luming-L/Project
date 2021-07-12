@@ -1,5 +1,5 @@
 ```
-git clone [https://github.com/MareesAT/GWA_tutorial.git](https://github.com/MareesAT/GWA_tutorial.git)
+git clone https://github.com/MareesAT/GWA_tutorial.git
 ```
 
 ## All essential GWAS QC steps along with scripts for data visualization.
@@ -8,5 +8,6 @@ git clone [https://github.com/MareesAT/GWA_tutorial.git](https://github.com/Mare
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTEyNjQ2MCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTMzMzU5ODAyNCwxNjM5MTI2NDYwLC0zMz
+I0NTUzNjNdfQ==
 -->
