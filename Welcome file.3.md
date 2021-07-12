@@ -22,7 +22,7 @@ cd plink-1.07-x86_64/
 ```
 # unzip tutorial1 zip and move files into the newly created directory
 unzip 1_QC_GWAS.zip -d 1_QC_GWAS
-# enter the 
+# enter the directory
 cd ../../GWA_tutorial/
 ```
 ## Dealing with population stratification, using 1000 genomes as a reference.
@@ -30,7 +30,7 @@ cd ../../GWA_tutorial/
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQxMDgwOTEsMTQxNTk1NDQ3NiwtMT
-IzNTY1MzE2NSwtNTAyMjQ1NzUzLC0xNzcyODQzNDYyLC0xMzA0
-MzEwODAzLDE2MzkxMjY0NjAsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMjE2MTM2ODgwLDE0MTU5NTQ0NzYsLTEyMz
+U2NTMxNjUsLTUwMjI0NTc1MywtMTc3Mjg0MzQ2MiwtMTMwNDMx
+MDgwMywxNjM5MTI2NDYwLC0zMzI0NTUzNjNdfQ==
 -->
