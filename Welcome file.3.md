@@ -15,6 +15,7 @@ wget http://zzz.bwh.harvard.edu/plink/dist/plink-1.07-x86_64.zip -O ../Tools/pli
 # enter the directory
 cd ../Tools/
 unzip plink-1.07-x86_64.zip
+./plink
 ```
 ## All essential GWAS QC steps along with scripts for data visualization.
 ```
@@ -26,7 +27,7 @@ unzip 1_QC_GWAS.zip -d 1_QC_GWAS
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTk1NDQ3NiwtMTIzNTY1MzE2NSwtNT
-AyMjQ1NzUzLC0xNzcyODQzNDYyLC0xMzA0MzEwODAzLDE2Mzkx
-MjY0NjAsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTUyODYxNzM4OSwxNDE1OTU0NDc2LC0xMj
+M1NjUzMTY1LC01MDIyNDU3NTMsLTE3NzI4NDM0NjIsLTEzMDQz
+MTA4MDMsMTYzOTEyNjQ2MCwtMzMyNDU1MzYzXX0=
 -->
