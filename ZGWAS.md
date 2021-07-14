@@ -5,11 +5,14 @@ git clone https://github.com/MareesAT/GWA_tutorial.git
 cd GWA_tutorial/
 ```
 Install PLink
+Install
 ```
 # check hardware (32-bit or 64-bit)
 uname -m
 ```
 >x86_64
+
+Install PLINK 2.00 alpha
 ```bash
 # download
 wget http://zzz.bwh.harvard.edu/plink/dist/plink-1.07-x86_64.zip -O ../Tools/plink-1.07-x86_64.zip
@@ -23,7 +26,7 @@ cd plink-1.07-x86_64/
 ./plink -h
 ```
 >Segmentation fault (core dumped)
->
+
 ```bash
 # download
 wget https://s3.amazonaws.com/plink2-assets/alpha2/plink2_linux_x86_64.zip
@@ -71,9 +74,10 @@ Hardy–Weinberg equilibrium (HWE)
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODkyODIyNCw2MDc4ODAyNjYsLTUxMT
-QwMjM3MiwtNDM5MTM5ODc1LC0xNjU5MTc0MzI5LDMzMTkzNzUx
-LC01MjEwMjY2ODQsMTM5NTQwOTAyMywtNTA5MDU1MDc3LC0xNj
-g0NTMyOTU1LC01NTg4Nzg4MDgsLTM3MzQwNzQ3LDIwNzAyMjUz
-ODgsLTE0MTAxNjQyMjQsLTU3ODkwODE5NV19
+eyJoaXN0b3J5IjpbLTE5NDIyNTE1NTAsLTQzODkyODIyNCw2MD
+c4ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5ODc1LC0xNjU5MTc0
+MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5NTQwOTAyMywtNT
+A5MDU1MDc3LC0xNjg0NTMyOTU1LC01NTg4Nzg4MDgsLTM3MzQw
+NzQ3LDIwNzAyMjUzODgsLTE0MTAxNjQyMjQsLTU3ODkwODE5NV
+19
 -->
