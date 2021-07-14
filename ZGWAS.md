@@ -25,11 +25,15 @@ unzip 1_QC_GWAS.zip
 # enter its directory
 cd 1_QC_GWAS
 ```
+```
+# Investigate missingness per individual and per SNP and make histograms.
+plink --bfile HapMap_3_r3_1 --missing
+```
 ## Population stratification
 ## Association analyses
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDIyNTM4OCwtMTQxMDE2NDIyNCwtNT
-c4OTA4MTk1XX0=
+eyJoaXN0b3J5IjpbLTM3MzQwNzQ3LDIwNzAyMjUzODgsLTE0MT
+AxNjQyMjQsLTU3ODkwODE5NV19
 -->
