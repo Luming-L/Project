@@ -19,6 +19,11 @@ cd plink-1.07-x86_64/
 ./plink -h
 ```
 ## QC
+7 steps:
+1: Missingness of SNPs and individuals
+2: Sex discrepancy
+3: Minor allele frequency (MAF)
+
 ```
 # unzip 1_QC_GWAS
 unzip 1_QC_GWAS.zip 
@@ -38,7 +43,7 @@ Hardy–Weinberg equilibrium (HWE)
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ1MzI5NTUsLTU1ODg3ODgwOCwtMz
-czNDA3NDcsMjA3MDIyNTM4OCwtMTQxMDE2NDIyNCwtNTc4OTA4
-MTk1XX0=
+eyJoaXN0b3J5IjpbLTE5Mjk5NDI1NTYsLTE2ODQ1MzI5NTUsLT
+U1ODg3ODgwOCwtMzczNDA3NDcsMjA3MDIyNTM4OCwtMTQxMDE2
+NDIyNCwtNTc4OTA4MTk1XX0=
 -->
