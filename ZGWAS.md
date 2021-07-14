@@ -21,6 +21,7 @@ cd plink-1.07-x86_64/
 Segmentation fault (core dumped)
 程序崩溃，异常终止
 程序想访问无法访问的内存
+出现此异常的程序本身的问题
 ## Data
 HapMap
 hapmap3_r3_b36_fwd.consensus.qc
@@ -56,8 +57,8 @@ Hardy–Weinberg equilibrium (HWE)
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4OTA4NDAsLTE2NTkxNzQzMjksMzMxOT
-M3NTEsLTUyMTAyNjY4NCwxMzk1NDA5MDIzLC01MDkwNTUwNzcs
-LTE2ODQ1MzI5NTUsLTU1ODg3ODgwOCwtMzczNDA3NDcsMjA3MD
-IyNTM4OCwtMTQxMDE2NDIyNCwtNTc4OTA4MTk1XX0=
+eyJoaXN0b3J5IjpbLTQzOTEzOTg3NSwtMTY1OTE3NDMyOSwzMz
+E5Mzc1MSwtNTIxMDI2Njg0LDEzOTU0MDkwMjMsLTUwOTA1NTA3
+NywtMTY4NDUzMjk1NSwtNTU4ODc4ODA4LC0zNzM0MDc0NywyMD
+cwMjI1Mzg4LC0xNDEwMTY0MjI0LC01Nzg5MDgxOTVdfQ==
 -->
