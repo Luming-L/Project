@@ -20,7 +20,7 @@ cd plink-1.07-x86_64/
 ```
 ## QC
 ```
-# unzip tutorial1 zip
+# unzip tutorial1
 unzip 1_QC_GWAS.zip 
 # move files into the newly created directory
 cd 1_QC_GWAS
@@ -30,5 +30,5 @@ cd 1_QC_GWAS
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODY0NzEwNSwtNTc4OTA4MTk1XX0=
+eyJoaXN0b3J5IjpbLTE0MTAxNjQyMjQsLTU3ODkwODE5NV19
 -->
