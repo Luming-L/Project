@@ -30,11 +30,15 @@ Missingness of SNPs and individuals
 # Investigate missingness per individual and per SNP and make histograms.
 plink --bfile HapMap_3_r3_1 --missing
 ```
+Sex discrepancy
+Minor allele frequency (MAF)
+Hardy–Weinberg equilibrium (HWE)
 ## Population stratification
 ## Association analyses
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODg3ODgwOCwtMzczNDA3NDcsMjA3MD
-IyNTM4OCwtMTQxMDE2NDIyNCwtNTc4OTA4MTk1XX0=
+eyJoaXN0b3J5IjpbLTE2ODQ1MzI5NTUsLTU1ODg3ODgwOCwtMz
+czNDA3NDcsMjA3MDIyNTM4OCwtMTQxMDE2NDIyNCwtNTc4OTA4
+MTk1XX0=
 -->
