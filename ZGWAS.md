@@ -18,6 +18,8 @@ unzip plink-1.07-x86_64.zip
 cd plink-1.07-x86_64/
 ./plink -h
 ```
+>Segmentation fault (core dumped)
+>
 Segmentation fault (core dumped)
 程序崩溃，异常终止
 程序想访问无法访问的内存
@@ -57,8 +59,9 @@ Hardy–Weinberg equilibrium (HWE)
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTEzOTg3NSwtMTY1OTE3NDMyOSwzMz
-E5Mzc1MSwtNTIxMDI2Njg0LDEzOTU0MDkwMjMsLTUwOTA1NTA3
-NywtMTY4NDUzMjk1NSwtNTU4ODc4ODA4LC0zNzM0MDc0NywyMD
-cwMjI1Mzg4LC0xNDEwMTY0MjI0LC01Nzg5MDgxOTVdfQ==
+eyJoaXN0b3J5IjpbLTUxMTQwMjM3MiwtNDM5MTM5ODc1LC0xNj
+U5MTc0MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5NTQwOTAy
+MywtNTA5MDU1MDc3LC0xNjg0NTMyOTU1LC01NTg4Nzg4MDgsLT
+M3MzQwNzQ3LDIwNzAyMjUzODgsLTE0MTAxNjQyMjQsLTU3ODkw
+ODE5NV19
 -->
