@@ -22,6 +22,7 @@ cd plink-1.07-x86_64/
 HapMap
 hapmap3_r3_b36_fwd.consensus.qc
 a binary phenotype simulated
+HapMap_3_r3_1
 ## QC
 7 steps:
 1: Missingness of SNPs and individuals
@@ -50,7 +51,8 @@ Hardy–Weinberg equilibrium (HWE)
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTQwOTAyMywtNTA5MDU1MDc3LC0xNj
-g0NTMyOTU1LC01NTg4Nzg4MDgsLTM3MzQwNzQ3LDIwNzAyMjUz
-ODgsLTE0MTAxNjQyMjQsLTU3ODkwODE5NV19
+eyJoaXN0b3J5IjpbLTEyNzAxOTgxNTgsMTM5NTQwOTAyMywtNT
+A5MDU1MDc3LC0xNjg0NTMyOTU1LC01NTg4Nzg4MDgsLTM3MzQw
+NzQ3LDIwNzAyMjUzODgsLTE0MTAxNjQyMjQsLTU3ODkwODE5NV
+19
 -->
