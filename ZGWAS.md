@@ -54,22 +54,24 @@ Seven steps:
  - Heterozygosity
  - Relatedness
  - Population stratification
+ 
 ```
 # unzip 1_QC_GWAS
 unzip 1_QC_GWAS.zip 
 # enter its directory
 cd 1_QC_GWAS
 ```
+Step 1: Missingness of SNPs and individuals
 
 ## Population stratification
 ## Association analyses
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjYzNjIwMiwtNDM4OTI4MjI0LDYwNz
-g4MDI2NiwtNTExNDAyMzcyLC00MzkxMzk4NzUsLTE2NTkxNzQz
-MjksMzMxOTM3NTEsLTUyMTAyNjY4NCwxMzk1NDA5MDIzLC01MD
-kwNTUwNzcsLTE2ODQ1MzI5NTUsLTU1ODg3ODgwOCwtMzczNDA3
-NDcsMjA3MDIyNTM4OCwtMTQxMDE2NDIyNCwtNTc4OTA4MTk1XX
-0=
+eyJoaXN0b3J5IjpbMzYzODg2NzY0LC00Mzg5MjgyMjQsNjA3OD
+gwMjY2LC01MTE0MDIzNzIsLTQzOTEzOTg3NSwtMTY1OTE3NDMy
+OSwzMzE5Mzc1MSwtNTIxMDI2Njg0LDEzOTU0MDkwMjMsLTUwOT
+A1NTA3NywtMTY4NDUzMjk1NSwtNTU4ODc4ODA4LC0zNzM0MDc0
+NywyMDcwMjI1Mzg4LC0xNDEwMTY0MjI0LC01Nzg5MDgxOTVdfQ
+==
 -->
