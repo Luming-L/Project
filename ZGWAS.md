@@ -4,8 +4,10 @@ git clone https://github.com/MareesAT/GWA_tutorial.git
 # change the directory
 cd GWA_tutorial/
 ```
+## PLINK Installation
+Check hardware
 ```
-# check hardware (32-bit or 64-bit)
+# 32-bit or 64-bit
 uname -m
 ```
 >x86_64
@@ -35,10 +37,6 @@ unzip plink2_linux_x86_64.zip
 # run
 ./plink2 --help
 ```
-Segmentation fault (core dumped)
-程序崩溃，异常终止
-程序想访问无法访问的内存
-出现此异常的程序本身的问题
 ## Data
 HapMap
 hapmap3_r3_b36_fwd.consensus.qc
@@ -74,10 +72,10 @@ Hardy–Weinberg equilibrium (HWE)
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTcyNjI4NjIsLTQzODkyODIyNCw2MD
-c4ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5ODc1LC0xNjU5MTc0
-MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5NTQwOTAyMywtNT
-A5MDU1MDc3LC0xNjg0NTMyOTU1LC01NTg4Nzg4MDgsLTM3MzQw
-NzQ3LDIwNzAyMjUzODgsLTE0MTAxNjQyMjQsLTU3ODkwODE5NV
-19
+eyJoaXN0b3J5IjpbMTcxMDAzNjcyNiwtNDM4OTI4MjI0LDYwNz
+g4MDI2NiwtNTExNDAyMzcyLC00MzkxMzk4NzUsLTE2NTkxNzQz
+MjksMzMxOTM3NTEsLTUyMTAyNjY4NCwxMzk1NDA5MDIzLC01MD
+kwNTUwNzcsLTE2ODQ1MzI5NTUsLTU1ODg3ODgwOCwtMzczNDA3
+NDcsMjA3MDIyNTM4OCwtMTQxMDE2NDIyNCwtNTc4OTA4MTk1XX
+0=
 -->
