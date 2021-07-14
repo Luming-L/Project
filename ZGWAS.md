@@ -11,17 +11,24 @@ uname -m
 ```
 >x86_64
 ```
+# download
 wget http://zzz.bwh.harvard.edu/plink/dist/plink-1.07-x86_64.zip -O ../Tools/plink-1.07-x86_64.zip
 # enter the directory
 cd ../Tools/
+# unzip
 unzip plink-1.07-x86_64.zip
+# enter the directory
 cd plink-1.07-x86_64/
+# run
 ./plink -h
 ```
 >Segmentation fault (core dumped)
 >
 ```
+# download
 wget https://s3.amazonaws.com/plink2-assets/alpha2/plink2_linux_x86_64.zip
+# unzip
+unzip plink2_linux_x86_64.zip
 ```
 Segmentation fault (core dumped)
 程序崩溃，异常终止
@@ -62,9 +69,9 @@ Hardy–Weinberg equilibrium (HWE)
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUxNDM5MzUsLTUxMTQwMjM3MiwtND
-M5MTM5ODc1LC0xNjU5MTc0MzI5LDMzMTkzNzUxLC01MjEwMjY2
-ODQsMTM5NTQwOTAyMywtNTA5MDU1MDc3LC0xNjg0NTMyOTU1LC
-01NTg4Nzg4MDgsLTM3MzQwNzQ3LDIwNzAyMjUzODgsLTE0MTAx
-NjQyMjQsLTU3ODkwODE5NV19
+eyJoaXN0b3J5IjpbMzExNDEyNjkwLC01MTE0MDIzNzIsLTQzOT
+EzOTg3NSwtMTY1OTE3NDMyOSwzMzE5Mzc1MSwtNTIxMDI2Njg0
+LDEzOTU0MDkwMjMsLTUwOTA1NTA3NywtMTY4NDUzMjk1NSwtNT
+U4ODc4ODA4LC0zNzM0MDc0NywyMDcwMjI1Mzg4LC0xNDEwMTY0
+MjI0LC01Nzg5MDgxOTVdfQ==
 -->
