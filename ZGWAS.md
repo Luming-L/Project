@@ -18,17 +18,17 @@ unzip plink-1.07-x86_64.zip
 cd plink-1.07-x86_64/
 ./plink -h
 ```
-## All essential GWAS QC steps along with scripts for data visualization.
+## QC
 ```
 # unzip tutorial1 zip
 unzip 1_QC_GWAS.zip 
 # move files into the newly created directory
 cd 1_QC_GWAS
 ```
-## Dealing with population stratification, using 1000 genomes as a reference.
-## Association analyses of GWAS data.
+## Population stratification
+## Association analyses
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODkwODE5NV19
+eyJoaXN0b3J5IjpbMTg0ODY0NzEwNSwtNTc4OTA4MTk1XX0=
 -->
