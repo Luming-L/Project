@@ -117,7 +117,8 @@ dev.off() # shuts down the current device
 >PROCESS: plot histograms by "Proportion of missing SNPs" and "Proportion of sample missing for this SNP", repectively.
 >OUTPUT: `histsmiss.png` and `histvmiss.png`
 ```bash
-# delete SNPs and invididuals 
+# delete SNPs and invididuals with high level of missingness
+# first relaxed threshold
 plink2 --bfile HapMap_3_r3_1 --geno 0.2 --make-bed --out HapMap_3_r3_2
 plink2 --bfile HapMap_3_r3_2 --mind 0.2 --make-bed --out HapMap_3_r3_3
 plink2 --bfile HapMap_3_r3_3 --geno 0.02 --make-bed --out HapMap_3_r3_4
@@ -145,7 +146,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjU1NTMxLC0yNjMzMTAwMTYsLTc3NT
+eyJoaXN0b3J5IjpbNDY5MDc3MjEyLC0yNjMzMTAwMTYsLTc3NT
 IyMjc4NSwtOTkyMDM0NzY1LC0xNjA5MTQyMTUxLDE2OTI1MTY5
 NzksLTE1MzMwMzIwOTksMTQ4NDQxODY3OCwtMjY0NzgyMDgxLD
 E2MzI0MDkwMTAsNzIyOTYyNTYsMTIyNTE5Mjg0NCwxODE4NTU1
