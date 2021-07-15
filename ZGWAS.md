@@ -117,8 +117,9 @@ dev.off() # shuts down the current device
 >PROCESS: plot histograms by "Proportion of missing SNPs" and "Proportion of sample missing for this SNP", repectively.
 >OUTPUT: `histsmiss.png` and `histvmiss.png`
 ```bash
-plink --bfile HapMap_3_r3_1 --geno 0.2 --make-bed --out HapMap_3_r3_2
+plink2 --bfile HapMap_3_r3_1 --geno 0.2 --make-bed --out HapMap_3_r3_2
 ```
+
 Results:
 165 samples (85 females, 80 males; 112 founders)
 1457897 variants
@@ -138,11 +139,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkxNDIxNTEsMTY5MjUxNjk3OSwtMT
-UzMzAzMjA5OSwxNDg0NDE4Njc4LC0yNjQ3ODIwODEsMTYzMjQw
-OTAxMCw3MjI5NjI1NiwxMjI1MTkyODQ0LDE4MTg1NTU1MDgsMT
-g5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MDM2MDM0NCwxNjQ2MzYw
-ODE3LC00OTAwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5MTE5MT
-YsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC0xOTM4
-OTQ3ODU5XX0=
+eyJoaXN0b3J5IjpbLTg2ODg4MDc3OSwtMTYwOTE0MjE1MSwxNj
+kyNTE2OTc5LC0xNTMzMDMyMDk5LDE0ODQ0MTg2NzgsLTI2NDc4
+MjA4MSwxNjMyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMT
+gxODU1NTUwOCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYw
+MzQ0LDE2NDYzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMS
+wtMTgzMjkxMTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYx
+NDMzMzZdfQ==
 -->
