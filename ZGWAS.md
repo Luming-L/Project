@@ -50,15 +50,15 @@ http://hapmap.ncbi.nlm.nih.gov/downloads/genotypes/2010-05_phaseIII/plink_format
 https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
 - text PLINK data
-.ped - individuals and their genotypes, text
-.map - genetic markers/genotypes/SNPs, text
+`.ped` - individuals and their genotypes, text
+`.map` - genetic markers/genotypes/SNPs, text
 - binary PLINK data
-.bed - individual identifiers and their genotypes, binary
-.fam - individuals, text
-.bim - genetic markers/genotypes and SNPs, text
->.bed is a binary version of .ped
->
->.bed connects .fam to .bim
+`.bed` - individual identifiers and their genotypes, binary
+`.fam` - individuals, text
+`.bim` - genetic markers/genotypes and SNPs, text
+>`.bed` is a binary version of `.ped`
+>`--make-bed` can transform `.ped` to `.bed`, 
+>`.bed` connects .fam to `.bim`
 ## QC
 Seven steps
 
@@ -102,11 +102,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTEzOTE3Niw1MTUyNTc2NTEsNDI2MT
-QzMzM2LC0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIz
-MzA5LDE3NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1OTgwNzM5OC
-wxMjQzNDkyNDgyLDEzMzU5NjQ5NCwtMTkyMDgyMTc5MSwtNDM4
-OTI4MjI0LDYwNzg4MDI2NiwtNTExNDAyMzcyLC00MzkxMzk4Nz
-UsLTE2NTkxNzQzMjksMzMxOTM3NTEsLTUyMTAyNjY4NCwxMzk1
-NDA5MDIzXX0=
+eyJoaXN0b3J5IjpbLTIxMDUyMjU1MDMsNTE1MjU3NjUxLDQyNj
+E0MzMzNiwtMTkzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAy
+MzMwOSwxNzc0OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOT
+gsMTI0MzQ5MjQ4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEsLTQz
+ODkyODIyNCw2MDc4ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5OD
+c1LC0xNjU5MTc0MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5
+NTQwOTAyM119
 -->
