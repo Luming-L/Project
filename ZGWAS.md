@@ -79,6 +79,9 @@ unzip 1_QC_GWAS.zip
 cd 1_QC_GWAS
 ```
 ### Step 1: Missingness of SNPs and individuals
+Remove SNPs that are missed in most individuals, and individuals that miss most SNPs.
+first 0.2 (>20%) then 0.02
+first remove SNPs then remove individuals
 ```bash
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
@@ -108,11 +111,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyOTYyNTYsMTIyNTE5Mjg0NCwxODE4NT
-U1NTA4LDE4OTMwODkzNTYsMTY5NjM5NjU5LC05NjAzNjAzNDQs
-MTY0NjM2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xOD
-MyOTExOTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMz
-NiwtMTkzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOS
-wxNzc0OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0
-MzQ5MjQ4Ml19
+eyJoaXN0b3J5IjpbMTc0MDI1NTQwNyw3MjI5NjI1NiwxMjI1MT
+kyODQ0LDE4MTg1NTU1MDgsMTg5MzA4OTM1NiwxNjk2Mzk2NTks
+LTk2MDM2MDM0NCwxNjQ2MzYwODE3LC00OTAwODAwMzcsLTE5MT
+YwNDgxMzEsLTE4MzI5MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2
+NTEsNDI2MTQzMzM2LC0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC
+0xNjM3MDIzMzA5LDE3NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1
+OTgwNzM5OF19
 -->
