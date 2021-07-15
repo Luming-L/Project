@@ -51,7 +51,7 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
 - text PLINK data
 `.ped` - pedigree, sex, phenotype and genotypes of all individuals, text
-`.map` - genetic markers/genotypes/SNPs, text
+`.map` - genetic markers, text
 - binary PLINK data
 `.bed` - individual identifiers and their genotypes, binary
 `.fam` - half of `.ped`, pedigree, sex, phenotype of all individuals, text
@@ -103,11 +103,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMT
-gzMjkxMTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMz
-MzYsLTE5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMD
-ksMTc3NDk0OTI1NCwtMTYxNTA2NDUwLC0xMzU5ODA3Mzk4LDEy
-NDM0OTI0ODIsMTMzNTk2NDk0LC0xOTIwODIxNzkxLC00Mzg5Mj
-gyMjQsNjA3ODgwMjY2LC01MTE0MDIzNzIsLTQzOTEzOTg3NSwt
-MTY1OTE3NDMyOV19
+eyJoaXN0b3J5IjpbMTY0NjM2MDgxNywtNDkwMDgwMDM3LC0xOT
+E2MDQ4MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4NTUsNTE1MjU3
+NjUxLDQyNjE0MzMzNiwtMTkzODk0Nzg1OSwtMTgxNzk5OTY1MS
+wtMTYzNzAyMzMwOSwxNzc0OTQ5MjU0LC0xNjE1MDY0NTAsLTEz
+NTk4MDczOTgsMTI0MzQ5MjQ4MiwxMzM1OTY0OTQsLTE5MjA4Mj
+E3OTEsLTQzODkyODIyNCw2MDc4ODAyNjYsLTUxMTQwMjM3Miwt
+NDM5MTM5ODc1XX0=
 -->
