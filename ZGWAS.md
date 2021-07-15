@@ -120,9 +120,11 @@ dev.off() # shuts down the current device
 plink2 --bfile HapMap_3_r3_1 --geno 0.2 --make-bed --out HapMap_3_r3_2
 plink2 --bfile HapMap_3_r3_2 --mind 0.2 --make-bed --out HapMap_3_r3_3
 plink2 --bfile HapMap_3_r3_3 --geno 0.02 --make-bed --out HapMap_3_r3_4
-plink --bfile HapMap_3_r3_4 --mind 0.02 --make-bed --out HapMap_3_r3_5
+plink2 --bfile HapMap_3_r3_4 --mind 0.02 --make-bed --out HapMap_3_r3_5
 ```
-
+>INPUT: `.smiss` and `.vmiss`
+>PROCESS: plot histograms by "Proportion of missing SNPs" and "Proportion of sample missing for this SNP", repectively.
+>OUTPUT: `histsmiss.png` and `histvmiss.png`
 Results:
 165 samples (85 females, 80 males; 112 founders)
 1457897 variants
@@ -142,7 +144,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkwODQzNzMsLTE2MDkxNDIxNTEsMT
+eyJoaXN0b3J5IjpbLTIwMTQyOTEwMzksLTE2MDkxNDIxNTEsMT
 Y5MjUxNjk3OSwtMTUzMzAzMjA5OSwxNDg0NDE4Njc4LC0yNjQ3
 ODIwODEsMTYzMjQwOTAxMCw3MjI5NjI1NiwxMjI1MTkyODQ0LD
 E4MTg1NTU1MDgsMTg5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MDM2
