@@ -96,8 +96,9 @@ Sample missing data report (`.smiss`)
 
 >Variant missing data report (`.vmiss`). 
 >- MISSING_CT:  Number of individuals missing this SNP
->- OBS_CT:
+>- OBS_CT: Denominator
 >- F_MISS: Proportion of sample missing for this SNP
+
 >AMOUNT: 4G RAM and 8 threads. 
 ```bash
 
@@ -121,7 +122,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMDYyODg5LC0yNjQ3ODIwODEsMTYzMj
+eyJoaXN0b3J5IjpbLTQ4OTc4MzgzLC0yNjQ3ODIwODEsMTYzMj
 QwOTAxMCw3MjI5NjI1NiwxMjI1MTkyODQ0LDE4MTg1NTU1MDgs
 MTg5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MDM2MDM0NCwxNjQ2Mz
 YwODE3LC00OTAwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5MTE5
