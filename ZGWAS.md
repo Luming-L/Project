@@ -89,7 +89,7 @@ plink2 --bfile HapMap_3_r3_1 --missing
 >PROCESS: calculate sample missingness rates and allele frequencies, and generate reports.
 >OUTPUT: 
 Sample missing data report (`.smiss`)
->- PHENO1: misspheno1, Missing phenotype? 
+>- PHENO1: Missing phenotype, Y means none
 >- MISSING_CT: Number of missing SNPs
 >- OBS_CT: Number of non-obligatory missing genotypes
 >- F_MISS: Proportion of missing SNPs
@@ -118,11 +118,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjE5OTg0NCwtMjY0NzgyMDgxLDE2Mz
-I0MDkwMTAsNzIyOTYyNTYsMTIyNTE5Mjg0NCwxODE4NTU1NTA4
-LDE4OTMwODkzNTYsMTY5NjM5NjU5LC05NjAzNjAzNDQsMTY0Nj
-M2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTEx
-OTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMT
-kzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0
-OTQ5MjU0XX0=
+eyJoaXN0b3J5IjpbLTE2MDkzNjY3NzEsLTI2NDc4MjA4MSwxNj
+MyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMTgxODU1NTUw
+OCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYwMzQ0LDE2ND
+YzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkx
+MTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLT
+E5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3
+NDk0OTI1NF19
 -->
