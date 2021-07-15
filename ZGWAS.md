@@ -50,9 +50,9 @@ http://hapmap.ncbi.nlm.nih.gov/downloads/genotypes/2010-05_phaseIII/plink_format
 https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
 .ped - individuals and their genotypes
-.map - genotypes/SPNs
-.bed
-.fam
+.map - genetic markers/genotypes/SNPs
+.bed - individual identifiers and genotypes
+.fam - 
 .bim
 ## QC
 Seven steps
@@ -97,11 +97,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLT
-E2MzcwMjMzMDksMTc3NDk0OTI1NCwtMTYxNTA2NDUwLC0xMzU5
-ODA3Mzk4LDEyNDM0OTI0ODIsMTMzNTk2NDk0LC0xOTIwODIxNz
-kxLC00Mzg5MjgyMjQsNjA3ODgwMjY2LC01MTE0MDIzNzIsLTQz
-OTEzOTg3NSwtMTY1OTE3NDMyOSwzMzE5Mzc1MSwtNTIxMDI2Nj
-g0LDEzOTU0MDkwMjMsLTUwOTA1NTA3NywtMTY4NDUzMjk1NSwt
-NTU4ODc4ODA4XX0=
+eyJoaXN0b3J5IjpbMzMyMzQ5ODQ0LC0xOTM4OTQ3ODU5LC0xOD
+E3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5NDkyNTQsLTE2MTUw
+NjQ1MCwtMTM1OTgwNzM5OCwxMjQzNDkyNDgyLDEzMzU5NjQ5NC
+wtMTkyMDgyMTc5MSwtNDM4OTI4MjI0LDYwNzg4MDI2NiwtNTEx
+NDAyMzcyLC00MzkxMzk4NzUsLTE2NTkxNzQzMjksMzMxOTM3NT
+EsLTUyMTAyNjY4NCwxMzk1NDA5MDIzLC01MDkwNTUwNzcsLTE2
+ODQ1MzI5NTVdfQ==
 -->
