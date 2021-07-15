@@ -87,9 +87,10 @@ plink2 --bfile HapMap_3_r3_1 --missing
 >OUTPUT: Sample missing data report (`.smiss`) and Variant missing data report (`.vmiss`).
 >AMOUNT: 4G RAM and 8 threads. 
 ```bash
-# revise R script
+# open results on missingness and delete "#" manually
 subl plink2.smiss
-
+subl plink2.vmiss
+# revise R script
 ```
 Results:
 165 samples (85 females, 80 males; 112 founders)
@@ -110,7 +111,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjM3NTcxOSwxODE4NTU1NTA4LDE4OT
+eyJoaXN0b3J5IjpbMTIyNTE5Mjg0NCwxODE4NTU1NTA4LDE4OT
 MwODkzNTYsMTY5NjM5NjU5LC05NjAzNjAzNDQsMTY0NjM2MDgx
 NywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTExOTE2LC
 0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMTkzODk0
