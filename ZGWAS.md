@@ -62,7 +62,7 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 
 ![image](https://onlinelibrary.wiley.com/cms/asset/6e29248d-8bf5-4fc4-b707-339a5312526a/mpr1608-fig-0001-m.png)
 ## QC
-Seven steps:
+The seven QC steps should be conducted before genetic association analysis.
  - Missingness of SNPs and individuals
  - Sex discrepancy
  - Minor allele frequency (MAF)
@@ -106,11 +106,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA2OTQ3NTksMTY5NjM5NjU5LC05Nj
-AzNjAzNDQsMTY0NjM2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4
-MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLD
-QyNjE0MzMzNiwtMTkzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYz
-NzAyMzMwOSwxNzc0OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MD
-czOTgsMTI0MzQ5MjQ4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEs
-LTQzODkyODIyNF19
+eyJoaXN0b3J5IjpbMTg5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MD
+M2MDM0NCwxNjQ2MzYwODE3LC00OTAwODAwMzcsLTE5MTYwNDgx
+MzEsLTE4MzI5MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsND
+I2MTQzMzM2LC0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3
+MDIzMzA5LDE3NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1OTgwNz
+M5OCwxMjQzNDkyNDgyLDEzMzU5NjQ5NCwtMTkyMDgyMTc5MSwt
+NDM4OTI4MjI0XX0=
 -->
