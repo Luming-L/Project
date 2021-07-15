@@ -108,7 +108,7 @@ indmiss<-read.table(file="plink2.smiss", header=TRUE)
 snpmiss<-read.table(file="plink2.vmiss", header=TRUE)
 # plot
 png("histsmiss.png") #indicates png format and gives title to file
-hist(indmiss[,6],main="Histogram individual missingness") #selects column 6, Proportion of missing SNPs, names header of file
+hist(indmiss[,6],main="Histogram individual missingness") #selects column 6, names header of file
 
 png("histvmiss.png") 
 hist(snpmiss[,5],main="Histogram SNP missingness")  
@@ -133,11 +133,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTYxMjIwLDE0ODQ0MTg2NzgsLTI2ND
-c4MjA4MSwxNjMyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQs
-MTgxODU1NTUwOCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMz
-YwMzQ0LDE2NDYzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEz
-MSwtMTgzMjkxMTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0Mj
-YxNDMzMzYsLTE5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2Mzcw
-MjMzMDldfQ==
+eyJoaXN0b3J5IjpbLTk5MzgwMDg4NSwxNDg0NDE4Njc4LC0yNj
+Q3ODIwODEsMTYzMjQwOTAxMCw3MjI5NjI1NiwxMjI1MTkyODQ0
+LDE4MTg1NTU1MDgsMTg5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MD
+M2MDM0NCwxNjQ2MzYwODE3LC00OTAwODAwMzcsLTE5MTYwNDgx
+MzEsLTE4MzI5MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsND
+I2MTQzMzM2LC0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3
+MDIzMzA5XX0=
 -->
