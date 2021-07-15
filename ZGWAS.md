@@ -50,14 +50,12 @@ http://hapmap.ncbi.nlm.nih.gov/downloads/genotypes/2010-05_phaseIII/plink_format
 https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
 - text PLINK data
-`.ped` - individuals and their genotypes, text
+`.ped` - pedigree, sex, phenotype and genotypes of all individuals, text
 `.map` - genetic markers/genotypes/SNPs, text
 - binary PLINK data
 `.bed` - individual identifiers and their genotypes, binary
 `.fam` - individuals, text
 `.bim` - genetic markers/genotypes and SNPs, an extended MAP file with extra allele information, text
->individual information contains the pedigree, sex and phenotype
->genotypes' information contains all the genotypes of an individual
 >`.bed` is a binary version of `.ped`
 >`--make-bed` can transform `.ped` to `.bed`, and generated `.fam` and `.bim`. `.bed` connects `.fam` to `.bim`
 
@@ -105,11 +103,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODUwMTgyMiwtMTgzMjkxMTkxNiwtMz
-EwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLTE5Mzg5NDc4
-NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3NDk0OTI1NC
-wtMTYxNTA2NDUwLC0xMzU5ODA3Mzk4LDEyNDM0OTI0ODIsMTMz
-NTk2NDk0LC0xOTIwODIxNzkxLC00Mzg5MjgyMjQsNjA3ODgwMj
-Y2LC01MTE0MDIzNzIsLTQzOTEzOTg3NSwtMTY1OTE3NDMyOSwz
-MzE5Mzc1MV19
+eyJoaXN0b3J5IjpbLTEwMTQ5MjQ2OTksLTE4MzI5MTE5MTYsLT
+MxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC0xOTM4OTQ3
+ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5NDkyNT
+QsLTE2MTUwNjQ1MCwtMTM1OTgwNzM5OCwxMjQzNDkyNDgyLDEz
+MzU5NjQ5NCwtMTkyMDgyMTc5MSwtNDM4OTI4MjI0LDYwNzg4MD
+I2NiwtNTExNDAyMzcyLC00MzkxMzk4NzUsLTE2NTkxNzQzMjks
+MzMxOTM3NTFdfQ==
 -->
