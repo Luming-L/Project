@@ -91,7 +91,7 @@ plink2 --bfile HapMap_3_r3_1 --missing
 Sample missing data report (`.smiss`)
 >- PHENO1: Missing phenotype, Y means none
 >- MISSING_CT: Number of missing SNPs
->- OBS_CT: Number of non-obligatory missing genotypes
+>- OBS_CT: Denominator
 >- F_MISS: Proportion of missing SNPs
 
 >Variant missing data report (`.vmiss`). 
@@ -118,7 +118,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkzNjY3NzEsLTI2NDc4MjA4MSwxNj
+eyJoaXN0b3J5IjpbLTEzMjkxMTkxMjMsLTI2NDc4MjA4MSwxNj
 MyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMTgxODU1NTUw
 OCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYwMzQ0LDE2ND
 YzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkx
