@@ -70,7 +70,7 @@ Step 1: Missingness of SNPs and individuals
 ```
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
->input:
+>input: individuals (.fam), 
 >process:
 >output:
 >8062 MiB RAM detected; reserving 4031 MiB for main workspace.
@@ -89,10 +89,11 @@ End time: Thu Jul 15 09:09:19 2021
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk4MDczOTgsMTI0MzQ5MjQ4MiwxMz
-M1OTY0OTQsLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2MDc4ODAy
-NjYsLTUxMTQwMjM3MiwtNDM5MTM5ODc1LC0xNjU5MTc0MzI5LD
-MzMTkzNzUxLC01MjEwMjY2ODQsMTM5NTQwOTAyMywtNTA5MDU1
-MDc3LC0xNjg0NTMyOTU1LC01NTg4Nzg4MDgsLTM3MzQwNzQ3LD
-IwNzAyMjUzODgsLTE0MTAxNjQyMjQsLTU3ODkwODE5NV19
+eyJoaXN0b3J5IjpbOTk5MjM5MDIxLC0xMzU5ODA3Mzk4LDEyND
+M0OTI0ODIsMTMzNTk2NDk0LC0xOTIwODIxNzkxLC00Mzg5Mjgy
+MjQsNjA3ODgwMjY2LC01MTE0MDIzNzIsLTQzOTEzOTg3NSwtMT
+Y1OTE3NDMyOSwzMzE5Mzc1MSwtNTIxMDI2Njg0LDEzOTU0MDkw
+MjMsLTUwOTA1NTA3NywtMTY4NDUzMjk1NSwtNTU4ODc4ODA4LC
+0zNzM0MDc0NywyMDcwMjI1Mzg4LC0xNDEwMTY0MjI0LC01Nzg5
+MDgxOTVdfQ==
 -->
