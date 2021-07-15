@@ -88,6 +88,7 @@ plink2 --bfile HapMap_3_r3_1 --missing
 >AMOUNT: 4G RAM and 8 threads. 
 ```bash
 # revise R script
+subl plink2.smiss
 
 ```
 Results:
@@ -109,11 +110,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODU1NTUwOCwxODkzMDg5MzU2LDE2OT
-YzOTY1OSwtOTYwMzYwMzQ0LDE2NDYzNjA4MTcsLTQ5MDA4MDAz
-NywtMTkxNjA0ODEzMSwtMTgzMjkxMTkxNiwtMzEwOTU3ODU1LD
-UxNTI1NzY1MSw0MjYxNDMzMzYsLTE5Mzg5NDc4NTksLTE4MTc5
-OTk2NTEsLTE2MzcwMjMzMDksMTc3NDk0OTI1NCwtMTYxNTA2ND
-UwLC0xMzU5ODA3Mzk4LDEyNDM0OTI0ODIsMTMzNTk2NDk0LC0x
-OTIwODIxNzkxXX0=
+eyJoaXN0b3J5IjpbMTg5NjM3NTcxOSwxODE4NTU1NTA4LDE4OT
+MwODkzNTYsMTY5NjM5NjU5LC05NjAzNjAzNDQsMTY0NjM2MDgx
+NywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTExOTE2LC
+0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMTkzODk0
+Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0OTQ5Mj
+U0LC0xNjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5MjQ4Miwx
+MzM1OTY0OTRdfQ==
 -->
