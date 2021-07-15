@@ -54,7 +54,7 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 `.map` - genetic markers/genotypes/SNPs, text
 - binary PLINK data
 `.bed` - individual identifiers and their genotypes, binary
-`.fam` - individuals (the pedigree/phenotype), text
+`.fam` - individuals, text
 `.bim` - genetic markers/genotypes and SNPs, an extended MAP file with extra allele information, text
 >individual information contains the pedigree, sex and phenotype
 >genotypes' information contains all the genotypes of an individual
@@ -105,7 +105,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mzc5MTM1NCwtMTgzMjkxMTkxNiwtMz
+eyJoaXN0b3J5IjpbLTQyODUwMTgyMiwtMTgzMjkxMTkxNiwtMz
 EwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLTE5Mzg5NDc4
 NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3NDk0OTI1NC
 wtMTYxNTA2NDUwLC0xMzU5ODA3Mzk4LDEyNDM0OTI0ODIsMTMz
