@@ -37,6 +37,10 @@ unzip plink2_linux_x86_64.zip
 # run
 ./plink2 --help
 ```
+
+```
+PATH=$PATH:/home/luminglin/Tools
+```
 ## Data
 HapMap
 hapmap3_r3_b36_fwd.consensus.qc
@@ -71,10 +75,10 @@ Step 1: Missingness of SNPs and individuals
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2MD
-c4ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5ODc1LC0xNjU5MTc0
-MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5NTQwOTAyMywtNT
-A5MDU1MDc3LC0xNjg0NTMyOTU1LC01NTg4Nzg4MDgsLTM3MzQw
-NzQ3LDIwNzAyMjUzODgsLTE0MTAxNjQyMjQsLTU3ODkwODE5NV
-19
+eyJoaXN0b3J5IjpbLTk0MDc0NjY2NiwtMTkyMDgyMTc5MSwtND
+M4OTI4MjI0LDYwNzg4MDI2NiwtNTExNDAyMzcyLC00MzkxMzk4
+NzUsLTE2NTkxNzQzMjksMzMxOTM3NTEsLTUyMTAyNjY4NCwxMz
+k1NDA5MDIzLC01MDkwNTUwNzcsLTE2ODQ1MzI5NTUsLTU1ODg3
+ODgwOCwtMzczNDA3NDcsMjA3MDIyNTM4OCwtMTQxMDE2NDIyNC
+wtNTc4OTA4MTk1XX0=
 -->
