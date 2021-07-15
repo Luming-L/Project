@@ -101,8 +101,18 @@ Sample missing data report (`.smiss`)
 >
 >AMOUNT: 4G RAM and 8 threads. 
 ```bash
+# launch R
+R
+# read data into R 
 indmiss<-read.table(file="plink2.smiss", header=TRUE)
 snpmiss<-read.table(file="plink2.vmiss", header=TRUE)
+# plot
+png("histsmiss.png") #indicates png format and gives title to file
+hist(indmiss[,6],main="Histogram individual missingness") #selects column 6, Proportion of missing SNPs, names header of file
+
+png("histvmiss.png") 
+hist(snpmiss[,5],main="Histogram SNP missingness")  
+dev.off() # shuts down the current device
 ```
 Results:
 165 samples (85 females, 80 males; 112 founders)
@@ -123,11 +133,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDQxODY3OCwtMjY0NzgyMDgxLDE2Mz
-I0MDkwMTAsNzIyOTYyNTYsMTIyNTE5Mjg0NCwxODE4NTU1NTA4
-LDE4OTMwODkzNTYsMTY5NjM5NjU5LC05NjAzNjAzNDQsMTY0Nj
-M2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTEx
-OTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMT
-kzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0
-OTQ5MjU0XX0=
+eyJoaXN0b3J5IjpbLTg0OTYxMjIwLDE0ODQ0MTg2NzgsLTI2ND
+c4MjA4MSwxNjMyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQs
+MTgxODU1NTUwOCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMz
+YwMzQ0LDE2NDYzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEz
+MSwtMTgzMjkxMTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0Mj
+YxNDMzMzYsLTE5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2Mzcw
+MjMzMDldfQ==
 -->
