@@ -62,7 +62,6 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ![image](https://onlinelibrary.wiley.com/cms/asset/6e29248d-8bf5-4fc4-b707-339a5312526a/mpr1608-fig-0001-m.png)
 ## QC
 Seven steps
-
  - Missingness of SNPs and individuals
  - Sex discrepancy
  - Minor allele frequency (MAF)
@@ -82,7 +81,7 @@ Step 1: Missingness of SNPs and individuals
 ```
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
->input: .bed, individuals - .fam, SNPs - .bim)
+>input: information on individual
 >process:
 >output:
 >8062 MiB RAM detected; reserving 4031 MiB for main workspace.
@@ -103,11 +102,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDM1NTIsMTY0NjM2MDgxNywtNDkwMD
-gwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4
-NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMTkzODk0Nzg1OSwtMT
-gxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0OTQ5MjU0LC0xNjE1
-MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5MjQ4MiwxMzM1OTY0OT
-QsLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2MDc4ODAyNjYsLTUx
-MTQwMjM3Ml19
+eyJoaXN0b3J5IjpbLTcwMjYwMTI3MCwxNjQ2MzYwODE3LC00OT
+AwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5MTE5MTYsLTMxMDk1
+Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC0xOTM4OTQ3ODU5LC
+0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5NDkyNTQsLTE2
+MTUwNjQ1MCwtMTM1OTgwNzM5OCwxMjQzNDkyNDgyLDEzMzU5Nj
+Q5NCwtMTkyMDgyMTc5MSwtNDM4OTI4MjI0LDYwNzg4MDI2Niwt
+NTExNDAyMzcyXX0=
 -->
