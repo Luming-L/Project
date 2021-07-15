@@ -49,10 +49,10 @@ HapMap_3_r3_1
 http://hapmap.ncbi.nlm.nih.gov/downloads/genotypes/2010-05_phaseIII/plink_format/ 
 https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
-- set 1
+- text PLINK data
 .ped - individuals and their genotypes, text
 .map - genetic markers/genotypes/SNPs, text
-- set 2
+- binary PLINK data
 .bed - individual identifiers and genotypes, binary
 .fam - text
 .bim - text
@@ -99,11 +99,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMjUzNTkxLC0xOTM4OTQ3ODU5LC0xOD
-E3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5NDkyNTQsLTE2MTUw
-NjQ1MCwtMTM1OTgwNzM5OCwxMjQzNDkyNDgyLDEzMzU5NjQ5NC
-wtMTkyMDgyMTc5MSwtNDM4OTI4MjI0LDYwNzg4MDI2NiwtNTEx
-NDAyMzcyLC00MzkxMzk4NzUsLTE2NTkxNzQzMjksMzMxOTM3NT
-EsLTUyMTAyNjY4NCwxMzk1NDA5MDIzLC01MDkwNTUwNzcsLTE2
-ODQ1MzI5NTVdfQ==
+eyJoaXN0b3J5IjpbLTE4ODM2NDMyNjIsLTE5Mzg5NDc4NTksLT
+E4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3NDk0OTI1NCwtMTYx
+NTA2NDUwLC0xMzU5ODA3Mzk4LDEyNDM0OTI0ODIsMTMzNTk2ND
+k0LC0xOTIwODIxNzkxLC00Mzg5MjgyMjQsNjA3ODgwMjY2LC01
+MTE0MDIzNzIsLTQzOTEzOTg3NSwtMTY1OTE3NDMyOSwzMzE5Mz
+c1MSwtNTIxMDI2Njg0LDEzOTU0MDkwMjMsLTUwOTA1NTA3Nywt
+MTY4NDUzMjk1NV19
 -->
