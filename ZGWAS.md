@@ -92,6 +92,12 @@ Results:
 1457897 variants
 1 binary phenotype (56 cases, 56 controls)
 
+### Step 2: Sex discrepancy
+### Step 3: Minor allele frequency (MAF)
+### Step 4: Hardy–Weinberg equilibrium (HWE)
+### Step 5: Heterozygosity
+### Step 6: Relatedness
+### Step 7: Population stratification
 
 ## Population stratification
 ## Association analyses
@@ -100,11 +106,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjM5NjU5LC05NjAzNjAzNDQsMTY0Nj
-M2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTEx
-OTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMT
-kzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0
-OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5Mj
-Q4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2
-MDc4ODAyNjZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzkxMDQzMzEsMTY5NjM5NjU5LC05Nj
+AzNjAzNDQsMTY0NjM2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4
+MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLD
+QyNjE0MzMzNiwtMTkzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYz
+NzAyMzMwOSwxNzc0OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MD
+czOTgsMTI0MzQ5MjQ4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEs
+LTQzODkyODIyNF19
 -->
