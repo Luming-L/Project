@@ -50,7 +50,7 @@ http://hapmap.ncbi.nlm.nih.gov/downloads/genotypes/2010-05_phaseIII/plink_format
 https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
 .ped - individuals and their genotypes
-.map - 
+.map - genotypes/SPNs
 .bed
 .fam
 .bim
@@ -95,11 +95,11 @@ End time: Thu Jul 15 09:09:19 2021
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTI5MTgyOCwtMTYzNzAyMzMwOSwxNz
-c0OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5
-MjQ4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEsLTQzODkyODIyNC
-w2MDc4ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5ODc1LC0xNjU5
-MTc0MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5NTQwOTAyMy
-wtNTA5MDU1MDc3LC0xNjg0NTMyOTU1LC01NTg4Nzg4MDgsLTM3
-MzQwNzQ3XX0=
+eyJoaXN0b3J5IjpbLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMT
+c3NDk0OTI1NCwtMTYxNTA2NDUwLC0xMzU5ODA3Mzk4LDEyNDM0
+OTI0ODIsMTMzNTk2NDk0LC0xOTIwODIxNzkxLC00Mzg5MjgyMj
+QsNjA3ODgwMjY2LC01MTE0MDIzNzIsLTQzOTEzOTg3NSwtMTY1
+OTE3NDMyOSwzMzE5Mzc1MSwtNTIxMDI2Njg0LDEzOTU0MDkwMj
+MsLTUwOTA1NTA3NywtMTY4NDUzMjk1NSwtNTU4ODc4ODA4LC0z
+NzM0MDc0N119
 -->
