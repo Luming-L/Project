@@ -113,6 +113,7 @@ png("histvmiss.png")
 hist(snpmiss[,5],main="Histogram SNP missingness")  
 dev.off() # shuts down the current device
 ```
+
 Results:
 165 samples (85 females, 80 males; 112 founders)
 1457897 variants
@@ -132,11 +133,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMwMzIwOTksMTQ4NDQxODY3OCwtMj
-Y0NzgyMDgxLDE2MzI0MDkwMTAsNzIyOTYyNTYsMTIyNTE5Mjg0
-NCwxODE4NTU1NTA4LDE4OTMwODkzNTYsMTY5NjM5NjU5LC05Nj
-AzNjAzNDQsMTY0NjM2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4
-MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLD
-QyNjE0MzMzNiwtMTkzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYz
-NzAyMzMwOV19
+eyJoaXN0b3J5IjpbLTE3MjQxODU0ODksLTE1MzMwMzIwOTksMT
+Q4NDQxODY3OCwtMjY0NzgyMDgxLDE2MzI0MDkwMTAsNzIyOTYy
+NTYsMTIyNTE5Mjg0NCwxODE4NTU1NTA4LDE4OTMwODkzNTYsMT
+Y5NjM5NjU5LC05NjAzNjAzNDQsMTY0NjM2MDgxNywtNDkwMDgw
+MDM3LC0xOTE2MDQ4MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4NT
+UsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMTkzODk0Nzg1OSwtMTgx
+Nzk5OTY1MV19
 -->
