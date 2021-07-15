@@ -68,17 +68,17 @@ cd 1_QC_GWAS
 ```
 Step 1: Missingness of SNPs and individuals
 ```
-
+plink2 --bfile HapMap_3_r3_1 --missing
 ```
 ## Population stratification
 ## Association analyses
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTEzNDQ1ODksLTE5MjA4MjE3OTEsLT
-QzODkyODIyNCw2MDc4ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5
-ODc1LC0xNjU5MTc0MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMT
-M5NTQwOTAyMywtNTA5MDU1MDc3LC0xNjg0NTMyOTU1LC01NTg4
-Nzg4MDgsLTM3MzQwNzQ3LDIwNzAyMjUzODgsLTE0MTAxNjQyMj
-QsLTU3ODkwODE5NV19
+eyJoaXN0b3J5IjpbMTMzNTk2NDk0LC0xOTIwODIxNzkxLC00Mz
+g5MjgyMjQsNjA3ODgwMjY2LC01MTE0MDIzNzIsLTQzOTEzOTg3
+NSwtMTY1OTE3NDMyOSwzMzE5Mzc1MSwtNTIxMDI2Njg0LDEzOT
+U0MDkwMjMsLTUwOTA1NTA3NywtMTY4NDUzMjk1NSwtNTU4ODc4
+ODA4LC0zNzM0MDc0NywyMDcwMjI1Mzg4LC0xNDEwMTY0MjI0LC
+01Nzg5MDgxOTVdfQ==
 -->
