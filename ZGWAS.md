@@ -118,6 +118,9 @@ dev.off() # shuts down the current device
 >OUTPUT: `histsmiss.png` and `histvmiss.png`
 ```bash
 plink2 --bfile HapMap_3_r3_1 --geno 0.2 --make-bed --out HapMap_3_r3_2
+plink2 --bfile HapMap_3_r3_2 --mind 0.2 --make-bed --out HapMap_3_r3_3
+plink2 --bfile HapMap_3_r3_3 --geno 0.02 --make-bed --out HapMap_3_r3_4
+plink --bfile HapMap_3_r3_4 --mind 0.02 --make-bed --out HapMap_3_r3_5
 ```
 
 Results:
@@ -139,11 +142,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODg4MDc3OSwtMTYwOTE0MjE1MSwxNj
-kyNTE2OTc5LC0xNTMzMDMyMDk5LDE0ODQ0MTg2NzgsLTI2NDc4
-MjA4MSwxNjMyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMT
-gxODU1NTUwOCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYw
-MzQ0LDE2NDYzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMS
-wtMTgzMjkxMTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYx
-NDMzMzZdfQ==
+eyJoaXN0b3J5IjpbLTEyMzkwODQzNzMsLTE2MDkxNDIxNTEsMT
+Y5MjUxNjk3OSwtMTUzMzAzMjA5OSwxNDg0NDE4Njc4LC0yNjQ3
+ODIwODEsMTYzMjQwOTAxMCw3MjI5NjI1NiwxMjI1MTkyODQ0LD
+E4MTg1NTU1MDgsMTg5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MDM2
+MDM0NCwxNjQ2MzYwODE3LC00OTAwODAwMzcsLTE5MTYwNDgxMz
+EsLTE4MzI5MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2
+MTQzMzM2XX0=
 -->
