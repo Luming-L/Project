@@ -100,7 +100,7 @@ Sample missing data report (`.smiss`)
 >- F_MISS: Proportion of sample missing for this SNP
 >
 >AMOUNT: 4G RAM and 8 threads. 
-```bash
+```R
 # launch R
 R
 # read data into R 
@@ -113,7 +113,8 @@ png("histvmiss.png")
 hist(snpmiss[,5],main="Histogram SNP missingness")  
 dev.off() # shuts down the current device
 ```
-
+>INPUT: 
+>PROCESS: 
 Results:
 165 samples (85 females, 80 males; 112 founders)
 1457897 variants
@@ -133,11 +134,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQxODU0ODksLTE1MzMwMzIwOTksMT
-Q4NDQxODY3OCwtMjY0NzgyMDgxLDE2MzI0MDkwMTAsNzIyOTYy
-NTYsMTIyNTE5Mjg0NCwxODE4NTU1NTA4LDE4OTMwODkzNTYsMT
-Y5NjM5NjU5LC05NjAzNjAzNDQsMTY0NjM2MDgxNywtNDkwMDgw
-MDM3LC0xOTE2MDQ4MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4NT
-UsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMTkzODk0Nzg1OSwtMTgx
-Nzk5OTY1MV19
+eyJoaXN0b3J5IjpbLTE4NDkxMzc1NiwtMTUzMzAzMjA5OSwxND
+g0NDE4Njc4LC0yNjQ3ODIwODEsMTYzMjQwOTAxMCw3MjI5NjI1
+NiwxMjI1MTkyODQ0LDE4MTg1NTU1MDgsMTg5MzA4OTM1NiwxNj
+k2Mzk2NTksLTk2MDM2MDM0NCwxNjQ2MzYwODE3LC00OTAwODAw
+MzcsLTE5MTYwNDgxMzEsLTE4MzI5MTE5MTYsLTMxMDk1Nzg1NS
+w1MTUyNTc2NTEsNDI2MTQzMzM2LC0xOTM4OTQ3ODU5LC0xODE3
+OTk5NjUxXX0=
 -->
