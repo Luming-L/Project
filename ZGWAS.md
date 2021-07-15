@@ -79,7 +79,7 @@ unzip 1_QC_GWAS.zip
 cd 1_QC_GWAS
 ```
 ### Step 1: Missingness of SNPs and individuals
-- Delete SNPs and individuals with high levels of missingness. SNP missingnessRemove SNPs that are missed in most individuals, and individuals that miss most SNPs.
+- Delete SNPs and individuals with high levels of missingness. SNP missingness is SNPs which are missed in most individuals. Individual missingness is individuals which missed Remove SNPs that are missed in most individuals, and individuals that miss most SNPs.
 - first 0.2 (>20%) then 0.02 (>2%) 
 - first remove SNPs then remove individuals
 ```bash
@@ -144,11 +144,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMxNjM2NTksLTk5MjAzNDc2NSwtMT
-YwOTE0MjE1MSwxNjkyNTE2OTc5LC0xNTMzMDMyMDk5LDE0ODQ0
-MTg2NzgsLTI2NDc4MjA4MSwxNjMyNDA5MDEwLDcyMjk2MjU2LD
-EyMjUxOTI4NDQsMTgxODU1NTUwOCwxODkzMDg5MzU2LDE2OTYz
-OTY1OSwtOTYwMzYwMzQ0LDE2NDYzNjA4MTcsLTQ5MDA4MDAzNy
-wtMTkxNjA0ODEzMSwtMTgzMjkxMTkxNiwtMzEwOTU3ODU1LDUx
-NTI1NzY1MV19
+eyJoaXN0b3J5IjpbLTI1Mjg1MTczOSwtOTkyMDM0NzY1LC0xNj
+A5MTQyMTUxLDE2OTI1MTY5NzksLTE1MzMwMzIwOTksMTQ4NDQx
+ODY3OCwtMjY0NzgyMDgxLDE2MzI0MDkwMTAsNzIyOTYyNTYsMT
+IyNTE5Mjg0NCwxODE4NTU1NTA4LDE4OTMwODkzNTYsMTY5NjM5
+NjU5LC05NjAzNjAzNDQsMTY0NjM2MDgxNywtNDkwMDgwMDM3LC
+0xOTE2MDQ4MTMxLC0xODMyOTExOTE2LC0zMTA5NTc4NTUsNTE1
+MjU3NjUxXX0=
 -->
