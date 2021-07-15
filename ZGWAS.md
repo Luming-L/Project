@@ -51,7 +51,7 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
 - text PLINK data
 `.ped` - pedigree, sex, phenotype and genotypes of all individuals, text
-`.map` - the physical position of the SNPs, text
+`.map` - physical positions of SNPs, text
 - binary PLINK data
 `.bed` - individual identifiers and their genotypes, binary
 `.fam` - half of `.ped`, pedigree, sex, phenotype of all individuals, text
@@ -82,7 +82,7 @@ Step 1: Missingness of SNPs and individuals
 ```
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
->input: information on pedigree, sex, phenotype and genotypes of individuals, and on . user binary version (`.bed`, `.fam`, `.bim`)
+>input: pedigree, sex, phenotype and genotypes of individuals, and physical positions of SNPs. user binary version (`.bed`, `.fam`, `.bim`)
 >process: 
 >output:
 >8062 MiB RAM detected; reserving 4031 MiB for main workspace.
@@ -103,7 +103,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzc3MjI5NDIsLTk2MDM2MDM0NCwxNj
+eyJoaXN0b3J5IjpbLTE2NDM4NTYyMjEsLTk2MDM2MDM0NCwxNj
 Q2MzYwODE3LC00OTAwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5
 MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC
 0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3
