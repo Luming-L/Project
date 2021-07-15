@@ -118,7 +118,7 @@ dev.off() # shuts down the current device
 >OUTPUT: `histsmiss.png` and `histvmiss.png`
 ```bash
 # delete SNPs and invididuals with high level of missingness
-# first relaxed threshold
+# first relaxed threshold (first two commands) and then stringent threshold (following commands)
 plink2 --bfile HapMap_3_r3_1 --geno 0.2 --make-bed --out HapMap_3_r3_2
 plink2 --bfile HapMap_3_r3_2 --mind 0.2 --make-bed --out HapMap_3_r3_3
 plink2 --bfile HapMap_3_r3_3 --geno 0.02 --make-bed --out HapMap_3_r3_4
@@ -146,11 +146,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5MDc3MjEyLC0yNjMzMTAwMTYsLTc3NT
-IyMjc4NSwtOTkyMDM0NzY1LC0xNjA5MTQyMTUxLDE2OTI1MTY5
-NzksLTE1MzMwMzIwOTksMTQ4NDQxODY3OCwtMjY0NzgyMDgxLD
-E2MzI0MDkwMTAsNzIyOTYyNTYsMTIyNTE5Mjg0NCwxODE4NTU1
-NTA4LDE4OTMwODkzNTYsMTY5NjM5NjU5LC05NjAzNjAzNDQsMT
-Y0NjM2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMy
-OTExOTE2XX0=
+eyJoaXN0b3J5IjpbMTc4NTM3OTc2OCwtMjYzMzEwMDE2LC03Nz
+UyMjI3ODUsLTk5MjAzNDc2NSwtMTYwOTE0MjE1MSwxNjkyNTE2
+OTc5LC0xNTMzMDMyMDk5LDE0ODQ0MTg2NzgsLTI2NDc4MjA4MS
+wxNjMyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMTgxODU1
+NTUwOCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYwMzQ0LD
+E2NDYzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgz
+MjkxMTkxNl19
 -->
