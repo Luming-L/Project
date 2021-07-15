@@ -58,6 +58,8 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 `.bim` - genetic markers/genotypes and SNPs, an extended MAP file, text
 >`.bed` is a binary version of `.ped`
 >`--make-bed` can transform `.ped` to `.bed`, and generated `.fam` and `.bim`. `.bed` connects `.fam` to `.bim`
+
+![image](https://onlinelibrary.wiley.com/cms/asset/6e29248d-8bf5-4fc4-b707-339a5312526a/mpr1608-fig-0001-m.png)
 ## QC
 Seven steps
 
@@ -101,11 +103,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ3ODk2MzYsNTE1MjU3NjUxLDQyNj
-E0MzMzNiwtMTkzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAy
-MzMwOSwxNzc0OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOT
-gsMTI0MzQ5MjQ4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEsLTQz
-ODkyODIyNCw2MDc4ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5OD
-c1LC0xNjU5MTc0MzI5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5
-NTQwOTAyM119
+eyJoaXN0b3J5IjpbLTMxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2MT
+QzMzM2LC0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIz
+MzA5LDE3NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1OTgwNzM5OC
+wxMjQzNDkyNDgyLDEzMzU5NjQ5NCwtMTkyMDgyMTc5MSwtNDM4
+OTI4MjI0LDYwNzg4MDI2NiwtNTExNDAyMzcyLC00MzkxMzk4Nz
+UsLTE2NTkxNzQzMjksMzMxOTM3NTEsLTUyMTAyNjY4NCwxMzk1
+NDA5MDIzXX0=
 -->
