@@ -53,9 +53,9 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 .ped - individuals and their genotypes, text
 .map - genetic markers/genotypes/SNPs, text
 - binary PLINK data
-.bed - individual identifiers and genotypes, binary
-.fam - text
-.bim - text
+.bed - individual identifiers and their genotypes, binary
+.fam - individuals, text
+.bim - genetic markers/genotypes and SNPs, text
 ## QC
 Seven steps
 
@@ -99,11 +99,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM2NDMyNjIsLTE5Mzg5NDc4NTksLT
-E4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3NDk0OTI1NCwtMTYx
-NTA2NDUwLC0xMzU5ODA3Mzk4LDEyNDM0OTI0ODIsMTMzNTk2ND
-k0LC0xOTIwODIxNzkxLC00Mzg5MjgyMjQsNjA3ODgwMjY2LC01
-MTE0MDIzNzIsLTQzOTEzOTg3NSwtMTY1OTE3NDMyOSwzMzE5Mz
-c1MSwtNTIxMDI2Njg0LDEzOTU0MDkwMjMsLTUwOTA1NTA3Nywt
-MTY4NDUzMjk1NV19
+eyJoaXN0b3J5IjpbNDI2MTQzMzM2LC0xOTM4OTQ3ODU5LC0xOD
+E3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5NDkyNTQsLTE2MTUw
+NjQ1MCwtMTM1OTgwNzM5OCwxMjQzNDkyNDgyLDEzMzU5NjQ5NC
+wtMTkyMDgyMTc5MSwtNDM4OTI4MjI0LDYwNzg4MDI2NiwtNTEx
+NDAyMzcyLC00MzkxMzk4NzUsLTE2NTkxNzQzMjksMzMxOTM3NT
+EsLTUyMTAyNjY4NCwxMzk1NDA5MDIzLC01MDkwNTUwNzcsLTE2
+ODQ1MzI5NTVdfQ==
 -->
