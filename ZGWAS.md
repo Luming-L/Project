@@ -92,7 +92,7 @@ Sample missing data report (`.smiss`)
 >- PHENO1: Missing phenotype, Y means none
 >- MISSING_CT: Number of missing SNPs
 >- OBS_CT: Denominator
->- F_MISS: Proportion of missing SNPs
+>- F_MISS: Proportion of missing SNPs 
 
 >Variant missing data report (`.vmiss`). 
 >AMOUNT: 4G RAM and 8 threads. 
@@ -118,11 +118,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkxMTkxMjMsLTI2NDc4MjA4MSwxNj
-MyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMTgxODU1NTUw
-OCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYwMzQ0LDE2ND
-YzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkx
-MTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLT
-E5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3
-NDk0OTI1NF19
+eyJoaXN0b3J5IjpbMTM4MjU0ODM5MSwtMjY0NzgyMDgxLDE2Mz
+I0MDkwMTAsNzIyOTYyNTYsMTIyNTE5Mjg0NCwxODE4NTU1NTA4
+LDE4OTMwODkzNTYsMTY5NjM5NjU5LC05NjAzNjAzNDQsMTY0Nj
+M2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTEx
+OTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMT
+kzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0
+OTQ5MjU0XX0=
 -->
