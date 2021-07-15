@@ -83,7 +83,7 @@ Step 1: Missingness of SNPs and individuals
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
 >input: pedigree, sex, phenotype and genotypes of individuals, and physical positions of SNPs. user binary version (`.bed`, `.fam`, `.bim`)
->process: calculate 
+>process: calculate sample missingness rates and allele frequencies. 
 >output:
 >8062 MiB RAM detected; reserving 4031 MiB for main workspace.
 Using up to 8 compute threads.
@@ -103,7 +103,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQxNTAxMSwtOTYwMzYwMzQ0LDE2ND
+eyJoaXN0b3J5IjpbLTQ3NjEwODg5NywtOTYwMzYwMzQ0LDE2ND
 YzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkx
 MTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLT
 E5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3
