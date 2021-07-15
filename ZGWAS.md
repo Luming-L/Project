@@ -114,7 +114,7 @@ hist(snpmiss[,5],main="Histogram SNP missingness")
 dev.off() # shuts down the current device
 ```
 >INPUT: `.smiss` and `.vmiss`
->PROCESS: plot histograms by "Proportion of missing SNPs" and "Proportion of sample missing for this SNP"
+>PROCESS: plot histograms by "Proportion of missing SNPs" and "Proportion of sample missing for this SNP", repectively.
 >OUTPUT: 
 Results:
 165 samples (85 females, 80 males; 112 founders)
@@ -135,7 +135,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzkyNTk5MywtMTUzMzAzMjA5OSwxND
+eyJoaXN0b3J5IjpbMTY5MjUxNjk3OSwtMTUzMzAzMjA5OSwxND
 g0NDE4Njc4LC0yNjQ3ODIwODEsMTYzMjQwOTAxMCw3MjI5NjI1
 NiwxMjI1MTkyODQ0LDE4MTg1NTU1MDgsMTg5MzA4OTM1NiwxNj
 k2Mzk2NTksLTk2MDM2MDM0NCwxNjQ2MzYwODE3LC00OTAwODAw
