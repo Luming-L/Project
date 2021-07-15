@@ -78,7 +78,7 @@ unzip 1_QC_GWAS.zip
 # enter its directory
 cd 1_QC_GWAS
 ```
-Step 1: Missingness of SNPs and individuals
+### Step 1: Missingness of SNPs and individuals
 ```
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
@@ -88,13 +88,10 @@ plink2 --bfile HapMap_3_r3_1 --missing
 >AMOUNT: 4G RAM and 8 threads. 
 
 Results:
-165 samples (85 females, 80 males; 112 founders) loaded from HapMap_3_r3_1.fam.
-1457897 variants loaded from HapMap_3_r3_1.bim.
-1 binary phenotype loaded (56 cases, 56 controls).
+165 samples (85 females, 80 males; 112 founders)
+1457897 variants
+1 binary phenotype (56 cases, 56 controls)
 
---missing: Sample missing data report written to plink2.smiss .
---missing: Variant missing data report written to plink2.vmiss .
-End time: Thu Jul 15 09:09:19 2021
 
 ## Population stratification
 ## Association analyses
@@ -103,11 +100,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjE2NzQ0MzQsLTk2MDM2MDM0NCwxNj
-Q2MzYwODE3LC00OTAwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5
-MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC
-0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3
-NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1OTgwNzM5OCwxMjQzND
-kyNDgyLDEzMzU5NjQ5NCwtMTkyMDgyMTc5MSwtNDM4OTI4MjI0
-LDYwNzg4MDI2Nl19
+eyJoaXN0b3J5IjpbMTY5NjM5NjU5LC05NjAzNjAzNDQsMTY0Nj
+M2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTEx
+OTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMT
+kzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0
+OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5Mj
+Q4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2
+MDc4ODAyNjZdfQ==
 -->
