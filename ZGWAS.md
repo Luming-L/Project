@@ -56,6 +56,7 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 `.bed` - individual identifiers and their genotypes, binary
 `.fam` - half of `.ped`, pedigree, sex, phenotype of all individuals, text
 `.bim` - an extended `.map`, with allele names in two extra cols, text
+>pedigree means family relationship with other participants in this study
 >`.bed` is a binary version of `.ped`
 >`--make-bed` can transform `.ped` to `.bed`, and generated `.fam` and `.bim`. `.bed` connects `.fam` to `.bim`
 
@@ -102,11 +103,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDM2MDM0NCwxNjQ2MzYwODE3LC00OT
-AwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5MTE5MTYsLTMxMDk1
-Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC0xOTM4OTQ3ODU5LC
-0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5NDkyNTQsLTE2
-MTUwNjQ1MCwtMTM1OTgwNzM5OCwxMjQzNDkyNDgyLDEzMzU5Nj
-Q5NCwtMTkyMDgyMTc5MSwtNDM4OTI4MjI0LDYwNzg4MDI2Niwt
-NTExNDAyMzcyXX0=
+eyJoaXN0b3J5IjpbOTc4OTUxNTU3LC05NjAzNjAzNDQsMTY0Nj
+M2MDgxNywtNDkwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTEx
+OTE2LC0zMTA5NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMT
+kzODk0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0
+OTQ5MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5Mj
+Q4MiwxMzM1OTY0OTQsLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2
+MDc4ODAyNjZdfQ==
 -->
