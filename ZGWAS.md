@@ -79,14 +79,17 @@ unzip 1_QC_GWAS.zip
 cd 1_QC_GWAS
 ```
 ### Step 1: Missingness of SNPs and individuals
-```
+```bash
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
 >INPUT: pedigree, sex, phenotype and genotypes of individuals, and physical positions of SNPs. user binary version (`.bed`, `.fam`, `.bim`)
 >PROCESS: calculate sample missingness rates and allele frequencies, and generate reports.
 >OUTPUT: Sample missing data report (`.smiss`) and Variant missing data report (`.vmiss`).
 >AMOUNT: 4G RAM and 8 threads. 
+```bash
+# revise R script
 
+```
 Results:
 165 samples (85 females, 80 males; 112 founders)
 1457897 variants
@@ -106,11 +109,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MD
-M2MDM0NCwxNjQ2MzYwODE3LC00OTAwODAwMzcsLTE5MTYwNDgx
-MzEsLTE4MzI5MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsND
-I2MTQzMzM2LC0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3
-MDIzMzA5LDE3NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1OTgwNz
-M5OCwxMjQzNDkyNDgyLDEzMzU5NjQ5NCwtMTkyMDgyMTc5MSwt
-NDM4OTI4MjI0XX0=
+eyJoaXN0b3J5IjpbMTgxODU1NTUwOCwxODkzMDg5MzU2LDE2OT
+YzOTY1OSwtOTYwMzYwMzQ0LDE2NDYzNjA4MTcsLTQ5MDA4MDAz
+NywtMTkxNjA0ODEzMSwtMTgzMjkxMTkxNiwtMzEwOTU3ODU1LD
+UxNTI1NzY1MSw0MjYxNDMzMzYsLTE5Mzg5NDc4NTksLTE4MTc5
+OTk2NTEsLTE2MzcwMjMzMDksMTc3NDk0OTI1NCwtMTYxNTA2ND
+UwLC0xMzU5ODA3Mzk4LDEyNDM0OTI0ODIsMTMzNTk2NDk0LC0x
+OTIwODIxNzkxXX0=
 -->
