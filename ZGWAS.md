@@ -51,7 +51,9 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 ## Data Format
 .ped
 .map
-
+.bed
+.fam
+.bim
 ## QC
 Seven steps
 
@@ -93,11 +95,11 @@ End time: Thu Jul 15 09:09:19 2021
 ## Polygenic risk score (PRS) analyses.
 The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently of the previous 3 tutorials.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDk0OTI1NCwtMTYxNTA2NDUwLC0xMz
-U5ODA3Mzk4LDEyNDM0OTI0ODIsMTMzNTk2NDk0LC0xOTIwODIx
-NzkxLC00Mzg5MjgyMjQsNjA3ODgwMjY2LC01MTE0MDIzNzIsLT
-QzOTEzOTg3NSwtMTY1OTE3NDMyOSwzMzE5Mzc1MSwtNTIxMDI2
-Njg0LDEzOTU0MDkwMjMsLTUwOTA1NTA3NywtMTY4NDUzMjk1NS
-wtNTU4ODc4ODA4LC0zNzM0MDc0NywyMDcwMjI1Mzg4LC0xNDEw
-MTY0MjI0XX0=
+eyJoaXN0b3J5IjpbLTE2MzcwMjMzMDksMTc3NDk0OTI1NCwtMT
+YxNTA2NDUwLC0xMzU5ODA3Mzk4LDEyNDM0OTI0ODIsMTMzNTk2
+NDk0LC0xOTIwODIxNzkxLC00Mzg5MjgyMjQsNjA3ODgwMjY2LC
+01MTE0MDIzNzIsLTQzOTEzOTg3NSwtMTY1OTE3NDMyOSwzMzE5
+Mzc1MSwtNTIxMDI2Njg0LDEzOTU0MDkwMjMsLTUwOTA1NTA3Ny
+wtMTY4NDUzMjk1NSwtNTU4ODc4ODA4LC0zNzM0MDc0NywyMDcw
+MjI1Mzg4XX0=
 -->
