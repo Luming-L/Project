@@ -87,6 +87,7 @@ plink2 --bfile HapMap_3_r3_1 --missing
 >OUTPUT: Sample missing data report (`.smiss`) and Variant missing data report (`.vmiss`).
 >AMOUNT: 4G RAM and 8 threads. 
 
+Results:
 165 samples (85 females, 80 males; 112 founders) loaded from HapMap_3_r3_1.fam.
 1457897 variants loaded from HapMap_3_r3_1.bim.
 1 binary phenotype loaded (56 cases, 56 controls).
@@ -102,11 +103,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjExMTE3NiwtOTYwMzYwMzQ0LDE2ND
-YzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkx
-MTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLT
-E5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3
-NDk0OTI1NCwtMTYxNTA2NDUwLC0xMzU5ODA3Mzk4LDEyNDM0OT
-I0ODIsMTMzNTk2NDk0LC0xOTIwODIxNzkxLC00Mzg5MjgyMjQs
-NjA3ODgwMjY2XX0=
+eyJoaXN0b3J5IjpbLTE1MjE2NzQ0MzQsLTk2MDM2MDM0NCwxNj
+Q2MzYwODE3LC00OTAwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5
+MTE5MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC
+0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3
+NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1OTgwNzM5OCwxMjQzND
+kyNDgyLDEzMzU5NjQ5NCwtMTkyMDgyMTc5MSwtNDM4OTI4MjI0
+LDYwNzg4MDI2Nl19
 -->
