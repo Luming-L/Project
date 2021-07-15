@@ -89,7 +89,10 @@ plink2 --bfile HapMap_3_r3_1 --missing
 >PROCESS: calculate sample missingness rates and allele frequencies, and generate reports.
 >OUTPUT: 
 >Sample missing data report (`.smiss`)
->
+>MISS_PHENO         Missing phenotype? 
+>N_MISS             Number of missing SNPs
+>N_GENO             Number of non-obligatory missing genotypes
+>F_MISS             Proportion of missing SNPs
 >Variant missing data report (`.vmiss`). 
 >AMOUNT: 4G RAM and 8 threads. 
 ```bash
@@ -114,11 +117,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDc4MjA4MSwxNjMyNDA5MDEwLDcyMj
-k2MjU2LDEyMjUxOTI4NDQsMTgxODU1NTUwOCwxODkzMDg5MzU2
-LDE2OTYzOTY1OSwtOTYwMzYwMzQ0LDE2NDYzNjA4MTcsLTQ5MD
-A4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkxMTkxNiwtMzEwOTU3
-ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLTE5Mzg5NDc4NTksLT
-E4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3NDk0OTI1NCwtMTYx
-NTA2NDUwXX0=
+eyJoaXN0b3J5IjpbLTEyMTk4NTQwNDIsLTI2NDc4MjA4MSwxNj
+MyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMTgxODU1NTUw
+OCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYwMzQ0LDE2ND
+YzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkx
+MTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLT
+E5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3
+NDk0OTI1NF19
 -->
