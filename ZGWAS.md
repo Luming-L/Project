@@ -88,11 +88,12 @@ plink2 --bfile HapMap_3_r3_1 --missing
 >INPUT: pedigree, sex, phenotype and genotypes of individuals, and physical positions of SNPs. user binary version (`.bed`, `.fam`, `.bim`)
 >PROCESS: calculate sample missingness rates and allele frequencies, and generate reports.
 >OUTPUT: 
->-Sample missing data report (`.smiss`)
->MISS_PHENO: Missing phenotype? 
->N_MISS: Number of missing SNPs
->N_GENO: Number of non-obligatory missing genotypes
->F_MISS: Proportion of missing SNPs
+Sample missing data report (`.smiss`)
+>- PHENO1: Missing phenotype? 
+>- MISSING_CT: Number of missing SNPs
+>- OBS_CT: Number of non-obligatory missing genotypes
+>- F_MISS: Proportion of missing SNPs
+
 >Variant missing data report (`.vmiss`). 
 >AMOUNT: 4G RAM and 8 threads. 
 ```bash
@@ -117,11 +118,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDE4MDQxMDksLTI2NDc4MjA4MSwxNj
-MyNDA5MDEwLDcyMjk2MjU2LDEyMjUxOTI4NDQsMTgxODU1NTUw
-OCwxODkzMDg5MzU2LDE2OTYzOTY1OSwtOTYwMzYwMzQ0LDE2ND
-YzNjA4MTcsLTQ5MDA4MDAzNywtMTkxNjA0ODEzMSwtMTgzMjkx
-MTkxNiwtMzEwOTU3ODU1LDUxNTI1NzY1MSw0MjYxNDMzMzYsLT
-E5Mzg5NDc4NTksLTE4MTc5OTk2NTEsLTE2MzcwMjMzMDksMTc3
-NDk0OTI1NF19
+eyJoaXN0b3J5IjpbNTA2MjI3NjMzLC0yNjQ3ODIwODEsMTYzMj
+QwOTAxMCw3MjI5NjI1NiwxMjI1MTkyODQ0LDE4MTg1NTU1MDgs
+MTg5MzA4OTM1NiwxNjk2Mzk2NTksLTk2MDM2MDM0NCwxNjQ2Mz
+YwODE3LC00OTAwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5MTE5
+MTYsLTMxMDk1Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC0xOT
+M4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5
+NDkyNTRdfQ==
 -->
