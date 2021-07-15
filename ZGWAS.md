@@ -81,8 +81,8 @@ Step 1: Missingness of SNPs and individuals
 ```
 plink2 --bfile HapMap_3_r3_1 --missing
 ```
->input: information on pedigree, sex, phenotype and genotypes of individuals, and on genetic markers. user binary version (`.bed`)
->process:
+>input: information on pedigree, sex, phenotype and genotypes of individuals, and on genetic markers. user binary version (`.bed`, `.fam`, `.bim`)
+>process: 
 >output:
 >8062 MiB RAM detected; reserving 4031 MiB for main workspace.
 Using up to 8 compute threads.
@@ -102,11 +102,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ1NDg0MzIsMTY0NjM2MDgxNywtND
-kwMDgwMDM3LC0xOTE2MDQ4MTMxLC0xODMyOTExOTE2LC0zMTA5
-NTc4NTUsNTE1MjU3NjUxLDQyNjE0MzMzNiwtMTkzODk0Nzg1OS
-wtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0OTQ5MjU0LC0x
-NjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5MjQ4MiwxMzM1OT
-Y0OTQsLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2MDc4ODAyNjYs
-LTUxMTQwMjM3Ml19
+eyJoaXN0b3J5IjpbLTk2MDM2MDM0NCwxNjQ2MzYwODE3LC00OT
+AwODAwMzcsLTE5MTYwNDgxMzEsLTE4MzI5MTE5MTYsLTMxMDk1
+Nzg1NSw1MTUyNTc2NTEsNDI2MTQzMzM2LC0xOTM4OTQ3ODU5LC
+0xODE3OTk5NjUxLC0xNjM3MDIzMzA5LDE3NzQ5NDkyNTQsLTE2
+MTUwNjQ1MCwtMTM1OTgwNzM5OCwxMjQzNDkyNDgyLDEzMzU5Nj
+Q5NCwtMTkyMDgyMTc5MSwtNDM4OTI4MjI0LDYwNzg4MDI2Niwt
+NTExNDAyMzcyXX0=
 -->
