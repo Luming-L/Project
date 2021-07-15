@@ -79,7 +79,7 @@ unzip 1_QC_GWAS.zip
 cd 1_QC_GWAS
 ```
 ### Step 1: Missingness of SNPs and individuals
-- Delete SNPs and individuals with high levels of missingness. SNP missingness is SNPs which are missed in most individuals. Individual missingness is individuals which missed Remove SNPs that are missed in most individuals, and individuals that miss most SNPs.
+- Delete SNPs and individuals with high levels of missingness. SNP missingness shows SNPs which are missed in most individuals. Individual missingness is individuals which miss most SNPs. Remove SNPs that are missed in most individuals, and individuals that miss most SNPs.
 - first 0.2 (>20%) then 0.02 (>2%) 
 - first remove SNPs then remove individuals
 ```bash
@@ -144,7 +144,7 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants, alleles, allele names?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mjg1MTczOSwtOTkyMDM0NzY1LC0xNj
+eyJoaXN0b3J5IjpbLTc3NTIyMjc4NSwtOTkyMDM0NzY1LC0xNj
 A5MTQyMTUxLDE2OTI1MTY5NzksLTE1MzMwMzIwOTksMTQ4NDQx
 ODY3OCwtMjY0NzgyMDgxLDE2MzI0MDkwMTAsNzIyOTYyNTYsMT
 IyNTE5Mjg0NCwxODE4NTU1NTA4LDE4OTMwODkzNTYsMTY5NjM5
