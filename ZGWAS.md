@@ -56,6 +56,8 @@ https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/
 .bed - individual identifiers and their genotypes, binary
 .fam - individuals, text
 .bim - genetic markers/genotypes and SNPs, text
+>.bed is a binary version of .ped
+>
 >.bed connects .fam to .bim
 ## QC
 Seven steps
@@ -100,11 +102,11 @@ The fourth tutorial (4_ PRS.doc) is a MS Word document, and runs independently o
 ## Questions
 what are genotypes, genetic markers, SNPs, variants?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MjU3NjUxLDQyNjE0MzMzNiwtMTkzOD
-k0Nzg1OSwtMTgxNzk5OTY1MSwtMTYzNzAyMzMwOSwxNzc0OTQ5
-MjU0LC0xNjE1MDY0NTAsLTEzNTk4MDczOTgsMTI0MzQ5MjQ4Mi
-wxMzM1OTY0OTQsLTE5MjA4MjE3OTEsLTQzODkyODIyNCw2MDc4
-ODAyNjYsLTUxMTQwMjM3MiwtNDM5MTM5ODc1LC0xNjU5MTc0Mz
-I5LDMzMTkzNzUxLC01MjEwMjY2ODQsMTM5NTQwOTAyMywtNTA5
-MDU1MDc3XX0=
+eyJoaXN0b3J5IjpbMTE3MTEzOTE3Niw1MTUyNTc2NTEsNDI2MT
+QzMzM2LC0xOTM4OTQ3ODU5LC0xODE3OTk5NjUxLC0xNjM3MDIz
+MzA5LDE3NzQ5NDkyNTQsLTE2MTUwNjQ1MCwtMTM1OTgwNzM5OC
+wxMjQzNDkyNDgyLDEzMzU5NjQ5NCwtMTkyMDgyMTc5MSwtNDM4
+OTI4MjI0LDYwNzg4MDI2NiwtNTExNDAyMzcyLC00MzkxMzk4Nz
+UsLTE2NTkxNzQzMjksMzMxOTM3NTEsLTUyMTAyNjY4NCwxMzk1
+NDA5MDIzXX0=
 -->
